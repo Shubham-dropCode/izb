@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -21,11 +22,11 @@
 /*== Default Css ======*/
 
 :root {
-  --thm-font: 'Manrope', sans-serif;
-  --thm-font-2: 'DM Sans', sans-serif;
-  --thm-base: #cf173c;
+  --thm-font: 'Montserrat', sans-serif;
+  --thm-font-2: 'Montserrat', sans-serif;
+  --thm-base: #9E1B1E;
   --thm-base-rgb: 207, 23, 60;
-  --thm-gray: #7f7873;
+  --thm-gray: #000000;
   --thm-gray-rgb: 127, 120, 115;
   --thm-white: #ffffff;
   --thm-white-rgb: 255, 255, 255;

@@ -1,84 +1,118 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { BsWhatsapp } from "react-icons/bs";
+import { AiOutlinePhone } from "react-icons/ai";
+import $ from "jquery";
+import Logo from "../../assets/images/IZB/logo.png";
+import Phone from "../../assets/images/IZB/PhoneCall.png";
+import PlayStore from "../../assets/images/IZB/PlayStore.png";
+import apple from "../../assets/images/IZB/apple.png";
 
 const Navbar = () => {
+  useEffect(() => {
+    if ($(".mobile-nav__container .main-menu__list").length) {
+      let dropdownAnchor = $(
+        ".mobile-nav__container .main-menu__list .dropdown > a"
+      );
+      dropdownAnchor.each(function () {
+        let self = $(this);
+        let toggleBtn = document.createElement("BUTTON");
+        toggleBtn.setAttribute("aria-label", "dropdown toggler");
+        toggleBtn.innerHTML = "<i class='fa fa-angle-down'></i>";
+        self.append(function () {
+          return toggleBtn;
+        });
+        self.find("button").on("click", function (e) {
+          e.preventDefault();
+          let self = $(this);
+          self.toggleClass("expanded");
+          self.parent().toggleClass("expanded");
+          self.parent().parent().children("ul").slideToggle();
+        });
+      });
+    }
+
+    if ($(".mobile-nav__toggler").length) {
+      $(".mobile-nav__toggler").on("click", function (e) {
+        e.preventDefault();
+        $(".mobile-nav__wrapper").toggleClass("expanded");
+        $("body").toggleClass("locked");
+      });
+    }
+  }, []);
+
   return (
     <>
       <header className="main-header main-header-style1">
         {/*Start Main Header Style1 Top*/}
         <div className="main-header-style1-top">
           <div className="auto-container">
-            <div className="outer-box">
+            <div className="outer-box justify-content-around">
               {/*Start Main Header Style1 Top Left*/}
               <div className="main-header-style1-top__left">
                 <div className="looking-banking-box ">
-                  <div className="inner-title">
-                    <span className="icon-binoculars" />
-                    <p>Looking</p>
-                  </div>
-                  <div className="select-box clearfix">
-                    <select className="wide">
-                      <option data-display="Personal Banking">
-                        Personal Banking
-                      </option>
-                      <option value={1}>Business Banking</option>
-                      <option value={2}>Personal Banking 01</option>
-                      <option value={3}>Personal Banking 02</option>
-                      <option value={4}>Personal Banking 03</option>
-                    </select>
-                  </div>
+                  <img src={Logo} width={300} />
                 </div>
                 <div className="nearest-branch">
-                  <span className="icon-map" />
-                  <a href="#">Find Nearest Branch</a>
+                  <div className="input-group">
+                    <div className="form-outline">
+                      <input
+                        id="search-input"
+                        type="search"
+                        placeholder="Search"
+                        className="form-control pe-4"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
-              {/*End Main Header Style1 Top Left*/}
-              {/*Start Main Header Style1 Top Right*/}
-              <div className="main-header-style1-top__right">
+
+              <div className="main-header-style1-top__right ">
                 <div className="header-menu-style1">
-                  <ul>
-                    <li>
-                      <a href="#">Careers</a>
-                    </li>
-                    <li>
-                      <a href="#">Faq’s</a>
-                    </li>
-                    <li>
-                      <a href="#">Offers</a>
-                    </li>
-                    <li>
-                      <a href="#">Calendar</a>
-                    </li>
-                  </ul>
+                  <div className="btn-box">
+                    <div className="get-app-box">
+                      <ul className="clearfix">
+                        <li className="p-0 text-center">
+                          <small className="p-0 m-0">toll-free</small>
+                          <a
+                            className="px-2 py-2 rounded"
+                            style={{ backgroundColor: "#9E1B1E" }}
+                          >
+                            <div className="icon">
+                              <img
+                                src={Phone}
+                                width={25}
+                                className="style2 text"
+                                alt=""
+                              />
+                            </div>
+                            <div className="text px-2">
+                              <h4 className="text-white">8002</h4>
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                          <div className="mt-3">
+                            <p>
+                              <BsWhatsapp className="me-2" />
+                              +260 2113 89900
+                            </p>
+                            <p>
+                              <AiOutlinePhone className="me-2" />
+                              +260 7717 98616
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
                 <div className="box-search-style1">
                   <a href="#" className="search-toggler">
-                    <span className="icon-search" />
-                    Search
+                    <img src={PlayStore} />
                   </a>
-                </div>
-                <div className="language-switcher">
-                  <div id="polyglotLanguageSwitcher">
-                    <form action="#">
-                      <select id="polyglot-language-options">
-                        <option id="en" value="en" selected="">
-                          English
-                        </option>
-                        <option id="fr" value="fr">
-                          French
-                        </option>
-                        <option id="de" value="de">
-                          German
-                        </option>
-                        <option id="it" value="it">
-                          Italian
-                        </option>
-                        <option id="es" value="es">
-                          Spanish
-                        </option>
-                      </select>
-                    </form>
-                  </div>
+                  <a href="#" className="search-toggler">
+                    <img src={apple} />
+                  </a>
                 </div>
               </div>
               {/*End Main Header Style1 Top Right*/}
@@ -91,197 +125,75 @@ const Navbar = () => {
             <div className="container">
               <div className="main-menu__wrapper-inner">
                 <div className="main-menu-style1-left">
-                  <div className="logo-box-style1">
-                    <a href="index.html">
-                      <img
-                        src="assets/images/resources/logo-1.png"
-                        alt="Awesome Logo"
-                        title=""
-                      />
-                    </a>
-                  </div>
                   <div className="main-menu-box">
                     <a href="#" className="mobile-nav__toggler">
                       <i className="icon-menu" />
                     </a>
                     <ul className="main-menu__list">
-                      <li className="dropdown megamenu">
+                      <li className="megamenu">
                         <a href="index.html">Home</a>
+                      </li>
+                      <li className="dropdown">
+                        <a href="#">About</a>
                         <ul>
                           <li>
-                            <div className="megamenu-content-box">
-                              <div className="container">
-                                <div className="megamenu-content-box__inner">
-                                  <div className="row">
-                                    {/*Start Home Showcase Item*/}
-                                    <div className="col-lg-3">
-                                      <div className="home-showcase__item">
-                                        <div className="home-showcase__image">
-                                          <img
-                                            src="assets/images/home-showcase/home-showcase-1-1.jpg"
-                                            alt=""
-                                          />
-                                          <div className="home-showcase__buttons">
-                                            <a
-                                              href="index.html"
-                                              className="btn-one home-showcase__buttons__item top"
-                                            >
-                                              <span className="txt">
-                                                Multi Page
-                                              </span>
-                                            </a>
-                                            <a
-                                              href="index-one-page.html"
-                                              className="btn-one home-showcase__buttons__item"
-                                            >
-                                              <span className="txt">
-                                                One Page
-                                              </span>
-                                            </a>
-                                          </div>
-                                        </div>
-                                        <h3 className="home-showcase__title">
-                                          Home Page One
-                                        </h3>
-                                      </div>
-                                    </div>
-                                    {/*End Home Showcase Item*/}
-                                    {/*Start Home Showcase Item*/}
-                                    <div className="col-lg-3">
-                                      <div className="home-showcase__item">
-                                        <div className="home-showcase__image">
-                                          <img
-                                            src="assets/images/home-showcase/home-showcase-1-2.jpg"
-                                            alt=""
-                                          />
-                                          <div className="home-showcase__buttons">
-                                            <a
-                                              href="index-2.html"
-                                              className="btn-one home-showcase__buttons__item top"
-                                            >
-                                              <span className="txt">
-                                                Multi Page
-                                              </span>
-                                            </a>
-                                            <a
-                                              href="index-2-one-page.html"
-                                              className="btn-one home-showcase__buttons__item"
-                                            >
-                                              <span className="txt">
-                                                One Page
-                                              </span>
-                                            </a>
-                                          </div>
-                                        </div>
-                                        <h3 className="home-showcase__title">
-                                          Home Page Two
-                                        </h3>
-                                      </div>
-                                    </div>
-                                    {/*End Home Showcase Item*/}
-                                    {/*Start Home Showcase Item*/}
-                                    <div className="col-lg-3">
-                                      <div className="home-showcase__item">
-                                        <div className="home-showcase__image">
-                                          <img
-                                            src="assets/images/home-showcase/home-showcase-1-3.jpg"
-                                            alt=""
-                                          />
-                                          <div className="home-showcase__buttons">
-                                            <a
-                                              href="index-3.html"
-                                              className="btn-one home-showcase__buttons__item top"
-                                            >
-                                              <span className="txt">
-                                                Multi Page
-                                              </span>
-                                            </a>
-                                            <a
-                                              href="index-3-one-page.html"
-                                              className="btn-one home-showcase__buttons__item"
-                                            >
-                                              <span className="txt">
-                                                One Page
-                                              </span>
-                                            </a>
-                                          </div>
-                                        </div>
-                                        <h3 className="home-showcase__title">
-                                          Home Page Three
-                                        </h3>
-                                      </div>
-                                    </div>
-                                    {/*End Home Showcase Item*/}
-                                    {/*Start Home Showcase Item*/}
-                                    <div className="col-lg-3">
-                                      <div className="home-showcase__item">
-                                        <div className="home-showcase__image">
-                                          <img
-                                            src="assets/images/home-showcase/home-showcase-1-4.jpg"
-                                            alt=""
-                                          />
-                                          <div className="home-showcase__buttons">
-                                            <a
-                                              href="index-dark.html"
-                                              className="btn-one home-showcase__buttons__item top"
-                                            >
-                                              <span className="txt">
-                                                View Page
-                                              </span>
-                                            </a>
-                                          </div>
-                                        </div>
-                                        <h3 className="home-showcase__title">
-                                          Home Dark
-                                        </h3>
-                                      </div>
-                                    </div>
-                                    {/*End Home Showcase Item*/}
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                            <a href="about.html">About IZB</a>
+                          </li>
+                          <li>
+                            <a href="team.html">Leadership & Governance</a>
+                            <ul>
+                              <li>
+                                <a href="">Board Of Directors</a>
+                              </li>
+                              <li>
+                                <a href="">Executive Management</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="careers.html">Financial Performance</a>
+                          </li>
+                          <li>
+                            <a href="careers-details.html">Why Bank with us</a>
+                          </li>
+                          <li>
+                            <a href="faq.html">CSR</a>
                           </li>
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <a href="#">Services</a>
+                        <a href="#">Personal Banking</a>
                         <ul>
                           <li className="dropdown">
-                            <a href="#">Accounts</a>
+                            <a href="#">Saving Accounts</a>
                             <ul>
                               <li>
-                                <a href="accounts.html">All Accounts</a>
+                                <a href="accounts.html">Save Plus Bank A/C</a>
                               </li>
                               <li>
                                 <a href="account-savings.html">
-                                  Savings Account
+                                  Classic Saving Account 
                                 </a>
                               </li>
                               <li>
                                 <a href="account-current.html">
-                                  Current Account
+                                  Privilege Savings Account
                                 </a>
                               </li>
                               <li>
                                 <a href="account-fixed-dep.html">
-                                  Fixed Deposit Account
+                                  Tisunge Savings Account
                                 </a>
                               </li>
                               <li>
-                                <a href="account-salary.html">Salary Account</a>
-                              </li>
-                              <li>
-                                <a href="account-recuring-dep.html">
-                                  Recuring Deposit a/c
-                                </a>
-                              </li>
-                              <li>
-                                <a href="account-nri.html">NRI Account</a>
+                                <a href="account-salary.html">Tonse Savings Account</a>
                               </li>
                             </ul>
                           </li>
-                          <li className="dropdown">
+                          <li><a href="">Credit</a></li>
+                          <li><a href="">Bhumi Fixed Deposit A/C</a></li>
+                          <li><a href="">Indo Fast Serve</a></li>
+                          {/* <li className="dropdown">
                             <a href="#">Cards</a>
                             <ul>
                               <li>
@@ -330,35 +242,10 @@ const Navbar = () => {
                                 <a href="loan-gold.html">Gold Loan</a>
                               </li>
                             </ul>
-                          </li>
+                          </li> */}
                         </ul>
                       </li>
-                      <li className="dropdown">
-                        <a href="#">About</a>
-                        <ul>
-                          <li>
-                            <a href="about.html">About Us</a>
-                          </li>
-                          <li>
-                            <a href="team.html">Board of Directors</a>
-                          </li>
-                          <li>
-                            <a href="careers.html">Careers</a>
-                          </li>
-                          <li>
-                            <a href="careers-details.html">Career Detail</a>
-                          </li>
-                          <li>
-                            <a href="faq.html">Faq’s</a>
-                          </li>
-                          <li>
-                            <a href="testimonials.html">Testimonials</a>
-                          </li>
-                          <li>
-                            <a href="404.html">404 Error</a>
-                          </li>
-                        </ul>
-                      </li>
+
                       <li className="dropdown">
                         <a href="#">News</a>
                         <ul>
@@ -446,6 +333,37 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+        <div className="mobile-nav__wrapper">
+          <div className="mobile-nav__overlay mobile-nav__toggler" />
+          <div className="mobile-nav__content">
+            <span className="mobile-nav__close mobile-nav__toggler">
+              <i className="fas fa-plus" />
+            </span>
+            <div className="logo-box">
+              <a href="index.html" aria-label="logo image">
+                <img src="assets/images/resources/mobile-nav-logo.png" alt="" />
+              </a>
+            </div>
+            <div className="mobile-nav__container" />
+            <ul className="mobile-nav__contact list-unstyled">
+              <li>
+                <i className="fa fa-envelope" />
+                <a href="mailto:info@example.com">info@example.com</a>
+              </li>
+              <li>
+                <i className="fa fa-phone-alt" />
+                <a href="tel:123456789">444 000 777 66</a>
+              </li>
+            </ul>
+            <div className="mobile-nav__social">
+              <a href="#" className="fab fa-twitter" />
+              <a href="#" className="fab fa-facebook-square" />
+              <a href="#" className="fab fa-pinterest-p" />
+              <a href="#" className="fab fa-instagram" />
+            </div>
+          </div>
+        </div>
+
         {/*End Main Header Style1 Bottom*/}
       </header>
     </>
