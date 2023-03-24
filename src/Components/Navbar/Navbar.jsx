@@ -123,7 +123,7 @@ const Navbar = () => {
         <nav className="main-menu main-menu-style1">
           <div className="main-menu__wrapper clearfix">
             <div className="container">
-              <div className="main-menu__wrapper-inner">
+              <div className="main-menu__wrapper-inner d-flex justify-content-center">
                 <div className="main-menu-style1-left">
                   <div className="main-menu-box">
                     <a href="#" className="mobile-nav__toggler">
