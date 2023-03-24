@@ -1,0 +1,13 @@
+.heading-box{
+    background-color: #9E1B1E;
+}
+.Hborder{
+    
+        display:block;
+        width:100% ;/*or whatever width you want the effect of <hr>*/
+        border-top: 1px solid #ccc
+
+}
+.CHeight {
+    height:400px;
+}
