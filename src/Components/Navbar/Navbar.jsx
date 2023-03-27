@@ -6,6 +6,7 @@ import Logo from "../../assets/images/IZB/logo.png";
 import Phone from "../../assets/images/IZB/PhoneCall.png";
 import PlayStore from "../../assets/images/IZB/PlayStore.png";
 import apple from "../../assets/images/IZB/apple.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   useEffect(() => {
@@ -131,13 +132,13 @@ const Navbar = () => {
                     </a>
                     <ul className="main-menu__list">
                       <li className="megamenu">
-                        <a href="index.html">Home</a>
+                        <Link to="/">Home</Link>
                       </li>
                       <li className="dropdown">
                         <a href="#">About</a>
                         <ul>
                           <li>
-                            <a href="about.html">About IZB</a>
+                            <Link to="/AboutUs">About IZB</Link>
                           </li>
                           <li>
                             <a href="team.html">Leadership & Governance</a>
