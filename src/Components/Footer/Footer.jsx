@@ -1,23 +1,31 @@
 import React from "react";
+import { IoCallOutline } from "react-icons/io5";
+import { AiOutlinePrinter } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
+import FooterImg from  "../../assets/images/IZB/IZB Website Skin/Home_Page/Image_5.png"
 
 const Footer = () => {
-  const span = {
+    const FooterBgImg = {
+        backgroundImage: `url(${FooterImg})`,
+        height: "100%",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        overflow: "hidden",
+      };
+  const Line = {
     display: "block",
     height: "2px",
-    width: "90px",
+    width: "80px",
     margin: "10px 0 0 0",
     background: "#9E1B1E",
   };
   return (
-    <footer className="footer-area">
-      <div className="right-shape">
-        <img src="assets/images/shapes/footer-right-shape.png" alt="" />
-      </div>
+    <footer className="footer-area" style={FooterBgImg} >
       {/*Start Footer Top*/}
       <div className="footer-top">
-        <div className="lef-shape">
+        {/* <div className="lef-shape">
           <span className="icon-origami" />
-        </div>
+        </div> */}
         <div className="container">
           <div className="row">
             {/*Start single footer widget*/}
@@ -26,7 +34,7 @@ const Footer = () => {
                 <div className="title">
                   <h5 className="text-white">INDO ZAMBIA BANK</h5>
                 </div>
-                <span style={span}></span>
+                <span style={Line}></span>
                 <div className="footer-widget-links">
                   <p className="text-white">
                     Indo Zambia Bank was formed on 19th October, 1984 by the
@@ -71,31 +79,55 @@ const Footer = () => {
                 <div className="title">
                   <h3>Support</h3>
                 </div>
-                <div className="footer-widget-links">
-                  <ul>
-                    <li>
-                      
-                    </li>
-                    <li>
-                      <a href="#">Gold Rate Today</a>
-                    </li>
-                    <li>
-                      <a href="#">Service Charges &amp; Fees</a>
-                    </li>
-                  </ul>
+                <span style={Line}></span>
+                <div className="footer-widget-links d-flex align-items-center">
+                  <IoCallOutline color="#b8b4b1" size={25} className="me-3" />
+                  <p className="text-white">
+                  +260 211 224 653/225 080,<br/> +211 227194, +211 22079
+                  </p>
+
                 </div>
               </div>
-              <div className="single-footer-widget single-footer-widget--link-box-style2">
-                <div className="title">
-                  <h3>Online</h3>
+              <div className="footer-widget-links d-flex align-items-center">
+                  <AiOutlinePrinter size={25} color="#FFF" className="me-3" />
+                  <p className="text-white">
+                  +260 211 225 090
+                  </p>
+
                 </div>
+                <div className="footer-widget-links d-flex align-items-center">
+                  <AiOutlineMail color="#FFF" size={25} className="me-3" />
+                  <p className="text-white">
+                  izb@izb.co.zm<br/>customerservice@izb.co.zm
+                  </p>
+
+                </div>
+            </div>
+            {/*End single footer widget*/}
+            {/*Start single footer widget*/}
+            <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 single-widget">
+              <div className="single-footer-widget single-footer-widget--link-box">
+                <div className="title">
+                  <h3>Useful Links</h3>
+                </div>
+                <span style={Line}></span>
+
                 <div className="footer-widget-links">
                   <ul>
                     <li>
-                      <a href="#">Mobile Banking</a>
+                      <a href="#">Feedback / Complaint</a>
                     </li>
                     <li>
-                      <a href="#">Internet Banking</a>
+                      <a href="#">Vacancies</a>
+                    </li>
+                    <li>
+                      <a href="#">FAQs</a>
+                    </li>
+                    <li>
+                      <a href="#">Download</a>
+                    </li>
+                    <li>
+                      <a href="#">Branch Codes</a>
                     </li>
                   </ul>
                 </div>
@@ -106,64 +138,25 @@ const Footer = () => {
             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 single-widget">
               <div className="single-footer-widget single-footer-widget--link-box">
                 <div className="title">
-                  <h3>About Us</h3>
+                  <h3>Other Links</h3>
                 </div>
+                <span style={Line}></span>
                 <div className="footer-widget-links">
                   <ul>
                     <li>
-                      <a href="#">Our Story</a>
+                      <a href="#">Staff Mail</a>
                     </li>
                     <li>
-                      <a href="#">Board of Directors</a>
+                      <a href="#">Staff Protal</a>
                     </li>
                     <li>
-                      <a href="#">Management Committee</a>
+                      <a href="#">Disclaimer</a>
                     </li>
                     <li>
-                      <a href="#">Media</a>
+                      <a href="#">Privacy Policy</a>
                     </li>
                     <li>
-                      <a href="#">Investor Relations</a>
-                    </li>
-                    <li>
-                      <a href="#">Awards &amp; Recognition</a>
-                    </li>
-                    <li>
-                      <a href="#">Careers</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            {/*End single footer widget*/}
-            {/*Start single footer widget*/}
-            <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 single-widget">
-              <div className="single-footer-widget single-footer-widget--link-box">
-                <div className="title">
-                  <h3>Services</h3>
-                </div>
-                <div className="footer-widget-links">
-                  <ul>
-                    <li>
-                      <a href="#">Savings Account</a>
-                    </li>
-                    <li>
-                      <a href="#">Current Account</a>
-                    </li>
-                    <li>
-                      <a href="#">Deposits</a>
-                    </li>
-                    <li>
-                      <a href="#">Cards</a>
-                    </li>
-                    <li>
-                      <a href="#">Payments</a>
-                    </li>
-                    <li>
-                      <a href="#">Insurance</a>
-                    </li>
-                    <li>
-                      <a href="#">Locker Facility</a>
+                      <a href="#">Notice</a>
                     </li>
                   </ul>
                 </div>
@@ -173,101 +166,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/*End Footer Top*/}
-      {/*Start Footer*/}
-      <div className="footer">
-        <div className="container">
-          <div className="row">
-            {/*Start single footer widget*/}
-            <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-              <div className="single-footer-widget marbtm50">
-                <div className="our-company-info">
-                  <div className="footer-logo-style1">
-                    <a href="index.html">
-                      <img
-                        src="assets/images/footer/footer-logo-1.png"
-                        alt="Awesome Logo"
-                        title=""
-                      />
-                    </a>
-                  </div>
-                  <div className="copyright-text">
-                    <p>
-                      Copyright © 2022 <a href="index.html">Finbank.</a>{" "}
-                      Licensed by the
-                      <br />
-                      Central Bank of United States.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*End single footer widget*/}
-            {/*Start single footer widget*/}
-            <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-              <div className="single-footer-widget marbtm50">
-                <div className="footer-widget-contact-info">
-                  <ul>
-                    <li>
-                      <h3>
-                        <a href="tel:2512353256">(800) 123 456 78</a>
-                      </h3>
-                      <p>Customer Care</p>
-                    </li>
-                    <li>
-                      <h3>Mon - Fri: 9.00am to 5.00pm</h3>
-                      <p>Banking Hours</p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            {/*End single footer widget*/}
-            {/*Start single footer widget*/}
-            <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-              <div className="single-footer-widget">
-                <div className="single-footer-widget-right-colum">
-                  <ul>
-                    <li>
-                      <a href="#">
-                        Download Forms
-                        <span className="icon-download" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Register Your Complaint
-                        <span className="icon-feedback" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            {/*End single footer widget*/}
-          </div>
-        </div>
-      </div>
-      {/*End Footer*/}
       <div className="footer-bottom">
         <div className="container">
           <div className="bottom-inner">
-            <div className="footer-menu">
-              <ul>
-                <li>
-                  <a href="#">Disclaimer</a>
-                </li>
-                <li>
-                  <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="#">Terms &amp; Conditions</a>
-                </li>
-                <li>
-                  <a href="#">Online Security Tips</a>
-                </li>
-              </ul>
-            </div>
+            <p className="text-white">2021 Indo Zambia Bank. All rights reserved..</p>
+            <p className="text-white">Indo Zambia Bank, A Registered Commercial Bank.</p>
           </div>
         </div>
       </div>

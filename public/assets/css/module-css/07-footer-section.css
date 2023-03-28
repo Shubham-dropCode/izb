@@ -33,7 +33,7 @@
 .footer-area {
     position: relative;
     display: block;
-    background: #1a1c23;
+    /* background: #1a1c23; */
     z-index: 10;
 }
 
@@ -122,7 +122,7 @@
     position: relative;
     display: inline-block;
     padding-right: 25px;
-    color: #b8b4b1;
+    color: #FFF;
     font-size: 16px;
     font-weight: 400;
     font-family: var(--thm-font);
@@ -293,7 +293,7 @@
 .footer-bottom {
     position: relative;
     display: block;
-    background: #121419;
+    /* background: #121419; */
 }
 
 .footer-bottom .bottom-inner {
