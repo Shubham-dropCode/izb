@@ -6,7 +6,7 @@ import Mission from '../../assets/images/IZB/Mission.png'
 const Vision = () => {
   return (
     <section className="">
-      <div className="container">
+      <div className="container pb-5">
         <div className="text-center mb-5">
           <h2>About Indo Zambia Bank</h2>
         </div>

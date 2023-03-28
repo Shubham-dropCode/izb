@@ -5,6 +5,11 @@ import BriefHistory from "../../Components/BriefHistory/BriefHistory";
 import Vision from "../../Components/Vision/Vision";
 import CoreValues from "../../Components/CoreValues/CoreValues";
 import ShareHolders from "../../assets/images/IZB/Shareholders.jpg"
+import AllAccounts from "../../Components/AllAccounts/AllAccounts";
+import ContactForm from "../../Components/ContactForm/ContactForm";
+import OurStores from "../../Components/OurStories/OurStores";
+import AdvisorsVideo from "../../Components/AdvisorsVideo/AdvisorsVideo";
+import CustomerCare from "../../Components/CustomerCare/CustomerCare";
 
 const AboutUs = () => {
   return (
@@ -21,6 +26,11 @@ const AboutUs = () => {
         <img src={ShareHolders} width="80%" alt="" />
       </div>
     </div>
+    <AdvisorsVideo/>
+    <AllAccounts/>
+    <ContactForm/>
+    <CustomerCare/>
+    <OurStores/>
     </>
   );
 };
