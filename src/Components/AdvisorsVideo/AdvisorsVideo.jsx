@@ -10,7 +10,7 @@ const AdvisorsVideo = () => {
     overflow: "hidden",
   };
   return (
-    <div className="container-fluid py-5">
+    <div className="container-fluid pt-5">
       <div className="row" style={AdvisorsBgImg}>
         <div className="d-flex flex-column justify-content-end py-3">
           <h2 className="text-center text-white py-2">

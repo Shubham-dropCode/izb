@@ -51,7 +51,10 @@ const Navbar = () => {
               {/*Start Main Header Style1 Top Left*/}
               <div className="main-header-style1-top__left">
                 <div className="looking-banking-box ">
-                  <img src={Logo} width={300} />
+                  <Link to="/">
+
+                   <img src={Logo} width={300} />
+                  </Link>
                 </div>
                 <div className="nearest-branch">
                   <div className="input-group">
@@ -135,16 +138,16 @@ const Navbar = () => {
                         <Link to="/">Home</Link>
                       </li>
                       <li className="dropdown">
-                        <a href="#">About</a>
+                        <Link to="/AboutUs">About</Link>
                         <ul>
                           <li>
                             <Link to="/AboutUs">About IZB</Link>
                           </li>
                           <li>
-                            <a href="team.html">Leadership & Governance</a>
+                            <a>Leadership & Governance</a>
                             <ul>
                               <li>
-                                <a href="">Board Of Directors</a>
+                                <Link to="/BoardOfDirectors">Board Of Directors</Link>
                               </li>
                               <li>
                                 <a href="">Executive Management</a>
