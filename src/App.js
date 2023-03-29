@@ -5,6 +5,7 @@ import Homepage from "./Pages/Homepage/Homepage";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Footer from "./Components/Footer/Footer";
 import BoardOfDirectors from "./Pages/BoardOfDirectors/BoardOfDirectors";
+import FinancialPerformance from "./Pages/FinancialPerformance/FinancialPerformance";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" exact element={<Homepage />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/BoardOfDirectors" element={<BoardOfDirectors />} />
+          <Route path="/FinancialPerformance" element={<FinancialPerformance />} />
         </Routes>
         <Footer />
       </BrowserRouter>

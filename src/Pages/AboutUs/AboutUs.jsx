@@ -11,7 +11,7 @@ import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSec
 const AboutUs = () => {
   return (
     <>
-    <Breadcrumb/>
+    <Breadcrumb Heading="About Us"/>
     <BriefHistory/>
     <Vision/>
     <CoreValues/>

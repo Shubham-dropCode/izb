@@ -155,7 +155,7 @@ const Navbar = () => {
                             </ul>
                           </li>
                           <li>
-                            <a href="careers.html">Financial Performance</a>
+                            <Link to="FinancialPerformance">Financial Performance</Link>
                           </li>
                           <li>
                             <a href="careers-details.html">Why Bank with us</a>

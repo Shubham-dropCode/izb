@@ -2,7 +2,7 @@ import React from "react";
 import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
 import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.svg";
 
-const Breadcrumb = () => {
+const Breadcrumb = ({Heading}) => {
   return (
     <section className="breadcrumb-area">
       <div className="container-fluid" style={{ backgroundColor: "#FFF5E7" }}>
@@ -20,7 +20,7 @@ const Breadcrumb = () => {
                     height: "300px",
                   }}
                 >
-                  <h1 className="text-white">About Us</h1>
+                  <h1 className="text-white">{Heading}</h1>
                 </div>
                 <div
                   className="breadcrumb-menu d-flex justify-content-end"
@@ -36,7 +36,7 @@ const Breadcrumb = () => {
                       {" "}
                       <ArrowR className="mx-1" />
                     </li>
-                    <li className="active">About Bank</li>
+                    <li className="active">{Heading}</li>
                   </ul>
                 </div>
               </div>
