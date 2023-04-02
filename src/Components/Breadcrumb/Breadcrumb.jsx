@@ -4,7 +4,7 @@ import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.sv
 
 const Breadcrumb = ({Heading}) => {
   return (
-    <section className="breadcrumb-area">
+    <section className="breadcrumb-area"> 
       <div className="container-fluid" style={{ backgroundColor: "#FFF5E7" }}>
         <div className="container py-2">
           <div className="row">

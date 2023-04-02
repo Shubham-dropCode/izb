@@ -6,6 +6,7 @@ import AboutUs from "./Pages/AboutUs/AboutUs";
 import Footer from "./Components/Footer/Footer";
 import BoardOfDirectors from "./Pages/BoardOfDirectors/BoardOfDirectors";
 import FinancialPerformance from "./Pages/FinancialPerformance/FinancialPerformance";
+import WhyBankWithUs from "./Pages/WhyBankWithUs/WhyBankWithUs";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/BoardOfDirectors" element={<BoardOfDirectors />} />
           <Route path="/FinancialPerformance" element={<FinancialPerformance />} />
+          <Route path="/WhyBankWithUs" element={<WhyBankWithUs />} />
         </Routes>
         <Footer />
       </BrowserRouter>

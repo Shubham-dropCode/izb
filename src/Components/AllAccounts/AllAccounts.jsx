@@ -27,25 +27,25 @@ const AllAccounts = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
-        },
+          dots: true
+        }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2,
-        },
+          initialSlide: 2
+        }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   return (
     <section
@@ -57,7 +57,7 @@ const AllAccounts = () => {
           <h4>Personal Banking</h4>
           <a href="#" className="text-white rounded px-3 py-1" style={{ backgroundColor: "#9E1B1E" }}>Indo Net Banking</a>
         </div>
-        <div className="row gap-4">
+        <div className="row gap-3 ">
           <Slider {...settings}>
             <div>
               <AccountCard />
