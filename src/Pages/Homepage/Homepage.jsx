@@ -6,6 +6,7 @@ import AtmLocatinos from '../../Components/AtmLocations/AtmLocatinos'
 import SavePlusAccount from '../../Components/SavePlusAccount/SavePlusAccount'
 import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
 import img from "../../assets/images/IZB/IZB Website Skin/Home_Page/Image_3Short.png"
+import IndoBankingSlider from '../../Components/IndoBankingSlider/IndoBankingSlider'
 const Homepage = () => {
  const accountContent = "Exclusively designed savings account to inculcate savings habits in parents and guardians for their children. This savings account offers attractive interest rates and other benefits to realize your savings goals with other value added features such as IZB Contactless Visa Card, SMS Alert, Mobile and Internet Banking facility."
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
     <DoMore/>
     <AtmLocatinos/>
     <SavePlusAccount heading="Save Plus Account" subHeading="Secure your Childs Futures with our" content={accountContent} img={img}/>
+    <IndoBankingSlider/>
     <AllAcountsSection/>
     </React.Fragment>
   )

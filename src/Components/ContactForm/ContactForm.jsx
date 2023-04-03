@@ -93,11 +93,10 @@ const ContactForm = () => {
                     <label>Select any product type</label>
                       <div className="select-box clearfix">
                         <select className="wide w-100 p-2">
-                          <option data-display="City">City</option>
-                          <option value={1}>Personal Banking</option>
-                          <option value={2}>Business Banking</option>
-                          <option value={3}>Credit</option>
-                          <option value={4}>Others</option>
+                          <option data-display="City">Personal Banking</option>
+                          <option value={1}>Business Banking</option>
+                          <option value={2}>Credit</option>
+                          <option value={3}>Others</option>
                         </select>
                       </div>
                     </div>

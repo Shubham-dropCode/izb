@@ -7,10 +7,10 @@ import img2018 from "../../assets/images/IZB/IZB Website Skin/Finincial_Reports/
 import img2017 from "../../assets/images/IZB/IZB Website Skin/Finincial_Reports/4.png";
 import img2016 from "../../assets/images/IZB/IZB Website Skin/Finincial_Reports/3.png";
 import img2015 from "../../assets/images/IZB/IZB Website Skin/Finincial_Reports/7.png";
-import statement1 from "../../assets/images/IZB/IZB Website Skin/Finincial_Reports/9.png"
-import statement2 from "../../assets/images/IZB/IZB Website Skin/Finincial_Reports/10.png"
-import statement3 from "../../assets/images/IZB/IZB Website Skin/Finincial_Reports/11.png"
-import statement4 from "../../assets/images/IZB/IZB Website Skin/Finincial_Reports/12.png"
+import statement1 from "../../assets/images/IZB/IZB Website Skin/Finincial_Reports/9.png";
+import statement2 from "../../assets/images/IZB/IZB Website Skin/Finincial_Reports/10.png";
+import statement3 from "../../assets/images/IZB/IZB Website Skin/Finincial_Reports/11.png";
+import statement4 from "../../assets/images/IZB/IZB Website Skin/Finincial_Reports/12.png";
 const FiniancialPerformanceComponent = () => {
   const [isActive, setIsActive] = useState(true);
   const Report2021 = "http://localhost:3000/reports/2021.pdf";

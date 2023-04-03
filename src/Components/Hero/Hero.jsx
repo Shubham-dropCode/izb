@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="auto-container h-100">
         <div className="h-75 position-relative ">
           <div className="d-flex ">
-            <div>
+            <div className="pt-4">
               <img src={bannerPhones} width={350} alt="" />
             </div>
             <div className="flex-column flex-wrap align-self-xl-center ms-4">
@@ -31,19 +31,19 @@ const Hero = () => {
                 Open and INDO EEZY savings Account on your Phone.
               </p>
               <div className="d-flex align-items-center">
-                <MobileStoreButton
-                className="pt-2"
-                store="ios"
-                width="10rem"
-                url={iosUrl}
-                linkProps={{Title:"IOS Store"}}
-                />
                  <MobileStoreButton
                 store="android"
                 className=""
                 url={androidUrl}
                 width="11rem"
                 linkProps={{Title:"Google Play"}}
+                />
+                <MobileStoreButton
+                className="pt-2"
+                store="ios"
+                width="10rem"
+                url={iosUrl}
+                linkProps={{Title:"IOS Store"}}
                 />
               </div>
             </div>
