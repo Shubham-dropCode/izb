@@ -1,5 +1,8 @@
 import React from "react";
-import {AiOutlineShareAlt} from "react-icons/ai"
+import { AiOutlineShareAlt } from "react-icons/ai";
+import storie1 from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/storie1.png";
+import storie2 from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/storie2.png";
+import storie3 from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/storie3.png";
 
 const OurStores = () => {
   return (
@@ -20,7 +23,7 @@ const OurStores = () => {
             >
               <div className="img-holder">
                 <div className="inner">
-                  <img src="assets/images/blog/blog-v1-1.jpg" alt="" />
+                  <img src={storie1} alt="" />
                   <a href="blog-single.html">
                     <div className="overlay-icon"></div>
                   </a>
@@ -28,27 +31,29 @@ const OurStores = () => {
               </div>
               <div className="text-holder">
                 <h3 className="blog-title">
-                  <a href="blog-single.html">
-                    How Non-US Citizens can Open a Bank Account
-                  </a>
+                  <a href="blog-single.html">Monetary policy rate</a>
                 </h3>
-                <p>Previous Next Indo Zambia bank Signs a Memorandum of Understanding with Sarago Motors for the Extension of Auto Finance loans to individuals and corporate customers</p>
+                <p>
+                  Share This Post Share on facebook Share on linkedin Share on
+                  twitter Share onemail More To Explore Indo Zambia Bank, a
+                  proud sponsor of...
+                </p>
                 <div className="bottom">
                   <div className="meta-box">
                     <ul className="meta-info">
                       <li>
                         <span className="icon-clock" />{" "}
-                        <a href="#">6 Mins Read</a>
+                        <a href="#">4 Mins Read</a>
                       </li>
                       <li>
                         <span className="icon-comment" />{" "}
-                        <a href="#">10 Cmnts</a>
+                        <a href="#">9 Comment</a>
                       </li>
                     </ul>
                   </div>
                   <div className="share-btn">
                     <a href="#">
-                      <AiOutlineShareAlt/>
+                      <AiOutlineShareAlt />
                     </a>
                   </div>
                 </div>
@@ -63,7 +68,7 @@ const OurStores = () => {
             >
               <div className="img-holder">
                 <div className="inner">
-                  <img src="assets/images/blog/blog-v1-1.jpg" alt="" />
+                  <img src={storie2} alt="" />
                   <a href="blog-single.html">
                     <div className="overlay-icon"></div>
                   </a>
@@ -72,26 +77,30 @@ const OurStores = () => {
               <div className="text-holder">
                 <h3 className="blog-title">
                   <a href="blog-single.html">
-                    How Non-US Citizens can Open a Bank Account
+                    INDO/KONKOLA Copper mines Partnership
                   </a>
                 </h3>
-                <p>Previous Next Indo Zambia bank Signs a Memorandum of Understanding with Sarago Motors for the Extension of Auto Finance loans to individuals and corporate customers</p>
+                <p>
+                  CHINGOLA, 23rd June 2022: Konkola Copper Mines Plc (KCM) and
+                  Indo Zambia Bank have held exploratory discussions to
+                  establish a strong business partnership, which would
+                </p>
                 <div className="bottom">
                   <div className="meta-box">
                     <ul className="meta-info">
                       <li>
                         <span className="icon-clock" />{" "}
-                        <a href="#">6 Mins Read</a>
+                        <a href="#">10 Mins Read</a>
                       </li>
                       <li>
                         <span className="icon-comment" />{" "}
-                        <a href="#">10 Cmnts</a>
+                        <a href="#">10 Comments</a>
                       </li>
                     </ul>
                   </div>
                   <div className="share-btn">
                     <a href="#">
-                      <AiOutlineShareAlt/>
+                      <AiOutlineShareAlt />
                     </a>
                   </div>
                 </div>
@@ -106,7 +115,7 @@ const OurStores = () => {
             >
               <div className="img-holder">
                 <div className="inner">
-                  <img src="assets/images/blog/blog-v1-1.jpg" alt="" />
+                  <img src={storie3} alt="" />
                   <a href="blog-single.html">
                     <div className="overlay-icon"></div>
                   </a>
@@ -115,10 +124,14 @@ const OurStores = () => {
               <div className="text-holder">
                 <h3 className="blog-title">
                   <a href="blog-single.html">
-                    How Non-US Citizens can Open a Bank Account
+                    Memorandum of understanding with Sarago Motors
                   </a>
                 </h3>
-                <p>Previous Next Indo Zambia bank Signs a Memorandum of Understanding with Sarago Motors for the Extension of Auto Finance loans to individuals and corporate customers</p>
+                <p>
+                  Previous Next Indo Zambia bank Signs a Memorandum of
+                  Understanding with Sarago Motors for the Extension of Auto
+                  Finance loans to individuals and corporate customers
+                </p>
                 <div className="bottom">
                   <div className="meta-box">
                     <ul className="meta-info">
@@ -134,7 +147,7 @@ const OurStores = () => {
                   </div>
                   <div className="share-btn">
                     <a href="#">
-                      <AiOutlineShareAlt/>
+                      <AiOutlineShareAlt />
                     </a>
                   </div>
                 </div>

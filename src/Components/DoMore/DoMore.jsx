@@ -44,7 +44,7 @@ const DoMore = () => {
                   className="btn-one shadow my-3 bg-white rounded"
                   type="submit"
                 >
-                  <span className="txt"> Send Request</span>
+                  <span className="txt"> Download Now</span>
                 </button>
               </div>
             </div>
@@ -68,7 +68,7 @@ const DoMore = () => {
                   className="btn-one shadow my-3 bg-white rounded"
                   type="submit"
                 >
-                  <span className="txt"> Send Request</span>
+                  <span className="txt"> Know More</span>
                 </button>
               </div>
             </div>
@@ -92,7 +92,7 @@ const DoMore = () => {
                   className="btn-one shadow my-3 bg-white rounded"
                   type="submit"
                 >
-                  <span className="txt"> Send Request</span>
+                  <span className="txt"> Register</span>
                 </button>
               </div>
             </div>

@@ -35,7 +35,7 @@ const Hero = () => {
                 store="android"
                 className=""
                 url={androidUrl}
-                width="11rem"
+                width="10.5rem"
                 linkProps={{Title:"Google Play"}}
                 />
                 <MobileStoreButton

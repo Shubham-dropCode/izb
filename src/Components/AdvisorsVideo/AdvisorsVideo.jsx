@@ -35,7 +35,7 @@ const AdvisorsVideo = () => {
             <a href=" https://www.youtube.com/channel/UCggymsoPiBtJvdvW8K6pcwQ ">
 
             <button className="btn-one shadow my-3 bg-white rounded" type="submit">
-              <span className="txt"> Send Request</span>
+              <span className="txt"> Know More <AiOutlineArrowRight/> </span>
             </button>
             </a>
           </div>
