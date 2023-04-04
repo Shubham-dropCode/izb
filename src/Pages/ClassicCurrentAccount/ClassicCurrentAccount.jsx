@@ -1,8 +1,13 @@
 import React from 'react'
+import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 
 const ClassicCurrentAccount = () => {
   return (
-    <div>ClassicCurrentAccount</div>
+    <>
+    <Breadcrumb Heading="Classic Current Account"/>
+    <AllAcountsSection/>
+    </>
   )
 }
 

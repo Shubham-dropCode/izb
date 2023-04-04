@@ -144,24 +144,24 @@ const Navbar = () => {
                             <Link to="/AboutUs">About IZB</Link>
                           </li>
                           <li>
-                            <a>Leadership & Governance</a>
+                            <Link to="/BoardOfDirectors">Leadership & Governance</Link>
                             <ul>
                               <li>
                                 <Link to="/BoardOfDirectors">Board Of Directors</Link>
                               </li>
                               <li>
-                                <a href="">Executive Management</a>
+                                <Link to="/BoardOfDirectors">Executive Management</Link>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <Link to="FinancialPerformance">Financial Performance</Link>
+                            <Link to="/FinancialPerformance">Financial Performance</Link>
                           </li>
                           <li>
                             <Link to="/WhyBankWithUs">Why Bank with us</Link>
                           </li>
                           <li>
-                            <a href="faq.html">CSR</a>
+                            <a to="/BoardOfDirectors">CSR</a>
                           </li>
                         </ul>
                       </li>
@@ -172,89 +172,55 @@ const Navbar = () => {
                             <a href="#">Saving Accounts</a>
                             <ul>
                               <li>
-                                <a href="accounts.html">Save Plus Bank A/C</a>
+                                <Link to="/SavePlusAccount">Save Plus Bank A/C</Link>
                               </li>
                               <li>
-                                <a href="account-savings.html">
+                                <Link to="/ClassicSavingAcc">
                                   Classic Saving Account
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="account-current.html">
+                                <Link to="/PrivilageSavingAcc">
                                   Privilege Savings Account
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="account-fixed-dep.html">
+                                <Link to="/TisungoSaving">
                                   Tisunge Savings Account
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="account-salary.html">
+                                <Link to="/TonseSavingAcc">
                                   Tonse Savings Account
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </li>
                           <li>
                             <a href="">Credit</a>
-                          </li>
-                          <li>
-                            <a href="">Bhumi Fixed Deposit A/C</a>
-                          </li>
-                          <li>
-                            <a href="">Indo Fast Serve</a>
-                          </li>
-                          {/* <li className="dropdown">
-                            <a href="#">Cards</a>
-                            <ul>
+                          
+                          <ul>
                               <li>
-                                <a href="cards.html">Our All Cards</a>
+                                <Link to="/IndoHomeLoan">Indo Home Loan</Link>
                               </li>
                               <li>
-                                <a href="cards-business.html">Business</a>
+                                <Link to="/IndoPersonalLoan">
+                                  Personal Loan
+                                </Link>
                               </li>
                               <li>
-                                <a href="cards-cashback.html">Cashback</a>
-                              </li>
-                              <li>
-                                <a href="cards-law-interest.html">
-                                  Low Interest
-                                </a>
-                              </li>
-                              <li>
-                                <a href="cards-rewards.html">Rewards</a>
-                              </li>
-                              <li>
-                                <a href="cards-secured.html">Secured</a>
-                              </li>
-                              <li>
-                                <a href="cards-travel-hotel.html">
-                                  Travel &amp; Hotel
-                                </a>
+                                <Link to="/IndoVehicleLoan">
+                                  Indo Vehicle Loan
+                                </Link>
                               </li>
                             </ul>
+                            </li>
+                          <li>
+                            <Link to="/BhumiFixedDepositAccount">Bhumi Fixed Deposit A/C</Link>
                           </li>
-                          <li className="dropdown">
-                            <a href="#">Loans</a>
-                            <ul>
-                              <li>
-                                <a href="loan-home.html">Home Loan</a>
-                              </li>
-                              <li>
-                                <a href="loan-personal.html">Personal Loan</a>
-                              </li>
-                              <li>
-                                <a href="loan-vehicle.html">Vehicle Loan</a>
-                              </li>
-                              <li>
-                                <a href="loan-education.html">Education Loan</a>
-                              </li>
-                              <li>
-                                <a href="loan-gold.html">Gold Loan</a>
-                              </li>
-                            </ul>
-                          </li> */}
+                          <li>
+                            <Link to="/IndoFastServe">Indo Fast Serve</Link>
+                          </li>
                         </ul>
                       </li>
 
@@ -265,37 +231,66 @@ const Navbar = () => {
                             <a href="blog-2.html">Current Account</a>
                             <ul>
                               <li>
-                                <a href="">Privilege Current Account</a>
+                                <Link to="/PrivilegeCurrentAcc">Privilege Current Account</Link>
                               </li>
 
                               <li>
-                                <a href="">Classic Current Account</a>
+                                <Link to="/ClassicCurrentAccount">Classic Current Account</Link>
                               </li>
 
                               <li>
-                                <a href="">SME Current Account</a>
+                                <Link to="/SMECurrentAcc">SME Current Account</Link>
                               </li>
                             </ul>
                           </li>
                           <li>
                             <a href="blog-3.html">Credit</a>
-                          </li>
+                          
+                          <ul>
+                              <li>
+                                <Link to="/MSMELoan">MSME Loan</Link>
+                              </li>
+
+                              <li>
+                                <Link to="/TermLoan">Term Loan</Link>
+                              </li>
+
+                              <li>
+                                <Link to="/AutoFinance">Auto Finance</Link>
+                              </li>
+                              <li>
+                                <Link to="/AgroFinance">Agro Finance</Link>
+                              </li>
+                              <li>
+                                <Link to="/EquityRelease">Equity Release</Link>
+                              </li>
+                              <li>
+                                <Link to="/BusinessFinance">Business Loan</Link>
+                              </li>
+                              <li>
+                                <Link to="/WorkingCapitalFinance">Working Capital Finance</Link>
+                              </li>
+                              <li>
+                                <Link to="/LeaseRentalDiscounting">Lease Rental Discounting</Link>
+                              </li>
+                            </ul>
+                            </li>
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <a href="#">Forex & Treasury</a>
+                        <Link to="/InternatioalBankingForeignBusiness"> Forex & Treasury</Link>
                         <ul>
                           <li>
-                            <a href="loan-home.html">Forex Rates</a>
+                            <a href="">Forex Rates</a>
                           </li>
                           <li>
-                            <a href="loan-personal.html">Forex Business</a>
+                            <Link to="/InternatioalBankingForeignBusiness">Forex Business</Link>
                           </li>
                           <li>
-                            <a href="loan-vehicle.html">Forex Savings</a>
+                            <Link to="/ForexSavings">Forex Savings</Link>
                           </li>
                           <li>
-                            <a href="loan-education.html">Forex Current</a>
+                            <Link to="/ForexCurrent">Forex Current</Link>
                           </li>
                         </ul>
                       </li>
@@ -303,13 +298,13 @@ const Navbar = () => {
                         <a href="#">E-Services</a>
                         <ul>
                           <li>
-                            <a href="loan-home.html">Indo Mobile Banking</a>
+                            <Link to="/MobileBanking">Indo Mobile Banking</Link>
                           </li>
                           <li>
-                            <a href="loan-personal.html">Indo Net Banking</a>
+                            <Link to="/NetBanking">Indo Net Banking</Link>
                           </li>
                           <li>
-                            <a href="loan-vehicle.html">IZB Cards</a>
+                            <Link to="/ContactlessCard">IZB Cards</Link>
                           </li>
                           <li>
                             <a href="loan-education.html">
@@ -317,7 +312,7 @@ const Navbar = () => {
                             </a>
                           </li>
                           <li>
-                            <a href="loan-education.html">Indo EEZY</a>
+                            <Link to="/EEZY">Indo EEZY</Link>
                           </li>
                         </ul>
                       </li>

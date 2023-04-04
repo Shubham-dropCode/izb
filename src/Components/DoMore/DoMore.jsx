@@ -22,15 +22,15 @@ const DoMore = () => {
             E-services.
           </p>
         </div>
-        <ul className="row choose-style1__content">
+        <div className="row choose-style1__content gap-5 justify-content-center">
           {/*Start Single Choose Style1*/}
-          <li className="col-xl-4 col-lg-4 single-choose-style1-colum text-center">
+          <div className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border w-25"  style={{borderRadius:"12px" ,backgroundColor:"#FDFDFD"}}>
             <div className="single-choose-style1">
               <div className="icon">
                 <img src={PhoneIcon} />
               </div>
               <div className="text">
-                <h3>Mobile Banking</h3>
+                <h3 style={{ color: "#9E1B1E" }}>Mobile Banking</h3>
                 <p>
                   Learn more about how you can bank from anywhere across the
                   world.
@@ -41,23 +41,23 @@ const DoMore = () => {
                 style={{ color: "#9E1B1E" }}
               >
                 <button
-                  className="btn-one shadow my-3 bg-white rounded"
+                  className="btn-one shadow my-3 bg-white rounded "
                   type="submit"
                 >
-                  <span className="txt"> Download Now</span>
+                  <span className="txt"> Download</span>
                 </button>
               </div>
             </div>
-          </li>
+          </div>
           {/*End Single Choose Style1*/}
           {/*Start Single Choose Style1*/}
-          <li className="col-xl-4 col-lg-4 single-choose-style1-colum text-center">
+          <div className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border w-25"  style={{borderRadius:"12px", backgroundColor:"#FDFDFD"}}>
             <div className="single-choose-style1">
               <div className="icon">
                 <img src={CCIcon} alt="" />
               </div>
               <div className="text">
-                <h3>Contactless Payment</h3>
+                <h3 style={{ color: "#9E1B1E" }}>Contactless Payment</h3>
                 <p>Tap and pay the new way get your contactless card today.</p>
               </div>
               <div
@@ -72,16 +72,16 @@ const DoMore = () => {
                 </button>
               </div>
             </div>
-          </li>
+          </div>
           {/*End Single Choose Style1*/}
           {/*Start Single Choose Style1*/}
-          <li className="col-xl-4 col-lg-4 single-choose-style1-colum text-center">
+          <div className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border w-25"  style={{borderRadius:"12px", backgroundColor:"#FDFDFD"}}>
             <div className="single-choose-style1">
               <div className="icon">
                 <img src={LaptopIcon} alt="" />
               </div>
               <div className="text">
-                <h3>Net Banking</h3>
+                <h3 style={{ color: "#9E1B1E" }}>Net Banking</h3>
                 <p>Manage your account conveniently through the Internet.</p>
               </div>
               <div
@@ -96,9 +96,9 @@ const DoMore = () => {
                 </button>
               </div>
             </div>
-          </li>
+          </div>
           {/*End Single Choose Style1*/}
-        </ul>
+        </div>
       </div>
     </section>
   );

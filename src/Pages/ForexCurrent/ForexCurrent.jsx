@@ -2,13 +2,13 @@ import React from 'react'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
 
-const EEZY = () => {
+const ForexCurrent = () => {
   return (
     <>
-    <Breadcrumb Heading="EEZY"/>
+    <Breadcrumb Heading="Forex Current"/>
     <AllAcountsSection/>
     </>
   )
 }
 
-export default EEZY
+export default ForexCurrent

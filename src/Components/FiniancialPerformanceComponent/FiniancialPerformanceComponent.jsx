@@ -66,14 +66,14 @@ const FiniancialPerformanceComponent = () => {
                           </p>
                           <div
                             className="mt-3"
-                            style={{ backgroundColor: "#9E1B1E" }}
+                            // style={{ backgroundColor: "#9E1B1E" }}
                           >
-                            <button className="btn-one" type="submit">
+                            <button className="btn-one shadow my-3 bg-white rounded " type="submit">
                               <span
                                 onClick={() => {
                                   downloadFile(Report2021);
                                 }}
-                                className="txt text-white"
+                                className="txt "
                               >
                                 Downlaod PDF <AiOutlineArrowDown size={20} />{" "}
                               </span>
@@ -91,14 +91,14 @@ const FiniancialPerformanceComponent = () => {
                           </p>
                           <div
                             className="mt-3"
-                            style={{ backgroundColor: "#9E1B1E" }}
+                            // style={{ backgroundColor: "#9E1B1E" }}
                           >
-                            <button className="btn-one" type="submit">
+                            <button className="btn-one shadow my-3 bg-white rounded " type="submit">
                               <span
                                 onClick={() => {
                                   downloadFile(Report2020);
                                 }}
-                                className="txt text-white"
+                                className="txt"
                               >
                                 Downlaod PDF <AiOutlineArrowDown size={20} />{" "}
                               </span>
@@ -116,14 +116,14 @@ const FiniancialPerformanceComponent = () => {
                           </p>
                           <div
                             className="mt-3"
-                            style={{ backgroundColor: "#9E1B1E" }}
+                            // style={{ backgroundColor: "#9E1B1E" }}
                           >
-                            <button className="btn-one" type="submit">
+                            <button className="btn-one shadow my-3 bg-white rounded " type="submit">
                               <span
                                 onClick={() => {
                                   downloadFile(Report2019);
                                 }}
-                                className="txt text-white"
+                                className="txt "
                               >
                                 Downlaod PDF <AiOutlineArrowDown size={20} />{" "}
                               </span>
@@ -141,14 +141,14 @@ const FiniancialPerformanceComponent = () => {
                           </p>
                           <div
                             className="mt-3"
-                            style={{ backgroundColor: "#9E1B1E" }}
+                            // style={{ backgroundColor: "#9E1B1E" }}
                           >
-                            <button className="btn-one" type="submit">
+                            <button className="btn-one shadow my-3 bg-white rounded " type="submit">
                               <span
                                 onClick={() => {
                                   downloadFile(Report2018);
                                 }}
-                                className="txt text-white"
+                                className="txt"
                               >
                                 Downlaod PDF <AiOutlineArrowDown size={20} />{" "}
                               </span>
@@ -166,14 +166,14 @@ const FiniancialPerformanceComponent = () => {
                           </p>
                           <div
                             className="mt-3"
-                            style={{ backgroundColor: "#9E1B1E" }}
+                            // style={{ backgroundColor: "#9E1B1E" }}
                           >
-                            <button className="btn-one" type="submit">
+                            <button className="btn-one shadow my-3 bg-white rounded " type="submit">
                               <span
                                 onClick={() => {
                                   downloadFile(Report2017);
                                 }}
-                                className="txt text-white"
+                                className="txt"
                               >
                                 Downlaod PDF <AiOutlineArrowDown size={20} />{" "}
                               </span>
@@ -191,14 +191,14 @@ const FiniancialPerformanceComponent = () => {
                           </p>
                           <div
                             className="mt-3"
-                            style={{ backgroundColor: "#9E1B1E" }}
+                            // style={{ backgroundColor: "#9E1B1E" }}
                           >
-                            <button className="btn-one" type="submit">
+                            <button className="btn-one shadow my-3 bg-white rounded " type="submit">
                               <span
                                 onClick={() => {
                                   downloadFile(Report2016);
                                 }}
-                                className="txt text-white"
+                                className="txt"
                               >
                                 Downlaod PDF <AiOutlineArrowDown size={20} />{" "}
                               </span>
@@ -216,14 +216,14 @@ const FiniancialPerformanceComponent = () => {
                           </p>
                           <div
                             className="mt-3"
-                            style={{ backgroundColor: "#9E1B1E" }}
+                            // style={{ backgroundColor: "#9E1B1E" }}
                           >
-                            <button className="btn-one" type="submit">
+                            <button className="btn-one shadow my-3 bg-white rounded " type="submit">
                               <span
                                 onClick={() => {
                                   downloadFile(Report2015);
                                 }}
-                                className="txt text-white"
+                                className="txt"
                               >
                                 Downlaod PDF <AiOutlineArrowDown size={20} />{" "}
                               </span>
@@ -266,7 +266,7 @@ const FiniancialPerformanceComponent = () => {
                           </p>
 
                           <button
-                            className="btn-one mt-3"
+                            className="btn-one shadow my-3 bg-white rounded "
                             type="submit"
                             style={{ backgroundColor: "#9E1B1E" }}
                           >
@@ -274,7 +274,7 @@ const FiniancialPerformanceComponent = () => {
                               onClick={() => {
                                 downloadFile(Report2021);
                               }}
-                              className="txt text-white"
+                              className="txt"
                             >
                               Downlaod PDF <AiOutlineArrowDown size={20} />{" "}
                             </span>
@@ -291,7 +291,7 @@ const FiniancialPerformanceComponent = () => {
                           </p>
 
                           <button
-                            className="btn-one mt-3"
+                            className="btn-one shadow my-3 bg-white rounded "
                             type="submit"
                             style={{ backgroundColor: "#9E1B1E" }}
                           >
@@ -299,7 +299,7 @@ const FiniancialPerformanceComponent = () => {
                               onClick={() => {
                                 downloadFile(Report2021);
                               }}
-                              className="txt text-white"
+                              className="txt"
                             >
                               Downlaod PDF <AiOutlineArrowDown size={20} />{" "}
                             </span>
@@ -317,7 +317,7 @@ const FiniancialPerformanceComponent = () => {
                           </p>
 
                           <button
-                            className="btn-one mt-3"
+                            className="btn-one shadow my-3 bg-white rounded "
                             type="submit"
                             style={{ backgroundColor: "#9E1B1E" }}
                           >
@@ -325,7 +325,7 @@ const FiniancialPerformanceComponent = () => {
                               onClick={() => {
                                 downloadFile(Report2021);
                               }}
-                              className="txt text-white"
+                              className="txt "
                             >
                               Downlaod PDF <AiOutlineArrowDown size={20} />{" "}
                             </span>
@@ -340,7 +340,7 @@ const FiniancialPerformanceComponent = () => {
                           <p>Quarterly Financial Statements - 30-06-2021</p>
 
                           <button
-                            className="btn-one mt-3"
+                            className="btn-one shadow my-3 bg-white rounded "
                             type="submit"
                             style={{ backgroundColor: "#9E1B1E" }}
                           >
@@ -348,7 +348,7 @@ const FiniancialPerformanceComponent = () => {
                               onClick={() => {
                                 downloadFile(Report2021);
                               }}
-                              className="txt text-white"
+                              className="txt"
                             >
                               Downlaod PDF <AiOutlineArrowDown size={20} />{" "}
                             </span>

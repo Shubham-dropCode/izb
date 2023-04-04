@@ -30,8 +30,8 @@ const AtmLocatinos = () => {
               name="flexRadioDefault"
               id="flexRadioDefault1"
             />
-            <label className="form-check-label" htmlFor="flexRadioDefault1">
-              ATM
+            <label className="text-white form-check-label" htmlFor="flexRadioDefault1">
+              BRANCH
             </label>
           </div>
           <div className="form-check">
@@ -42,8 +42,8 @@ const AtmLocatinos = () => {
               id="flexRadioDefault2"
               defaultChecked=""
             />
-            <label className="form-check-label" htmlFor="flexRadioDefault2">
-              Branch
+            <label className="text-white form-check-label" htmlFor="flexRadioDefault2">
+              ATM
             </label>
           </div>
           <span className="border h-75"></span>

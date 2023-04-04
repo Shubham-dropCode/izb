@@ -1,40 +1,94 @@
 import React from "react";
 import img1 from "../../assets/images/IZB/IZB Website Skin/Board_of_Directors/1.png";
+import data from "../../Data/BoardOfDirector.json";
+import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
+
 
 const Directors = () => {
-  const designation = {
+  const designationStyle = {
     backgroundColor: "#C60000",
     fontFamily: "inter",
     fontWeight: "300",
     letterSpacing: "1.5px",
     fontSize: "17px",
   };
+  const before = data[1];
+  const after = data[2];
+  console.log(data);
   return (
     <section className="">
       <div className="container">
-        <div className="row border p-4">
-          <div className="col-3">
-            <img src={img1} className="border" alt="" />
-          </div>
-          <div className="col-9">
-            <h3>Dr. Michael Gondwe</h3>
-            <div
-              className="text col-3 text-white text-center mb-4 mt-2"
-              style={designation}
-            >
-              Board Chairperson
+        {before.map((item) => {
+          return (
+            <div className="row border justify-content-sm-center p-4 my-5">
+              <div className="col-12 col-md-3 col-xl-3">
+                <img src={item.Image} className="border" alt="" />
+              </div>
+              <div className="col-12 col-md-9 col-xl-9">
+                <h3>{item.Name}</h3>
+                <div
+                  className="text col-3 text-white text-center mb-4 mt-2"
+                  style={designationStyle}
+                >
+                  {item.Designation}
+                </div>
+                <p>
+                 {item.description}
+                </p>
+              </div>
             </div>
-            <p>
-              Dr. Gondwe is an eminent and highly distinguished Zambian lawyer
-              with a wealth of leadership experience of over 35years in the
-              Banking and Financial Sector. He is a former Governor of the Bank
-              of Zambia and former President and CEO of the Eastern and Southern
-              African Trade and Development Bank, commonly known as the PTA
-              Bank.
-            </p>
+          );
+        })}
+      </div>
+
+        <div className="container py-2">
+          <div className="row">
+            <div className="col-xl-12">
+              <div className="inner-content">
+                <div
+                  className="breadcrumb-area-bg title d-flex justify-content-center align-items-center"
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration={500}
+                  style={{
+                    backgroundImage: `url(${BackgroundBrundcrumb})`,
+                    height: "300px",
+                  }}
+                >
+                  <h1 className="text-white">Executive Manager</h1>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+
+        {after.map((item) => {
+          return (
+            <div className="container">
+
+            
+            <div className="row border justify-content-sm-center p-4 my-5">
+              <div className="col-12 col-md-3 col-xl-3">
+                <img src={item.Image} className="border" alt="" />
+              </div>
+              <div className="col-12 col-md-9 col-xl-9">
+                <h3>{item.Name}</h3>
+                <div
+                  className="text col-3 text-white text-center mb-4 mt-2"
+                  style={designationStyle}
+                >
+                  {item.Designation}
+                </div>
+                <p>
+                 {item.description}
+                </p>
+              </div>
+            </div>
+            </div>
+            
+
+          );
+        })}
     </section>
   );
 };

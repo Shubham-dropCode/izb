@@ -1,8 +1,13 @@
 import React from 'react'
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
+import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
 
 const IndoVehicleLoan = () => {
   return (
-    <div>IndoVehicleLoan</div>
+    <>
+    <Breadcrumb Heading="Indo Vehicle Loan"/>
+    <AllAcountsSection/>
+    </>
   )
 }
 

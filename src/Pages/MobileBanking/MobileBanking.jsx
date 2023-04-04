@@ -1,8 +1,13 @@
 import React from 'react'
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
+import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
 
 const MobileBanking = () => {
   return (
-    <div>MobileBanking</div>
+    <>
+    <Breadcrumb Heading="Indo Mobile Banking"/>
+    <AllAcountsSection/>
+    </>
   )
 }
 
