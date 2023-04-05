@@ -8,29 +8,34 @@ const AtmLocatinos = () => {
     border: "none",
     borderBottom: "1px solid grey",
     fontSize: "18px",
-    marginBottom: "16px",
+    // marginBottom: "16px",
     placeholder: "#FFF",
   };
   return (
-    <div className="container p-4" >
+    <div className="container p-4">
       <div className="row">
-      <div className="text-center mb-5">
-          <h1 style={{ color: "#484848" }}>
-          ATM/Branch Location          </h1>
+        <div className="text-center mb-5">
+          <h1 style={{ color: "#484848" }}>ATM/Branch Location </h1>
           <p style={{ color: "#484848" }}>
-          Locate Indo Zambia Bank Branch and our ATM locations in your area.  
+            Locate Indo Zambia Bank Branch and our ATM locations in your area.
           </p>
         </div>
-        
-        <div className="col-12 d-inline-flex justify-content-start align-items-center gap-4 " style={{ backgroundColor: "#9E1B1E" }}>
-          <div className="form-check" >
+
+        <div
+          className="col-12 d-inline-flex justify-content-start align-items-center gap-4 "
+          style={{ backgroundColor: "#9E1B1E" }}
+        >
+          <div className="form-check">
             <input
               className="form-check-input"
               type="radio"
               name="flexRadioDefault"
               id="flexRadioDefault1"
             />
-            <label className="text-white form-check-label" htmlFor="flexRadioDefault1">
+            <label
+              className="text-white form-check-label"
+              htmlFor="flexRadioDefault1"
+            >
               BRANCH
             </label>
           </div>
@@ -42,7 +47,10 @@ const AtmLocatinos = () => {
               id="flexRadioDefault2"
               defaultChecked=""
             />
-            <label className="text-white form-check-label" htmlFor="flexRadioDefault2">
+            <label
+              className="text-white form-check-label"
+              htmlFor="flexRadioDefault2"
+            >
               ATM
             </label>
           </div>
@@ -54,6 +62,7 @@ const AtmLocatinos = () => {
 
                 <input
                   type="text"
+                  id="HomepageAtm"
                   className="form-control input-lg"
                   style={formControl}
                   placeholder="Enter Your Location"

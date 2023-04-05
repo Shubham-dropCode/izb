@@ -15,6 +15,7 @@ const OurStores = () => {
               <p className="text-center">All News And Updates</p>
             </div>
           </div>
+         
           <div className="col-xl-4 col-lg-4">
             <div
               className="single-blog-style1 wow fadeInUp"
@@ -30,7 +31,7 @@ const OurStores = () => {
                 </div>
               </div>
               <div className="text-holder">
-                <h3 className="blog-title">
+                <h3 className="blog-title my-4">
                   <a href="blog-single.html">Monetary policy rate</a>
                 </h3>
                 <p>
@@ -60,7 +61,7 @@ const OurStores = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-4 col-lg-4">
+          <div className="col-xl-4 col-lg-4 h-100">
             <div
               className="single-blog-style1 wow fadeInUp"
               data-wow-delay="00ms"
@@ -75,7 +76,7 @@ const OurStores = () => {
                 </div>
               </div>
               <div className="text-holder">
-                <h3 className="blog-title">
+                <h3 className="blog-title mt-4">
                   <a href="blog-single.html">
                     INDO/KONKOLA Copper mines Partnership
                   </a>
@@ -107,7 +108,7 @@ const OurStores = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-4 col-lg-4">
+          <div className="col-xl-4 col-lg-4 h-100">
             <div
               className="single-blog-style1 wow fadeInUp"
               data-wow-delay="00ms"
@@ -154,7 +155,8 @@ const OurStores = () => {
               </div>
             </div>
           </div>
-        </div>
+          </div>
+       
       </div>
     </section>
   );
