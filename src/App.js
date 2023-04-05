@@ -11,6 +11,7 @@ import SavePlusAccount from "./Pages/SavePlusAccount/SavePlusAccount";
 import ClassicSavingAcc  from "./Pages/ClassicSavingAcc/ClassicSavingAcc";
 import PrivilageSavingAcc from "./Pages/PrivilageSavingAcc/PrivilegeSaving"
 import TisungoSaving from "./Pages/TisungoSaving/TisungeSavingsAcc"
+import PersonalBanking from "./Pages/PersonalBanking/PersonalBanking"
 import TonseSavingAcc from "./Pages/TonseSavingAcc/TonseSavingAcc"
 import IndoHomeLoan from "./Pages/IndoHomeLoan/IndoHomeLoan"
 import IndoPersonalLoan from "./Pages/IndoPersonalLoan/IndoPersonalLoan"
@@ -35,6 +36,9 @@ import MobileBanking from "./Pages/MobileBanking/MobileBanking"
 import NetBanking from "./Pages/NetBanking/NetBanking"
 import ContactlessCard from "./Pages/ContactlessCard/ContactlessCard"
 import EEZY from "./Pages/EEZY/EEZY"
+import BusinessBanking from "./Pages/BusinessBanking/BusinessBanking";
+import FAQS from "./Pages/FAQS/FAQS";
+import Disclaimer from "./Pages/IndoVehicleLoan/Disclaimer1";
 function App() {
   return (
     <>
@@ -47,6 +51,7 @@ function App() {
           <Route path="/FinancialPerformance" element={<FinancialPerformance />} />
           <Route path="/WhyBankWithUs" element={<WhyBankWithUs />} />
           <Route path="/SavePlusAccount" element={<SavePlusAccount />} />
+          <Route path="/PersonalBanking" element={<PersonalBanking />} />
           <Route path="/ClassicSavingAcc" element={<ClassicSavingAcc />} />
           <Route path="/PrivilageSavingAcc" element={<PrivilageSavingAcc />} />
           <Route path="/TisungoSaving" element={<TisungoSaving />} />
@@ -55,11 +60,13 @@ function App() {
           <Route path="/IndoPersonalLoan" element={<IndoPersonalLoan />} />
           <Route path="/IndoVehicleLoan" element={<IndoVehicleLoan />} />
           <Route path="/BhumiFixedDepositAccount" element={<BhumiFixedDepositAccount />} />
+          <Route path="/BusinessBanking" element={<BusinessBanking />} />
           <Route path="/IndoFastServe" element={<IndoFastServe />} />
           <Route path="/PrivilegeCurrentAcc" element={<PrivilegeCurrentAcc />} />
           <Route path="/ClassicCurrentAccount" element={<ClassicCurrentAccount />} />
           <Route path="/SMECurrentAcc" element={<SMECurrentAcc />} />
           <Route path="/MSMELoan" element={<MSMELoan />} />
+          <Route path="/FAQS" element={<FAQS />} />
           <Route path="/TermLoan" element={<TermLoan />} />
           <Route path="/AutoFinance" element={<AutoFinance />} />
           <Route path="/AgroFinance" element={<AgroFinance />} />
@@ -74,6 +81,7 @@ function App() {
           <Route path="/NetBanking" element={<NetBanking />} />
           <Route path="/ContactlessCard" element={<ContactlessCard />} />
           <Route path="/EEZY" element={<EEZY />} />
+          <Route path="/Disclaimer" element={<Disclaimer />} />
         </Routes>
         <Footer />
       </BrowserRouter>

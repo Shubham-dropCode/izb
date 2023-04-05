@@ -6,7 +6,7 @@ const Slide2 = () => {
     color: "#9E1B1E",
   };
   return (
-    <section className="overview-area" style={{ backgroundColor: "#FFF5E7" }}>
+    <section className="overview-area">
       <div className="container">
         <div className="row">
           <div className=" col-md-6 col-xl-6">

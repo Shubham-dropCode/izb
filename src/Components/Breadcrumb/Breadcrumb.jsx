@@ -1,6 +1,7 @@
 import React from "react";
 import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
 import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.svg";
+import { Link } from "react-router-dom";
 
 const Breadcrumb = ({Heading}) => {
   return (
@@ -30,7 +31,7 @@ const Breadcrumb = ({Heading}) => {
                 >
                   <ul className="d-flex">
                     <li>
-                      <a href="index.html">Home</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li>
                       {" "}

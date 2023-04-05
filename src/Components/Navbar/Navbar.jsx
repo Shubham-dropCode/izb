@@ -166,7 +166,7 @@ const Navbar = () => {
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <a href="#">Personal Banking</a>
+                        <Link to="/PersonalBanking">Personal Banking</Link>
                         <ul>
                           <li className="dropdown">
                             <a href="#">Saving Accounts</a>
@@ -225,7 +225,7 @@ const Navbar = () => {
                       </li>
 
                       <li className="dropdown">
-                        <a href="#">Business Banking</a>
+                        <Link to="/BusinessBanking">Business Banking</Link>
                         <ul>
                           <li>
                             <a href="blog-2.html">Current Account</a>
