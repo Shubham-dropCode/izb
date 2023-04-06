@@ -25,7 +25,7 @@ const DisclaimerAccordion = ({ title, description }) => {
       <div className="acc-content current">
         {show && (
           <p>
-            <ArrowR />
+             <ArrowR />
             {description}
           </p>
         )}
