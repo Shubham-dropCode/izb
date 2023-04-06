@@ -1,7 +1,7 @@
 import React from "react";
 import {BsBank} from "react-icons/bs"
 
-const SavePlusAccount = ({heading, subHeading, content ,img}) => {
+const SavePlusAccountComponent = ({heading, subHeading, content ,img}) => {
   return (
     <section className="overview-area">
       <div className="container">
@@ -32,4 +32,4 @@ const SavePlusAccount = ({heading, subHeading, content ,img}) => {
   );
 };
 
-export default SavePlusAccount;
+export default SavePlusAccountComponent;

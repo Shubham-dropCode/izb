@@ -9505,7 +9505,7 @@ li.single-benefits-box-colum:nth-child(6) .single-benefits-box .icon {
   left: 0;
   width: 8px;
   height: 8px;
-  background-color: var(--thm-base);
+  background-color: var(--thm-white);
 }
 
 .single-documents-box .inner-title h3 {

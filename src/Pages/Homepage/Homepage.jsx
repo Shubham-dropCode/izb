@@ -3,7 +3,7 @@ import DoMore from '../../Components/DoMore/DoMore'
 import Hero from '../../Components/Hero/Hero'
 import EmptySpace from '../../Components/Hero/EmptySpace'
 import AtmLocatinos from '../../Components/AtmLocations/AtmLocatinos'
-import SavePlusAccount from '../../Components/SavePlusAccount/SavePlusAccount'
+import SavePlusAccount from '../../Components/SavePlusAccount/SavePlusAccountComponent'
 import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
 import img from "../../assets/images/IZB/IZB Website Skin/Home_Page/Image_3Short.png"
 import IndoBankingSlider from '../../Components/IndoBankingSlider/IndoBankingSlider'
