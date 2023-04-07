@@ -22,8 +22,8 @@
 /*== Default Css ======*/
 
 :root {
-  --thm-font: 'Montserrat', sans-serif;
-  --thm-font-2: 'Montserrat', sans-serif;
+  --thm-font: 'Montserrat';
+  --thm-font-2: 'Montserrat';
   --thm-base: #9E1B1E;
   --thm-base-rgb: 207, 23, 60;
   --thm-gray: #000000;
@@ -8023,9 +8023,9 @@ li.single-benefits-box-colum:nth-child(6) .single-benefits-box .icon {
 }
 
 .job-list-table-box .job-list-table thead tr th {
-  color: var(--thm-black);
+  color: var(--thm-base);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 24px;
   min-width: 110px;
   padding: 13px 30px;
@@ -8050,11 +8050,11 @@ li.single-benefits-box-colum:nth-child(6) .single-benefits-box .icon {
   line-height: 24px;
   min-width: 110px;
   padding: 27.5px 30px;
-  border: 1px solid #f2ece7;
+  border: 1px solid var(--thm-base);
 }
 
 .job-list-table-box .job-list-table tbody tr td.department h3 {
-  color: var(--thm-base);
+  color: var(--thm-white);
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -8064,6 +8064,7 @@ li.single-benefits-box-colum:nth-child(6) .single-benefits-box .icon {
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
+  color:var(--thm-white);
 }
 
 .job-list-table-box .job-list-table tbody tr td.location p {
@@ -8071,6 +8072,7 @@ li.single-benefits-box-colum:nth-child(6) .single-benefits-box .icon {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  color:var(--thm-white);
 }
 
 .job-list-table-box .job-list-table tbody tr td.last-date p {
