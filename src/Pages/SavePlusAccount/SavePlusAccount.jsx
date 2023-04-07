@@ -5,6 +5,8 @@ import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusA
 import img1 from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/7xm.xyz196228.jpg"
 import ContainsArea from '../../Components/ContainsArea/ContainsArea'
 import Benefits from '../../Components/Benefits/Benefits'
+import ServiceTable from '../../Components/ServiceTable/ServiceTable'
+import RequiredDocuments from '../../Components/RequiredDocuments/RequiredDocuments'
 
 const SavePlusAccount = () => {
   const accountContent = "Exclusively designed savings account to inculcate savings habits in parents and guardians for their children. This savings account offers attractive interest rates and other benefits to realize your savings goals with other value added features such as IZB Visa Chip & Pin Debit Card, SMS Alert, Mobile and Internet Banking facility."
@@ -14,6 +16,8 @@ const SavePlusAccount = () => {
     <SavePlusAccountComponent heading="IZB Save Plus Account" subHeading="Know About" content={accountContent} img={img1}/>
     <ContainsArea/>
     <Benefits/>
+    <RequiredDocuments/>
+    <ServiceTable/>
     <AllAcountsSection/>
     </>
   )
