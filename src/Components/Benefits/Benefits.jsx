@@ -4,7 +4,6 @@ import CC from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/I
 import EmailAlert from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/alert.png";
 import Device from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/devices.png";
 import money from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/money.png";
-import RequiredDocuments from "../RequiredDocuments/RequiredDocuments";
 
 const Benefits = () => {
   return (

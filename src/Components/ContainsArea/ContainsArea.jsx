@@ -1,12 +1,16 @@
 import React from "react";
-import Arrow_down from "../../assets/images/IZB/arrow_down.png"
-import Arrow_right from "../../assets/images/IZB/arrow_right.svg"
-import {AiOutlineArrowRight} from "react-icons/ai"
-const ContainsArea = () => {
+import Arrow_down from "../../assets/images/IZB/arrow_down.png";
+import Arrow_right from "../../assets/images/IZB/arrow_right.svg";
+import { AiOutlineArrowRight } from "react-icons/ai";
+const  ContainsArea = (props) => {
+
   return (
-    <section className="page-contains-area" style={{backgroundColor:"#FFF5E7"}}>
+    <section
+      className="page-contains-area"
+      style={{ backgroundColor: "#FFF5E7" }}
+    >
       <div className="container">
-        <div className="row" >
+        <div className="row">
           <div className="col-xl-12">
             <div className="page-contains-box">
               <div className="page-contains-btn">
@@ -19,14 +23,26 @@ const ContainsArea = () => {
                   </li>
                   <li>
                     <a href="#eligibility">
-                    <AiOutlineArrowRight size={14} className="me-1"/>
-                      Eligibility
+                      <AiOutlineArrowRight size={14} className="me-1" />
+                      Requirements
                     </a>
                   </li>
                   <li>
                     <a href="#required">
-                    <AiOutlineArrowRight size={14} className="me-1"/>
-                      Documents Required
+                      <AiOutlineArrowRight size={14} className="me-1" />
+                      Service Charges{" "}
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#required">
+                      <AiOutlineArrowRight size={14} className="me-1" />
+                      Service Charges{" "}
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#required">
+                      <AiOutlineArrowRight size={14} className="me-1" />
+                      Service Charges{" "}
                     </a>
                   </li>
                 </ul>

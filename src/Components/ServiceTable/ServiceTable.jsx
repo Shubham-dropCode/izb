@@ -6,9 +6,21 @@ const ServiceTable = () => {
     <section
       id="required"
       class="documents-area"
-      style={{ backgroundImage: `url(${bgimg})` }}
+      style={{
+        backgroundImage: `url(${bgimg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
     >
       <div className="container">
+        <div className="text-center">
+          <h1 className="text-white">
+            IZB Classic Savings A/C Service Charges
+          </h1>
+          <p className="text-white">
+            Your money is making money for you & Your Family.
+          </p>
+        </div>
         <div className="row">
           <div className="col-xl-12">
             <div className="job-list-table-box">
@@ -205,7 +217,7 @@ const ServiceTable = () => {
                       <td className="department">
                         <h3>17.</h3>
                       </td>
-                      <td className="location">
+                      <td className="location w-50">
                         <p>
                           Cash Withdrawal Charges (at any IZB branch) Note:
                           Savings account holders who do not qualify for Debit
@@ -241,9 +253,9 @@ const ServiceTable = () => {
                         <h3>19.</h3>
                       </td>
                       <td className="location">
-                        <h4 className="text-white my-2">
+                        <h5 className="text-white my-2">
                           IZB Visa Chip Debit Card-Charges
-                        </h4>
+                        </h5>
                         <p>
                           <AiFillCaretRight className="me-1" />
                           Issuance charge
@@ -278,7 +290,7 @@ const ServiceTable = () => {
                           <AiFillCaretRight className="me-1" />
                           PIN Regeneration
                         </p>
-                        <h4 className="text-white my-2">IZB ATMs</h4>
+                        <h5 className="text-white my-2">IZB ATMs</h5>
                         <p>
                           <AiFillCaretRight className="me-1" />
                           Cash Withdrawals (in Kwacha){" "}
@@ -291,7 +303,9 @@ const ServiceTable = () => {
                           <AiFillCaretRight className="me-1" />
                           Mini Statements
                         </p>
-                        <h4 className="text-white my-2">Other Bank's VISA enabled ATMS in Zambia</h4>
+                        <h5 className="text-white my-2">
+                          Other Bank's VISA enabled ATMS in Zambia
+                        </h5>
                         <p>
                           <AiFillCaretRight className="me-1" />
                           Cash Withdrawal (In kwacha)
@@ -300,11 +314,14 @@ const ServiceTable = () => {
                           <AiFillCaretRight className="me-1" />
                           Balance Enquiry
                         </p>
-                      
-                        <h4 className="text-white my-2"> Other Banks VISA enabled ATMs (abroad)</h4>
+
+                        <h5 className="text-white my-2">
+                          {" "}
+                          Other Banks VISA enabled ATMs (abroad)
+                        </h5>
                         <p>
                           <AiFillCaretRight className="me-1" />
-                          Cash Withdrawals 
+                          Cash Withdrawals
                         </p>
                         <p>
                           <AiFillCaretRight className="me-1" />
@@ -312,106 +329,277 @@ const ServiceTable = () => {
                         </p>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <h4 className="text-white my-2">
+                          <span>&nbsp;</span>
+                        </h4>
+                        <h4 className="text-white my-2">
+                          <span>&nbsp;</span>
+                        </h4>
+                        <p>Free </p>
+                        <p>Free</p>
+                        <p>Free</p>
+                        <p>
+                          <span>&nbsp;</span>
+                        </p>
+                        <div className="location">
+                          <p>K100/- per card</p>
+                          <p>K125/- per card</p>
+                          <p>K150/- per card</p>
+                        </div>
+                        <p>Free </p>
+                        <h4 className="text-white my-2">
+                          {" "}
+                          <span>&nbsp;</span>
+                        </h4>
+                        <p>K8/-</p>
+                        <p>Free</p>
+                        <p>K3/-</p>
+                        <h4 className="text-white my-2">
+                          <span>&nbsp;</span>
+                        </h4>
+                        <p>K15/-</p>
+                        <p>K3/-</p>
+
+                        <h4 className="text-white my-2">
+                          <span>&nbsp;</span>
+                        </h4>
+                        <p>K35/-</p>
+                        <p>K10/-</p>
+                        <p>
+                          Free, however, if the matter goes for arbitration,
+                          appropriate fees shall apply on a cost recovery basis.
+                        </p>
                       </td>
                     </tr>
                     <tr>
                       <td className="department">
-                        <h3></h3>
+                        <h3>20.</h3>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <p>Return of cheques</p>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <p>N/A</p>
                       </td>
                     </tr>
                     <tr>
                       <td className="department">
-                        <h3></h3>
+                        <h3>21.</h3>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <p>Stop Payment Instructions</p>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <p>N/A</p>
                       </td>
                     </tr>
                     <tr>
                       <td className="department">
-                        <h3></h3>
+                        <h3>22.</h3>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <h5 className="text-white my-2">
+                          Remittances (kwacha)
+                        </h5>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          Banker's cheque
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          Cancellation of Banker's cheque
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          Issuance of duplicate Banker's chques in lieu of lost
+                          cheque
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          Cancelling of lost Banker's cheque{" "}
+                        </p>
+
+                        <h5 className="text-white my-2">Other remittances </h5>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          Within IZB branches{" "}
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          RTGS – Manual{" "}
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          RTGS – Electronic{" "}
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          DDACC – Manual{" "}
+                        </p>
+
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          DDACC – Electronic{" "}
+                        </p>
+
+                        <h5 className="text-white my-2">
+                          Transfer of funds on closure of account{" "}
+                        </h5>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <h5 className="text-white my-2">
+                          <span>&nbsp;</span>
+                        </h5>
+                        <p>K100/- plus VAT</p>
+                        <p>K50/-</p>
+                        <p>K75/-</p>
+                        <p>K75/-</p>
+
+                        <h5 className="text-white my-2">Other remittances </h5>
+                        <p>Free</p>
+                        <p>K55/- per transaction</p>
+                        <p>K40/- per transaction</p>
+
+                        <p>K25/- per transaction</p>
+                        <p>K10/- per transaction</p>
+
+                        <p className="pt-2 ">K50/- per transaction </p>
                       </td>
                     </tr>
                     <tr>
                       <td className="department">
-                        <h3></h3>
+                        <h3>23.</h3>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <p>Balance confirmation charges</p>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <p>K200/- per certificate</p>
                       </td>
                     </tr>
                     <tr>
                       <td className="department">
-                        <h3></h3>
+                        <h3>24.</h3>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <p>
+                          Authentication/Authorisation/Verificationof other
+                          documents. <br /> (only if closed within last 6
+                          months)
+                        </p>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <p>
+                          K50/- per document for confirmation/
+                          authorization/verification of documents
+                        </p>
                       </td>
                     </tr>
                     <tr>
                       <td className="department">
-                        <h3></h3>
+                        <h3>25.</h3>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <h5 className="text-white my-2">
+                          Standing Order Charges
+                        </h5>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          Setting up charges
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          Processing (internal) intra-bank
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          Processing (external within Zambia) inter-bank
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          Amendment
+                        </p>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <h5 className="text-white my-2">
+                          <span>&nbsp;</span>
+                        </h5>
+                        <p>K50/-</p>
+                        <p>K50/- per transaction</p>
+                        <p>K25/- per transaction</p>
+                        <p>Free</p>
                       </td>
                     </tr>
                     <tr>
                       <td className="department">
-                        <h3></h3>
+                        <h3>26.</h3>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <p>Dormant Account</p>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <p>Free</p>
                       </td>
                     </tr>
                     <tr>
                       <td className="department">
-                        <h3></h3>
+                        <h3>27.</h3>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <p>
+                          Reactivation of Account <br />
+                          (only if closed within last 6 months)
+                        </p>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <p>Free</p>
                       </td>
                     </tr>
                     <tr>
                       <td className="department">
-                        <h3></h3>
+                        <h3>28.</h3>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <p>Photocopies at customer’s request</p>
                       </td>
                       <td className="location">
-                        <p></p>
+                        <p>K 10/- per page</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>29.</h3>
+                      </td>
+                      <td className="location">
+                        <p>
+                          Request for retrieval of paid cheque, deposit slip,
+                          transfer request or any Bank record.
+                        </p>
+                      </td>
+                      <td className="location">
+                        <p>K 200/- per instrument</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>30.</h3>
+                      </td>
+                      <td className="location">
+                        <p>Reference letter</p>
+                      </td>
+                      <td className="location">
+                        <p>K50/- per letter</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>31.</h3>
+                      </td>
+                      <td className="location">
+                        <p>NAPSA Online Payment</p>
+                      </td>
+                      <td className="location">
+                        <p>Free</p>
                       </td>
                     </tr>
                   </tbody>
