@@ -2,6 +2,8 @@ import React from "react";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
 import img1 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/1.png";
+import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
+
 
 import {
   AiOutlinePercentage,
@@ -15,7 +17,7 @@ const BusinessBanking = () => {
   return (
     <>
     
-    <Breadcrumb Heading="Business Banking"/>
+    <Breadcrumb Heading="Business Banking" img={BackgroundBrundcrumb}/>
     <div className="container">
       <div className="text-center text my-4">
         <h2>Current Accounts</h2>

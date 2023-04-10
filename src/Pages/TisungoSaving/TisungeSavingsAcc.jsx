@@ -12,6 +12,7 @@ import statement from "../../assets/images/IZB/IZB Website Skin//IZB Privilege C
 import atm from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/atm.png";
 import ContainsArea from '../../Components/ContainsArea/ContainsArea'
 import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusAccountComponent'
+import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Tisunge Savings Account/Image_1.png";
 
 
 
@@ -19,8 +20,9 @@ const TisungeSavingsAcc = () => {
   const accountContent = "This is the next level savings which provides account holders with the convenience of an IZB Visa Contactless Debit Card."
   return (
     <>
-    <Breadcrumb Heading="Tisunge Savings Account"/>
+    <Breadcrumb Heading="IZB Tisunge Savings Account" img={BackgroundBrundcrumb}/>
     <SavePlusAccountComponent
+    btnTxt="Open an Account"
         heading="IZB Tisunge Savings Account"
         subHeading="Know About"
         content={accountContent}

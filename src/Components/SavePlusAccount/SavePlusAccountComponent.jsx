@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import {BsBank} from "react-icons/bs"
 
-const SavePlusAccountComponent = ({heading, subHeading, content ,img}) => {
+const SavePlusAccountComponent = ({heading, subHeading, content ,img ,btnTxt }) => {
   return (
     <section className="overview-area">
       <div className="container">
@@ -22,7 +22,7 @@ const SavePlusAccountComponent = ({heading, subHeading, content ,img}) => {
               </div>
               <button className="btn btn-danger w-50 text-white fs-5" style={{backgroundColor:"#9E1B1E"}}>
                 <BsBank className="me-4 mb-1 text-white" size={25}/>
-                Open Your Account
+                {btnTxt}
               </button>
             </div>
           </div>

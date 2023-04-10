@@ -15,18 +15,21 @@ import file from "../../assets/images/IZB/IZB Website Skin/IZB Classic Savings A
 import transferMoney from "../../assets/images/IZB/IZB Website Skin/IZB Classic Savings Account/Icons/transfer-money.png";
 import { AiFillCaretRight } from "react-icons/ai";
 import ServiceTable from "../../Components/ServiceTable/ServiceTable";
+import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/IZB Classic Savings Account/Image_1.png";
+
 
 const ClassicSavingAcc = () => {
   const accountContent =
     "This is a standard level savings account with value addedfeatures of SMS alerts, Internet Banking with the IZB Visa Chip & Pin Debit Card facilities and is as an interest bearing savings account.";
   return (
     <>
-      <Breadcrumb Heading="Classic Saving Account" />
+      <Breadcrumb Heading="Classic Saving Account" img={BackgroundBrundcrumb}/>
       <SavePlusAccountComponent
         heading="IZB Classic Savings Account"
         subHeading="Know About"
         content={accountContent}
         img={img1}
+        btnTxt="Open an Account"
       />
       <ContainsArea />
       <section

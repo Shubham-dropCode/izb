@@ -9,11 +9,13 @@ import BriefHistoryImg from "../../assets/images/IZB/Brief History.png";
 
 
 import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
+import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
+
 
 const AboutUs = () => {
   return (
     <>
-    <Breadcrumb Heading="About Us"/>
+    <Breadcrumb Heading="About Us" img={BackgroundBrundcrumb}/>
     <BriefHistory heading ="Brief History" content="Indo Zambia Bank was formed on 19th October, 1984 by the Government of the Republic of Zambia and the Government of India out of the desire to promote banking facilities to support the economic development of Zambia." image={BriefHistoryImg}/>
     <Vision/>
     <CoreValues/>

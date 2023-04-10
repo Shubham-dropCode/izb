@@ -3,6 +3,7 @@ import { IoCallOutline } from "react-icons/io5";
 import { AiOutlinePrinter } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import FooterImg from  "../../assets/images/IZB/IZB Website Skin/Home_Page/Image_5.png"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     const FooterBgImg = {
@@ -121,7 +122,7 @@ const Footer = () => {
                       <a href="#">Vacancies</a>
                     </li>
                     <li>
-                      <a href="#">FAQs</a>
+                      <Link to="/FAQS">FAQs</Link>
                     </li>
                     <li>
                       <a href="#">Download</a>
@@ -150,7 +151,7 @@ const Footer = () => {
                       <a href="#">Staff Protal</a>
                     </li>
                     <li>
-                      <a href="#">Disclaimer</a>
+                      <Link to="/Disclaimer">Disclaimer</Link>
                     </li>
                     <li>
                       <a href="#">Privacy Policy</a>

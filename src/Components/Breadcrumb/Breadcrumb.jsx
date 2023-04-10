@@ -3,7 +3,7 @@ import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.p
 import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.svg";
 import { Link } from "react-router-dom";
 
-const Breadcrumb = ({Heading}) => {
+const Breadcrumb = ({Heading,img}) => {
   return (
     <section className="breadcrumb-area"> 
       <div className="container-fluid" style={{ backgroundColor: "#FFF5E7" }}>
@@ -17,7 +17,7 @@ const Breadcrumb = ({Heading}) => {
                   data-aos-easing="linear"
                   data-aos-duration={500}
                   style={{
-                    backgroundImage: `url(${BackgroundBrundcrumb})`,
+                    backgroundImage: `url(${img})`,
                     height: "300px",
                   }}
                 >

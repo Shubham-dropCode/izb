@@ -12,14 +12,16 @@ import CC from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/I
 import EmailAlert from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/alert.png";
 import Device from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/devices.png";
 import money from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/money.png";
+import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Image_1.png";
+
 
 
 const SavePlusAccount = () => {
   const accountContent = "Exclusively designed savings account to inculcate savings habits in parents and guardians for their children. This savings account offers attractive interest rates and other benefits to realize your savings goals with other value added features such as IZB Visa Chip & Pin Debit Card, SMS Alert, Mobile and Internet Banking facility."
   return (
     <>
-    <Breadcrumb Heading="Save Plus Bank A/C"/>
-    <SavePlusAccountComponent heading="IZB Save Plus Account" subHeading="Know About" content={accountContent} img={img1}/>
+    <Breadcrumb Heading="Save Plus Bank A/C" img={BackgroundBrundcrumb}/>
+    <SavePlusAccountComponent heading="IZB Save Plus Account" subHeading="Know About" content={accountContent} img={img1} btnTxt="Open an Account"  />
     <ContainsArea/>
     <section id="benefits" class="benefits-style2-area" className="choose-style1-area">
       <div className="container pt-4">

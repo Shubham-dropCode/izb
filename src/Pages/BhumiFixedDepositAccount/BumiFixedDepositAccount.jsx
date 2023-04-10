@@ -11,16 +11,19 @@ import SavePlusAccountComponent from "../../Components/SavePlusAccount/SavePlusA
 // import ContainsArea from "../../Components/ContainsArea/ContainsArea";
 import img1 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/20.png";
 import Arrow_down from "../../assets/images/IZB/arrow_down.png";
+import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Bumi Fixed Deposit Account/Image_1.png";
+
 
 
 const BumiFixedDepositAccount = () => {
 const [show, setShow] = useState(false);
   return (
     <>
-     <Breadcrumb Heading="Indo Vehicle Loan" />
+     <Breadcrumb Heading="Indo Vehicle Loan" img={BackgroundBrundcrumb} />
       <SavePlusAccountComponent
         heading="Personal Loan"
         subHeading="Know About"
+        btnTxt="Apply Now"
         content="The account the pays you interest upfront."
         img={img1}
       />

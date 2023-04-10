@@ -6,12 +6,12 @@ import fastServe from "../../assets/images/IZB/IZB Website Skin/Indo Fast Serve/
 import cashWithdrawal from "../../assets/images/IZB/IZB Website Skin/Indo Fast Serve/Icon/money-withdrawal.png";
 import CashDeposit from "../../assets/images/IZB/IZB Website Skin/Indo Fast Serve/Icon/deposit.png";
 import BalanceEnquiry from "../../assets/images/IZB/IZB Website Skin/Indo Fast Serve/Icon/calculator.png";
-import { BsBank } from "react-icons/bs";
+import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Indo Fast Serve/Image_1.png";
 
 const IndoFastServe = () => {
   return (
     <>
-      <Breadcrumb Heading="Indo Fast Serve" />
+      <Breadcrumb Heading="Indo Fast Serve" img={BackgroundBrundcrumb}/>
       <section className="overview-area">
         <div className="container">
           <div className="row">
@@ -104,7 +104,6 @@ const IndoFastServe = () => {
                     className="btn btn-danger w-50 text-white fs-5"
                     style={{ backgroundColor: "#9E1B1E" }}
                   >
-                    
                     Active IZB bank account
                   </button>
                   <button

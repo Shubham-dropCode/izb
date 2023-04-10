@@ -11,10 +11,12 @@ import {
   AiOutlineMobile,
   AiOutlineArrowRight,
 } from "react-icons/ai";
+import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
+
 const PersonalBanking = () => {
   return (
     <>
-      <Breadcrumb Heading="Personal Banking" />
+      <Breadcrumb Heading="Personal Banking" img={BackgroundBrundcrumb} />
       <div className="container">
         <div className="d-flex justify-content-around mt-4">
           <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>

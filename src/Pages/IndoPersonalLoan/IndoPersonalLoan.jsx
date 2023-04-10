@@ -6,6 +6,8 @@ import img1 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/7.pn
 import { useState } from 'react';
 import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusAccountComponent';
 import ContainsArea from '../../Components/ContainsArea/ContainsArea';
+import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Personal_Loan/Image_1.png";
+
 
 
 const IndoPersonalLoan = () => {
@@ -14,10 +16,11 @@ const IndoPersonalLoan = () => {
 
   return (
     <>
-    <Breadcrumb Heading="Personal Loan"/>
+    <Breadcrumb Heading="Personal Loan" img={BackgroundBrundcrumb}/>
     <SavePlusAccountComponent
         heading="Personal Loan"
         subHeading="Know About"
+        btnTxt="Apply Now"
         content={accountContent}
         img={img1}
       />

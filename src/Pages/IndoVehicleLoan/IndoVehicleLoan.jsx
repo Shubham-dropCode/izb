@@ -10,6 +10,8 @@ import { useState } from "react";
 import SavePlusAccountComponent from "../../Components/SavePlusAccount/SavePlusAccountComponent";
 import ContainsArea from "../../Components/ContainsArea/ContainsArea";
 import img1 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/8.png";
+import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Personal_Loan/Image_1.png";
+
 
 const IndoVehicleLoan = () => {
   const accountContent =
@@ -17,10 +19,11 @@ const IndoVehicleLoan = () => {
   const [show, setShow] = useState(false);
   return (
     <>
-      <Breadcrumb Heading="Indo Vehicle Loan" />
+      <Breadcrumb Heading="Indo Vehicle Loan" img={BackgroundBrundcrumb} />
       <SavePlusAccountComponent
         heading="Indo Vehicle Loan"
         subHeading="Know About"
+        btnTxt="Apply Now"
         content={accountContent}
         img={img1}
       />

@@ -17,6 +17,8 @@ import mobileNetwork from "../../assets/images/IZB/IZB Website Skin//IZB Privile
 import selfService from "../../assets/images/IZB/IZB Website Skin//IZB Privilege Current Account/Icons/self-service.png";
 import SavePlusAccountComponent from "../../Components/SavePlusAccount/SavePlusAccountComponent";
 import ContainsArea from "../../Components/ContainsArea/ContainsArea";
+import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Privilege Savings Accoun/Image_1.png";
+
 
 
 
@@ -24,11 +26,12 @@ const PrivilegeSaving = () => {
   const accountContent = "This savings account comes with a cheque book facility I addition to other features such as SMS Alerts, Internet Banking and the IZB Visa Chip & Pin Debit Card and is an interest bearing savings account."
   return (
     <>
-      <Breadcrumb Heading="IZB Privilege Savings Account" />
+      <Breadcrumb Heading="IZB Privilege Savings Account" img={BackgroundBrundcrumb}/>
       <SavePlusAccountComponent
         heading="IZB Privilege Savings Account"
         subHeading="Know About"
         content={accountContent}
+        btnTxt="Open an Account"
         img={img1}
       />
       <ContainsArea />

@@ -3,12 +3,14 @@ import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
 import { data , newData } from "./VehicleDisclaimerData";
 import DisclaimerAccordion from "./DisclaimerAccordion";
+import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
+
 
 const Disclaimer1 = () => {
   console.log(newData);
   return (
     <>
-      <Breadcrumb Heading="Disclaimer" />
+      <Breadcrumb Heading="Disclaimer" img={BackgroundBrundcrumb} />
       <div className="container mt-5">
         <div className="faq-style1__content">
           <ul className="accordion-box">

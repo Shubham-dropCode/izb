@@ -13,14 +13,17 @@ import ContainsArea from '../../Components/ContainsArea/ContainsArea'
 import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusAccountComponent'
 import ServiceTable from '../../Components/ServiceTable/ServiceTable';
 import {loan} from '../../Data/ContainAreaData';
+import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Tonse Savings Account/image_1.png";
+
 console.log(loan);
 
 const TonseSavingAcc = () => {
   const accountContent = "A starter saving Account which allows the account holder to operate a savings account at the minimum level and offers an IZB Visa Chip & Pin Debit Card."
   return (
     <>
-    <Breadcrumb Heading="Tonse Savings Account"/>
+    <Breadcrumb Heading="Tonse Savings Account" img={BackgroundBrundcrumb}/>
     <SavePlusAccountComponent
+    btnTxt="Open an Account"
         heading="IZB Tonse Savings Account"
         subHeading="Know About"
         content={accountContent}

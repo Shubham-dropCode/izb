@@ -4,6 +4,8 @@ import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSec
 import img1 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/6.png";
 import SavePlusAccountComponent from "../../Components/SavePlusAccount/SavePlusAccountComponent";
 import ContainsArea from "../../Components/ContainsArea/ContainsArea";
+import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Home_Loan/Image_1.png";
+
 import {
   AiOutlineArrowRight,
   AiOutlineArrowUp,
@@ -27,10 +29,11 @@ const IndoHomeLoan = () => {
 
   return (
     <>
-      <Breadcrumb Heading="Indo Home Loan" />
+      <Breadcrumb Heading="Indo Home Loan" img={BackgroundBrundcrumb} />
       <SavePlusAccountComponent
         heading="Indo Home Loan"
         subHeading="Know About"
+        btnTxt="Apply Now"
         content={accountContent}
         img={img1}
       />
