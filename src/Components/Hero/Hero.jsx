@@ -6,7 +6,7 @@ import "./Hero.css";
 
 import BankingMenu from "./BankingMenu";
 
-const Hero = () => {
+const  Hero = () => {
   const HeroBgimg = {
     backgroundImage: `url(${HeroBackground})`,
     height: "90vh",

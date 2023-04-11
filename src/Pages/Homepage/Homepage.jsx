@@ -16,7 +16,7 @@ const Homepage = () => {
     <EmptySpace/>
     <DoMore/>
     <AtmLocatinos/>
-    <SavePlusAccount heading="Save Plus Account" subHeading="Secure your Childs Futures with our" content={accountContent} img={img}/>
+    <SavePlusAccount heading="Save Plus Account" subHeading="Secure your Childs Futures with our" content={accountContent} img={img} btnTxt="Open an Account"/>
     <IndoBankingSlider/>
     <AllAcountsSection/>
     </React.Fragment>

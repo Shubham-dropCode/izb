@@ -1,6 +1,5 @@
 import React from "react";
 import Arrow_down from "../../assets/images/IZB/arrow_down.png";
-import Arrow_right from "../../assets/images/IZB/arrow_right.svg";
 import { AiOutlineArrowRight } from "react-icons/ai";
 const  ContainsArea = (props) => {
 
@@ -25,18 +24,6 @@ const  ContainsArea = (props) => {
                     <a href="#eligibility">
                       <AiOutlineArrowRight size={14} className="me-1" />
                       Requirements
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#required">
-                      <AiOutlineArrowRight size={14} className="me-1" />
-                      Service Charges{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#required">
-                      <AiOutlineArrowRight size={14} className="me-1" />
-                      Service Charges{" "}
                     </a>
                   </li>
                   <li>
