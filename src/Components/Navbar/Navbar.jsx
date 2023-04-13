@@ -273,6 +273,9 @@ const Navbar = () => {
                               <li>
                                 <Link to="/LeaseRentalDiscounting">Lease Rental Discounting</Link>
                               </li>
+                              <li>
+                                <Link to="/InternationalBankingForeignBusiness">International Banking Foreign Business</Link>
+                              </li>
                             </ul>
                             </li>
                         </ul>

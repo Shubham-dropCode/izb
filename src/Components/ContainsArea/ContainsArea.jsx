@@ -16,7 +16,7 @@ const  ContainsArea = (props) => {
                 <ul className="navigation clearfix scroll-nav">
                   <li className="current">
                     <a href="#benefits">
-                      <img src={Arrow_down} />
+                      <img src={Arrow_down} className="me-1" />
                       Benefits
                     </a>
                   </li>
