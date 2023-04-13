@@ -149,7 +149,7 @@ const ClassicSavingAcc = () => {
           </div>
           <div className="container">
             <div className="row">
-              <div className="col-xl-4 col-lg-6">
+              <div classNam e="col-xl-4 col-lg-6">
                 {/*Start Single Documents Box*/}
                 <div
                   className="single-documents-box h-50 m-0 mb-1"
