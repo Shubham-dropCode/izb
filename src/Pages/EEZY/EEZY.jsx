@@ -4,6 +4,7 @@ import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSec
 import MobileStoreButton from "react-mobile-store-button";
 import img from "../../assets/images/IZB/IZB Website Skin/Indo EEZY/Untitled-2.png";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/IZB Contactless Card/Untitled-1.png";
+import ServiceTable from "../../Components/ServiceTable/ServiceTable";
 
 const EEZY = () => {
   const iosUrl =
@@ -55,33 +56,34 @@ const EEZY = () => {
       </section>
 
       <section>
-        <div className="container">
-          <div className="row gap-3">
+        <div className="container my-5">
+          <div className="row gap-3 justify-content-center">
             <div className="heading text-center">
               <h1>Simple Steps to Open an Account</h1>
               <p>We help business and cutomers achieve more.</p>
             </div>
-            <div className="col-md-2 text-wrap" style={{backgroundColor:"#9E1B1E", height:"12em"}}>
-              <h5>Step 1</h5>
-              <p>Download the Indo Zambia Bank App.</p>
+            <div className="col-md-2 text-wrap d-flex flex-column justify-content-center align-items-center text-white" style={{backgroundColor:"#9E1B1E", height:"12em"}}>
+              <h5 className="text-white">Step 1</h5>
+              <p className="text-center">Download the Indo Zambia Bank App.</p>
             </div>
-            <div className="col-md-2 text-wrap">
-              <h5>Step 2</h5>
-              <p>Register as a new customer or existing customer.</p>
+            <div className="col-md-2 text-wrap d-flex flex-column justify-content-center align-items-center text-white" style={{backgroundColor:"#9E1B1E", height:"12em"}}>
+              <h5 className="text-white">Step 2</h5>
+              <p className="text-center">Register as a new customer or existing customer.</p>
             </div>
-            <div className="col-md-2 text-wrap">
-              <h5>Step 3</h5>
-              <p>
+            <div className="col-md-2 text-wrap d-flex flex-column justify-content-center align-items-center text-white" style={{backgroundColor:"#9E1B1E", height:"12em"}}>
+              <h5 className="text-white">Step 3</h5>
+              <p className="text-center">
                 Submit details and wait whilst your account is being activated.
               </p>
             </div>
-            <div className="col-md-2 text-wrap">
-              <h5>Step 4</h5>
-              <p>Account Opened</p>
+            <div className="col-md-2 text-wrap d-flex flex-column justify-content-center align-items-center text-white" style={{backgroundColor:"#9E1B1E", height:"12em"}}>
+              <h5 className="text-white">Step 4</h5>
+              <p className="text-center">Account Opened</p>
             </div>
           </div>
         </div>
       </section>
+      <ServiceTable/>
       <AllAcountsSection />
     </>
   );
