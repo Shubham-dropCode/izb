@@ -14,8 +14,14 @@ const CustomerCare = () => {
     backgroundSize: "cover",
     overflow: "hidden",
   };
+  const containerFluid = {
+    paddingRight: "15px",
+    paddingLeft: "15px",
+    marginRight: 'auto',
+    marginLeft: 'auto'
+  }
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" style={{containerFluid}}>
       <div className="row align-items-center" style={CustomerBgImg}>
         <div className="container">
           <div className="row">

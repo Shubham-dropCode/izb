@@ -2,7 +2,7 @@ import React from "react";
 import SavingAcc from "../../assets/images/IZB/SavingAcc.png";
 import Credit from "../../assets/images/IZB/IZB Website Skin/Home_Page/Credit.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import {CiCircleChevRight} from "react-icons/ci"
+import { CiCircleChevRight } from "react-icons/ci";
 import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.svg";
 import "./Hero.css";
 
@@ -15,17 +15,18 @@ const Hero = () => {
   const settings = {
     infinite: true,
     autoplay: true,
+    autoplaySpeed: 2000,
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
   const bankMenu = {
     position: "absolute",
-    borderRadius: "12px", backgroundColor: "#FFF5E7",
-    left:"10%",
-    top:"100%"
-
-  }
+    borderRadius: "12px",
+    backgroundColor: "#FFF5E7",
+    left: "10%",
+    top: "100%",
+  };
 
   return (
     <>
