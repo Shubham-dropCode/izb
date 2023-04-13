@@ -273,9 +273,7 @@ const Navbar = () => {
                               <li>
                                 <Link to="/LeaseRentalDiscounting">Lease Rental Discounting</Link>
                               </li>
-                              <li>
-                                <Link to="/InternationalBankingForeignBusiness">International Banking Foreign Business</Link>
-                              </li>
+                              
                             </ul>
                             </li>
                         </ul>
@@ -287,7 +285,7 @@ const Navbar = () => {
                             <a href="">Forex Rates</a>
                           </li>
                           <li>
-                            <Link to="/InternatioalBankingForeignBusiness">Forex Business</Link>
+                            <Link to="/InternationalBankingForeignBusiness">Forex Business</Link>
                           </li>
                           <li>
                             <Link to="/ForexSavings">Forex Savings</Link>
