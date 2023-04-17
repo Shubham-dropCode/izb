@@ -2,16 +2,15 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Img1 from "../../assets/images/IZB/IZB Website Skin/Home_Page/New/1.png";
-import Img2 from "../../assets/images/IZB/IZB Website Skin/Home_Page/New/2.png";
-import Img3 from "../../assets/images/IZB/IZB Website Skin/Home_Page/New/3.png";
-import Img4 from "../../assets/images/IZB/IZB Website Skin/Home_Page/New/4.png";
-import Img5 from "../../assets/images/IZB/IZB Website Skin/Home_Page/New/5.png";
-import Img6 from "../../assets/images/IZB/IZB Website Skin/Home_Page/New/6.png";
-import Img7 from "../../assets/images/IZB/IZB Website Skin/Home_Page/New/7.png";
-import Img8 from "../../assets/images/IZB/IZB Website Skin/Home_Page/New/8.png";
 import AccountCard from "./AccountCard";
-
+import SavePlusCard from "../AllAccounts/Personal/SavePlusCard"
+import PrivilegeCard from "../AllAccounts/Personal/PrivilegeCard"
+import TisungeSavings from "./Personal/TisungeSavings";
+import PersonalLoanCard from "./Personal/PersonalLoanCard";
+import IzbPrivilegeCurrentCard from "./Business/izbPrivilegeCurrentCard";
+import ClassicCurrentCard from "./Business/classicCurrentCard";
+import SMECurrentCard from './Business/SMECurrentCard'
+import TermLoanCard from "./Business/TermLoanCard"
 const AllAccounts = () => {
   let settings = {
     dots: true,
@@ -60,19 +59,19 @@ const AllAccounts = () => {
         <div className="row gap-3 ">
           <Slider {...settings}>
             <div>
-              <AccountCard />
+              <SavePlusCard />
             </div>
             <div>
-              <AccountCard />
+              <PrivilegeCard />
             </div>
             <div>
-              <AccountCard />
+              <TisungeSavings />
             </div>
             <div>
-              <AccountCard />
+              <PersonalLoanCard />
             </div>
             <div>
-              <AccountCard />
+              <PersonalLoanCard />
             </div>
           </Slider>
         </div>
@@ -84,16 +83,16 @@ const AllAccounts = () => {
         <div className="row gap-4">
           <Slider {...settings}>
             <div>
-              <AccountCard />
+              <IzbPrivilegeCurrentCard />
             </div>
             <div>
-              <AccountCard />
+              <ClassicCurrentCard />
             </div>
             <div>
-              <AccountCard />
+              <SMECurrentCard />
             </div>
             <div>
-              <AccountCard />
+              <TermLoanCard />
             </div>
             <div>
               <AccountCard />

@@ -72,7 +72,7 @@ Blog Style1 Area Css
 .single-blog-style1 .img-holder img {
     width: 100%;
     transform: scale(1.0);
-    mix-blend-mode: luminosity;
+    /* mix-blend-mode: luminosity; */
 }
 
 .single-blog-style1:hover .img-holder img {
