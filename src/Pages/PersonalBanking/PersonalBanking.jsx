@@ -2,6 +2,13 @@ import React from "react";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
 import img1 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/1.png";
+import img2 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/2.png";
+import img3 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/3.png";
+import img4 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/4.png";
+import img5 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/5.png";
+import img6 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/6.png";
+import img7 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/7.png";
+import img8 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/8.png";
 import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.svg";
 
 import {
@@ -12,6 +19,7 @@ import {
   AiOutlineArrowRight,
 } from "react-icons/ai";
 import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
+import { AiFillCaretRight } from "react-icons/ai";
 
 const PersonalBanking = () => {
   return (
@@ -30,8 +38,8 @@ const PersonalBanking = () => {
                 />
               </div>
               <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">IZB Classic Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">Benefit</h5>
+                <h4 className="text-white">IZB Save Plus A/C</h4>
+                <h5 className="text text-white fs-4 my-2">benefits</h5>
                 <p>
                   <AiOutlinePercentage className="me-2" />
                   Attractive interest
@@ -62,7 +70,7 @@ const PersonalBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img2}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
@@ -70,14 +78,14 @@ const PersonalBanking = () => {
               </div>
               <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
                 <h4 className="text-white">IZB Classic Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefit</h5>
+                <h5 className="text text-white fs-4 my-2">benefits</h5>
                 <p>
                   <AiOutlinePercentage className="me-2" />
                   Attractive interest
                 </p>
                 <p>
                   <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
+                  IZB contactless visa Card
                 </p>
                 <p>
                   <AiOutlineMail className="me-2" />
@@ -102,30 +110,30 @@ const PersonalBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img3}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
                 />
               </div>
               <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">IZB Classic Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefit</h5>
+                <h4 className="text-white">Privelage Savings A/C</h4>
+                <h5 className="text text-white fs-4 my-2">benefits</h5>
                 <p>
                   <AiOutlinePercentage className="me-2" />
-                  Attractive interest
+                  Free E-statement facility
                 </p>
                 <p>
                   <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
+                  Cheque book facility
                 </p>
                 <p>
                   <AiOutlineMail className="me-2" />
-                  SMS Alert
+                  Balance inquiry through on IZB ATM
                 </p>
                 <p>
                   <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  Mobile recharge(Airtel,MTL,Zamtel)
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <button className="btn btn-light py-0">apply now</button>
@@ -141,18 +149,18 @@ const PersonalBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img4}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
                 />
               </div>
               <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">IZB Classic Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefit</h5>
+                <h4 className="text-white">Tisunge Savings A/C</h4>
+                <h5 className="text text-white fs-4 my-2">benefits</h5>
                 <p>
                   <AiOutlinePercentage className="me-2" />
-                  Attractive interest
+                  Free E-statement facility
                 </p>
                 <p>
                   <AiFillCreditCard className="me-2" />
@@ -160,7 +168,7 @@ const PersonalBanking = () => {
                 </p>
                 <p>
                   <AiOutlineMail className="me-2" />
-                  SMS Alert
+                  No maintanance charge
                 </p>
                 <p>
                   <AiOutlineMobile className="me-2" />
@@ -181,30 +189,30 @@ const PersonalBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img5}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
                 />
               </div>
               <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">IZB Classic Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefit</h5>
+                <h4 className="text-white">Tonse Savings A/C</h4>
+                <h5 className="text text-white fs-4 my-2">benefits</h5>
                 <p>
                   <AiOutlinePercentage className="me-2" />
-                  Attractive interest
+                  Free E-statement facility
                 </p>
                 <p>
                   <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
+                  Cheque book facility
                 </p>
                 <p>
                   <AiOutlineMail className="me-2" />
-                  SMS Alert
+                  Balance inquiry through on IZB ATM
                 </p>
                 <p>
                   <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  Mobile recharge(Airtel,MTL,Zamtel)
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <button className="btn btn-light py-0">apply now</button>
@@ -227,30 +235,24 @@ const PersonalBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img6}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
                 />
               </div>
               <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">IZB Classic Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefit</h5>
+                <h4 className="text-white">Indo Home Loan</h4>
+                <h5 className="text text-white fs-4 my-2">purpose</h5>
                 <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
+                  < AiFillCaretRight className="me-2" />
+                  Outright Purchase of a ready-made.
                 </p>
                 <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  < AiFillCaretRight className="me-2" />
+                  Home Improvement - For repairs/
+                  renovation/alteration/extension in 
+                  the existing house/ﬂat.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <button className="btn btn-light py-0">apply now</button>
@@ -266,30 +268,21 @@ const PersonalBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img7}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
                 />
               </div>
               <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">IZB Classic Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefit</h5>
+                <h4 className="text-white">Personal Loan</h4>
+                <h5 className="text text-white fs-4 my-2">Purpose</h5>
                 <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
-                </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  <AiFillCaretRight className="me-2" />
+                  For meeting personal needs such as 
+                  purchase of furniture/equipment, 
+                  meeting social obligations, repair of 
+                  houses etc.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <button className="btn btn-light py-0">apply now</button>
@@ -306,30 +299,21 @@ const PersonalBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img8}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
                 />
               </div>
               <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">IZB Classic Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefit</h5>
+                <h4 className="text-white">Indo Vehicle Loan</h4>
+                <h5 className="text text-white fs-4 my-2">Purpose</h5>
                 <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
-                </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  <AiFillCaretRight className="me-2" />
+                  To ﬁnance purchase of second-hand 
+                  vehicles not more than 5 years old for 
+                  personal and business use from 
+                  reputable dealers.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <button className="btn btn-light py-0">apply now</button>
@@ -357,30 +341,28 @@ const PersonalBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img6}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
                 />
               </div>
               <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">IZB Classic Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefit</h5>
+                <h4 className="text-white">Bumi Fixed Deposit A/C</h4>
+                <h5 className="text text-white fs-4 my-2">benefits</h5>
                 <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
+                  <AiFillCaretRight className="me-2" />
+                  Credit the principal amount to customers 
+                  account.
                 </p>
                 <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
+                  <AiFillCaretRight className="me-2" />
+                  Interest credited upon opening/placement 
+                  of the deposit
                 </p>
                 <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  <AiFillCaretRight className="me-2" />
+                  Attractive intrest rate
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <button className="btn btn-light py-0">apply now</button>
@@ -398,30 +380,30 @@ const PersonalBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img7}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
                 />
               </div>
               <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">IZB Classic Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefit</h5>
+                <h4 className="text-white">Indo Fast Serve</h4>
+                <h5 className="text text-white fs-4 my-2">benefits</h5>
                 <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
+                  <AiFillCaretRight className="me-2" />
+                  Easy to use
                 </p>
                 <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
+                  <AiFillCaretRight className="me-2" />
+                  Time saving
                 </p>
                 <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
+                  <AiFillCaretRight className="me-2" />
+                  Secure
                 </p>
                 <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  <AiFillCaretRight className="me-2" />
+                  Convinient
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <button className="btn btn-light py-0">apply now</button>
