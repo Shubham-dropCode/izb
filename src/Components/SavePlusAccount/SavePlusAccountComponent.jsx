@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import {BsBank} from "react-icons/bs"
+import { Link } from "react-router-dom";
 
-const SavePlusAccountComponent = ({heading, subHeading, content ,img ,btnTxt }) => {
+const SavePlusAccountComponent = ({heading, subHeading, content ,img ,btnTxt,link }) => {
   return (
     <section className="overview-area">
       <div className="container">
@@ -20,10 +21,13 @@ const SavePlusAccountComponent = ({heading, subHeading, content ,img ,btnTxt }) 
               <div className="text">
                 <p>{content}</p>
               </div>
+              <Link to={link}>
+
               <button className="btn btn-danger w-50 text-white fs-5" style={{backgroundColor:"#9E1B1E"}}>
                 <BsBank className="me-4 mb-1 text-white" size={25}/>
                 {btnTxt}
               </button>
+              </Link>
             </div>
           </div>
         </div>

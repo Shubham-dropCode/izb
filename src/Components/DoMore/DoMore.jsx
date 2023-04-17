@@ -2,6 +2,7 @@ import React from "react";
 import PhoneIcon from "../../assets/images/IZB/IZB Website Skin/Home_Page/PhoneIcon.png";
 import LaptopIcon from "../../assets/images/IZB/IZB Website Skin/Home_Page/LaptopIcon.png";
 import CCIcon from "../../assets/images/IZB/IZB Website Skin/Home_Page/CCIcon.png";
+import { Link } from "react-router-dom";
 
 const DoMore = () => {
   const sectionStyle = {
@@ -40,12 +41,14 @@ const DoMore = () => {
                 className="button-box text-center mt-4"
                 style={{ color: "#9E1B1E" }}
               >
+                <Link to="/MobileBanking">
                 <button
                   className="btn-one shadow my-3 bg-white rounded "
                   type="submit"
                 >
-                  <span className="txt"> Download</span>
+                  <span className="txt">Download</span>
                 </button>
+                  </Link>
               </div>
             </div>
           </div>
@@ -64,12 +67,14 @@ const DoMore = () => {
                 className="button-box text-center mt-4"
                 style={{ color: "#9E1B1E" }}
               >
+                <Link to="/ContactlessCard">
                 <button
                   className="btn-one shadow my-3 bg-white rounded"
                   type="submit"
-                >
+                  >
                   <span className="txt"> Know More</span>
                 </button>
+                  </Link>
               </div>
             </div>
           </div>
@@ -88,12 +93,15 @@ const DoMore = () => {
                 className="button-box text-center mt-4"
                 style={{ color: "#9E1B1E" }}
               >
+                <Link to="/NetBanking">
+
                 <button
                   className="btn-one shadow my-3 bg-white rounded"
                   type="submit"
-                >
+                  >
                   <span className="txt"> Register</span>
                 </button>
+                  </Link>
               </div>
             </div>
           </div>

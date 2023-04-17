@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
 import { data , newData } from "./VehicleDisclaimerData";
@@ -7,7 +7,9 @@ import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.p
 
 
 const Disclaimer1 = () => {
-  console.log(newData);
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <Breadcrumb Heading="Disclaimer" img={BackgroundBrundcrumb} />

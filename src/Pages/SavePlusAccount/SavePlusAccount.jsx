@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
 import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusAccountComponent'
@@ -17,6 +17,9 @@ import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/IZB S
 
 
 const SavePlusAccount = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent = "Exclusively designed savings account to inculcate savings habits in parents and guardians for their children. This savings account offers attractive interest rates and other benefits to realize your savings goals with other value added features such as IZB Visa Chip & Pin Debit Card, SMS Alert, Mobile and Internet Banking facility."
   return (
     <>

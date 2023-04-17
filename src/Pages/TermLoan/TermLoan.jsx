@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import img1 from "../../assets/images/IZB/IZB Website Skin/Term_Loan/Untitled-2.png";
@@ -10,6 +10,9 @@ import { question} from "./TermData";
 import TermAccordion from './TermAccordion';
 
 const TermLoan = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent =
     "Access our long and short-term loans designed to meet your specific funding requirements. Our term loan facility enables organisations to meet a wide array of business needs enabling business to financing projects from energy, infrastructure, and Real estate to meet whatever the organizational objective.";
   return (

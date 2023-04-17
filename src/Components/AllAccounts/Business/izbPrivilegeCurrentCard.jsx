@@ -1,5 +1,6 @@
 import React from "react";
 import Img1 from "../../../assets/images/IZB/IZB Website Skin/Home_Page/New/1.png";
+import { Link } from "react-router-dom";
 
 const IzbPrivilegeCurrentCard = () => {
   const imgStyle = {
@@ -17,13 +18,15 @@ const IzbPrivilegeCurrentCard = () => {
         </p>
       </div>
       <div class="button-box text-center h-25 d-flex justify-content-end p-3">
-        <button
-          class="btn-one p-1"
-          style={{ lineHeight: "30px" }}
-          type="submit"
-        >
-          <span class="txt">Create Account</span>
-        </button>
+        <Link to="/PrivilegeCurrentAcc">
+          <button
+            class="btn-one p-1"
+            style={{ lineHeight: "30px" }}
+            type="submit"
+          >
+            <span class="txt">Create Account</span>
+          </button>
+        </Link>
       </div>
     </div>
   );

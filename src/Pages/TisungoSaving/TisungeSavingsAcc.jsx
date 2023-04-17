@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
 import ServiceTable from '../../Components/ServiceTable/ServiceTable'
@@ -17,6 +17,9 @@ import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Tisun
 
 
 const TisungeSavingsAcc = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent = "This is the next level savings which provides account holders with the convenience of an IZB Visa Contactless Debit Card."
   return (
     <>
