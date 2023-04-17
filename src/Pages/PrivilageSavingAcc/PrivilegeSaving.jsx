@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
 import ServiceTable from "../../Components/ServiceTable/ServiceTable";
@@ -23,6 +23,9 @@ import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Privi
 
 
 const PrivilegeSaving = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent = "This savings account comes with a cheque book facility I addition to other features such as SMS Alerts, Internet Banking and the IZB Visa Chip & Pin Debit Card and is an interest bearing savings account."
   return (
     <>

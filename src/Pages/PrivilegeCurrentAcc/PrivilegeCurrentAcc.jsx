@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/IZB Privilege Current Account/Image_1.png";
@@ -11,6 +11,9 @@ import { AiFillCaretRight, AiOutlineRight } from "react-icons/ai";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 const PrivilegeCurrentAcc = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent = "This is a business current account offering premier business banking solutions and services designed specifically to meet business operation needs including concessions on service charges"
   return (
     <>

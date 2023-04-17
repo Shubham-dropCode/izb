@@ -1,5 +1,6 @@
 import React from "react";
 import bgimg from "../../assets/images/IZB/IZB Website Skin/Home_Page/Image_61.png";
+import { Link } from "react-router-dom";
 
 const Slide2 = () => {
   const textColor = {
@@ -34,18 +35,22 @@ const Slide2 = () => {
                 </h6>
               </div>
               <div>
-                <button
-                  className="btn btn-danger w-25 text-white fs-6"
-                  style={{ backgroundColor: "#9E1B1E" }}
-                >
-                  Retail
-                </button>
-                <button
-                  className="btn btn-danger w-25 text-white fs-6"
-                  style={{ backgroundColor: "#9E1B1E" }}
-                >
-                  Corporate
-                </button>
+                <Link to="/NetBanking">
+                  <button
+                    className="btn btn-danger w-25 text-white fs-6"
+                    style={{ backgroundColor: "#9E1B1E" }}
+                  >
+                    Retail
+                  </button>
+                </Link>
+                <Link to="/NetBanking">
+                  <button
+                    className="btn btn-danger w-25 text-white fs-6 ms-3"
+                    style={{ backgroundColor: "#9E1B1E" }}
+                  >
+                    Corporate
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

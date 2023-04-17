@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
 import {AiFillCaretRight , AiOutlineArrowRight, AiOutlineArrowUp} from "react-icons/ai"
@@ -11,6 +11,9 @@ import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Perso
 
 
 const IndoPersonalLoan = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent = "For meeting personal needs such as purchase of furniture/equipment, meeting social obligations, repair of houses etc."
   const [show, setShow] = useState(false);
 

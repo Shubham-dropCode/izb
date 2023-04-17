@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import SavePlusAccountComponent from "../../Components/SavePlusAccount/SavePlusAccountComponent";
@@ -21,6 +21,9 @@ import cheque2 from "../../assets/images/IZB/IZB Website Skin//IZB Privilege Cur
 import {AiFillCaretRight} from "react-icons/ai"
 import creditCard from "../../assets/images/IZB/IZB Website Skin/Classic Current Account/icons/credit-card.png";
 const ClassicCurrentAccount = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent =
     "This standard business current account is designed to support the banking needs of the business fraternity. Grow your business with the right set of tools, provided specifically for your progress.";
   return (

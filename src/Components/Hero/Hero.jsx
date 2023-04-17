@@ -10,6 +10,7 @@ import BankingMenu from "./BankingMenu";
 import HeroSlide1 from "./HeroSlide1";
 import HeroSlide2 from "./HeroSlide2";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const settings = {
@@ -124,8 +125,11 @@ const Hero = () => {
                 </div>
                 <span className="Hborder"></span>
                 <div className="d-flex align-items-center justify-content-end p-2">
+                <Link to="/PersonalBanking">
+
                   Read More
-                  <AiOutlineArrowRight className="ms-4" />
+                  <AiOutlineArrowRight className="ms-2" />
+                </Link>
                 </div>
               </div>
               {/*End Single Documents Box*/}
@@ -206,8 +210,11 @@ const Hero = () => {
                 </div>
                 <span className="Hborder"></span>
                 <div className="d-flex align-items-center justify-content-end p-2">
+                  <Link to="/BusinessBanking">
+
                   Read More
-                  <AiOutlineArrowRight className="ms-4" />
+                  <AiOutlineArrowRight className="ms-2" />
+                  </Link>
                 </div>
               </div>
               {/*End Single Documents Box*/}

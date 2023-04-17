@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import SavePlusAccountComponent from "../../Components/SavePlusAccount/SavePlusAccountComponent";
@@ -22,6 +22,9 @@ import {AiFillCaretRight} from "react-icons/ai"
 import creditCard from "../../assets/images/IZB/IZB Website Skin/Classic Current Account/icons/credit-card.png";
 
 const SMECurrentAccount = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent =
     "This is a current account specifically designed to suport the business banking needs of Small and Medium Scale Enterprise.";
   return (
