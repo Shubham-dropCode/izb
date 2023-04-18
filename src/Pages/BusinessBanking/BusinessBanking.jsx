@@ -2,6 +2,20 @@ import React from "react";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
 import img1 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/1.png";
+import img9 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/9.png";
+import img10 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/10.png";
+import img11 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/11.png";
+import img12 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/12.png";
+import img13 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/13.png";
+import img14 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/14.png";
+import img15 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/15.png";
+import img16 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/16.png";
+import img17 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/17.png";
+import img18 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/18.png";
+import img19 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/19.png";
+import img20 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/20.png";
+import img21 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/21.jpg";
+
 import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
 
 import {
@@ -31,7 +45,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img9}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
@@ -63,7 +77,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img10}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
@@ -74,19 +88,19 @@ const BusinessBanking = () => {
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
                 <p>
                   <AiOutlinePercentage className="me-2" />
-                  Attractive interest
+                  Foreign exchange services.
                 </p>
                 <p>
                   <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
+                  Overdraft.
                 </p>
                 <p>
                   <AiOutlineMail className="me-2" />
-                  SMS Alert
+                  Asset financing.
                 </p>
                 <p>
                   <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  Term loans.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/ClassicCurrentAccount">
@@ -107,7 +121,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img11}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
@@ -118,19 +132,19 @@ const BusinessBanking = () => {
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
                 <p>
                   <AiOutlinePercentage className="me-2" />
-                  Attractive interest
+                  Foreign exchange services.
                 </p>
                 <p>
                   <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
+                  Overdraft.
                 </p>
                 <p>
                   <AiOutlineMail className="me-2" />
-                  SMS Alert
+                  Asset financing.
                 </p>
                 <p>
                   <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  Term loans.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/SMECurrentAcc">
@@ -154,7 +168,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img12}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
@@ -164,20 +178,11 @@ const BusinessBanking = () => {
                 <h4 className="text-white">MSME Loan</h4>
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
                 <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
-                </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  <AiFillCaretRight className="me-2" />
+                  The MSME Sector is the corner stone of 
+                  any great economy. We firmly on board 
+                  to act as a catalyst for the economic 
+                  development of Zambia
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/MSMELoan">
@@ -195,7 +200,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img13}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
@@ -205,20 +210,10 @@ const BusinessBanking = () => {
                 <h4 className="text-white">Term Loan</h4>
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
                 <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
-                </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  <AiFillCaretRight className="me-2" />
+                  Access our long and short-term loans 
+                  designed to meet your specific funding 
+                  requirements.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/TermLoan">
@@ -237,7 +232,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img14}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
@@ -247,20 +242,10 @@ const BusinessBanking = () => {
                 <h4 className="text-white">IZB Auto Finance</h4>
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
                 <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
-                </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  <AiFillCaretRight className="me-2" />
+                  Purchase of brand new and second hand 
+                  utility vehicle. Age of Second- hand 
+                  vehicle not to exceed 5 years.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/AutoFinance">
@@ -278,7 +263,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img15}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
@@ -288,21 +273,15 @@ const BusinessBanking = () => {
                 <h4 className="text-white">IZB Agro Finance</h4>
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
                 <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
+                  <AiFillCaretRight className="me-2" />
+                  We understand the need for food security
+                  and the importance agriculture plays 
+                  into the country’s national development 
+                  goals. At Indo Zambia Bank we study, 
+                  examine and analyse the ﬁnancial 
+                  aspects pertaining to farm business.
                 </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
-                </p>
+
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/AgroFinance">
                   <button className="btn btn-light py-0">Apply now</button>
@@ -320,7 +299,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img16}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
@@ -330,20 +309,11 @@ const BusinessBanking = () => {
                 <h4 className="text-white">Equity Release</h4>
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
                 <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
-                </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  <AiFillCaretRight className="me-2" />
+                  Looking for a quick finance solution and 
+                  have immovable assets. Our equity 
+                  release is a solution to get financing 
+                  backed by your assets. 
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/EquityRelease">
@@ -361,7 +331,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img17}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
@@ -371,20 +341,11 @@ const BusinessBanking = () => {
                 <h4 className="text-white">Business Finance</h4>
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
                 <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
-                </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  <AiFillCaretRight className="me-2" />
+                  This is a specialised overdraft facility for 
+                  business designed for business for 
+                  quick working capital solutions backed 
+                  by security.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/BusinessFinance">
@@ -403,7 +364,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img18}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
@@ -413,20 +374,12 @@ const BusinessBanking = () => {
                 <h4 className="text-white">Working Capital Finance</h4>
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
                 <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
-                </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  <AiFillCaretRight className="me-2" />
+                  Improve working capital by unlocking 
+                  funds caught in the supply chain, and 
+                  manage incoming and outgoing cash
+                  flows more effectively with IZB 
+                  overdraft facility.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/WorkingCapitalFinance">
@@ -444,7 +397,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img1}
+                  src={img19}
                   style={{ height: "280px", objectFit: "cover" }}
                   className=""
                   alt=""
@@ -454,20 +407,9 @@ const BusinessBanking = () => {
                 <h4 className="text-white">Lease Rental Discounting</h4>
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
                 <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
-                </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  <AiFillCaretRight className="me-2" />
+                  Need ﬁnancing against future receivables. 
+                  We have your back.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/LeaseRentalDiscounting">
