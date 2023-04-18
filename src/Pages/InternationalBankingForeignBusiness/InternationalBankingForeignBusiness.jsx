@@ -8,8 +8,12 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Forign Business/Untitled-1.png";
 import InternationlAccordion from './InternationlAccordion';
 import { question } from './InternationalData';
+import { useEffect } from 'react';
 
 const  InternationalBankingForeignBusiness = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent = "Go beyond borders with our International Banking facilities.we tap into Global presence of our shareholding banks tomake your foreign business swift."
   return (
     <>

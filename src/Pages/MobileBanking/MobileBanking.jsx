@@ -12,9 +12,13 @@ import img6 from "../../assets/images/IZB/IZB Website Skin/Indo Mobile Banking/i
 import bannerPhones from "../../assets/images/IZB/IZB Website Skin/Home_Page/SliderPhone.png";
 import bgimg from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/image_6.png";
 import { AiFillCaretRight, AiOutlineRight } from "react-icons/ai";
+import { useEffect } from "react";
 
 
 const MobileBanking = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const textColor = {
     color: "#9E1B1E",
   };

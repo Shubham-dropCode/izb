@@ -9,6 +9,7 @@ import img from "../../assets/images/IZB/IZB Website Skin/Home_Page/Image_3Short
 import IndoBankingSlider from '../../Components/IndoBankingSlider/IndoBankingSlider'
 import Slide1 from '../../Components/IndoBankingSlider/Slide2'
 const Homepage = () => {
+
  const accountContent = "Exclusively designed savings account to inculcate savings habits in parents and guardians for their children. This savings account offers attractive interest rates and other benefits to realize your savings goals with other value added features such as IZB Contactless Visa Card, SMS Alert, Mobile and Internet Banking facility."
 
  return (

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import img1 from "../../assets/images/IZB/IZB Website Skin/Auto Finance/Untitled-2.png";
@@ -11,6 +11,9 @@ import { question } from "./AutoFinanceData";
 console.log(question);
 
 const AutoFinance = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent =
     "Purchase of brand new and second hand utility vehicle.Age of Second- hand vehicle not to exceed 5 years.";
   return (

@@ -7,8 +7,12 @@ import cashWithdrawal from "../../assets/images/IZB/IZB Website Skin/Indo Fast S
 import CashDeposit from "../../assets/images/IZB/IZB Website Skin/Indo Fast Serve/Icon/deposit.png";
 import BalanceEnquiry from "../../assets/images/IZB/IZB Website Skin/Indo Fast Serve/Icon/calculator.png";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Indo Fast Serve/Image_1.png";
+import { useEffect } from "react";
 
 const IndoFastServe = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <Breadcrumb Heading="Indo Fast Serve" img={BackgroundBrundcrumb}/>

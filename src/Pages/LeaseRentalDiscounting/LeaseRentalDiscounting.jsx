@@ -8,8 +8,12 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Lease Rental Discounting IZB/Untitled-1.png";
 import { question } from './LeaseData';
 import LeaseAccoudion from './LeaseAccoudion';
+import { useEffect } from 'react';
 
 const LeaseRentalDiscounting = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent = "Need ﬁnancing against future receivables. We have your back."
   return (
     <>

@@ -308,7 +308,7 @@ const Navbar = () => {
                             <Link to="/ContactlessCard">IZB Cards</Link>
                           </li>
                           <li>
-                            <a href="loan-education.html">
+                            <a href="https://epay.izb.co.zm/login/">
                               ZRA/NAPSA/E-Payment
                             </a>
                           </li>
@@ -321,10 +321,10 @@ const Navbar = () => {
                         <a href="#" className="text-white rounded" style={{ backgroundColor: "#9E1B1E" }}>Indo Net Banking</a>
                         <ul>
                           <li>
-                            <a href="blog-2.html">Retail</a>
+                            <a href="https://ebanking.izb.co.zm:7004/Retail/#/landing">Retail</a>
                           </li>
                           <li>
-                            <a href="blog-3.html">Corporate</a>
+                            <a href="https://ebanking.izb.co.zm:7004/CorporateBanking/#/landing">Corporate</a>
                           </li>
                         </ul>
                       </li>

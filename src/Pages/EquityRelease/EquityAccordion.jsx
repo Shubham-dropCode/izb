@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react';
 import { useState } from 'react';
 import {
     AiOutlineArrowRight,
@@ -7,6 +8,9 @@ import {
   } from "react-icons/ai";
 
 const EquityAccordion = ({question,answer}) => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
     const [show, setShow] = useState(false);
     return (
       <li className="accordion block active-block">

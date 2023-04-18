@@ -11,9 +11,13 @@ import SavePlusAccountComponent from "../../Components/SavePlusAccount/SavePlusA
 import ContainsArea from "../../Components/ContainsArea/ContainsArea";
 import img1 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/8.png";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Personal_Loan/Image_1.png";
+import { useEffect } from "react";
 
 
 const IndoVehicleLoan = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent =
     "Looking for a quick finance solution and have immovable assets. Our equity release is a quick solution to get financing backed by your assets.";
   const [show, setShow] = useState(false);

@@ -4,9 +4,13 @@ import BriefHistory from '../../Components/BriefHistory/BriefHistory'
 import img from "../../assets/images/IZB/IZB Website Skin/Why bank with us/image_2.png";
 import WhyBankWithUsComponents from '../../Components/WhyBankWithUsComponent/WhyBankWithUsComponent';
 import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
+import { useEffect } from 'react';
 
 
 const WhyBankWithUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
     <Breadcrumb Heading="Why Bank With Us" img={BackgroundBrundcrumb}/>

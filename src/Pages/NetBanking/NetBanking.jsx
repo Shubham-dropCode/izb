@@ -13,8 +13,12 @@ import mobileApp from "../../assets/images/IZB/IZB Website Skin/Indo Net Banking
 import onlineBanking from "../../assets/images/IZB/IZB Website Skin/Indo Net Banking/Icons/online-banking.png";
 import stockMarket from "../../assets/images/IZB/IZB Website Skin/Indo Net Banking/Icons/stock-market.png";
 import CC from "../../assets/images/IZB/IZB Website Skin/Indo Net Banking/Icons/credit-card.png";
+import { useEffect } from "react";
 
 const NetBanking = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const content =
     "Manage your account conveniently through the Internet. Up-to-the-second details of your account Access anytime, from anywhere No queues to stand in, or turns to wait for.View Account Balances Monitor cleared transactions, forex rates inquiry vew, print and store electronic copies of your statements";
   return (

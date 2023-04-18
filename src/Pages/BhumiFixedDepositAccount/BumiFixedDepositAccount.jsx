@@ -12,10 +12,14 @@ import SavePlusAccountComponent from "../../Components/SavePlusAccount/SavePlusA
 import img1 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/20.png";
 import Arrow_down from "../../assets/images/IZB/arrow_down.png";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Bumi Fixed Deposit Account/Image_1.png";
+import { useEffect } from "react";
 
 
 
 const BumiFixedDepositAccount = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 const [show, setShow] = useState(false);
   return (
     <>

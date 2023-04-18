@@ -21,8 +21,12 @@ import {
 import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
 import { AiFillCaretRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const PersonalBanking = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <Breadcrumb Heading="Personal Banking" img={BackgroundBrundcrumb} />

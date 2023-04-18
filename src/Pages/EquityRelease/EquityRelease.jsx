@@ -8,8 +8,12 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Equity Release/Untitled-1.png";
 import EquityAccordion from './EquityAccordion';
 import {question} from "./EquityData"
+import { useEffect } from 'react';
 
 const EquityRelease = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent = "Looking for a quick finance solution and have immovable assets. Our equity release is a solution to get financing backed by your assets."
   return (
     <>

@@ -13,9 +13,13 @@ import {
 } from "react-icons/ai";
 import { accountContains } from "../../Data/ContainAreaData";
 import { useState } from "react";
+import { useEffect } from "react";
 console.log(accountContains);
 
 const IndoHomeLoan = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent =
     "Looking to buy or renovate. Spruce up your property portfolio with an IZB home loan. Whether you would like a new kitchen or want to give your lounge a new lease of life, you could get more from your home.";
   const data = [

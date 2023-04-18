@@ -5,8 +5,12 @@ import MobileStoreButton from "react-mobile-store-button";
 import img from "../../assets/images/IZB/IZB Website Skin/Indo EEZY/Untitled-2.png";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/IZB Contactless Card/Untitled-1.png";
 import ServiceTable from "../../Components/ServiceTable/ServiceTable";
+import { useEffect } from "react";
 
 const EEZY = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const iosUrl =
     "https://apps.apple.com/us/app/izb-retail-banking/id1507943733";
   const androidUrl =

@@ -10,8 +10,12 @@ import SavePlusAccountComponent from "../../Components/SavePlusAccount/SavePlusA
 import {IoIosArrowForward} from "react-icons/io"
 
 import { AiFillCaretRight } from "react-icons/ai";
+import { useEffect } from "react";
 
 const ContactlessCard = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent =
     "Get the most out of every transaction with the newIZB contactless Visa Card. Tap to pay!";
   return (

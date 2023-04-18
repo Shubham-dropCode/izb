@@ -8,8 +8,12 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Working Capital Finance/Untitled-1.png";
 import WorkingAccordion from "./WorkingAccordion";
 import { question } from "./WorkingData";
+import { useEffect } from "react";
 
 const WorkingCapitalFinance = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent =
     "Improve working capital by unlocking funds caught in the supply chain, and manage incoming and outgoing cash flows more effectively with IZB overdraft facility.";
   return (

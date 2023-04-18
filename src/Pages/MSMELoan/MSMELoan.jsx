@@ -8,8 +8,12 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/MSME Loan/Untitled-1.png";
 import MSMEaccordion from "./MSMEaccordion";
 import { question} from "./MSMEData";
+import { useEffect } from "react";
 
 const MSMELoan = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent =
     "The MSME Sector is the corner stone of any great economy. We firmly on board to act as a catalyst for the economic development of Zambia";
   return (

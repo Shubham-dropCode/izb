@@ -39,6 +39,7 @@ import EEZY from "./Pages/EEZY/EEZY"
 import BusinessBanking from "./Pages/BusinessBanking/BusinessBanking";
 import FAQS from "./Pages/FAQS/FAQS";
 import Disclaimer from "./Pages/IndoVehicleLoan/Disclaimer1";
+import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 function App() {
   return (
     <>
@@ -82,6 +83,7 @@ function App() {
           <Route path="/ContactlessCard" element={<ContactlessCard />} />
           <Route path="/EEZY" element={<EEZY />} />
           <Route path="/Disclaimer" element={<Disclaimer />} />
+          <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -7,8 +7,12 @@ import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.p
 import bgimg from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/image_6.png";
 import Faqbg from "../../assets/images/IZB/IZB Website Skin/Home_Page/FAQbg.png";
 import horn from "../../assets/images/IZB/IZB Website Skin/FAQS/public-relation.png";
+import { useEffect } from "react";
 
 const FAQS = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [data, setData] = useState(questionSet1);
   const [newData, setNewData] = useState(questionSet2);
   return (

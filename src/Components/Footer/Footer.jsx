@@ -49,22 +49,22 @@ const Footer = () => {
                   <div className="footer-social-link pt-4">
                     <ul className="clearfix">
                       <li>
-                        <a href="#">
-                          <i className="fab fa-youtube" />
+                        <a href="https://www.linkedin.com/company/indo-zambia-bank/">
+                          <i className="fab fa-linkedin" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/indo_zambia_bank/">
                           <i className="fab fa-instagram" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://mobile.twitter.com/IndoZambiaBank">
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.facebook.com/IndoZambiaBank?_rdc=1&_rdr#">
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
@@ -154,7 +154,7 @@ const Footer = () => {
                       <Link to="/Disclaimer">Disclaimer</Link>
                     </li>
                     <li>
-                      <a href="#">Privacy Policy</a>
+                      <Link to="PrivacyPolicy">Privacy Policy</Link>
                     </li>
                     <li>
                       <a href="#">Notice</a>

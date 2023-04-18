@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
 import img1 from "../../assets/images/IZB/IZB Website Skin/Agro Finance/image_2.png";
@@ -10,6 +10,9 @@ import AgroFinanceAccordion from './AgroFinanceAccordion';
 import {question} from "./AgroFinanceData"
 
 const AgroFinance = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent = "We understand the need for food security and the importance agriculture plays into the country’s national development goals. At Indo Zambia Bank we study, examine and analyse the ﬁnancial aspects pertaining to farm business. Tailor made Agro ﬁnancing product is available making us your all WEATHER Agro Partner of choice."
   return (
     <>

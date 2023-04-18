@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import BriefHistory from "../../Components/BriefHistory/BriefHistory";
@@ -13,6 +13,9 @@ import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.p
 
 
 const AboutUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
     <Breadcrumb Heading="About Us" img={BackgroundBrundcrumb}/>

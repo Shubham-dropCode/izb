@@ -1,29 +1,26 @@
-import React, { useEffect } from "react";
+import React from "react";
+import { useEffect } from "react";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
-import { data , newData } from "./VehicleDisclaimerData";
-import DisclaimerAccordion from "./DisclaimerAccordion";
+import { newData } from "./PrivacyData";
+import PrivacyAccordion from "./PrivacyAccordion";
 import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
 
-
-const Disclaimer1 = () => {
+const PrivacyPolicy = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
-      <Breadcrumb Heading="Disclaimer" img={BackgroundBrundcrumb} />
+      <Breadcrumb Heading="PrivacyPolicy" img={BackgroundBrundcrumb} />
       <div className="container mt-5">
         <div className="faq-style1__content">
           <ul className="accordion-box">
-            {data.map((item) => {
+            {newData.map((item) => {
               const { id } = item.id;
-              return <DisclaimerAccordion key={id} {...item} />;
+              return <PrivacyAccordion key={id} {...item} />;
             })}
           </ul>
-        </div>
-        <div className="bg-light p-3 shadow mb-4">
-          Terms and Conditions Apply
         </div>
       </div>
       <div className="col-xl-12 justify-content-center"></div>
@@ -32,4 +29,4 @@ const Disclaimer1 = () => {
   );
 };
 
-export default Disclaimer1;
+export default PrivacyPolicy;

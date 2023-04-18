@@ -16,9 +16,13 @@ import transferMoney from "../../assets/images/IZB/IZB Website Skin/IZB Classic 
 import { AiFillCaretRight } from "react-icons/ai";
 import ServiceTable from "../../Components/ServiceTable/ServiceTable";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/IZB Classic Savings Account/Image_1.png";
+import { useEffect } from "react";
 
 
 const ClassicSavingAcc = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent =
     "This is a standard level savings account with value addedfeatures of SMS alerts, Internet Banking with the IZB Visa Chip & Pin Debit Card facilities and is as an interest bearing savings account.";
   return (

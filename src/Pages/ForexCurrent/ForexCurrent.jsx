@@ -6,9 +6,13 @@ import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusA
 import img1 from "../../assets/images/IZB/IZB Website Skin/IZB Forex Current/Untitled-2.png"
 import bgimg from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/image_6.png";
 import { AiFillCaretRight, AiOutlineRight } from "react-icons/ai"; 
+import { useEffect } from 'react';
 
 
 const ForexCurrent = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const accountContent = "Current Account can be opened for business houses and also for individuals in US Dollar/Pound Sterling/South African Rand/Euro. Cheque book facility is available. Payments within Zambia can be made by way of FCY cheques, and the clearing of cheques are done at free of cost. With this product, we also offer VISA Chip & Pin Debit Card facility, which is ideal for businessment/employees traveling frequently outside Zambia, who can draw money from any of the VISA enabled ATMs around the world. "
   return (
     <>
