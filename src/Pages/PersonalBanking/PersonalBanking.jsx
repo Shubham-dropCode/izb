@@ -20,6 +20,7 @@ import {
 } from "react-icons/ai";
 import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
 import { AiFillCaretRight } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const PersonalBanking = () => {
   return (
@@ -57,10 +58,12 @@ const PersonalBanking = () => {
                   Mobile Banking & internet banking facilities
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <button className="btn btn-light py-0">apply now</button>
-                  <a href="" className="text-white">
-                    know more <AiOutlineArrowRight />{" "}
-                  </a>
+                  <Link to="/SavePlusAccount">
+                  <button className="btn btn-light py-0">Apply now</button>
+                  </Link>
+                  <Link to="/SavePlusAccount" className="text-white">
+                    Know more <AiOutlineArrowRight />{" "}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -96,10 +99,12 @@ const PersonalBanking = () => {
                   Mobile Banking & internet banking facilities
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <button className="btn btn-light py-0">apply now</button>
-                  <a href="" className="text-white">
-                    know more <AiOutlineArrowRight />{" "}
-                  </a>
+                  <Link to="/ClassicSavingAcc">
+                  <button className="btn btn-light py-0">Apply now</button>
+                  </Link>
+                  <Link to="/ClassicSavingAcc" className="text-white">
+                    Know more <AiOutlineArrowRight />{" "}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -136,10 +141,12 @@ const PersonalBanking = () => {
                   Mobile recharge(Airtel,MTL,Zamtel)
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <button className="btn btn-light py-0">apply now</button>
-                  <a href="" className="text-white">
-                    know more <AiOutlineArrowRight />{" "}
-                  </a>
+                  <Link to="/PrivilageSavingAcc">
+                  <button className="btn btn-light py-0">Apply now</button>
+                  </Link>
+                  <Link to="/PrivilageSavingAcc" className="text-white">
+                    Know more <AiOutlineArrowRight />{" "}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -175,10 +182,12 @@ const PersonalBanking = () => {
                   Mobile Banking & internet banking facilities
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <button className="btn btn-light py-0">apply now</button>
-                  <a href="" className="text-white">
-                    know more <AiOutlineArrowRight />{" "}
-                  </a>
+                  <Link to="/TisungoSaving">
+                  <button className="btn btn-light py-0">Apply now</button>
+                  </Link>
+                  <Link to="/TisungoSaving" className="text-white">
+                    Know more <AiOutlineArrowRight />{" "}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -215,10 +224,12 @@ const PersonalBanking = () => {
                   Mobile recharge(Airtel,MTL,Zamtel)
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <button className="btn btn-light py-0">apply now</button>
-                  <a href="" className="text-white">
-                    know more <AiOutlineArrowRight />{" "}
-                  </a>
+                  <Link to="/TonseSavingAcc">
+                  <button className="btn btn-light py-0">Apply now</button>
+                  </Link>
+                  <Link to="/TonseSavingAcc" className="text-white">
+                    Know more <AiOutlineArrowRight />{" "}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -255,10 +266,12 @@ const PersonalBanking = () => {
                   the existing house/ﬂat.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <button className="btn btn-light py-0">apply now</button>
-                  <a href="" className="text-white">
-                    know more <AiOutlineArrowRight />{" "}
-                  </a>
+                  <Link to="/IndoHomeLoan">
+                  <button className="btn btn-light py-0">Apply now</button>
+                  </Link>
+                  <Link to="/IndoHomeLoan" className="text-white">
+                    Know more <AiOutlineArrowRight />{" "}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -285,10 +298,12 @@ const PersonalBanking = () => {
                   houses etc.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <button className="btn btn-light py-0">apply now</button>
-                  <a href="" className="text-white">
-                    know more <AiOutlineArrowRight />{" "}
-                  </a>
+                  <Link to="/IndoPersonalLoan">
+                  <button className="btn btn-light py-0">Apply now</button>
+                  </Link>
+                  <Link to="/IndoPersonalLoan" className="text-white">
+                    Know more <AiOutlineArrowRight />{" "}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -316,10 +331,12 @@ const PersonalBanking = () => {
                   reputable dealers.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <button className="btn btn-light py-0">apply now</button>
-                  <a href="" className="text-white">
-                    know more <AiOutlineArrowRight />{" "}
-                  </a>
+                  <Link to="/IndoVehicleLoan">
+                  <button className="btn btn-light py-0">Apply now</button>
+                  </Link>
+                  <Link to="/IndoVehicleLoan" className="text-white">
+                    Know more <AiOutlineArrowRight />{" "}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -332,7 +349,7 @@ const PersonalBanking = () => {
         <div className="d-flex justify-content-around mb-3 mt-5">
 
       <h2>Fixed Deposit</h2>
-      <h2>Fixed Deposit</h2>
+      <h2>Agency Banking</h2>
         </div>
 
       <div className="d-flex justify-content-between">
@@ -365,10 +382,12 @@ const PersonalBanking = () => {
                   Attractive intrest rate
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <button className="btn btn-light py-0">apply now</button>
-                  <a href="" className="text-white">
-                    know more <AiOutlineArrowRight />{" "}
-                  </a>
+                  <Link to="/BhumiFixedDepositAccount">
+                  <button className="btn btn-light py-0">Apply now</button>
+                  </Link>
+                  <Link to="/BhumiFixedDepositAccount" className="text-white">
+                    Know more <AiOutlineArrowRight />{" "}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -406,10 +425,13 @@ const PersonalBanking = () => {
                   Convinient
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <button className="btn btn-light py-0">apply now</button>
-                  <a href="" className="text-white">
-                    know more <AiOutlineArrowRight />{" "}
-                  </a>
+                  <Link to="/IndoFastServe">
+                  
+                  <button className="btn btn-light py-0">Apply now</button>
+                  </Link>
+                  <Link to="/IndoFastServe" className="text-white">
+                    Know more <AiOutlineArrowRight />{" "}
+                  </Link>
                 </div>
               </div>
             </div>
