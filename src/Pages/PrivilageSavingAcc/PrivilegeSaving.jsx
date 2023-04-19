@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
-import ServiceTable from "../../Components/ServiceTable/ServiceTable";
 import { AiFillCaretRight } from "react-icons/ai";
 import percent from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/percentage.png";
 import CC from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/credit-card.png";
@@ -18,6 +17,7 @@ import selfService from "../../assets/images/IZB/IZB Website Skin//IZB Privilege
 import SavePlusAccountComponent from "../../Components/SavePlusAccount/SavePlusAccountComponent";
 import ContainsArea from "../../Components/ContainsArea/ContainsArea";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Privilege Savings Accoun/Image_1.png";
+import PrivilageSavingsTable from "../../Components/ServiceTable/PrivilageSavingsTable";
 
 
 
@@ -276,7 +276,7 @@ const PrivilegeSaving = () => {
           </div>
         </div>
       </section>
-      <ServiceTable />
+      <PrivilageSavingsTable />
       <AllAcountsSection />
     </>
   );
