@@ -75,16 +75,22 @@ const Hero = () => {
                           </div>
                           <div className="pt-3">
                             <div>
+                              <Link to="/SavePlusAccount">
                               <ArrowR />
                               Save Plus Account
+                              </Link>
                             </div>
                             <div>
+                              <Link to="/PrivilageSavingAcc">
                               <ArrowR />
                               Privilege Savings Account
+                              </Link>
                             </div>
                             <div>
+                              <Link to="/TisungoSaving">
                               <ArrowR />
                               Tisunge Savings Account
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -106,16 +112,22 @@ const Hero = () => {
                           </div>
                           <div className="py-3">
                             <div>
+                              <Link to="/IndoPersonalLoan">
                               <ArrowR />
                               Personal Loan
+                              </Link>
                             </div>
                             <div>
+                              <Link to="/IndoHomeLoan">
                               <ArrowR />
                               Indo Home Loan
+                              </Link>
                             </div>
                             <div>
+                              <Link to="/IndoVehicleLoan">
                               <ArrowR />
                               Vehicle Loan
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -163,16 +175,23 @@ const Hero = () => {
                           </div>
                           <div className="pt-3">
                             <div>
+                              <Link to="/PrivilegeCurrentAcc">
                               <ArrowR />
                               Privilege Current Account
+                              </Link>
                             </div>
                             <div>
+                              <Link to="/ClassicCurrentAccount">
                               <ArrowR />
                               Classic Current Account
+                              </Link>
                             </div>
                             <div>
+                              <Link to="/SMECurrentAcc">
+
                               <ArrowR />
                               SME Current Account
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -191,16 +210,22 @@ const Hero = () => {
                           </div>
                           <div className="py-3">
                             <div>
+                              <Link to="/TermLoan">
                               <ArrowR />
                               Term Loan
+                              </Link>
                             </div>
                             <div>
+                              <Link to="/AutoFinance">
                               <ArrowR />
                               Auto Finance
+                              </Link>
                             </div>
                             <div>
+                              <Link to="/AgroFinance">
                               <ArrowR />
                               Argo Finance
+                              </Link>
                             </div>
                           </div>
                         </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -13,7 +13,37 @@ import SMECurrentCard from "./Business/SMECurrentCard";
 import TermLoanCard from "./Business/TermLoanCard";
 import { Link } from "react-router-dom";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import ArrowL from "../../assets/images/IZB/IZB Website Skin/LeftArrow.png";
+import ArrowR from "../../assets/images/IZB/IZB Website Skin/RightArrow.png";
+import { BsLock } from "react-icons/bs";
+
 const AllAccounts = () => {
+  const refSlider = useRef();
+  console.log(refSlider.current);
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <img
+      src={ArrowR}
+        className={className}
+        style={{ ...style, display: "block",width:"50px",height:"50px",right:"-50px"  }}
+        onClick={onClick}
+      />
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <img
+        src={ArrowL}
+        className={className}
+        style={{ ...style, display: "block",width:"50px",height:"50px",left:"-70px" }}
+        onClick={onClick}
+      />
+    );
+  }
+
   let settings = {
     dots: true,
     infinite: false,
@@ -21,6 +51,8 @@ const AllAccounts = () => {
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
+    nextArrow: <SampleNextArrow  />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -68,7 +100,7 @@ const AllAccounts = () => {
           </Link>
         </div>
         <div className="row gap-3 ">
-          <Slider {...settings}>
+          <Slider ref={refSlider} {...settings}>
             <div>
               <SavePlusCard />
             </div>
@@ -115,7 +147,7 @@ const AllAccounts = () => {
               <TermLoanCard />
             </div>
             <div>
-            <SavePlusCard />
+              <SavePlusCard />
             </div>
           </Slider>
         </div>

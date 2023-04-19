@@ -23,7 +23,7 @@ const DoMore = () => {
             E-services.
           </p>
         </div>
-        <div className="row choose-style1__content gap-5 justify-content-center">
+        <div className="row choose-style1__content gap-4 justify-content-center">
           {/*Start Single Choose Style1*/}
           <div className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border w-25"  style={{borderRadius:"12px" ,backgroundColor:"#FDFDFD"}}>
             <div className="single-choose-style1">
@@ -43,7 +43,7 @@ const DoMore = () => {
               >
                 <Link to="/MobileBanking">
                 <button
-                  className="btn-one shadow my-3 bg-white rounded "
+                  className="btn-one shadow my-4 bg-white rounded "
                   type="submit"
                 >
                   <span className="txt">Download</span>
@@ -69,7 +69,7 @@ const DoMore = () => {
               >
                 <Link to="/ContactlessCard">
                 <button
-                  className="btn-one shadow my-3 bg-white rounded"
+                  className="btn-one shadow mb-5 bg-white rounded"
                   type="submit"
                   >
                   <span className="txt"> Know More</span>
@@ -96,7 +96,7 @@ const DoMore = () => {
                 <Link to="/NetBanking">
 
                 <button
-                  className="btn-one shadow my-3 bg-white rounded"
+                  className="btn-one shadow my-4 bg-white rounded"
                   type="submit"
                   >
                   <span className="txt"> Register</span>

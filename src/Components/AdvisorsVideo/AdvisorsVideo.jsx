@@ -12,7 +12,7 @@ const AdvisorsVideo = () => {
     overflow: "hidden",
   };
   const opts = {
-    height: '1000',
+    height: '700',
     width: '100%',
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
@@ -20,7 +20,7 @@ const AdvisorsVideo = () => {
     },
   };
   return (
-    <div className="container-fluid pt-5 px-0">
+    <div className="container-fluid px-0">
       <div className="row">
       <YouTube videoId="Id3LBKFrBEU" opts={opts} />
         <div className="d-flex flex-column justify-content-end py-3">

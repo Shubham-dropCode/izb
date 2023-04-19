@@ -36,9 +36,9 @@ const SavePlusAccount = () => {
             We help businesses and customers achieve more.
           </p>
         </div>
-        <div className="d-flex justify-content-center">
-          <ul className="row choose-style1__content">
-            <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
+        <div className="d-flex ">
+          <ul className="row choose-style1__content justify-content-center">
+            <li className="col-xl-2 col-lg-2 single-choose-style1-colum text-center px-4">
               <div className="single-choose-style1">
                 <div className="icon">
                   <img src={percent} alt="" />
@@ -48,7 +48,7 @@ const SavePlusAccount = () => {
                 </div>
               </div>
             </li>
-            <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
+            <li className="col-xl-2 col-lg-2 single-choose-style1-colum text-center  px-4">
               <div className="single-choose-style1">
                 <div className="icon">
                   <img src={CC} alt="" />
@@ -58,7 +58,7 @@ const SavePlusAccount = () => {
                 </div>
               </div>
             </li>
-            <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
+            <li className="col-xl-2 col-lg-2 single-choose-style1-colum text-center px-4">
               <div className="single-choose-style1">
                 <div className="icon">
                   <img src={EmailAlert} alt="" />
@@ -68,7 +68,7 @@ const SavePlusAccount = () => {
                 </div>
               </div>
             </li>
-            <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
+            <li className="col-xl-2 col-lg-2 single-choose-style1-colum text-center px-4">
               <div className="single-choose-style1">
                 <div className="icon">
                   <img src={Device} alt="" />
@@ -78,7 +78,7 @@ const SavePlusAccount = () => {
                 </div>
               </div>
             </li>
-            <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
+            <li className="col-xl-2 col-lg-2 single-choose-style1-colum text-center px-4">
               <div className="single-choose-style1">
                 <div className="icon">
                   <img src={money} alt="" />

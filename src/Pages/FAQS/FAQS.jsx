@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
-import { questionSet1, questionSet2 } from "./FaqData";
+import { S1col1, S1col2, S2col1, S2col2 } from "./FaqData";
 import Accordion from "./Accordion";
 import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
 import bgimg from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/image_6.png";
@@ -11,10 +11,12 @@ import { useEffect } from "react";
 
 const FAQS = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-  const [data, setData] = useState(questionSet1);
-  const [newData, setNewData] = useState(questionSet2);
+    window.scrollTo(0, 0);
+  }, []);
+  const [col1, setCol1] = useState(S1col1);
+  const [col2, setCol2] = useState(S1col2);
+  const [col3, setCol3] = useState(S2col1);
+  const [col4, setCol4] = useState(S2col2);
   return (
     <>
       <Breadcrumb Heading="FAQS" img={BackgroundBrundcrumb} />
@@ -37,47 +39,80 @@ const FAQS = () => {
         <div>
           <h2 className="my-3">FAQs on SMS-Alerts</h2>
         </div>
-
-        <div className="col-xl-12 justify-content-center">
-          <div className="faq-style1__content">
-            <ul className="accordion-box">
-              {data.map((item) => {
-                const { id } = item;
-                return <Accordion key={id} {...item} />;
-              })}
-            </ul>
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-6 justify-content-center">
+              <div className="faq-style1__content">
+                <ul className="accordion-box">
+                  {col1.map((item) => {
+                    const { id } = item;
+                    return <Accordion key={id} {...item} />;
+                  })}
+                </ul>
+              </div>
+            </div>
+            <div className="col-xl-6 justify-content-center">
+              <div className="faq-style1__content">
+                <ul className="accordion-box">
+                  {col2.map((item) => {
+                    const { id } = item;
+                    return <Accordion key={id} {...item} />;
+                  })}
+                </ul>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div>
-          <h2 className="my-3">FAQs on E-Statement</h2>
-        </div>
-
-        <div className="col-xl-12 justify-content-center">
-          <div className="faq-style1__content">
-            <ul className="accordion-box">
-              {newData.map((item) => {
-                const { id } = item;
-                return <Accordion key={id} {...item} />;
-              })}
-            </ul>
+          <div>
+            <h2 className="my-3">FAQs on E-Statement</h2>
+          </div>
+          <div className="row">
+            <div className="col-xl-6 justify-content-center">
+              <div className="faq-style1__content">
+                <ul className="accordion-box">
+                  {col3.map((item) => {
+                    const { id } = item;
+                    return <Accordion key={id} {...item} />;
+                  })}
+                </ul>
+              </div>
+            </div>
+            <div className="col-xl-6 justify-content-center">
+              <div className="faq-style1__content">
+                <ul className="accordion-box">
+                  {col4.map((item) => {
+                    const { id } = item;
+                    return <Accordion key={id} {...item} />;
+                  })}
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
       <section>
         <div
           className="container-fluid"
           style={{ backgroundImage: `url(${Faqbg})` }}
         >
-          <div className="container">
-            <div className="row">
+          <div className="container mt-4">
+            <div className="row py-5">
               <div className="col-md-6 text-center">
                 <img src={horn} width={250} alt="" />
               </div>
               <div className="col-md-6 text-white h-100 ">
                 <h3 className="text-white my-3">Customer Awareness</h3>
-                <p>IZB never asks any confidential information to customers such as: ATM or Debit card no., Pin, User id , Password of internet banking, etc. If such information is asked over phone or mobile or through email, avoid disclosing such confidential information to the caller. <br></br>In such cases Customers are requested to bring this to the notice of their parent branch.</p>
+                <p>
+                  IZB never asks any confidential information to customers such
+                  as: ATM or Debit card no., Pin, User id , Password of internet
+                  banking, etc. If such information is asked over phone or
+                  mobile or through email, avoid disclosing such confidential
+                  information to the caller.
+                </p>
+                <p>
+                  In such cases Customers are requested to bring this to the
+                  notice of their parent branch.
+                </p>
               </div>
             </div>
           </div>

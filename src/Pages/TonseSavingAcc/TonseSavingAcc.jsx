@@ -48,8 +48,8 @@ const TonseSavingAcc = () => {
               We help businesses and customers achieve more.
             </p>
           </div> 
-          <div className="d-flex justify-content-center">
-            <ul className="row choose-style1__content">
+          <div className="">
+            <ul className="row choose-style1__content justify-content-center">
               <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
                 <div className="single-choose-style1">
                   <div className="icon">
@@ -81,7 +81,12 @@ const TonseSavingAcc = () => {
                 </div>
               </li>
 
-              <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
+              
+            </ul>
+          </div>
+          <div className="">
+            <ul className="row choose-style1__content justify-content-center">
+            <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
                 <div className="single-choose-style1">
                   <div className="icon">
                     <img src={statement} alt="" />
@@ -112,7 +117,6 @@ const TonseSavingAcc = () => {
                   </div>
                 </div>
               </li>
-              <li></li>
             </ul>
           </div>
         </div>
