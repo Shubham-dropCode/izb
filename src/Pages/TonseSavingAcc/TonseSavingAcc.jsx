@@ -11,10 +11,10 @@ import statement from "../../assets/images/IZB/IZB Website Skin//IZB Privilege C
 import atm from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/atm.png";
 import ContainsArea from '../../Components/ContainsArea/ContainsArea'
 import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusAccountComponent'
-import ServiceTable from '../../Components/ServiceTable/ServiceTable';
 import {loan} from '../../Data/ContainAreaData';
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Tonse Savings Account/image_1.png";
 import { useEffect } from 'react';
+import TisungeTable from '../../Components/ServiceTable/TisungeTonseTable';
 
 console.log(loan);
 
@@ -221,7 +221,7 @@ const TonseSavingAcc = () => {
           </div>
         </div>
       </section>
-      <ServiceTable />
+      <TisungeTable />
     <AllAcountsSection/>
     </>
   )

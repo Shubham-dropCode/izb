@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
-import ServiceTable from '../../Components/ServiceTable/ServiceTable'
 import {AiFillCaretRight} from "react-icons/ai"
 import img1 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/4.png";
 import CC from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/credit-card.png";
@@ -13,6 +12,7 @@ import atm from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/
 import ContainsArea from '../../Components/ContainsArea/ContainsArea'
 import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusAccountComponent'
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Tisunge Savings Account/Image_1.png";
+import TisungeTable from '../../Components/ServiceTable/TisungeTonseTable'
 
 
 
@@ -219,7 +219,7 @@ const TisungeSavingsAcc = () => {
           </div>
         </div>
       </section>
-      <ServiceTable />
+      <TisungeTable />
     <AllAcountsSection/>
     </>
   )
