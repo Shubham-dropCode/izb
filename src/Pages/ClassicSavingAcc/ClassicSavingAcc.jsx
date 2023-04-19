@@ -14,9 +14,9 @@ import booking from "../../assets/images/IZB/IZB Website Skin/IZB Classic Saving
 import file from "../../assets/images/IZB/IZB Website Skin/IZB Classic Savings Account/Icons/file.png";
 import transferMoney from "../../assets/images/IZB/IZB Website Skin/IZB Classic Savings Account/Icons/transfer-money.png";
 import { AiFillCaretRight } from "react-icons/ai";
-import ServiceTable from "../../Components/ServiceTable/ServiceTable";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/IZB Classic Savings Account/Image_1.png";
 import { useEffect } from "react";
+import ClassicSavingsTable from "../../Components/ServiceTable/ClassicSavingsAccTable";
 
 
 const ClassicSavingAcc = () => {
@@ -242,7 +242,7 @@ const ClassicSavingAcc = () => {
           </div>
         </div>
       </section>
-      <ServiceTable />
+      <ClassicSavingsTable />
       <AllAcountsSection />
     </>
   );
