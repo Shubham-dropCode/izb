@@ -28,6 +28,9 @@ const Hero = () => {
     left: "8%",
     top: "90%",
   };
+  const textColor = {
+    color: "#9E1B1E",
+  };
 
   return (
     <>
@@ -43,22 +46,34 @@ const Hero = () => {
       </section>
       <section
         id="required"
-        className="documents-area col-sm-10 col-md-10 col-lg-10 col-xl-10 py-3"
+        className="documents-area col-sm-10 col-md-10 col-lg-10 col-xl-10 py-3 shadow p-3 "
         style={bankMenu}
       >
-        <div className="container">
+        <div className="container py-3">
           <div className="row">
-            <div className="col-xl-6 col-lg-6">
+            <div className="col-xl-6 col-lg-6 px-3">
               {/*Start Single Documents Box*/}
               <div
-                className="single-documents-box p-1"
+                className="single-documents-box p-0"
                 style={{ borderRadius: "12px" }}
               >
                 <div className="features-style2-tab-content-box-item">
                   <div className="row">
                     <div className="col-xl-12 col-md-12 p-0">
-                      <div className="features-style2-text-box text-center m-3 mb-0 text-white heading-box">
-                        <h4 className="text-white">Personal Banking</h4>
+                      <div
+                        className="features-style2-text-box text-center p-2 mx-1 mb-0 text-white heading-box"
+                        style={{ borderRadius: "13px 13px 0 0" }}
+                      >
+                        <Link to="/PersonalBanking">
+                          <h4 className="text-white" style={textColor}>
+                            Personal Banking
+                          </h4>
+                          <AiOutlineArrowRight
+                            size={20}
+                            className="ms-2 text-white position-absolute"
+                            style={{ top: "32%", right: "1%" }}
+                          />
+                        </Link>
                       </div>
                     </div>
                     <div className="d-flex flex-row">
@@ -71,25 +86,27 @@ const Hero = () => {
                               src={SavingAcc}
                               alt="Saving Account"
                             />
-                            <h5 className="text-center pt-3">Saving Account</h5>
+                            <h5 className="text-center pt-3" style={textColor}>
+                              Saving Account
+                            </h5>
                           </div>
                           <div className="pt-3">
                             <div>
-                              <Link to="/SavePlusAccount">
-                              <ArrowR />
-                              Save Plus Account
+                              <Link to="/SavePlusAccount" style={textColor}>
+                                <ArrowR />
+                                Save Plus Account
                               </Link>
                             </div>
                             <div>
-                              <Link to="/PrivilageSavingAcc">
-                              <ArrowR />
-                              Privilege Savings Account
+                              <Link to="/PrivilageSavingAcc" style={textColor}>
+                                <ArrowR />
+                                Privilege Savings Account
                               </Link>
                             </div>
                             <div>
-                              <Link to="/TisungoSaving">
-                              <ArrowR />
-                              Tisunge Savings Account
+                              <Link to="/TisungoSaving" style={textColor}>
+                                <ArrowR />
+                                Tisunge Savings Account
                               </Link>
                             </div>
                           </div>
@@ -108,25 +125,27 @@ const Hero = () => {
                               src={Credit}
                               alt="Saving Account"
                             />
-                            <h5 className="text-center pt-3">Credit</h5>
+                            <h5 className="text-center pt-3" style={textColor}>
+                              Credit
+                            </h5>
                           </div>
                           <div className="py-3">
                             <div>
-                              <Link to="/IndoPersonalLoan">
-                              <ArrowR />
-                              Personal Loan
+                              <Link to="/IndoPersonalLoan" style={textColor}>
+                                <ArrowR />
+                                Personal Loan
                               </Link>
                             </div>
                             <div>
-                              <Link to="/IndoHomeLoan">
-                              <ArrowR />
-                              Indo Home Loan
+                              <Link to="/IndoHomeLoan" style={textColor}>
+                                <ArrowR />
+                                Indo Home Loan
                               </Link>
                             </div>
                             <div>
-                              <Link to="/IndoVehicleLoan">
-                              <ArrowR />
-                              Vehicle Loan
+                              <Link to="/IndoVehicleLoan" style={textColor}>
+                                <ArrowR />
+                                Vehicle Loan
                               </Link>
                             </div>
                           </div>
@@ -137,26 +156,37 @@ const Hero = () => {
                 </div>
                 <span className="Hborder"></span>
                 <div className="d-flex align-items-center justify-content-end p-2">
-                <Link to="/PersonalBanking">
-
-                  Read More
-                  <AiOutlineArrowRight className="ms-2" />
-                </Link>
+                  <Link to="/PersonalBanking" style={textColor}>
+                    Read More
+                    <AiOutlineArrowRight className="ms-2" />
+                  </Link>
                 </div>
               </div>
               {/*End Single Documents Box*/}
             </div>
-            <div className="col-xl-6 col-lg-6">
+            <div className="col-xl-6 col-lg-6 px-3">
               {/*Start Single Documents Box*/}
               <div
-                className="single-documents-box p-1 rounded-4"
+                className="single-documents-box p-0 rounded-4 "
                 style={{ borderRadius: "12px" }}
               >
                 <div className="features-style2-tab-content-box-item">
                   <div className="row">
                     <div className="col-xl-12 col-md-12 p-0">
-                      <div className="features-style2-text-box text-center m-3 mb-0 text-white heading-box">
-                        <h4 className="text-white">Business Banking</h4>
+                      <div
+                        className="features-style2-text-box text-center p-2 mx-1 mb-0 text-white heading-box"
+                        style={{ borderRadius: "13px 13px 0 0" }}
+                      >
+                        <Link to="/BusinessBanking">
+                          <h4 className="text-white" style={textColor}>
+                            Business Banking
+                          </h4>
+                          <AiOutlineArrowRight
+                            size={20}
+                            className="ms-2 text-white position-absolute"
+                            style={{ top: "32%", right: "1%" }}
+                          />
+                        </Link>
                       </div>
                     </div>
                     <div className="d-flex flex-row">
@@ -169,28 +199,30 @@ const Hero = () => {
                               src={SavingAcc}
                               alt="Saving Account"
                             />
-                            <h5 className="text-center pt-3">
+                            <h5 className="text-center pt-3" style={textColor}>
                               Current Account
                             </h5>
                           </div>
                           <div className="pt-3">
                             <div>
-                              <Link to="/PrivilegeCurrentAcc">
-                              <ArrowR />
-                              Privilege Current Account
+                              <Link to="/PrivilegeCurrentAcc" style={textColor}>
+                                <ArrowR />
+                                Privilege Current Account
                               </Link>
                             </div>
                             <div>
-                              <Link to="/ClassicCurrentAccount">
-                              <ArrowR />
-                              Classic Current Account
+                              <Link
+                                to="/ClassicCurrentAccount"
+                                style={textColor}
+                              >
+                                <ArrowR />
+                                Classic Current Account
                               </Link>
                             </div>
                             <div>
-                              <Link to="/SMECurrentAcc">
-
-                              <ArrowR />
-                              SME Current Account
+                              <Link to="/SMECurrentAcc" style={textColor}>
+                                <ArrowR />
+                                SME Current Account
                               </Link>
                             </div>
                           </div>
@@ -206,25 +238,27 @@ const Hero = () => {
                               src={Credit}
                               alt="Saving Account"
                             />
-                            <h5 className="text-center pt-3">Credit</h5>
+                            <h5 className="text-center pt-3" style={textColor}>
+                              Credit
+                            </h5>
                           </div>
                           <div className="py-3">
                             <div>
-                              <Link to="/TermLoan">
-                              <ArrowR />
-                              Term Loan
+                              <Link to="/TermLoan" style={textColor}>
+                                <ArrowR />
+                                Term Loan
                               </Link>
                             </div>
                             <div>
-                              <Link to="/AutoFinance">
-                              <ArrowR />
-                              Auto Finance
+                              <Link to="/AutoFinance" style={textColor}>
+                                <ArrowR />
+                                Auto Finance
                               </Link>
                             </div>
                             <div>
-                              <Link to="/AgroFinance">
-                              <ArrowR />
-                              Argo Finance
+                              <Link to="/AgroFinance" style={textColor}>
+                                <ArrowR />
+                                Argo Finance
                               </Link>
                             </div>
                           </div>
@@ -235,10 +269,9 @@ const Hero = () => {
                 </div>
                 <span className="Hborder"></span>
                 <div className="d-flex align-items-center justify-content-end p-2">
-                  <Link to="/BusinessBanking">
-
-                  Read More
-                  <AiOutlineArrowRight className="ms-2" />
+                  <Link to="/BusinessBanking" style={textColor}>
+                    Read More
+                    <AiOutlineArrowRight className="ms-2" />
                   </Link>
                 </div>
               </div>

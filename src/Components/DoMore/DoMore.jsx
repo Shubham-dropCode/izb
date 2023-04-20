@@ -8,6 +8,9 @@ const DoMore = () => {
   const sectionStyle = {
     top: "100%",
   };
+  const textColor = {
+    color: "#949292",
+  };
   return (
     <section
       style={sectionStyle}
@@ -18,21 +21,28 @@ const DoMore = () => {
           <h1 style={{ color: "#484848" }}>
             <strong>DO MORE</strong> ON THE GO
           </h1>
-          <p style={{ color: "#484848" }}>
+          <p style={{ color: "#767676" }}>
             Enjoy Banking From Anywhere at Anytime With Our Convenient
             E-services.
           </p>
         </div>
-        <div className="row choose-style1__content gap-4 justify-content-center">
+        <div className="row choose-style1__content justify-content-between">
           {/*Start Single Choose Style1*/}
-          <div className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border w-25"  style={{borderRadius:"12px" ,backgroundColor:"#FDFDFD"}}>
+          <div
+            className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border"
+            style={{
+              borderRadius: "12px",
+              backgroundColor: "#FDFDFD",
+              width: "30%",
+            }}
+          >
             <div className="single-choose-style1">
               <div className="icon">
                 <img src={PhoneIcon} />
               </div>
               <div className="text">
                 <h3 style={{ color: "#9E1B1E" }}>Mobile Banking</h3>
-                <p>
+                <p style={textColor}>
                   Learn more about how you can bank from anywhere across the
                   world.
                 </p>
@@ -42,66 +52,83 @@ const DoMore = () => {
                 style={{ color: "#9E1B1E" }}
               >
                 <Link to="/MobileBanking">
-                <button
-                  className="btn-one shadow my-4 bg-white rounded "
-                  type="submit"
-                >
-                  <span className="txt">Download</span>
-                </button>
-                  </Link>
+                  <button
+                    className="btn-one shadow my-4 bg-white rounded "
+                    type="submit"
+                  >
+                    <span className="txt">Download</span>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
           {/*End Single Choose Style1*/}
           {/*Start Single Choose Style1*/}
-          <div className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border w-25"  style={{borderRadius:"12px", backgroundColor:"#FDFDFD"}}>
+          <div
+            className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border w-25"
+            style={{
+              borderRadius: "12px",
+              backgroundColor: "#FDFDFD",
+              width: "30%",
+            }}
+          >
             <div className="single-choose-style1">
               <div className="icon">
                 <img src={CCIcon} alt="" />
               </div>
               <div className="text">
                 <h3 style={{ color: "#9E1B1E" }}>Contactless Payment</h3>
-                <p>Tap and pay the new way get your contactless card today.</p>
+                <p style={textColor}>
+                  Tap and pay the new way get your contactless card today.
+                </p>
               </div>
               <div
                 className="button-box text-center mt-4"
                 style={{ color: "#9E1B1E" }}
               >
                 <Link to="/ContactlessCard">
-                <button
-                  className="btn-one shadow mb-5 bg-white rounded"
-                  type="submit"
+                  <button
+                    className="btn-one shadow mb-5 bg-white rounded"
+                    type="submit"
                   >
-                  <span className="txt"> Know More</span>
-                </button>
-                  </Link>
+                    <span className="txt"> Know More</span>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
           {/*End Single Choose Style1*/}
           {/*Start Single Choose Style1*/}
-          <div className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border w-25"  style={{borderRadius:"12px", backgroundColor:"#FDFDFD"}}>
+          <div
+            className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border w-25"
+            style={{
+              borderRadius: "12px",
+              backgroundColor: "#FDFDFD",
+              width: "30%",
+            }}
+          >
             <div className="single-choose-style1">
               <div className="icon">
                 <img src={LaptopIcon} alt="" />
               </div>
               <div className="text">
                 <h3 style={{ color: "#9E1B1E" }}>Net Banking</h3>
-                <p>Manage your account conveniently through the Internet.</p>
+                <p style={textColor}>
+                  Manage your account conveniently through the Internet.
+                </p>
               </div>
               <div
                 className="button-box text-center mt-4"
                 style={{ color: "#9E1B1E" }}
               >
                 <Link to="/NetBanking">
-
-                <button
-                  className="btn-one shadow my-4 bg-white rounded"
-                  type="submit"
+                  <button
+                    className="btn-one shadow my-4 bg-white rounded"
+                    type="submit"
                   >
-                  <span className="txt"> Register</span>
-                </button>
-                  </Link>
+                    <span className="txt"> Register</span>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
