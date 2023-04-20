@@ -53,7 +53,7 @@ const DoMore = () => {
               >
                 <Link to="/MobileBanking">
                   <button
-                    className="btn-one shadow my-4 bg-white rounded "
+                    className="btn-one shadow mt-5 bg-white rounded "
                     type="submit"
                   >
                     <span className="txt">Download</span>

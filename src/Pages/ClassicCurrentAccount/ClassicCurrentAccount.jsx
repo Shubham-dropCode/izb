@@ -356,7 +356,7 @@ const ClassicCurrentAccount = () => {
         <div className="container">
           <div className="text-center">
             <h1 className="text-white">
-              IZB Classic Savings A/C Service Charges
+            IZB Classic Current A/C Service Charges
             </h1>
             <p className="text-white">
               Your money is making money for you & Your Family.
@@ -410,7 +410,7 @@ const ClassicCurrentAccount = () => {
                           <p>Current</p>
                         </td>
                       </tr>
-                      <tr>
+                      <tr> 
                         <td className="department">
                           <h3>4.</h3>
                         </td>

@@ -62,7 +62,7 @@ const PrivilegeCurrentAcc = () => {
       <div className="container">
         <div className="text-center">
           <h1 className="text-white">
-            IZB Classic Savings A/C Service Charges
+          IZB privilege Current A/C Service Charges
           </h1>
           <p className="text-white">
             Your money is making money for you & Your Family.
@@ -90,10 +90,9 @@ const PrivilegeCurrentAcc = () => {
                       </td>
                       <td className="location">
                         <p>
-                          Children (underguidance) Individual and Joint Account
-                          holders
+                        High net worth customers i.e. Individual/ Business accounts, Parastatals, Limited Companies, Partnership firms, Proprietorship firms, Trusts, Association ofpersons registered societies.
                         </p>
-                      </td>
+                      </td> 
                     </tr>
                     <tr>
                       <td className="department text-white">

@@ -43,8 +43,8 @@ const ClassicSavingsTable = () => {
                       </td>
                       <td className="location">
                         <p>
-                        Individual and Joint Account holders/
-                        CharitableOrganisations
+                          Individual and Joint Account holders/
+                          CharitableOrganisations
                         </p>
                       </td>
                     </tr>
@@ -380,8 +380,10 @@ const ClassicSavingsTable = () => {
                         <p>Return of cheques</p>
                       </td>
                       <td className="location">
-                        <p>For financial reasons (Refer to Drawer) K 510/- 
-                           per cheque For other reasons – Free</p>
+                        <p>
+                          For financial reasons (Refer to Drawer) K 510/- per
+                          cheque For other reasons – Free
+                        </p>
                       </td>
                     </tr>
                     <tr>

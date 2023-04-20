@@ -15,7 +15,7 @@ const SavePlusAccountComponent = ({
   }
   return (
     <section className="overview-area">
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <div className=" offset-xl-1 col-md-4 col-xl-4">
             <div className="overview-content-box-one">
