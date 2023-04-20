@@ -15,7 +15,7 @@ const PrivilageSavingsTable = () => {
       <div className="container">
         <div className="text-center">
           <h1 className="text-white">
-            IZB Classic Savings A/C Service Charges
+          IZB Privilege Savings A/C Service Charges
           </h1>
           <p className="text-white">
             Your money is making money for you & Your Family.

@@ -12,7 +12,7 @@ import atm from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/
 import ContainsArea from '../../Components/ContainsArea/ContainsArea'
 import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusAccountComponent'
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Tisunge Savings Account/Image_1.png";
-import TisungeTable from '../../Components/ServiceTable/TisungeTonseTable'
+import TisungeTable from '../../Components/ServiceTable/TisungeTable'
 
 
 
@@ -40,7 +40,7 @@ const TisungeSavingsAcc = () => {
         <div className="container pt-4">
           <div className="text-center my-5">
             <h1 style={{ color: "#484848" }}>
-              Our IZB Save Plus Account Benefits
+              Our IZB Tisunge Savings A/C Benefits
             </h1>
             <p style={{ color: "#484848" }}>
               We help businesses and customers achieve more.
@@ -126,7 +126,7 @@ const TisungeSavingsAcc = () => {
       >
         <div className="container-fluid">
           <div className="sec-title text-center">
-            <h2>Savings A/c Required Documents</h2>
+            <h2>IZB Tisunge Savings A/C Required Documents</h2>
             <div className="sub-title">
               <p>Basic documents required for opening a savings account.</p>
             </div>

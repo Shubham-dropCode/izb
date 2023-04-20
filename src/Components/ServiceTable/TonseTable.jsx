@@ -1,55 +1,8 @@
-import React, { useEffect } from 'react'
-import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
-import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
-import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/IZB Privilege Current Account/Image_1.png";
-import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusAccountComponent';
-import img1 from "../../assets/images/IZB/IZB Website Skin/IZB Privilege Current Account/Image_2.png"
-import Arrow_down from "../../assets/images/IZB/arrow_down.png";
+import React from "react";
 import bgimg from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/image_6.png";
 import { AiFillCaretRight, AiOutlineRight } from "react-icons/ai";
-
-import { AiOutlineArrowRight } from "react-icons/ai";
-
-const PrivilegeCurrentAcc = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-  const accountContent = "This is a business current account offering premier business banking solutions and services designed specifically to meet business operation needs including concessions on service charges"
+const TonseTable = () => {
   return (
-    <>
-    <Breadcrumb Heading="IZB Privilege Current Account" img={BackgroundBrundcrumb}/>
-    <SavePlusAccountComponent heading="IZB Privilege Current Account" subHeading="Know About" content={accountContent} img={img1}  btnTxt="Open an Account" />
-
-    <section
-      className="page-contains-area"
-      style={{ backgroundColor: "#FFF5E7" }}
-    >
-      <div className="container">
-        <div className="row">
-          <div className="col-xl-12">
-            <div className="page-contains-box">
-              <div className="page-contains-btn">
-                <ul className="navigation clearfix scroll-nav">
-                  <li className="current">
-                    <a href="#benefits">
-                      <img src={Arrow_down} alt='' className='me-1'/>
-                      Service Charges
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#eligibility">
-                      <AiOutlineArrowRight size={14} className="me-1" />
-                      Remittances (Kwacha)
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section
       id="required"
       class="documents-area"
@@ -62,7 +15,7 @@ const PrivilegeCurrentAcc = () => {
       <div className="container">
         <div className="text-center">
           <h1 className="text-white">
-            IZB Classic Savings A/C Service Charges
+             IZB Tonse Savings A/C Service Charges
           </h1>
           <p className="text-white">
             Your money is making money for you & Your Family.
@@ -90,8 +43,7 @@ const PrivilegeCurrentAcc = () => {
                       </td>
                       <td className="location">
                         <p>
-                          Children (underguidance) Individual and Joint Account
-                          holders
+                        Individual and Joint Account holders
                         </p>
                       </td>
                     </tr>
@@ -114,7 +66,7 @@ const PrivilegeCurrentAcc = () => {
                         <p>Type of Account</p>
                       </td>
                       <td className="location">
-                        <p>California</p>
+                        <p>Savings</p>
                       </td>
                     </tr>
                     <tr>
@@ -125,7 +77,7 @@ const PrivilegeCurrentAcc = () => {
                         <p>Rate of Interest</p>
                       </td>
                       <td className="location">
-                        <p>6% p.a payable twice-yearly</p>
+                        <p>NIL</p>
                       </td>
                     </tr>
                     <tr>
@@ -158,7 +110,7 @@ const PrivilegeCurrentAcc = () => {
                         <p>Minimum Balance Requirment</p>
                       </td>
                       <td className="location">
-                        <p>K1,000/-</p>
+                        <p>K100/-</p>
                       </td>
                     </tr>
                     <tr>
@@ -235,7 +187,7 @@ const PrivilegeCurrentAcc = () => {
                         <p>E-statement</p>
                       </td>
                       <td className="location">
-                        <p>Available-Free</p>
+                        <p>N/A</p>
                       </td>
                     </tr>
                     <tr>
@@ -292,7 +244,7 @@ const PrivilegeCurrentAcc = () => {
                         <p>Issuance of Deposit Book</p>
                       </td>
                       <td className="location">
-                        <p>Free</p>
+                        <p>K30/- per book</p>
                       </td>
                     </tr>
                     <tr>
@@ -426,7 +378,8 @@ const PrivilegeCurrentAcc = () => {
                         <p>Return of cheques</p>
                       </td>
                       <td className="location">
-                        <p>N/A</p>
+                        <p>For financial reasons (Refer to Drawer) K 510/- 
+                           per cheque For other reasons – Free</p>
                       </td>
                     </tr>
                     <tr>
@@ -437,7 +390,7 @@ const PrivilegeCurrentAcc = () => {
                         <p>Stop Payment Instructions</p>
                       </td>
                       <td className="location">
-                        <p>N/A</p>
+                        <p>K250/- per occasion</p>
                       </td>
                     </tr>
                     <tr>
@@ -657,9 +610,7 @@ const PrivilegeCurrentAcc = () => {
         </div>
       </div>
     </section>
-    <AllAcountsSection/>
-    </>
-  )
-}
+  );
+};
 
-export default PrivilegeCurrentAcc
+export default TonseTable;
