@@ -9,7 +9,7 @@ import BankingMenu from "./BankingMenu";
 const HeroSlide1 = () => {
   const HeroBgimg = {
     backgroundImage: `url(${HeroBackground})`,
-    height: "90vh",
+    height: "100vh",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     overflow: "hidden",

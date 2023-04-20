@@ -25,8 +25,8 @@ const Hero = () => {
     position: "absolute",
     borderRadius: "12px",
     backgroundColor: "#FFF5E7",
-    left: "10%",
-    top: "100%",
+    left: "8%",
+    top: "90%",
   };
 
   return (

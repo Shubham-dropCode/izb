@@ -96,7 +96,7 @@ const Navbar = () => {
                           </a>
                         </li>
                         <li>
-                          <div className="mt-3 d-flex pt-2 gap-4">
+                          <div className="mt-2 d-flex pt-2 gap-4">
                             <p>
                               <BsWhatsapp size={19} className="mx-1 mb-1" />
                               +260 2113 89900
