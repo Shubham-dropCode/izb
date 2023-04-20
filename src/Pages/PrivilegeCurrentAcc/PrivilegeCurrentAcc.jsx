@@ -32,7 +32,7 @@ const PrivilegeCurrentAcc = () => {
                 <ul className="navigation clearfix scroll-nav">
                   <li className="current">
                     <a href="#benefits">
-                      <img src={Arrow_down} className='me-1'/>
+                      <img src={Arrow_down} alt='' className='me-1'/>
                       Service Charges
                     </a>
                   </li>
