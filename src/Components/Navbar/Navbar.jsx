@@ -45,12 +45,12 @@ const Navbar = () => {
     <>
       <header className="main-header main-header-style1">
         {/*Start Main Header Style1 Top*/}
-        <div className="main-header-style1-top">
-          <div className="auto-container">
-            <div className="outer-box justify-content-around">
+        <div className="main-header-style1-top py-2">
+          <div className="container-fluid">
+            <div className="outer-box justify-content-between">
               {/*Start Main Header Style1 Top Left*/}
               <div className="main-header-style1-top__left">
-                <div className="looking-banking-box ">
+                <div className="looking-banking-box" style={{paddingLeft:"70px"}}>
                   <Link to="/">
 
                    <img src={Logo} width={300} />
@@ -60,10 +60,11 @@ const Navbar = () => {
                   <div className="input-group">
                     <div className="form-outline">
                       <input
+                      style={{backgroundColor:"#F0F0F0", borderRadius:"21px"}}
                         id="search-input"
                         type="search"
                         placeholder="Search"
-                        className="form-control pe-4"
+                        className="form-control pe-2"
                       />
                     </div>
                   </div>
@@ -78,7 +79,7 @@ const Navbar = () => {
                         <li className="p-0 text-center">
                           <small className="p-0 m-0">Toll-Free</small>
                           <a
-                            className="px-2 py-2 rounded"
+                            className="px-1 py-1 rounded"
                             style={{ backgroundColor: "#9E1B1E" }}
                           >
                             <div className="icon">
@@ -95,13 +96,13 @@ const Navbar = () => {
                           </a>
                         </li>
                         <li>
-                          <div className="mt-3">
+                          <div className="mt-3 d-flex pt-2 gap-4">
                             <p>
-                              <BsWhatsapp className="me-2" />
+                              <BsWhatsapp size={19} className="mx-1 mb-1" />
                               +260 2113 89900
                             </p>
                             <p>
-                              <AiOutlinePhone className="me-2" />
+                              <AiOutlinePhone size={19} className="me-1 mb-1" />
                               +260 7717 98616
                             </p>
                           </div>
@@ -133,7 +134,7 @@ const Navbar = () => {
                     <a href="#" className="mobile-nav__toggler">
                       <i className="icon-menu" />
                     </a>
-                    <ul className="main-menu__list">
+                    <ul className="main-menu__list" style={{gap:"22px"}}>
                       <li className="megamenu">
                         <Link to="/">Home</Link>
                       </li>
