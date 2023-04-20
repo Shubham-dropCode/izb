@@ -65,7 +65,7 @@ const DoMore = () => {
           {/*End Single Choose Style1*/}
           {/*Start Single Choose Style1*/}
           <div
-            className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border w-25"
+            className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border"
             style={{
               borderRadius: "12px",
               backgroundColor: "#FDFDFD",
@@ -83,8 +83,8 @@ const DoMore = () => {
                 </p>
               </div>
               <div
-                className="button-box text-center mt-4"
-                style={{ color: "#9E1B1E" }}
+                className="button-box text-center"
+                style={{ color: "#9E1B1E", marginTop: "4.3rem" }}
               >
                 <Link to="/ContactlessCard">
                   <button
@@ -100,7 +100,7 @@ const DoMore = () => {
           {/*End Single Choose Style1*/}
           {/*Start Single Choose Style1*/}
           <div
-            className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border w-25"
+            className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border"
             style={{
               borderRadius: "12px",
               backgroundColor: "#FDFDFD",
@@ -118,8 +118,8 @@ const DoMore = () => {
                 </p>
               </div>
               <div
-                className="button-box text-center mt-4"
-                style={{ color: "#9E1B1E" }}
+                className="button-box text-center"
+                style={{ color: "#9E1B1E", marginTop: "2.7rem" }}
               >
                 <Link to="/NetBanking">
                   <button

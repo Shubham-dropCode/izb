@@ -32,7 +32,7 @@ const OurStores = () => {
               </div>
               <div className="text-holder">
                 <h3 className="blog-title my-4">
-                  <a href="blog-single.html">Monetary policy rate</a>
+                  <a>Monetary policy rate</a>
                 </h3>
                 <p>
                   Share This Post Share on facebook Share on linkedin Share on

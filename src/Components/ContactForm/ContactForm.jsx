@@ -13,6 +13,14 @@ const ContactForm = () => {
     <section className="apply-form-area">
       <div className="container">
         <div className="row">
+          <div className="heading mb-3">
+            <h1 className="text-center py-2" style={{ color: "#484848" }}>
+              Request For call back
+            </h1>
+            <p className="text-center py-2" style={{ color: "#949292" }}>
+              Committed to helping you meet all your banking needs.
+            </p>
+          </div>
           <div className="col-xl-6 col-xl-6 px-0">
             <div
               className="overview-content-box-one mx-0 px-5 pb-5 d-flex flex-column justify-content-end text-white"
@@ -22,14 +30,14 @@ const ContactForm = () => {
                 Secure your child future with our
               </h3>
               <h2 className="text-white py-2">SAVE PLUS ACCOUNT</h2>
-              <p>
+              <p style={{fontSize:"16px"}}>
                 Exclusively designed savings account <br />
                 to inculcate savings habits in parents <br />
                 and guardians for their children.
               </p>
             </div>
           </div>
-          <div className="col-xl-6 col-md-6 px-0">
+          <div className="col-xl-6 col-md-6 px-0" style={{backgroundColor:"#FFF5E7"}}>
             <div className="apply-form-box__content mx-0">
               <form
                 id="apply-form"
@@ -41,7 +49,7 @@ const ContactForm = () => {
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="form-group">
-                    <label>Name</label>
+                      <label>Name</label>
                       <div className="input-box">
                         <input
                           type="text"
@@ -50,13 +58,12 @@ const ContactForm = () => {
                           placeholder="Your Name"
                           required=""
                         />
-                        
                       </div>
                     </div>
                   </div>
                   <div className="col-xl-12">
                     <div className="form-group">
-                    <label>Email</label>
+                      <label>Email</label>
                       <div className="input-box">
                         <input
                           type="email"
@@ -65,7 +72,6 @@ const ContactForm = () => {
                           placeholder="Email"
                           required=""
                         />
-                        
                       </div>
                     </div>
                   </div>
@@ -73,7 +79,7 @@ const ContactForm = () => {
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="form-group">
-                    <label>Ph. Num</label>
+                      <label>Ph. Num</label>
                       <div className="input-box">
                         <input
                           type="text"
@@ -82,7 +88,6 @@ const ContactForm = () => {
                           id="formPhone"
                           placeholder="Phone"
                         />
-                        
                       </div>
                     </div>
                   </div>
@@ -90,9 +95,9 @@ const ContactForm = () => {
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="form-group">
-                    <label>Select any product type</label>
+                      <label>Select any product type</label>
                       <div className="select-box clearfix">
-                        <select className="wide w-100 p-2">
+                        <select className="wide w-100 p-2 border-0">
                           <option data-display="City">Personal Banking</option>
                           <option value={1}>Business Banking</option>
                           <option value={2}>Credit</option>
@@ -101,13 +106,13 @@ const ContactForm = () => {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="col-xl-12">
                     <div className="form-group">
                       <label>Message</label>
                       <div className="input-box">
                         <textarea
-                        style={{width:"100%"}}
+                          style={{ width: "100%", border:"none" }}
                           type="text"
                           name="form_message"
                           id="formMessage"
@@ -121,8 +126,8 @@ const ContactForm = () => {
                 </div>
                 <div className="row">
                   <div className="col-xl-12">
-                    <div className="button-box">
-                      <button className="btn-one" type="submit">
+                    <div className="button-box" >
+                      <button className="btn-one" style={{borderRadius:"10px"}} type="submit">
                         <span className="txt">Submit </span>
                       </button>
                     </div>

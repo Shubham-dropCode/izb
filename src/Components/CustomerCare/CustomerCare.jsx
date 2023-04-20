@@ -25,10 +25,10 @@ const CustomerCare = () => {
       <div className="row align-items-center" style={CustomerBgImg}>
         <div className="container">
           <div className="row">
-            <div className="col-4">
+            <div className="offset-1 col-4">
               <img src={CustomerCareImg} alt="" />
             </div>
-            <div className="col-8">
+            <div className="col-6">
               <h2 className="text-white">React us When you need us</h2>
               <a className=" mx-2 my-2 rounded d-flex align-items-center">
                 <div className="icon">

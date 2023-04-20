@@ -12,7 +12,7 @@ const AdvisorsVideo = () => {
     overflow: "hidden",
   };
   const opts = {
-    height: '700',
+    height: '500',
     width: '100%',
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
@@ -24,10 +24,10 @@ const AdvisorsVideo = () => {
       <div className="row">
       <YouTube videoId="Id3LBKFrBEU" opts={opts} />
         <div className="d-flex flex-column justify-content-end py-3">
-          <h2 className="text-center py-2">
+          <h1 className="text-center py-2" style={{color:"#484848"}}>
             Learn More From Our Financial Advisor.
-          </h2>
-          <p className="text-center py-2">
+          </h1>
+          <p className="text-center py-2" style={{color:"#949292"}} >
             Lyapa Mnewe discusses all finance related queries in a series of
             videos that you can watch now
           </p>
@@ -35,7 +35,7 @@ const AdvisorsVideo = () => {
             <a href=" https://www.youtube.com/channel/UCggymsoPiBtJvdvW8K6pcwQ ">
 
             <button className="btn-one shadow my-3 bg-white rounded" type="submit">
-              <span className="txt"> Know More <AiOutlineArrowRight/> </span>
+              <span className="txt" > Know More <AiOutlineArrowRight/> </span>
             </button>
             </a>
           </div>
