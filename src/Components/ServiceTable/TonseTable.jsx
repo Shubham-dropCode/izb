@@ -1,7 +1,7 @@
 import React from "react";
 import bgimg from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/image_6.png";
 import { AiFillCaretRight, AiOutlineRight } from "react-icons/ai";
-const PrivilageSavingsTable = () => {
+const TonseTable = () => {
   return (
     <section
       id="required"
@@ -15,7 +15,7 @@ const PrivilageSavingsTable = () => {
       <div className="container">
         <div className="text-center">
           <h1 className="text-white">
-          IZB Privilege Savings A/C Service Charges
+             IZB Tonse Savings A/C Service Charges
           </h1>
           <p className="text-white">
             Your money is making money for you & Your Family.
@@ -43,8 +43,7 @@ const PrivilageSavingsTable = () => {
                       </td>
                       <td className="location">
                         <p>
-                        Individual and Joint Account holders/
-                        CharitableOrganisations
+                        Individual and Joint Account holders
                         </p>
                       </td>
                     </tr>
@@ -67,7 +66,7 @@ const PrivilageSavingsTable = () => {
                         <p>Type of Account</p>
                       </td>
                       <td className="location">
-                        <p>Savings with cheque book facility</p>
+                        <p>Savings</p>
                       </td>
                     </tr>
                     <tr>
@@ -78,7 +77,7 @@ const PrivilageSavingsTable = () => {
                         <p>Rate of Interest</p>
                       </td>
                       <td className="location">
-                        <p>2.5% p.a payable twice-yearly</p>
+                        <p>NIL</p>
                       </td>
                     </tr>
                     <tr>
@@ -89,7 +88,7 @@ const PrivilageSavingsTable = () => {
                         <p>Maintenance Charges</p>
                       </td>
                       <td className="location">
-                        <p>K20/- per month</p>
+                        <p>Free</p>
                       </td>
                     </tr>
                     <tr>
@@ -111,7 +110,7 @@ const PrivilageSavingsTable = () => {
                         <p>Minimum Balance Requirment</p>
                       </td>
                       <td className="location">
-                        <p>K250/-</p>
+                        <p>K100/-</p>
                       </td>
                     </tr>
                     <tr>
@@ -133,8 +132,7 @@ const PrivilageSavingsTable = () => {
                         <p>Cheque Book</p>
                       </td>
                       <td className="location">
-                        <p>25 leaves –K 4.00per leaf</p>
-                        <p>50 leaves –K2.50per leaf</p>
+                        <p>N/A</p>
                       </td>
                     </tr>
                     <tr>
@@ -189,7 +187,7 @@ const PrivilageSavingsTable = () => {
                         <p>E-statement</p>
                       </td>
                       <td className="location">
-                        <p>Available-Free</p>
+                        <p>N/A</p>
                       </td>
                     </tr>
                     <tr>
@@ -246,7 +244,7 @@ const PrivilageSavingsTable = () => {
                         <p>Issuance of Deposit Book</p>
                       </td>
                       <td className="location">
-                        <p>Free</p>
+                        <p>K30/- per book</p>
                       </td>
                     </tr>
                     <tr>
@@ -615,4 +613,4 @@ const PrivilageSavingsTable = () => {
   );
 };
 
-export default PrivilageSavingsTable;
+export default TonseTable;

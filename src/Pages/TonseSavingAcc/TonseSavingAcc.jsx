@@ -14,7 +14,7 @@ import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusA
 import {loan} from '../../Data/ContainAreaData';
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Tonse Savings Account/image_1.png";
 import { useEffect } from 'react';
-import TisungeTable from '../../Components/ServiceTable/TisungeTonseTable';
+import TonseTable from '../../Components/ServiceTable/TonseTable';
 
 console.log(loan);
 
@@ -42,7 +42,7 @@ const TonseSavingAcc = () => {
         <div className="container pt-4">
           <div className="text-center my-5">
             <h1 style={{ color: "#484848" }}>
-              Our IZB Save Plus Account Benefits
+              Our IZB Tonse Savings A/C Benefits
             </h1>
             <p style={{ color: "#484848" }}>
               We help businesses and customers achieve more.
@@ -129,7 +129,7 @@ const TonseSavingAcc = () => {
       >
         <div className="container-fluid">
           <div className="sec-title text-center">
-            <h2>Savings A/c Required Documents</h2>
+            <h2>IZB Tonse Savings A/C Required Documents</h2>
             <div className="sub-title">
               <p>Basic documents required for opening a savings account.</p>
             </div>
@@ -225,7 +225,7 @@ const TonseSavingAcc = () => {
           </div>
         </div>
       </section>
-      <TisungeTable />
+      <TonseTable />
     <AllAcountsSection/>
     </>
   )

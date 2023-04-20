@@ -40,7 +40,7 @@ const RequiredDocuments = () => {
               {/*Start Single Documents Box*/}
               <div className="single-documents-box h-100" style={{backgroundColor:"#9E1B1E"}}>
                 <div className="inner-title">
-                  <h3 className="text-white">Proof of rasidence</h3>
+                  <h3 className="text-white">Proof of residence</h3>
                 </div>
                 <ul>
                   <li>
@@ -66,7 +66,7 @@ const RequiredDocuments = () => {
               <div className="single-documents-box h-50 m-0 mb-1" style={{backgroundColor:"#9E1B1E"}}>
                 <div className="inner-title">
                   <h3 className="text-white">
-                  Passport size photos
+                  Copy of NRC/Passport
                   </h3>
                 </div>
               </div>
@@ -75,9 +75,8 @@ const RequiredDocuments = () => {
               <div className="single-documents-box h-50 m-0 mb-1" style={{backgroundColor:"#9E1B1E"}}>
                 <div className="inner-title">
                   <h3 className="text-white">
-                    Color &amp; Passport Size
-                    <br />
-                    Photographs
+                  Two recent passport 
+                  size photographs.
                   </h3>
                 </div>
               </div>
