@@ -1,8 +1,15 @@
 import React from "react";
-import { AiOutlineShareAlt } from "react-icons/ai";
+import {
+  AiOutlineArrowLeft,
+  AiOutlineArrowRight,
+  AiOutlineShareAlt,
+} from "react-icons/ai";
 import storie1 from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/storie1.png";
 import storie2 from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/storie2.png";
 import storie3 from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/storie3.png";
+import { Link } from "react-router-dom";
+import { CiClock1 } from "react-icons/ci";
+import { BiMessageDetail } from "react-icons/bi";
 
 const OurStores = () => {
   return (
@@ -14,8 +21,23 @@ const OurStores = () => {
               <h2 className="text-center">Our Stories</h2>
               <p className="text-center">All News And Updates</p>
             </div>
+            <div
+              className="py-4"
+              style={{ float: "right", marginRight: "22px" }}
+            >
+              <Link to="/PersonalBanking">
+                <a
+                  href="#"
+                  className="text-white rounded px-3 py-1"
+                  style={{ backgroundColor: "#9E1B1E" }}
+                >
+                  See More{" "}
+                  <AiOutlineArrowRight size={21} className="me-1 pb-1" />
+                </a>
+              </Link>
+            </div>
           </div>
-         
+
           <div className="col-xl-4 col-lg-4">
             <div
               className="single-blog-style1 wow fadeInUp"
@@ -34,29 +56,37 @@ const OurStores = () => {
                 <h3 className="blog-title my-4">
                   <a>Monetary policy rate</a>
                 </h3>
-                <p>
+                <p className="">
                   Share This Post Share on facebook Share on linkedin Share on
                   twitter Share onemail More To Explore Indo Zambia Bank, a
                   proud sponsor of...
                 </p>
                 <div className="bottom">
                   <div className="meta-box">
+                    <hr
+                      className="mb-0"
+                      style={{ color: "#B70A00", marginTop: "32px" }}
+                    />
                     <ul className="meta-info">
                       <li>
-                        <span className="icon-clock" />{" "}
+                        <span className="" /> <CiClock1 className="me-1" />
                         <a href="#">4 Mins Read</a>
                       </li>
                       <li>
-                        <span className="icon-comment" />{" "}
+                        <span className="" />{" "}
+                        <BiMessageDetail className="me-1" />
                         <a href="#">9 Comment</a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <AiOutlineShareAlt className="me-1" />
+                        </a>
                       </li>
                     </ul>
                   </div>
-                  <div className="share-btn">
-                    <a href="#">
-                      <AiOutlineShareAlt />
-                    </a>
-                  </div>
+                  {/* <div className="share-btn">
+                    
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -88,21 +118,23 @@ const OurStores = () => {
                 </p>
                 <div className="bottom">
                   <div className="meta-box">
+                    <hr className="m-0" style={{ color: "#B70A00" }} />
                     <ul className="meta-info">
                       <li>
-                        <span className="icon-clock" />{" "}
-                        <a href="#">10 Mins Read</a>
+                        <span className="" /> <CiClock1 className="me-1" />
+                        <a href="#">4 Mins Read</a>
                       </li>
                       <li>
-                        <span className="icon-comment" />{" "}
-                        <a href="#">10 Comments</a>
+                        <span className="" />{" "}
+                        <BiMessageDetail className="me-1" />
+                        <a href="#">9 Comment</a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <AiOutlineShareAlt className="me-1" />
+                        </a>
                       </li>
                     </ul>
-                  </div>
-                  <div className="share-btn">
-                    <a href="#">
-                      <AiOutlineShareAlt />
-                    </a>
                   </div>
                 </div>
               </div>
@@ -135,28 +167,38 @@ const OurStores = () => {
                 </p>
                 <div className="bottom">
                   <div className="meta-box">
+                    <hr className="m-0" style={{ color: "#B70A00" }} />
                     <ul className="meta-info">
                       <li>
-                        <span className="icon-clock" />{" "}
-                        <a href="#">6 Mins Read</a>
+                        <span className="" /> <CiClock1 className="me-1" />
+                        <a href="#">4 Mins Read</a>
                       </li>
                       <li>
-                        <span className="icon-comment" />{" "}
-                        <a href="#">10 Cmnts</a>
+                        <span className="" />{" "}
+                        <BiMessageDetail className="me-1" />
+                        <a href="#">9 Comment</a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <AiOutlineShareAlt className="me-1" />
+                        </a>
                       </li>
                     </ul>
-                  </div>
-                  <div className="share-btn">
-                    <a href="#">
-                      <AiOutlineShareAlt />
-                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div className="d-flex justify-content-between mb-4">
+            <button type="button" class="btn btn-light border">
+              <AiOutlineArrowLeft color="#B70A00" size={21} className="me-1 pb-1" />
+              PREV
+            </button>
+            <button type="button" class="btn btn-light border">
+              NEXT <AiOutlineArrowRight color="#B70A00" size={21} className="me-1 pb-1" />
+            </button>
           </div>
-       
+        </div>
       </div>
     </section>
   );

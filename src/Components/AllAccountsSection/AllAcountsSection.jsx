@@ -8,7 +8,7 @@ import OurStores from "../OurStories/OurStores";
 const AllAcountsSection = () => {
   return (
     <>
-      <AdvisorsVideo />
+      {/* <AdvisorsVideo /> */}
       <AllAccounts />
       <ContactForm />
       <CustomerCare />

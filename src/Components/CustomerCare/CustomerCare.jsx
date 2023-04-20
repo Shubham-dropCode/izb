@@ -17,16 +17,16 @@ const CustomerCare = () => {
   const containerFluid = {
     paddingRight: "15px",
     paddingLeft: "15px",
-    marginRight: 'auto',
-    marginLeft: 'auto'
-  }
+    marginRight: "auto",
+    marginLeft: "auto",
+  };
   return (
-    <div className="container-fluid" style={{containerFluid}}>
+    <div className="container-fluid" style={{ containerFluid }}>
       <div className="row align-items-center" style={CustomerBgImg}>
         <div className="container">
           <div className="row">
             <div className="offset-1 col-4">
-              <img src={CustomerCareImg} alt="" />
+              <img src={CustomerCareImg} width="100%" alt="" />
             </div>
             <div className="col-6">
               <h2 className="text-white">React us When you need us</h2>
@@ -50,29 +50,49 @@ const CustomerCare = () => {
                 What can Indo Zambia Bank do to better serve your needs? <br />{" "}
                 Click the link Below for our Agents to serve you online.
               </p>
-              <div className="text d-flex">
-                <h5
-                  className="p-2 rounded"
-                  style={{ backgroundColor: "#FFC975", color: "#9E1B1E" }}
-                >
-                  <img src={Call} width={22} style={{marginRight:"10px"}} alt="" />
-                  +260 2113 89900
-                </h5>
-              </div>
-              <div className="text d-flex">
-                <h5
-                  className="p-2 my-2 rounded"
-                  style={{ backgroundColor: "#FFC975", color: "#9E1B1E" }}
-                >
-                  <img src={whatsapp} width={22} style={{marginRight:"10px"}} alt="" />
-                  +260 7717 98616                </h5>
-              </div><div className="text d-flex">
-                <h5
-                  className="p-2 mb-2 rounded"
-                  style={{ backgroundColor: "#FFC975", color: "#9E1B1E" }}
-                >
-                  <img src={mail} width={22} style={{marginRight:"10px"}} alt="" />
-                  customerservice@izb.co.zm                </h5>
+              <div>
+                <div className="text d-flex">
+                  <h5
+                    className="p-2 rounded"
+                    style={{ backgroundColor: "#FFC975", color: "#9E1B1E",width:"60%" }}
+                  >
+                    <img
+                      src={Call}
+                      width={22}
+                      style={{ marginRight: "10px" }}
+                      alt=""
+                    />
+                    +260 2113 89900
+                  </h5>
+                </div>
+                <div className="text d-flex">
+                  <h5
+                    className="p-2 my-2 rounded"
+                    style={{ backgroundColor: "#FFC975", color: "#9E1B1E",width:"60%" }}
+                  >
+                    <img
+                      src={whatsapp}
+                      width={22}
+                      style={{ marginRight: "10px" }}
+                      alt=""
+                    />
+                    +260 7717 98616{" "}
+                  </h5>
+                </div>
+                <div className="text d-flex">
+                  <h5
+                    className="p-2 mb-2 rounded"
+                    style={{ backgroundColor: "#FFC975", color: "#9E1B1E",width:"60%" }}
+                  >
+                    <img
+                      src={mail}
+                      width={22}
+                      style={{ marginRight: "10px" }}
+                      alt=""
+                    />
+                    customerservice@izb.co.zm{" "}
+                  </h5>
+                </div>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { BsWhatsapp } from "react-icons/bs";
-import { AiOutlinePhone } from "react-icons/ai";
+import { AiFillCaretDown, AiOutlinePhone } from "react-icons/ai";
 import $ from "jquery";
 import Logo from "../../assets/images/IZB/logo.png";
 import Phone from "../../assets/images/IZB/PhoneCall.png";
@@ -134,12 +134,12 @@ const Navbar = () => {
                     <a href="#" className="mobile-nav__toggler">
                       <i className="icon-menu" />
                     </a>
-                    <ul className="main-menu__list" style={{gap:"22px"}}>
+                    <ul className="main-menu__list" style={{gap:"10px"}}>
                       <li className="megamenu">
                         <Link to="/">Home</Link>
                       </li>
                       <li className="dropdown">
-                        <Link to="/AboutUs">About</Link>
+                        <Link to="/AboutUs">About <AiFillCaretDown size={10} className="ms-1"/></Link>
                         <ul>
                           <li>
                             <Link to="/AboutUs">About IZB</Link>
@@ -167,7 +167,7 @@ const Navbar = () => {
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <Link to="/PersonalBanking">Personal Banking</Link>
+                        <Link to="/PersonalBanking">Personal Banking <AiFillCaretDown size={10} className="ms-1"/></Link>
                         <ul>
                           <li className="dropdown">
                             <a href="#">Saving Accounts</a>
@@ -226,7 +226,7 @@ const Navbar = () => {
                       </li>
 
                       <li className="dropdown">
-                        <Link to="/BusinessBanking">Business Banking</Link>
+                        <Link to="/BusinessBanking">Business Banking <AiFillCaretDown size={10} className="ms-1"/></Link>
                         <ul>
                           <li>
                             <a href="blog-2.html">Current Account</a>
@@ -280,7 +280,7 @@ const Navbar = () => {
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <Link to="/InternatioalBankingForeignBusiness"> Forex & Treasury</Link>
+                        <Link to="/InternatioalBankingForeignBusiness"> Forex & Treasury <AiFillCaretDown size={10} className="ms-1"/></Link>
                         <ul>
                           <li>
                             <a href="">Forex Rates</a>
@@ -297,7 +297,7 @@ const Navbar = () => {
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <a href="#">E-Services</a>
+                        <a href="#">E-Services <AiFillCaretDown size={10} className="ms-1"/></a>
                         <ul>
                           <li>
                             <Link to="/MobileBanking">Indo Mobile Banking</Link>
