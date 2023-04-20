@@ -51,12 +51,13 @@ const Slide1 = () => {
               </div>
             </div>
           </div>
-          <div className=" col-md-6 col-xl-6">
-            <div className="overview-content-box-one">
+          <div className=" col-md-6 col-xl-6 position-relative">
+            <div className="overview-content-box-one ">
               <img
                 src={IndoBanking}
                 style={{ backgroundColor: "#FFF5E7" }}
                 alt=""
+                className="position-absolute"
               />
             </div>
           </div>

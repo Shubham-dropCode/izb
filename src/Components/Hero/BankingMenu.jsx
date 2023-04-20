@@ -9,14 +9,16 @@ const BankingMenu = () => {
     <section
       id="required"
       className=" position-absolute documents-area col-sm-10 col-md-10 col-lg-10 col-xl-10 py-3"
-      style={{borderRadius:"12px",backgroundColor:"#FFF5E7"}}
+      style={{ borderRadius: "12px", backgroundColor: "#FFF5E7" }}
     >
       <div className="container">
         <div className="row">
           <div className="col-xl-6 col-lg-6">
             {/*Start Single Documents Box*/}
-            <div className="single-documents-box p-1"       style={{borderRadius:"12px"}}
->
+            <div
+              className="single-documents-box p-1"
+              style={{ borderRadius: "12px" }}
+            >
               <div className="features-style2-tab-content-box-item">
                 <div className="row">
                   <div className="col-xl-12 col-md-12 p-0">
@@ -54,8 +56,10 @@ const BankingMenu = () => {
                     </div>
                     <span className="border"></span>
                     <div className="col-xl-6 col-md-6 ">
-                      <div className="features d-flex flex-column align-items-center"       style={{borderRadius:"12px"}}
->
+                      <div
+                        className="features d-flex flex-column align-items-center"
+                        style={{ borderRadius: "12px" }}
+                      >
                         <div className="text-box d-flex flex-column align-items-center">
                           <img
                             className="pt-3"
@@ -85,6 +89,7 @@ const BankingMenu = () => {
                 </div>
               </div>
               <span className="Hborder"></span>
+              
               <div className="d-flex align-items-center justify-content-end p-2">
                 Read More
                 <AiOutlineArrowRight className="ms-4" />
@@ -94,8 +99,10 @@ const BankingMenu = () => {
           </div>
           <div className="col-xl-6 col-lg-6">
             {/*Start Single Documents Box*/}
-            <div className="single-documents-box p-1 rounded-4"       style={{borderRadius:"12px"}}
->
+            <div
+              className="single-documents-box p-1 rounded-4"
+              style={{ borderRadius: "12px" }}
+            >
               <div className="features-style2-tab-content-box-item">
                 <div className="row">
                   <div className="col-xl-12 col-md-12 p-0">

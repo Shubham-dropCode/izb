@@ -75,16 +75,22 @@ const Hero = () => {
                           </div>
                           <div className="pt-3">
                             <div>
-                              <ArrowR />
-                              Save Plus Account
+                              <Link to="/SavePlusAccount">
+                                <ArrowR />
+                                Save Plus Account
+                              </Link>
                             </div>
                             <div>
-                              <ArrowR />
-                              Privilege Savings Account
+                              <Link to="/PrivilageSavingAcc">
+                                <ArrowR />
+                                Privilege Savings Account
+                              </Link>
                             </div>
                             <div>
-                              <ArrowR />
-                              Tisunge Savings Account
+                              <Link to="/TisungoSaving">
+                                <ArrowR />
+                                Tisunge Savings Account
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -106,16 +112,22 @@ const Hero = () => {
                           </div>
                           <div className="py-3">
                             <div>
-                              <ArrowR />
-                              Personal Loan
+                              <Link to="/IndoPersonalLoan">
+                                <ArrowR />
+                                Personal Loan
+                              </Link>
                             </div>
                             <div>
-                              <ArrowR />
-                              Indo Home Loan
+                              <Link to="/IndoHomeLoan">
+                                <ArrowR />
+                                Indo Home Loan
+                              </Link>
                             </div>
                             <div>
-                              <ArrowR />
-                              Vehicle Loan
+                              <Link to="/IndoVehicleLoan">
+                                <ArrowR />
+                                Vehicle Loan
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -125,11 +137,10 @@ const Hero = () => {
                 </div>
                 <span className="Hborder"></span>
                 <div className="d-flex align-items-center justify-content-end p-2">
-                <Link to="/PersonalBanking">
-
-                  Read More
-                  <AiOutlineArrowRight className="ms-2" />
-                </Link>
+                  <Link to="/PersonalBanking">
+                    Read More
+                    <AiOutlineArrowRight className="ms-2" />
+                  </Link>
                 </div>
               </div>
               {/*End Single Documents Box*/}
@@ -163,16 +174,22 @@ const Hero = () => {
                           </div>
                           <div className="pt-3">
                             <div>
-                              <ArrowR />
-                              Privilege Current Account
+                              <Link to="/PrivilegeCurrentAcc">
+                                <ArrowR />
+                                Privilege Current Account
+                              </Link>
                             </div>
                             <div>
-                              <ArrowR />
-                              Classic Current Account
+                              <Link to="/ClassicCurrentAccount">
+                                <ArrowR />
+                                Classic Current Account
+                              </Link>
                             </div>
                             <div>
-                              <ArrowR />
-                              SME Current Account
+                              <Link to="/SMECurrentAcc">
+                                <ArrowR />
+                                SME Current Account
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -191,16 +208,22 @@ const Hero = () => {
                           </div>
                           <div className="py-3">
                             <div>
-                              <ArrowR />
-                              Term Loan
+                              <Link to="TermLoan">
+                                <ArrowR />
+                                Term Loan
+                              </Link>
                             </div>
                             <div>
-                              <ArrowR />
-                              Auto Finance
+                              <Link to="/AutoFinance">
+                                <ArrowR />
+                                Auto Finance
+                              </Link>
                             </div>
                             <div>
-                              <ArrowR />
-                              Argo Finance
+                              <Link to="/AgroFinance">
+                                <ArrowR />
+                                Argo Finance
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -211,9 +234,8 @@ const Hero = () => {
                 <span className="Hborder"></span>
                 <div className="d-flex align-items-center justify-content-end p-2">
                   <Link to="/BusinessBanking">
-
-                  Read More
-                  <AiOutlineArrowRight className="ms-2" />
+                    Read More
+                    <AiOutlineArrowRight className="ms-2" />
                   </Link>
                 </div>
               </div>

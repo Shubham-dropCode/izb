@@ -43,7 +43,7 @@ const DoMore = () => {
               >
                 <Link to="/MobileBanking">
                 <button
-                  className="btn-one shadow my-3 bg-white rounded "
+                  className="btn-one shadow my-4 bg-white rounded "
                   type="submit"
                 >
                   <span className="txt">Download</span>
@@ -69,7 +69,7 @@ const DoMore = () => {
               >
                 <Link to="/ContactlessCard">
                 <button
-                  className="btn-one shadow my-3 bg-white rounded"
+                  className="btn-one shadow mb-3 bg-white rounded"
                   type="submit"
                   >
                   <span className="txt"> Know More</span>
@@ -96,7 +96,7 @@ const DoMore = () => {
                 <Link to="/NetBanking">
 
                 <button
-                  className="btn-one shadow my-3 bg-white rounded"
+                  className="btn-one shadow my-4 bg-white rounded"
                   type="submit"
                   >
                   <span className="txt"> Register</span>
