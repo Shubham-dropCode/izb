@@ -4,6 +4,8 @@ import Credit from "../../assets/images/IZB/IZB Website Skin/Home_Page/Credit.pn
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { CiCircleChevRight } from "react-icons/ci";
 import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.svg";
+import ArrowLeft from "../../assets/images/IZB/IZB Website Skin/LeftArrow.png";
+import ArrowRight from "../../assets/images/IZB/IZB Website Skin/RightArrow.png";
 import "./Hero.css";
 
 import BankingMenu from "./BankingMenu";
@@ -13,6 +15,42 @@ import Slider from "react-slick";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <img
+        src={ArrowLeft}
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          width: "50px",
+          height: "50px",
+          left: "50px",
+          zIndex: 1,
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <img
+        src={ArrowRight}
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          width: "50px",
+          height: "50px",
+          right: "50px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+
   const settings = {
     infinite: true,
     autoplay: true,
@@ -20,6 +58,8 @@ const Hero = () => {
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
   const bankMenu = {
     position: "absolute",

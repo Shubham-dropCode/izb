@@ -49,8 +49,8 @@
     display: block;
     border-top: 1px solid #2f3139;
     border-bottom: 1px solid #2f3139;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    /* padding-bottom: 50px; */
 }
 
 .footer-top .lef-shape {
