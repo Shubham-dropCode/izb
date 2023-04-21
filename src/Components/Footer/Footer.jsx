@@ -144,12 +144,7 @@ const Footer = () => {
                 <span style={Line}></span>
                 <div className="footer-widget-links">
                   <ul>
-                    <li>
-                      <a href="#">Staff Mail</a>
-                    </li>
-                    <li>
-                      <a href="#">Staff Protal</a>
-                    </li>
+
                     <li>
                       <Link to="/Disclaimer">Disclaimer</Link>
                     </li>

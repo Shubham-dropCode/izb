@@ -54,7 +54,7 @@ const Hero = () => {
   const settings = {
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 9000,
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -86,12 +86,12 @@ const Hero = () => {
       </section>
       <section
         id="required"
-        className="documents-area postion-sm-static col-sm-10 col-md-10 col-lg-10 col-xl-10 py-3 shadow p-3"
+        className="documents-area col-sm-10 col-md-10 col-lg-10 col-xl-10 shadow p-0 p-md-3 me-3"
         style={bankMenu}
       >
         <div className="container py-3">
           <div className="row">
-            <div className="col-xl-6 col-lg-6 px-3">
+            <div className="col-xl-6 col-lg-6 px-0 px-md-3">
               {/*Start Single Documents Box*/}
               <div
                 className="single-documents-box p-0"
@@ -117,7 +117,7 @@ const Hero = () => {
                       </div>
                     </div>
                     <div className="d-flex flex-row">
-                      <div className="col-xl-6 col-md-6">
+                      <div className="col-xl-6 col-md-6 w-50">
                         <div className="features d-flex flex-column align-items-center">
                           <div className="text-box d-flex flex-column align-items-center">
                             <img
@@ -153,7 +153,7 @@ const Hero = () => {
                         </div>
                       </div>
                       <span className="border"></span>
-                      <div className="col-xl-6 col-md-6 ">
+                      <div className="col-xl-6 col-md-6 w-50 ">
                         <div
                           className="features d-flex flex-column align-items-center"
                           style={{ borderRadius: "12px" }}
@@ -204,7 +204,7 @@ const Hero = () => {
               </div>
               {/*End Single Documents Box*/}
             </div>
-            <div className="col-xl-6 col-lg-6 px-3">
+            <div className="col-xl-6 col-lg-6 px-0 px-md-3">
               {/*Start Single Documents Box*/}
               <div
                 className="single-documents-box p-0 rounded-4 "
@@ -230,7 +230,7 @@ const Hero = () => {
                       </div>
                     </div>
                     <div className="d-flex flex-row">
-                      <div className="col-xl-6 col-md-6">
+                      <div className="col-xl-6 col-md-6 w-50">
                         <div className="features d-flex flex-column align-items-center">
                           <div className="text-box d-flex flex-column align-items-center">
                             <img
@@ -269,7 +269,7 @@ const Hero = () => {
                         </div>
                       </div>
                       <span className="border"></span>
-                      <div className="col-xl-6 col-md-6 ">
+                      <div className="col-xl-6 col-md-6 w-50">
                         <div className="features d-flex flex-column align-items-center">
                           <div className="text-box d-flex flex-column align-items-center">
                             <img

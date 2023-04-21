@@ -17,7 +17,7 @@ const IndoBankingSlider = () => {
           display: "block",
           width: "50px",
           height: "50px",
-          left: "75px",
+          left: "25px",
           zIndex: 1,
         }}
         onClick={onClick}
@@ -35,7 +35,7 @@ const IndoBankingSlider = () => {
           display: "block",
           width: "50px",
           height: "50px",
-          right: "75px",
+          right: "25px",
         }}
         onClick={onClick}
       />

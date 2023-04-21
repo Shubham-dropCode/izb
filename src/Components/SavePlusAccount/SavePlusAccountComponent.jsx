@@ -33,7 +33,7 @@ const SavePlusAccountComponent = ({
               </div>
               <Link to={link}>
                 <button
-                  className="btn btn-danger w-50 text-white fs-5"
+                  className="btn btn-danger text-white fs-5"
                   style={{ backgroundColor: "#9E1B1E" }}
                 >
                   <BsBank className="me-4 mb-1 text-white" size={25} />

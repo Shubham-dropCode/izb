@@ -16,15 +16,19 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import ArrowL from "../../assets/images/IZB/IZB Website Skin/ArrowL.png";
 import ArrowR from "../../assets/images/IZB/IZB Website Skin/ArrowR.png";
 import { BsLock } from "react-icons/bs";
+import "../Hero/Hero.css"
 
 const AllAccounts = () => {
+  const SliderArrow = {
+    
+  }
 
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
       <img
         src={ArrowR}
-        className={className}
+        className={"SliderArrow " + className }
         style={{
           ...style,
           display: "block",

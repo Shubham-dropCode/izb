@@ -2,6 +2,7 @@ import React from "react";
 import IndoBanking from "../../assets/images/IZB/IZB Website Skin/Home_Page/IndoBanking1.png";
 import img1 from "../../assets/images/IZB/IZB Website Skin/Home_Page/Icons/24-7.png";
 import MobileStoreButton from "react-mobile-store-button";
+import "../Hero/Hero.css"
 
 const Slide1 = () => {
   const textColor = {
@@ -56,8 +57,8 @@ const Slide1 = () => {
               <img
                 src={IndoBanking}
                 width="80%"
-                className="position-absolute"
-                style={{ top:"-120px",left:"20%" }}
+                className="position-absolute SliderImg"
+                style={{ top:"-120px",left:"20%", }}
                 alt=""
               />
             </div>

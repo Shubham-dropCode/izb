@@ -3,6 +3,8 @@ import sliderImg from "../../assets/images/IZB/IZB Website Skin/Home_Page/banner
 import { FiCheckCircle } from "react-icons/fi";
 import fastserve from "../../assets/images/IZB/IZB Website Skin/Indo Fast Serve/indo-fast-serve_png.png";
 import BankingMenu from "./BankingMenu";
+import "./Hero.css";
+
 
 const HeroSlide2 = () => {
   const HeroBgimg = {
@@ -13,7 +15,7 @@ const HeroSlide2 = () => {
     overflow: "hidden",
   };
   return (
-    <div style={HeroBgimg}>
+    <div style={HeroBgimg} className="HeroSlider">
       <div className="auto-container h-100">
         <div className="h-75 position-relative ">
           <div className="d-flex justify-content-end align-items-center h-100">
@@ -27,7 +29,7 @@ const HeroSlide2 = () => {
               </h6>
             </div>
             <span className="border h-50 mx-3"></span>
-            <div className="flex-column flex-wrap align-self-xl-center ">
+            <div className="flex-column flex-wrap align-self-xl-center">
               <h5 className="py-1 text-white">
                 Transact at an Indo Fast Serve <br /> Agent today.
               </h5>

@@ -8,7 +8,7 @@ import BankingMenu from "./BankingMenu";
 
 const HeroSlide1 = () => {
   const HeroBgimg = {
-    backgroundImage: `url(${HeroBackground})`,
+    // backgroundImage: `url(${HeroBackground})`,
     height: "100vh",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
@@ -19,17 +19,17 @@ const HeroSlide1 = () => {
   const androidUrl =
     "https://play.google.com/store/apps/details?id=com.izb&hl=en&gl=US";
   return (
-    <div style={HeroBgimg}>
+    <div style={HeroBgimg} className="HeroSlider1">
       <div className="container h-100">
         <div className="h-75 position-relative">
           <div className="d-flex">
-            <div className="pt-4 col-12 col-md-4 col-lg-4">
+            <div className="pt-4 col-12 col-md-4 col-lg-4 bannerPhone">
               <img src={bannerPhones} width={350} alt="" />
             </div>
-            <div className="flex-column flex-wrap align-self-xl-center ms-4">
+            <div className="flex-wrap align-self-xl-center ms-4 col-12">
               <h2
-                className="py-1"
-                style={{ color: "#9E1B1E", fontSize: "54px" }}
+                className="py-1 AccOpen"
+                style={{ color: "#9E1B1E"}}
               >
                 Account Opening
               </h2>
@@ -40,25 +40,28 @@ const HeroSlide1 = () => {
                 Made Easy!
               </h1>
               <p className="pb-4" style={{ fontWeight: "600" }}>
-                Open and <span style={{ color: "9E1B1E" }}> INDO EEZY </span>{" "}
+                Open and <span style={{ color: "#9E1B1E" }}> INDO EEZY </span>{" "}
                 savings Account on your Phone.
               </p>
               <div className="d-flex align-items-center">
                 <MobileStoreButton
                   store="android"
-                  className=""
+                  className="mt-5 mt-md-0"
                   url={androidUrl}
                   width="10.5rem"
                   linkProps={{ Title: "Google Play" }}
                 />
                 <MobileStoreButton
-                  className="pt-2"
+                  className="pt-2 mt-5 mt-md-0"
                   store="ios"
                   width="10rem"
                   url={iosUrl}
                   linkProps={{ Title: "IOS Store" }}
                 />
               </div>
+              <div className="pt-4 col-12 col-md-4 col-lg-4 AfterText">
+              <img src={bannerPhones} width={350} alt="" />
+            </div>
             </div>
           </div>
         </div>
