@@ -20,10 +20,10 @@ const HeroSlide1 = () => {
     "https://play.google.com/store/apps/details?id=com.izb&hl=en&gl=US";
   return (
     <div style={HeroBgimg}>
-      <div className="auto-container h-100">
-        <div className="h-75 position-relative ">
-          <div className="d-flex ">
-            <div className="pt-4">
+      <div className="container h-100">
+        <div className="h-75 position-relative">
+          <div className="d-flex">
+            <div className="pt-4 col-12 col-md-4 col-lg-4">
               <img src={bannerPhones} width={350} alt="" />
             </div>
             <div className="flex-column flex-wrap align-self-xl-center ms-4">
@@ -32,22 +32,22 @@ const HeroSlide1 = () => {
               <p className="pb-4">
                 Open and INDO EEZY savings Account on your Phone.
               </p>
-              <div className="d-flex align-items-center">
-                <MobileStoreButton
-                  store="android"
-                  className=""
-                  url={androidUrl}
-                  width="10.5rem"
-                  linkProps={{ Title: "Google Play" }}
-                />
-                <MobileStoreButton
-                  className="pt-2"
-                  store="ios"
-                  width="10rem"
-                  url={iosUrl}
-                  linkProps={{ Title: "IOS Store" }}
-                />
-              </div>
+                <div className="d-flex align-items-center">
+                  <MobileStoreButton
+                    store="android"
+                    className=""
+                    url={androidUrl}
+                    width="10.5rem"
+                    linkProps={{ Title: "Google Play" }}
+                  />
+                  <MobileStoreButton
+                    className="pt-2"
+                    store="ios"
+                    width="10rem"
+                    url={iosUrl}
+                    linkProps={{ Title: "IOS Store" }}
+                  />
+                </div>
             </div>
           </div>
         </div>

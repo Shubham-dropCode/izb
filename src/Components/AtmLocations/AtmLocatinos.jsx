@@ -63,7 +63,7 @@ const AtmLocatinos = () => {
                 <input
                   type="text"
                   id="HomepageAtm"
-                  className="form-control input-lg"
+                  className="form-control"
                   style={formControl}
                   placeholder="Enter Your Location"
                 />

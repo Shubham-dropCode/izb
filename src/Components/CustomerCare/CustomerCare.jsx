@@ -1,6 +1,6 @@
 import React from "react";
 import CustomerImg from "../../assets/images/IZB/IZB Website Skin/IZB Classic Savings Account/Image_3.png";
-import CustomerCareImg from "../../assets/images/IZB/IZB Website Skin/IZB Classic Savings Account/Image_4.png";
+import CustomerCareImg from "../../assets/images/IZB/IZB Website Skin/IZB Classic Savings Account/Rectangle 9.png";
 import Phone from "../../assets/images/IZB/PhoneCall.png";
 import Call from "../../assets/images/IZB/IZB Website Skin/Home_Page/Icons/phone 1.png";
 import whatsapp from "../../assets/images/IZB/IZB Website Skin/Home_Page/Icons/whatsapp 1.png";
@@ -25,7 +25,7 @@ const CustomerCare = () => {
       <div className="row align-items-center" style={CustomerBgImg}>
         <div className="container">
           <div className="row">
-            <div className="offset-1 col-4">
+            <div className="offset-1 col-5">
               <img src={CustomerCareImg} width="100%" alt="" />
             </div>
             <div className="col-6">
