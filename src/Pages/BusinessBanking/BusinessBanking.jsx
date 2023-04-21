@@ -41,7 +41,7 @@ const BusinessBanking = () => {
           <h2>Current Accounts</h2>
         </div>
         <div className="d-flex justify-content-between mt-4">
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -73,7 +73,7 @@ const BusinessBanking = () => {
             </div>
           </div>
 
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center ">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -118,7 +118,7 @@ const BusinessBanking = () => {
       <div className="container">
         <div className="row">
           <div className="d-flex justify-content-between mt-4">
-            <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+            <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
               <div className="row justify-content-sm-center ">
                 <div className="col-12 col-md-4 col-xl-4 p-0">
                   <img
@@ -167,7 +167,7 @@ const BusinessBanking = () => {
           <h2>Credit</h2>
         </div>
         <div className="d-flex justify-content-between mt-4">
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center ">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -198,7 +198,7 @@ const BusinessBanking = () => {
             </div>
           </div>
 
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -229,7 +229,7 @@ const BusinessBanking = () => {
           </div>
         </div>
         <div className="d-flex justify-content-between mt-4">
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center ">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -258,7 +258,7 @@ const BusinessBanking = () => {
             </div>
           </div>
 
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -289,7 +289,7 @@ const BusinessBanking = () => {
         </div>
         
         <div className="d-flex justify-content-between mt-4">
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center  pe-2 pe-4 pe-2">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -320,7 +320,7 @@ const BusinessBanking = () => {
             </div>
           </div>
 
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center  pe-2 pe-4 pe-2">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -352,7 +352,7 @@ const BusinessBanking = () => {
           </div>
         </div>
         <div className="d-flex justify-content-between mt-4">
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center  pe-2 pe-4 pe-2">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -383,7 +383,7 @@ const BusinessBanking = () => {
             </div>
           </div>
 
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center  pe-2 pe-4 pe-2">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img

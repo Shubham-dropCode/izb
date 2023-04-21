@@ -25,14 +25,17 @@ import { useEffect } from "react";
 
 const PersonalBanking = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Breadcrumb Heading="Personal Banking" img={BackgroundBrundcrumb} />
       <div className="container">
+        <div className="text-center mb-3 mt-5">
+          <h2 style={{ color: "#484848" }}>Saving Accounts</h2>
+        </div>
         <div className="d-flex justify-content-between mt-4">
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -63,7 +66,7 @@ const PersonalBanking = () => {
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/SavePlusAccount">
-                  <button className="btn btn-light py-0">Apply now</button>
+                    <button className="btn btn-light py-0">Apply now</button>
                   </Link>
                   <Link to="/SavePlusAccount" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
@@ -73,7 +76,7 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -104,7 +107,7 @@ const PersonalBanking = () => {
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/ClassicSavingAcc">
-                  <button className="btn btn-light py-0">Apply now</button>
+                    <button className="btn btn-light py-0">Apply now</button>
                   </Link>
                   <Link to="/ClassicSavingAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
@@ -115,7 +118,7 @@ const PersonalBanking = () => {
           </div>
         </div>
         <div className="d-flex justify-content-between my-3">
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -146,7 +149,7 @@ const PersonalBanking = () => {
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/PrivilageSavingAcc">
-                  <button className="btn btn-light py-0">Apply now</button>
+                    <button className="btn btn-light py-0">Apply now</button>
                   </Link>
                   <Link to="/PrivilageSavingAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
@@ -156,7 +159,7 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -187,7 +190,7 @@ const PersonalBanking = () => {
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/TisungoSaving">
-                  <button className="btn btn-light py-0">Apply now</button>
+                    <button className="btn btn-light py-0">Apply now</button>
                   </Link>
                   <Link to="/TisungoSaving" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
@@ -198,7 +201,7 @@ const PersonalBanking = () => {
           </div>
         </div>
         <div className="d-flex justify-content-between my-3">
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -229,7 +232,7 @@ const PersonalBanking = () => {
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/TonseSavingAcc">
-                  <button className="btn btn-light py-0">Apply now</button>
+                    <button className="btn btn-light py-0">Apply now</button>
                   </Link>
                   <Link to="/TonseSavingAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
@@ -246,7 +249,7 @@ const PersonalBanking = () => {
       </div>
       <div className="container">
         <div className="d-flex justify-content-between">
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -260,18 +263,17 @@ const PersonalBanking = () => {
                 <h4 className="text-white">Indo Home Loan</h4>
                 <h5 className="text text-white fs-4 my-2">purpose</h5>
                 <p>
-                  < AiFillCaretRight className="me-2" />
+                  <AiFillCaretRight className="me-2" />
                   Outright Purchase of a ready-made.
                 </p>
                 <p>
-                  < AiFillCaretRight className="me-2" />
+                  <AiFillCaretRight className="me-2" />
                   Home Improvement - For repairs/
-                  renovation/alteration/extension in 
-                  the existing house/ﬂat.
+                  renovation/alteration/extension in the existing house/ﬂat.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/IndoHomeLoan">
-                  <button className="btn btn-light py-0">Apply now</button>
+                    <button className="btn btn-light py-0">Apply now</button>
                   </Link>
                   <Link to="/IndoHomeLoan" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
@@ -281,7 +283,7 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -296,14 +298,13 @@ const PersonalBanking = () => {
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
                 <p>
                   <AiFillCaretRight className="me-2" />
-                  For meeting personal needs such as 
-                  purchase of furniture/equipment, 
-                  meeting social obligations, repair of 
+                  For meeting personal needs such as purchase of
+                  furniture/equipment, meeting social obligations, repair of
                   houses etc.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/IndoPersonalLoan">
-                  <button className="btn btn-light py-0">Apply now</button>
+                    <button className="btn btn-light py-0">Apply now</button>
                   </Link>
                   <Link to="/IndoPersonalLoan" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
@@ -314,7 +315,7 @@ const PersonalBanking = () => {
           </div>
         </div>
         <div className="d-flex justify-content-between my-3">
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -329,14 +330,13 @@ const PersonalBanking = () => {
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
                 <p>
                   <AiFillCaretRight className="me-2" />
-                  To ﬁnance purchase of second-hand 
-                  vehicles not more than 5 years old for 
-                  personal and business use from 
-                  reputable dealers.
+                  To ﬁnance purchase of second-hand vehicles not more than 5
+                  years old for personal and business use from reputable
+                  dealers.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/IndoVehicleLoan">
-                  <button className="btn btn-light py-0">Apply now</button>
+                    <button className="btn btn-light py-0">Apply now</button>
                   </Link>
                   <Link to="/IndoVehicleLoan" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
@@ -347,18 +347,15 @@ const PersonalBanking = () => {
           </div>
         </div>
       </div>
-      
 
       <div className="container">
         <div className="d-flex justify-content-between mb-3 mt-5">
-
-      <h2>Fixed Deposit</h2>
-      <h2>Agency Banking</h2>
+          <h2>Fixed Deposit</h2>
+          <h2>Agency Banking</h2>
         </div>
 
-      <div className="d-flex justify-content-between pb-5">
-
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+        <div className="d-flex justify-content-between pb-5">
+          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -373,13 +370,11 @@ const PersonalBanking = () => {
                 <h5 className="text text-white fs-4 my-2">benefits</h5>
                 <p>
                   <AiFillCaretRight className="me-2" />
-                  Credit the principal amount to customers 
-                  account.
+                  Credit the principal amount to customers account.
                 </p>
                 <p>
                   <AiFillCaretRight className="me-2" />
-                  Interest credited upon opening/placement 
-                  of the deposit
+                  Interest credited upon opening/placement of the deposit
                 </p>
                 <p>
                   <AiFillCaretRight className="me-2" />
@@ -387,7 +382,7 @@ const PersonalBanking = () => {
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/BhumiFixedDepositAccount">
-                  <button className="btn btn-light py-0">Apply now</button>
+                    <button className="btn btn-light py-0">Apply now</button>
                   </Link>
                   <Link to="/BhumiFixedDepositAccount" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
@@ -397,9 +392,7 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-
-
-          <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -430,8 +423,7 @@ const PersonalBanking = () => {
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/IndoFastServe">
-                  
-                  <button className="btn btn-light py-0">Apply now</button>
+                    <button className="btn btn-light py-0">Apply now</button>
                   </Link>
                   <Link to="/IndoFastServe" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
