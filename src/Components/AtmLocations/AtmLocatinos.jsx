@@ -27,7 +27,7 @@ const AtmLocatinos = () => {
         >
           <div className="form-check">
             <input
-              className="form-check-input"
+              className="form-check-input w-sm-25"
               type="radio"
               name="flexRadioDefault"
               id="flexRadioDefault1"

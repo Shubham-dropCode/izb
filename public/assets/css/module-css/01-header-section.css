@@ -394,7 +394,7 @@
     position: relative;
     color: var(--thm-black);
     font-size: 15px;
-    line-height: 50px;
+    line-height: 35px;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -443,6 +443,7 @@
     bottom: 0;
     right: 0;
     background-color: #9E1B1E;
+    border-radius: 15px;
     color: white;
     transition: -webkit-transform 0.4s ease;
     transition: transform 0.4s ease;
@@ -476,7 +477,7 @@
     left: 0;
     min-width: 270px;
     padding: 10px 20px 10px;
-    background-color: #fff;
+    background-color: #FFF5E7;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -541,7 +542,7 @@
     position: relative;
     display: flex;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 20px;
     color: var(--thm-gray);
     letter-spacing: 0;
     font-weight: 400;
@@ -563,6 +564,7 @@
     top: 0;
     left: 0px;
     bottom: 0px;
+    border-radius: 15px;
     right: 0;
     background-color: var(--thm-base);
     transition: -webkit-transform 0.4s ease;
