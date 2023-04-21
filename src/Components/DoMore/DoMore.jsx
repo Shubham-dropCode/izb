@@ -29,11 +29,11 @@ const DoMore = () => {
         <div className="row choose-style1__content justify-content-between">
           {/*Start Single Choose Style1*/}
           <div
-            className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border"
+            className="col-12 col-xl-3 col-lg-3 single-choose-style1-colum text-center border"
             style={{
               borderRadius: "12px",
               backgroundColor: "#FDFDFD",
-              width: "30%",
+              // width: "30%",
             }}
           >
             <div className="single-choose-style1">
@@ -65,11 +65,11 @@ const DoMore = () => {
           {/*End Single Choose Style1*/}
           {/*Start Single Choose Style1*/}
           <div
-            className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border"
+            className="col-12 col-xl-3 col-lg-3 single-choose-style1-colum text-center border"
             style={{
               borderRadius: "12px",
               backgroundColor: "#FDFDFD",
-              width: "30%",
+              // width: "30%",
             }}
           >
             <div className="single-choose-style1">
@@ -84,7 +84,7 @@ const DoMore = () => {
               </div>
               <div
                 className="button-box text-center"
-                style={{ color: "#9E1B1E", marginTop: "4.3rem" }}
+                style={{ color: "#9E1B1E", marginTop: "3rem" }}
               >
                 <Link to="/ContactlessCard">
                   <button
@@ -100,11 +100,11 @@ const DoMore = () => {
           {/*End Single Choose Style1*/}
           {/*Start Single Choose Style1*/}
           <div
-            className="col-xl-4 col-lg-4 single-choose-style1-colum text-center border"
+            className="col-12 col-xl-3 col-lg-3 single-choose-style1-colum text-center border"
             style={{
               borderRadius: "12px",
               backgroundColor: "#FDFDFD",
-              width: "30%",
+              // width: "30%",
             }}
           >
             <div className="single-choose-style1">
@@ -119,7 +119,7 @@ const DoMore = () => {
               </div>
               <div
                 className="button-box text-center"
-                style={{ color: "#9E1B1E", marginTop: "2.7rem" }}
+                style={{ color: "#9E1B1E", marginTop: "3rem" }}
               >
                 <Link to="/NetBanking">
                   <button

@@ -47,7 +47,7 @@ const CustomerCare = () => {
                 </div>
               </a>
               <p className="text-white my-3" style={{ lineHeight: "1.3" }}>
-                What can Indo Zambia Bank do to better serve your needs? <br />{" "}
+                What can Indo Zambia Bank do to better serve your needs? <br />
                 Click the link Below for our Agents to serve you online.
               </p>
               <div>
