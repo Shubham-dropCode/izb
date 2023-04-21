@@ -86,7 +86,7 @@ const Hero = () => {
       </section>
       <section
         id="required"
-        className="documents-area col-sm-10 col-md-10 col-lg-10 col-xl-10 py-3 shadow p-3 "
+        className="documents-area postion-sm-static col-sm-10 col-md-10 col-lg-10 col-xl-10 py-3 shadow p-3"
         style={bankMenu}
       >
         <div className="container py-3">

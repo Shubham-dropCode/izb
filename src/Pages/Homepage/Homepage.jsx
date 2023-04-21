@@ -12,6 +12,7 @@ const Homepage = () => {
 
  const accountContent = "Exclusively designed savings account to inculcate savings habits in parents and guardians for their children. This savings account offers attractive interest rates and other benefits to realize your savings goals with other value added features such as IZB Contactless Visa Card, SMS Alert, Mobile and Internet Banking facility."
 
+ const style = {}
  return (
     <React.Fragment>
     <Hero/>

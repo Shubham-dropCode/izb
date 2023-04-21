@@ -12,7 +12,7 @@ const AtmLocatinos = () => {
     placeholder: "#FFF",
   };
   return (
-    <div className="container p-4">
+    <div className="container p-4 d-none d-md-block ">
       <div className="row">
         <div className="text-center mb-5">
           <h1 style={{ color: "#484848" }}>ATM/Branch Location </h1>

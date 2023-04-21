@@ -345,7 +345,7 @@ const Navbar = () => {
             </span>
             <div className="logo-box">
               <a href="index.html" aria-label="logo image">
-                {/* <img src="assets/images/resources/mobile-nav-logo.png" alt="" /> */}
+                <img src={Logo} alt="" />
               </a>
             </div>
             <div className="mobile-nav__container" />

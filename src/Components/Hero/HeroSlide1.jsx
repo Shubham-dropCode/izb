@@ -27,27 +27,38 @@ const HeroSlide1 = () => {
               <img src={bannerPhones} width={350} alt="" />
             </div>
             <div className="flex-column flex-wrap align-self-xl-center ms-4">
-              <h2 className="py-1">Account Opening</h2>
-              <h1 className="py-1">Made Easy!</h1>
-              <p className="pb-4">
-                Open and INDO EEZY savings Account on your Phone.
+              <h2
+                className="py-1"
+                style={{ color: "#9E1B1E", fontSize: "54px" }}
+              >
+                Account Opening
+              </h2>
+              <h1
+                className="py-1"
+                style={{ color: "#ECAA44", fontSize: "54px" }}
+              >
+                Made Easy!
+              </h1>
+              <p className="pb-4" style={{ fontWeight: "600" }}>
+                Open and <span style={{ color: "9E1B1E" }}> INDO EEZY </span>{" "}
+                savings Account on your Phone.
               </p>
-                <div className="d-flex align-items-center">
-                  <MobileStoreButton
-                    store="android"
-                    className=""
-                    url={androidUrl}
-                    width="10.5rem"
-                    linkProps={{ Title: "Google Play" }}
-                  />
-                  <MobileStoreButton
-                    className="pt-2"
-                    store="ios"
-                    width="10rem"
-                    url={iosUrl}
-                    linkProps={{ Title: "IOS Store" }}
-                  />
-                </div>
+              <div className="d-flex align-items-center">
+                <MobileStoreButton
+                  store="android"
+                  className=""
+                  url={androidUrl}
+                  width="10.5rem"
+                  linkProps={{ Title: "Google Play" }}
+                />
+                <MobileStoreButton
+                  className="pt-2"
+                  store="ios"
+                  width="10rem"
+                  url={iosUrl}
+                  linkProps={{ Title: "IOS Store" }}
+                />
+              </div>
             </div>
           </div>
         </div>
