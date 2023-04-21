@@ -87,7 +87,7 @@ const EEZY = () => {
           </div>
         </div>
       </section>
-      <ServiceTable/>
+      <ServiceTable title="Indo EEZY Service Charges"/>
       <AllAcountsSection />
     </>
   );
