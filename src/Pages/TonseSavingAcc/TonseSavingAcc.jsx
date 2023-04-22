@@ -11,10 +11,10 @@ import statement from "../../assets/images/IZB/IZB Website Skin//IZB Privilege C
 import atm from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/atm.png";
 import ContainsArea from '../../Components/ContainsArea/ContainsArea'
 import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusAccountComponent'
-import ServiceTable from '../../Components/ServiceTable/ServiceTable';
 import {loan} from '../../Data/ContainAreaData';
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Tonse Savings Account/image_1.png";
 import { useEffect } from 'react';
+import TonseTable from '../../Components/ServiceTable/TonseTable';
 
 console.log(loan);
 
@@ -42,14 +42,14 @@ const TonseSavingAcc = () => {
         <div className="container pt-4">
           <div className="text-center my-5">
             <h1 style={{ color: "#484848" }}>
-              Our IZB Save Plus Account Benefits
+              Our IZB Tonse Savings A/C Benefits
             </h1>
             <p style={{ color: "#484848" }}>
               We help businesses and customers achieve more.
             </p>
           </div> 
-          <div className="d-flex justify-content-center">
-            <ul className="row choose-style1__content">
+          <div className="">
+            <ul className="row choose-style1__content justify-content-center">
               <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
                 <div className="single-choose-style1">
                   <div className="icon">
@@ -81,7 +81,12 @@ const TonseSavingAcc = () => {
                 </div>
               </li>
 
-              <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
+              
+            </ul>
+          </div>
+          <div className="">
+            <ul className="row choose-style1__content justify-content-center">
+            <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
                 <div className="single-choose-style1">
                   <div className="icon">
                     <img src={statement} alt="" />
@@ -112,7 +117,6 @@ const TonseSavingAcc = () => {
                   </div>
                 </div>
               </li>
-              <li></li>
             </ul>
           </div>
         </div>
@@ -125,7 +129,7 @@ const TonseSavingAcc = () => {
       >
         <div className="container-fluid">
           <div className="sec-title text-center">
-            <h2>Savings A/c Required Documents</h2>
+            <h2>IZB Tonse Savings A/C Required Documents</h2>
             <div className="sub-title">
               <p>Basic documents required for opening a savings account.</p>
             </div>
@@ -221,7 +225,7 @@ const TonseSavingAcc = () => {
           </div>
         </div>
       </section>
-      <ServiceTable />
+      <TonseTable />
     <AllAcountsSection/>
     </>
   )

@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
-import ServiceTable from "../../Components/ServiceTable/ServiceTable";
 import { AiFillCaretRight } from "react-icons/ai";
 import percent from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/percentage.png";
 import CC from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/credit-card.png";
@@ -18,6 +17,7 @@ import selfService from "../../assets/images/IZB/IZB Website Skin//IZB Privilege
 import SavePlusAccountComponent from "../../Components/SavePlusAccount/SavePlusAccountComponent";
 import ContainsArea from "../../Components/ContainsArea/ContainsArea";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Privilege Savings Accoun/Image_1.png";
+import PrivilageSavingsTable from "../../Components/ServiceTable/PrivilageSavingsTable";
 
 
 
@@ -31,7 +31,7 @@ const PrivilegeSaving = () => {
     <>
       <Breadcrumb Heading="IZB Privilege Savings Account" img={BackgroundBrundcrumb}/>
       <SavePlusAccountComponent
-        heading="IZB Privilege Savings Account"
+        heading="IZB Privilege Savings A/C Service Charges"
         subHeading="Know About"
         content={accountContent}
         btnTxt="Open an Account"
@@ -46,7 +46,7 @@ const PrivilegeSaving = () => {
         <div className="container pt-4">
           <div className="text-center my-5">
             <h1 style={{ color: "#484848" }}>
-              Our IZB Save Plus Account Benefits
+             IZB Privilege Savings A/C Service Charges
             </h1>
             <p style={{ color: "#484848" }}>
               We help businesses and customers achieve more.
@@ -180,7 +180,7 @@ const PrivilegeSaving = () => {
       >
         <div className="container-fluid">
           <div className="sec-title text-center">
-            <h2>Savings A/c Required Documents</h2>
+            <h2>IZB Privilege Savings A/C Required Documents</h2>
             <div className="sub-title">
               <p>Basic documents required for opening a savings account.</p>
             </div>
@@ -276,7 +276,7 @@ const PrivilegeSaving = () => {
           </div>
         </div>
       </section>
-      <ServiceTable />
+      <PrivilageSavingsTable />
       <AllAcountsSection />
     </>
   );

@@ -31,7 +31,7 @@ const PersonalBanking = () => {
     <>
       <Breadcrumb Heading="Personal Banking" img={BackgroundBrundcrumb} />
       <div className="container">
-        <div className="d-flex justify-content-around mt-4">
+        <div className="d-flex justify-content-between mt-4">
           <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
@@ -114,7 +114,7 @@ const PersonalBanking = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-around my-3">
+        <div className="d-flex justify-content-between my-3">
           <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
@@ -197,7 +197,7 @@ const PersonalBanking = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-around my-3">
+        <div className="d-flex justify-content-between my-3">
           <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
@@ -245,7 +245,7 @@ const PersonalBanking = () => {
         <h2>Credit</h2>
       </div>
       <div className="container">
-        <div className="d-flex justify-content-around">
+        <div className="d-flex justify-content-between">
           <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
@@ -313,7 +313,7 @@ const PersonalBanking = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-around my-3">
+        <div className="d-flex justify-content-between my-3">
           <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
@@ -350,13 +350,13 @@ const PersonalBanking = () => {
       
 
       <div className="container">
-        <div className="d-flex justify-content-around mb-3 mt-5">
+        <div className="d-flex justify-content-between mb-3 mt-5">
 
       <h2>Fixed Deposit</h2>
       <h2>Agency Banking</h2>
         </div>
 
-      <div className="d-flex justify-content-between">
+      <div className="d-flex justify-content-between pb-5">
 
           <div className="col-5" style={{ backgroundColor: "#9E1B1E" }}>
             <div className="row justify-content-sm-center">

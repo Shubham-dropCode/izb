@@ -7,7 +7,9 @@ import cashWithdrawal from "../../assets/images/IZB/IZB Website Skin/Indo Fast S
 import CashDeposit from "../../assets/images/IZB/IZB Website Skin/Indo Fast Serve/Icon/deposit.png";
 import BalanceEnquiry from "../../assets/images/IZB/IZB Website Skin/Indo Fast Serve/Icon/calculator.png";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Indo Fast Serve/Image_1.png";
+import booth from "../../assets/images/IZB/IZB Website Skin/Indo Fast Serve/booth-01 1.png";
 import { useEffect } from "react";
+import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
 
 const IndoFastServe = () => {
   useEffect(() => {
@@ -126,10 +128,13 @@ const IndoFastServe = () => {
               </div>
             </div>
 
-            <div className="col-md-6"></div>
+            <div className="col-md-6">
+              <img src={booth} alt="" />
+            </div>
           </div>
         </div>
       </section>
+      <AllAcountsSection/>
     </>
   );
 };

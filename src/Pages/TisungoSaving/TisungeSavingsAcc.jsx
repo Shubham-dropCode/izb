@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
-import ServiceTable from '../../Components/ServiceTable/ServiceTable'
 import {AiFillCaretRight} from "react-icons/ai"
 import img1 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/4.png";
 import CC from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/credit-card.png";
@@ -13,6 +12,7 @@ import atm from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/
 import ContainsArea from '../../Components/ContainsArea/ContainsArea'
 import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusAccountComponent'
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Tisunge Savings Account/Image_1.png";
+import TisungeTable from '../../Components/ServiceTable/TisungeTable'
 
 
 
@@ -40,14 +40,14 @@ const TisungeSavingsAcc = () => {
         <div className="container pt-4">
           <div className="text-center my-5">
             <h1 style={{ color: "#484848" }}>
-              Our IZB Save Plus Account Benefits
+              Our IZB Tisunge Savings A/C Benefits
             </h1>
             <p style={{ color: "#484848" }}>
               We help businesses and customers achieve more.
             </p>
           </div> 
-          <div className="d-flex justify-content-center">
-            <ul className="row choose-style1__content">
+          <div className="">
+            <ul className="row choose-style1__content justify-content-center">
               <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
                 <div className="single-choose-style1">
                   <div className="icon">
@@ -78,8 +78,12 @@ const TisungeSavingsAcc = () => {
                   </div>
                 </div>
               </li>
-
-              <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
+              
+            </ul>
+          </div>
+          <div className="">
+            <ul className="row choose-style1__content justify-content-center">
+            <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
                 <div className="single-choose-style1">
                   <div className="icon">
                     <img src={statement} alt="" />
@@ -110,7 +114,6 @@ const TisungeSavingsAcc = () => {
                   </div>
                 </div>
               </li>
-              <li></li>
             </ul>
           </div>
         </div>
@@ -123,7 +126,7 @@ const TisungeSavingsAcc = () => {
       >
         <div className="container-fluid">
           <div className="sec-title text-center">
-            <h2>Savings A/c Required Documents</h2>
+            <h2>IZB Tisunge Savings A/C Required Documents</h2>
             <div className="sub-title">
               <p>Basic documents required for opening a savings account.</p>
             </div>
@@ -219,7 +222,7 @@ const TisungeSavingsAcc = () => {
           </div>
         </div>
       </section>
-      <ServiceTable />
+      <TisungeTable />
     <AllAcountsSection/>
     </>
   )

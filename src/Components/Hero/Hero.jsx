@@ -221,8 +221,9 @@ const Hero = () => {
                             </div>
                             <div>
                               <Link to="/AgroFinance">
-                                <ArrowR />
-                                Argo Finance
+
+                              <ArrowR />
+                              Argo Finance
                               </Link>
                             </div>
                           </div>

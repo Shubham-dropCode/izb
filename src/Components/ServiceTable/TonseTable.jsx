@@ -1,7 +1,7 @@
 import React from "react";
 import bgimg from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/image_6.png";
 import { AiFillCaretRight, AiOutlineRight } from "react-icons/ai";
-const ServiceTable = () => {
+const TonseTable = () => {
   return (
     <section
       id="required"
@@ -15,7 +15,7 @@ const ServiceTable = () => {
       <div className="container">
         <div className="text-center">
           <h1 className="text-white">
-            IZB Save Plus A/C Service Charges
+             IZB Tonse Savings A/C Service Charges
           </h1>
           <p className="text-white">
             Your money is making money for you & Your Family.
@@ -43,8 +43,7 @@ const ServiceTable = () => {
                       </td>
                       <td className="location">
                         <p>
-                          Children (underguidance) Individual and Joint Account
-                          holders
+                        Individual and Joint Account holders
                         </p>
                       </td>
                     </tr>
@@ -67,7 +66,7 @@ const ServiceTable = () => {
                         <p>Type of Account</p>
                       </td>
                       <td className="location">
-                        <p>Pure Savings</p>
+                        <p>Savings</p>
                       </td>
                     </tr>
                     <tr>
@@ -78,7 +77,7 @@ const ServiceTable = () => {
                         <p>Rate of Interest</p>
                       </td>
                       <td className="location">
-                        <p>6% p.a payable twice-yearly</p>
+                        <p>NIL</p>
                       </td>
                     </tr>
                     <tr>
@@ -111,7 +110,7 @@ const ServiceTable = () => {
                         <p>Minimum Balance Requirment</p>
                       </td>
                       <td className="location">
-                        <p>K1,000/-</p>
+                        <p>K100/-</p>
                       </td>
                     </tr>
                     <tr>
@@ -188,7 +187,7 @@ const ServiceTable = () => {
                         <p>E-statement</p>
                       </td>
                       <td className="location">
-                        <p>Available-Free</p>
+                        <p>N/A</p>
                       </td>
                     </tr>
                     <tr>
@@ -245,7 +244,7 @@ const ServiceTable = () => {
                         <p>Issuance of Deposit Book</p>
                       </td>
                       <td className="location">
-                        <p>Free</p>
+                        <p>K30/- per book</p>
                       </td>
                     </tr>
                     <tr>
@@ -379,7 +378,8 @@ const ServiceTable = () => {
                         <p>Return of cheques</p>
                       </td>
                       <td className="location">
-                        <p>N/A</p>
+                        <p>For financial reasons (Refer to Drawer) K 510/- 
+                           per cheque For other reasons – Free</p>
                       </td>
                     </tr>
                     <tr>
@@ -390,7 +390,7 @@ const ServiceTable = () => {
                         <p>Stop Payment Instructions</p>
                       </td>
                       <td className="location">
-                        <p>N/A</p>
+                        <p>K250/- per occasion</p>
                       </td>
                     </tr>
                     <tr>
@@ -613,4 +613,4 @@ const ServiceTable = () => {
   );
 };
 
-export default ServiceTable;
+export default TonseTable;
