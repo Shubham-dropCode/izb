@@ -67,14 +67,6 @@ const Navbar = () => {
       let mobileNavContainer = document.querySelector(".mobile-nav__container");
       mobileNavContainer.innerHTML = navContent;
     }
-
-    if ($(".mobile-nav__toggler").length) {
-      $(".mobile-nav__toggler").on("click", function (e) {
-        e.preventDefault();
-        $(".mobile-nav__wrapper").toggleClass("expanded");
-        $("body").toggleClass("locked");
-      });
-    }
   }, []);
 
   return (
@@ -436,21 +428,11 @@ const Navbar = () => {
               <i className="fas fa-plus" />
             </span>
             <div className="logo-box">
-              <Link to="/" aria-label="logo image">
+              <a href="index.html" aria-label="logo image">
                 <img src={Logo} alt="" />
-              </Link>
+              </a>
             </div>
             <div className="mobile-nav__container" />
-            <ul className="mobile-nav__contact list-unstyled">
-              <li>
-                <i className="fa fa-envelope" />
-                <a href="mailto:info@example.com">customerservice@izb.co.zm</a>
-              </li>
-              <li>
-                <i className="fa fa-phone-alt" />
-                <a href="tel:123456789">+260 211 224 653/225 080</a>
-              </li>
-            </ul>
             <div className="mobile-nav__social">
               <a
                 href="https://mobile.twitter.com/IndoZambiaBank"
@@ -471,6 +453,8 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+
+        
 
         {/*End Main Header Style1 Bottom*/}
       </header>
