@@ -22,7 +22,7 @@ const Slide1 = () => {
               <div className="inner-title ps-5">
                 <h2 style={textColor}>INDO MOBILE BANKING</h2>
                 <div className="d-flex align-items-center gap-3 my-3">
-                  <img src={img1} width={50} alt="" />
+                  <img src={img1} className="" width={50} alt="" />
                   <h5>Anytime, Anywhere.</h5>
                 </div>
                 <p>

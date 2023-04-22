@@ -9,7 +9,7 @@ import mail from "../../assets/images/IZB/IZB Website Skin/Home_Page/Icons/mail 
 const CustomerCare = () => {
   const CustomerBgImg = {
     backgroundImage: `url(${CustomerImg})`,
-    height: "70vh",
+    // height: "70vh",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     overflow: "hidden",
@@ -21,20 +21,23 @@ const CustomerCare = () => {
     marginLeft: "auto",
   };
   return (
+    <section className="overview-area">
+
+   
     <div className="container-fluid" style={{ containerFluid }}>
       <div className="row align-items-center" style={CustomerBgImg}>
         <div className="container">
           <div className="row">
-            <div className="offset-1 col-5">
-              <img src={CustomerCareImg} width="100%" alt="" />
+            <div className="offset-md-1 col-md-5 py-5">
+              <img src={CustomerCareImg} className="p-0" alt="" />
             </div>
-            <div className="col-6">
+            <div className="col-md-6 py-5">
               <h2 className="text-white">React us When you need us</h2>
               <a className=" mx-2 my-2 rounded d-flex align-items-center">
-                <div className="icon">
+                <div className="icon ">
                   <img src={Phone} width={40} className="style2 text" alt="" />
                 </div>
-                <div className="text">
+                <div className="text ">
                   <h3 className="text-white mx-3">Toll-Free</h3>
                 </div>
                 <div className="text">
@@ -50,11 +53,15 @@ const CustomerCare = () => {
                 What can Indo Zambia Bank do to better serve your needs? <br />
                 Click the link Below for our Agents to serve you online.
               </p>
-              <div>
+              <div className="h-100">
                 <div className="text d-flex">
                   <h5
                     className="p-2 rounded"
-                    style={{ backgroundColor: "#FFC975", color: "#9E1B1E",width:"60%" }}
+                    style={{
+                      backgroundColor: "#FFC975",
+                      color: "#9E1B1E",
+                      width: "59%",
+                    }}
                   >
                     <img
                       src={Call}
@@ -68,7 +75,11 @@ const CustomerCare = () => {
                 <div className="text d-flex">
                   <h5
                     className="p-2 my-2 rounded"
-                    style={{ backgroundColor: "#FFC975", color: "#9E1B1E",width:"60%" }}
+                    style={{
+                      backgroundColor: "#FFC975",
+                      color: "#9E1B1E",
+                      width: "59%",
+                    }}
                   >
                     <img
                       src={whatsapp}
@@ -81,8 +92,12 @@ const CustomerCare = () => {
                 </div>
                 <div className="text d-flex">
                   <h5
-                    className="p-2 mb-2 rounded"
-                    style={{ backgroundColor: "#FFC975", color: "#9E1B1E",width:"60%" }}
+                    className="p-2 mb-2 rounded text-wrap"
+                    style={{
+                      backgroundColor: "#FFC975",
+                      color: "#9E1B1E",
+                      // width: "60%",
+                    }}
                   >
                     <img
                       src={mail}
@@ -90,7 +105,7 @@ const CustomerCare = () => {
                       style={{ marginRight: "10px" }}
                       alt=""
                     />
-                    customerservice@izb.co.zm{" "}
+                    customerservice@izb.co.zm
                   </h5>
                 </div>
               </div>
@@ -99,6 +114,7 @@ const CustomerCare = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

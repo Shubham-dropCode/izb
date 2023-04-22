@@ -17,12 +17,39 @@ const OurStores = () => {
   console.log(sliderRef.current);
   const settings = {
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-   
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
+
   return (
     <section>
       <div className="container">
@@ -49,7 +76,7 @@ const OurStores = () => {
             </div>
           </div>
 
-          <Slider ref={sliderRef} {...settings}> 
+          {/* <Slider ref={sliderRef} {...settings}>  */}
             <div className="col-xl-4 col-lg-4">
               <div
                 className="single-blog-style1 wow fadeInUp"
@@ -201,9 +228,10 @@ const OurStores = () => {
                 </div>
               </div>
             </div>
-          </Slider>
+          {/* </Slider> */}
           <div className="d-flex justify-content-between mb-4">
-            <button type="button" class="btn btn-light border" onClick={()=>sliderRef.current.slickPrev()}>
+            <button type="button" class="btn btn-light border" >
+              {/* onClick={()=>sliderRef.current.slickPrev()} */}
               <AiOutlineArrowLeft
                 color="#B70A00"
                 size={21}
@@ -211,8 +239,9 @@ const OurStores = () => {
               />
               PREV
             </button>
-            <button type="button" class="btn btn-light border" onClick={()=>sliderRef.current.slickNext()}>
+            <button type="button" class="btn btn-light border">
               NEXT{" "}
+              {/*  onClick={()=>sliderRef.current.slickNext()} */}
               <AiOutlineArrowRight
                 color="#B70A00"
                 size={21}
