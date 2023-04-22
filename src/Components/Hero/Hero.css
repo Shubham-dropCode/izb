@@ -33,6 +33,9 @@
     object-position: bottom right;
     overflow: "hidden"
  }
+ .Spacer{
+    height: 200px;
+}
 
 @media screen and (max-width: 480px) {
     .bannerPhone {
@@ -64,4 +67,8 @@
     .sliderContent{
         display: none;
     }
+    .Spacer{
+        height: 600px;
+    }
+    
   }

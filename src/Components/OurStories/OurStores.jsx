@@ -239,8 +239,8 @@ const OurStores = () => {
               />
               PREV
             </button>
-            <button type="button" class="btn btn-light border">
-              NEXT{" "}
+            <button type="button" class="btn btn-light border me-4">
+              NEXT
               {/*  onClick={()=>sliderRef.current.slickNext()} */}
               <AiOutlineArrowRight
                 color="#B70A00"

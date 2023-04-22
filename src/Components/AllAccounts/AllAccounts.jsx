@@ -107,7 +107,7 @@ const AllAccounts = () => {
           <Link to="/PersonalBanking">
             <a
               href="#"
-              className="text-white rounded px-3 py-1"
+              className="text-white rounded px-3 py-1 me-4"
               style={{ backgroundColor: "#9E1B1E" }}
             >
               See More <AiOutlineArrowRight size={21} className="me-1 pb-1" />
@@ -140,7 +140,7 @@ const AllAccounts = () => {
             {" "}
             <a
               href="#"
-              className="text-white rounded px-3 py-1"
+              className="text-white rounded px-3 py-1 me-4"
               style={{ backgroundColor: "#9E1B1E" }}
             >
               See More <AiOutlineArrowRight size={21} className="me-1 pb-1" />

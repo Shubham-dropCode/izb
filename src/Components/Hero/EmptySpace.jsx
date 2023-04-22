@@ -1,9 +1,10 @@
 import React from 'react'
+import "../Hero/Hero.css"
 
 const EmptySpace = () => {
   
   return (
-    <div className='container-fludi' style={{height:"600px"}}>
+    <div className='container-fluid Spacer'>
     </div>
   )
 }
