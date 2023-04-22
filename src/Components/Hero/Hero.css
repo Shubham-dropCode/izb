@@ -11,3 +11,39 @@
 .CHeight {
     height:400px;
 }
+
+.AccOpen{
+    font-size: 54px;
+}
+.AfterText{
+    display: none;
+}
+ .HeroSlider1{
+    background-image: url('../../assets/images/IZB/Slider1.png');
+    height: 100vh;
+    object-fit: cover;
+    object-position: bottom right;
+    overflow: "hidden"
+
+ }
+
+@media screen and (max-width: 480px) {
+    .bannerPhone {
+        display: none;
+    }
+    .AccOpen {
+        font-size: "34px";
+    }
+    .HeroSlider{
+        height: 50vh;
+    }
+    .postion-sm-static{
+        position: static;
+    }
+    .SliderImg{
+        visibility: hidden;
+    }
+    .SliderArrow{
+        display: none;
+    }
+  }

@@ -94,7 +94,7 @@ const SavePlusAccount = () => {
 
     </section>
     <RequiredDocuments/>
-    <ServiceTable/>
+    <ServiceTable title="IZB Save Plus A/C Service Charges"/>
     <AllAcountsSection/>
     </>
   )

@@ -12,7 +12,7 @@ const AtmLocatinos = () => {
     placeholder: "#FFF",
   };
   return (
-    <div className="container p-4">
+    <div className="container p-4 d-none d-md-block ">
       <div className="row">
         <div className="text-center mb-5">
           <h1 style={{ color: "#484848" }}>ATM/Branch Location </h1>
@@ -27,7 +27,7 @@ const AtmLocatinos = () => {
         >
           <div className="form-check">
             <input
-              className="form-check-input"
+              className="form-check-input w-sm-25"
               type="radio"
               name="flexRadioDefault"
               id="flexRadioDefault1"
@@ -63,7 +63,7 @@ const AtmLocatinos = () => {
                 <input
                   type="text"
                   id="HomepageAtm"
-                  className="form-control input-lg"
+                  className="form-control"
                   style={formControl}
                   placeholder="Enter Your Location"
                 />

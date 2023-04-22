@@ -10,6 +10,9 @@ const SavePlusAccountComponent = ({
   btnTxt,
   link,
 }) => {
+  const textColor = {
+    color:"#949292"
+  }
   return (
     <section className="overview-area">
       <div className="container">
@@ -23,14 +26,14 @@ const SavePlusAccountComponent = ({
             <div className="overview-content-box-two h-100 d-flex flex-column justify-content-center">
               <div className="inner-title">
                 <h5>{subHeading}</h5>
-                <h2>{heading}</h2>
+                <h2 style={{color:"#484848"}}>{heading}</h2>
               </div>
               <div className="text">
-                <p>{content}</p>
+                <p style={textColor}>{content}</p>
               </div>
               <Link to={link}>
                 <button
-                  className="btn btn-danger w-50 text-white fs-5"
+                  className="btn btn-danger text-white fs-5"
                   style={{ backgroundColor: "#9E1B1E" }}
                 >
                   <BsBank className="me-4 mb-1 text-white" size={25} />

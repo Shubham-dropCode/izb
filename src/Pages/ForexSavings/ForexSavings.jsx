@@ -37,7 +37,7 @@ const ForexSavings = () => {
       <div className="container">
         <div className="text-center">
           <h1 className="text-white">
-            IZB Classic Savings A/C Service Charges
+          IZB Forex Current  A/C Service Charges
           </h1>
           <p className="text-white">
             Your money is making money for you & Your Family.
@@ -65,8 +65,7 @@ const ForexSavings = () => {
                       </td>
                       <td className="location">
                         <p>
-                          Children (underguidance) Individual and Joint Account
-                          holders
+                        Corporate/Non-Corporate Business Accounts
                         </p>
                       </td>
                     </tr>

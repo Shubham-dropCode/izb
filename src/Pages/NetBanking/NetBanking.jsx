@@ -14,6 +14,8 @@ import onlineBanking from "../../assets/images/IZB/IZB Website Skin/Indo Net Ban
 import stockMarket from "../../assets/images/IZB/IZB Website Skin/Indo Net Banking/Icons/stock-market.png";
 import CC from "../../assets/images/IZB/IZB Website Skin/Indo Net Banking/Icons/credit-card.png";
 import { useEffect } from "react";
+import bgimg from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/image_6.png";
+
 
 const NetBanking = () => {
   useEffect(() => {
@@ -242,6 +244,159 @@ const NetBanking = () => {
           </div>
         </div>
       </section>
+
+      <section
+      id="required"
+      class="documents-area"
+      style={{
+        backgroundImage: `url(${bgimg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+    >
+      <div className="container">
+        <div className="text-center">
+          <h1 className="text-white">
+           IZB Net Banking Service Charges
+          </h1>
+          <p className="text-white">
+            Your money is making money for you & Your Family.
+          </p>
+        </div>
+        <div className="row">
+          <div className="col-xl-12">
+            <div className="job-list-table-box">
+              <div className="table-outer">
+                <table className="job-list-table">
+                  <thead className="header text-center">
+                    <tr>
+                      <th>SL. No</th>
+                      <th>Product Name</th>
+                      <th>IZB Forex Current Account</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-white">
+                    <tr>
+                      <td className="department text-white">
+                        <h3>1.</h3>
+                      </td>
+                      <td className="location">
+                        <p>Target Groups</p>
+                      </td>
+                      <td className="location">
+                        <p>
+                          Children (underguidance) Individual and Joint Account
+                          holders
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department text-white">
+                        <h3>2.</h3>
+                      </td>
+                      <td className="location">
+                        <p>Account Opening Requirement</p>
+                      </td>
+                      <td className="location">
+                        <p>KYC requirement as stipulated</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>3.</h3>
+                      </td>
+                      <td className="location">
+                        <p>Type of Account</p>
+                      </td>
+                      <td className="location">
+                        <p>Pure Savings</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>4.</h3>
+                      </td>
+                      <td className="location">
+                        <p>Rate of Interest</p>
+                      </td>
+                      <td className="location">
+                        <p>6% p.a payable twice-yearly</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>5.</h3>
+                      </td>
+                      <td className="location">
+                        <p>Maintenance Charges</p>
+                      </td>
+                      <td className="location">
+                        <p>Free</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>6.</h3>
+                      </td>
+                      <td className="location">
+                        <p>Maximum Balance</p>
+                      </td>
+                      <td className="location">
+                        <p>N/A</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>7.</h3>
+                      </td>
+                      <td className="location">
+                        <p>Minimum Balance Requirment</p>
+                      </td>
+                      <td className="location">
+                        <p>K1,000/-</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>8.</h3>
+                      </td>
+                      <td className="location">
+                        <p>Minimum balance Charge</p>
+                      </td>
+                      <td className="location">
+                        <p>K25/-</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>9.</h3>
+                      </td>
+                      <td className="location">
+                        <p>Cheque Book</p>
+                      </td>
+                      <td className="location">
+                        <p>N/A</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>10.</h3>
+                      </td>
+                      <td className="location">
+                        <p>SMS Alert</p>
+                      </td>
+                      <td className="location">
+                        <p>Free</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
       
       <AllAcountsSection />
     </>

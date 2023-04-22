@@ -1,7 +1,7 @@
 import React from "react";
 import bgimg from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/image_6.png";
 import { AiFillCaretRight, AiOutlineRight } from "react-icons/ai";
-const ServiceTable = () => {
+const ServiceTable = ({title}) => {
   return (
     <section
       id="required"
@@ -15,7 +15,7 @@ const ServiceTable = () => {
       <div className="container">
         <div className="text-center">
           <h1 className="text-white">
-            IZB Save Plus A/C Service Charges
+            {title}
           </h1>
           <p className="text-white">
             Your money is making money for you & Your Family.

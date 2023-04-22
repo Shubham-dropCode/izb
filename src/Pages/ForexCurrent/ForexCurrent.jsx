@@ -37,10 +37,10 @@ const ForexCurrent = () => {
       <div className="container">
         <div className="text-center">
           <h1 className="text-white">
-            IZB Classic Savings A/C Service Charges
+           IZB Forex Savings A/C Service Charges
           </h1>
           <p className="text-white">
-            Your money is making money for you & Your Family.
+          Your money is making money for you & Your Family.
           </p>
         </div>
         <div className="row">
@@ -65,9 +65,8 @@ const ForexCurrent = () => {
                       </td>
                       <td className="location">
                         <p>
-                          Children (underguidance) Individual and Joint Account
-                          holders
-                        </p>
+                        Individual and Joint Account holders
+                        </p> 
                       </td>
                     </tr>
                     <tr>

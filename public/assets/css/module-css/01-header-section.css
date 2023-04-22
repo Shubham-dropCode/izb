@@ -380,8 +380,8 @@
 .main-menu .main-menu__list>li,
 .stricky-header .main-menu__list>li {
     position: relative;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .main-menu .main-menu__list>li+li,
@@ -394,7 +394,7 @@
     position: relative;
     color: var(--thm-black);
     font-size: 15px;
-    line-height: 50px;
+    line-height: 35px;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -409,7 +409,7 @@
 .main-menu .main-menu__list>li:hover>a,
 .stricky-header .main-menu__list>li.current>a,
 .stricky-header .main-menu__list>li:hover>a {
-    color: var(--thm-base);
+    color: white;
 }
 
 .main-menu .main-menu__list>li.dropdown>a,
@@ -428,6 +428,11 @@
     transition-delay: 0.1s;
     z-index: 1;
 }
+.main-menu .main-menu__list>li>a::after,
+.stricky-header .main-menu__list>li>a::after {
+    color: white;
+ 
+}
 
 .main-menu .main-menu__list>li>a::after,
 .stricky-header .main-menu__list>li>a::after {
@@ -437,7 +442,9 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #ffffff;
+    background-color: #9E1B1E;
+    border-radius: 15px;
+    color: white;
     transition: -webkit-transform 0.4s ease;
     transition: transform 0.4s ease;
     transition: transform 0.4s ease, -webkit-transform 0.4s ease;
@@ -447,6 +454,7 @@
     transform-origin: right center;
     z-index: -1;
 }
+
 
 .main-menu .main-menu__list>li:hover>a::after,
 .main-menu .main-menu__list>li.current>a::after,
@@ -469,7 +477,7 @@
     left: 0;
     min-width: 270px;
     padding: 10px 20px 10px;
-    background-color: #fff;
+    background-color: #FFF5E7;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -534,7 +542,7 @@
     position: relative;
     display: flex;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 20px;
     color: var(--thm-gray);
     letter-spacing: 0;
     font-weight: 400;
@@ -556,6 +564,7 @@
     top: 0;
     left: 0px;
     bottom: 0px;
+    border-radius: 15px;
     right: 0;
     background-color: var(--thm-base);
     transition: -webkit-transform 0.4s ease;

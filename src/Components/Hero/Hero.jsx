@@ -4,6 +4,8 @@ import Credit from "../../assets/images/IZB/IZB Website Skin/Home_Page/Credit.pn
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { CiCircleChevRight } from "react-icons/ci";
 import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.svg";
+import ArrowLeft from "../../assets/images/IZB/IZB Website Skin/LeftArrow.png";
+import ArrowRight from "../../assets/images/IZB/IZB Website Skin/RightArrow.png";
 import "./Hero.css";
 
 import BankingMenu from "./BankingMenu";
@@ -13,20 +15,61 @@ import Slider from "react-slick";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <img
+        src={ArrowLeft}
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          width: "50px",
+          height: "50px",
+          left: "50px",
+          zIndex: 1,
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <img
+        src={ArrowRight}
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          width: "50px",
+          height: "50px",
+          right: "50px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+
   const settings = {
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 9000,
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
   const bankMenu = {
     position: "absolute",
     borderRadius: "12px",
     backgroundColor: "#FFF5E7",
-    left: "10%",
-    top: "100%",
+    left: "8%",
+    top: "90%",
+  };
+  const textColor = {
+    color: "#9E1B1E",
   };
 
   return (
@@ -43,26 +86,38 @@ const Hero = () => {
       </section>
       <section
         id="required"
-        className="documents-area col-sm-10 col-md-10 col-lg-10 col-xl-10 py-3"
+        className="documents-area col-sm-10 col-md-10 col-lg-10 col-xl-10 shadow p-0 p-md-3 me-3"
         style={bankMenu}
       >
-        <div className="container">
+        <div className="container py-3">
           <div className="row">
-            <div className="col-xl-6 col-lg-6">
+            <div className="col-xl-6 col-lg-6 px-0 px-md-3">
               {/*Start Single Documents Box*/}
               <div
-                className="single-documents-box p-1"
+                className="single-documents-box p-0"
                 style={{ borderRadius: "12px" }}
               >
                 <div className="features-style2-tab-content-box-item">
                   <div className="row">
                     <div className="col-xl-12 col-md-12 p-0">
-                      <div className="features-style2-text-box text-center m-3 mb-0 text-white heading-box">
-                        <h4 className="text-white">Personal Banking</h4>
+                      <div
+                        className="features-style2-text-box text-center p-2 mx-1 mb-0 text-white heading-box"
+                        style={{ borderRadius: "13px 13px 0 0" }}
+                      >
+                        <Link to="/PersonalBanking">
+                          <h4 className="text-white" style={textColor}>
+                            Personal Banking
+                          </h4>
+                          <AiOutlineArrowRight
+                            size={20}
+                            className="ms-2 text-white position-absolute"
+                            style={{ top: "32%", right: "1%" }}
+                          />
+                        </Link>
                       </div>
                     </div>
                     <div className="d-flex flex-row">
-                      <div className="col-xl-6 col-md-6">
+                      <div className="col-xl-6 col-md-6 w-50">
                         <div className="features d-flex flex-column align-items-center">
                           <div className="text-box d-flex flex-column align-items-center">
                             <img
@@ -71,23 +126,37 @@ const Hero = () => {
                               src={SavingAcc}
                               alt="Saving Account"
                             />
-                            <h5 className="text-center pt-3">Saving Account</h5>
+                            <h5 className="text-center pt-3" style={textColor}>
+                              Saving Account
+                            </h5>
                           </div>
                           <div className="pt-3">
                             <div>
+<<<<<<< HEAD
                               <Link to="/SavePlusAccount">
+=======
+                              <Link to="/SavePlusAccount" style={textColor}>
+>>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Save Plus Account
                               </Link>
                             </div>
                             <div>
+<<<<<<< HEAD
                               <Link to="/PrivilageSavingAcc">
+=======
+                              <Link to="/PrivilageSavingAcc" style={textColor}>
+>>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Privilege Savings Account
                               </Link>
                             </div>
                             <div>
+<<<<<<< HEAD
                               <Link to="/TisungoSaving">
+=======
+                              <Link to="/TisungoSaving" style={textColor}>
+>>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Tisunge Savings Account
                               </Link>
@@ -96,7 +165,7 @@ const Hero = () => {
                         </div>
                       </div>
                       <span className="border"></span>
-                      <div className="col-xl-6 col-md-6 ">
+                      <div className="col-xl-6 col-md-6 w-50 ">
                         <div
                           className="features d-flex flex-column align-items-center"
                           style={{ borderRadius: "12px" }}
@@ -108,23 +177,37 @@ const Hero = () => {
                               src={Credit}
                               alt="Saving Account"
                             />
-                            <h5 className="text-center pt-3">Credit</h5>
+                            <h5 className="text-center pt-3" style={textColor}>
+                              Credit
+                            </h5>
                           </div>
                           <div className="py-3">
                             <div>
+<<<<<<< HEAD
                               <Link to="/IndoPersonalLoan">
+=======
+                              <Link to="/IndoPersonalLoan" style={textColor}>
+>>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Personal Loan
                               </Link>
                             </div>
                             <div>
+<<<<<<< HEAD
                               <Link to="/IndoHomeLoan">
+=======
+                              <Link to="/IndoHomeLoan" style={textColor}>
+>>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Indo Home Loan
                               </Link>
                             </div>
                             <div>
+<<<<<<< HEAD
                               <Link to="/IndoVehicleLoan">
+=======
+                              <Link to="/IndoVehicleLoan" style={textColor}>
+>>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Vehicle Loan
                               </Link>
@@ -137,7 +220,11 @@ const Hero = () => {
                 </div>
                 <span className="Hborder"></span>
                 <div className="d-flex align-items-center justify-content-end p-2">
+<<<<<<< HEAD
                   <Link to="/PersonalBanking">
+=======
+                  <Link to="/PersonalBanking" style={textColor}>
+>>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                     Read More
                     <AiOutlineArrowRight className="ms-2" />
                   </Link>
@@ -145,21 +232,33 @@ const Hero = () => {
               </div>
               {/*End Single Documents Box*/}
             </div>
-            <div className="col-xl-6 col-lg-6">
+            <div className="col-xl-6 col-lg-6 px-0 px-md-3">
               {/*Start Single Documents Box*/}
               <div
-                className="single-documents-box p-1 rounded-4"
+                className="single-documents-box p-0 rounded-4 "
                 style={{ borderRadius: "12px" }}
               >
                 <div className="features-style2-tab-content-box-item">
                   <div className="row">
                     <div className="col-xl-12 col-md-12 p-0">
-                      <div className="features-style2-text-box text-center m-3 mb-0 text-white heading-box">
-                        <h4 className="text-white">Business Banking</h4>
+                      <div
+                        className="features-style2-text-box text-center p-2 mx-1 mb-0 text-white heading-box"
+                        style={{ borderRadius: "13px 13px 0 0" }}
+                      >
+                        <Link to="/BusinessBanking">
+                          <h4 className="text-white" style={textColor}>
+                            Business Banking
+                          </h4>
+                          <AiOutlineArrowRight
+                            size={20}
+                            className="ms-2 text-white position-absolute"
+                            style={{ top: "32%", right: "1%" }}
+                          />
+                        </Link>
                       </div>
                     </div>
                     <div className="d-flex flex-row">
-                      <div className="col-xl-6 col-md-6">
+                      <div className="col-xl-6 col-md-6 w-50">
                         <div className="features d-flex flex-column align-items-center">
                           <div className="text-box d-flex flex-column align-items-center">
                             <img
@@ -168,25 +267,40 @@ const Hero = () => {
                               src={SavingAcc}
                               alt="Saving Account"
                             />
-                            <h5 className="text-center pt-3">
+                            <h5 className="text-center pt-3" style={textColor}>
                               Current Account
                             </h5>
                           </div>
                           <div className="pt-3">
                             <div>
+<<<<<<< HEAD
                               <Link to="/PrivilegeCurrentAcc">
+=======
+                              <Link to="/PrivilegeCurrentAcc" style={textColor}>
+>>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Privilege Current Account
                               </Link>
                             </div>
                             <div>
+<<<<<<< HEAD
                               <Link to="/ClassicCurrentAccount">
+=======
+                              <Link
+                                to="/ClassicCurrentAccount"
+                                style={textColor}
+                              >
+>>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Classic Current Account
                               </Link>
                             </div>
                             <div>
+<<<<<<< HEAD
                               <Link to="/SMECurrentAcc">
+=======
+                              <Link to="/SMECurrentAcc" style={textColor}>
+>>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 SME Current Account
                               </Link>
@@ -195,7 +309,7 @@ const Hero = () => {
                         </div>
                       </div>
                       <span className="border"></span>
-                      <div className="col-xl-6 col-md-6 ">
+                      <div className="col-xl-6 col-md-6 w-50">
                         <div className="features d-flex flex-column align-items-center">
                           <div className="text-box d-flex flex-column align-items-center">
                             <img
@@ -204,26 +318,42 @@ const Hero = () => {
                               src={Credit}
                               alt="Saving Account"
                             />
-                            <h5 className="text-center pt-3">Credit</h5>
+                            <h5 className="text-center pt-3" style={textColor}>
+                              Credit
+                            </h5>
                           </div>
                           <div className="py-3">
                             <div>
+<<<<<<< HEAD
                               <Link to="TermLoan">
+=======
+                              <Link to="/TermLoan" style={textColor}>
+>>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Term Loan
                               </Link>
                             </div>
                             <div>
+<<<<<<< HEAD
                               <Link to="/AutoFinance">
+=======
+                              <Link to="/AutoFinance" style={textColor}>
+>>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Auto Finance
                               </Link>
                             </div>
                             <div>
+<<<<<<< HEAD
                               <Link to="/AgroFinance">
 
                               <ArrowR />
                               Argo Finance
+=======
+                              <Link to="/AgroFinance" style={textColor}>
+                                <ArrowR />
+                                Argo Finance
+>>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                               </Link>
                             </div>
                           </div>
@@ -234,7 +364,11 @@ const Hero = () => {
                 </div>
                 <span className="Hborder"></span>
                 <div className="d-flex align-items-center justify-content-end p-2">
+<<<<<<< HEAD
                   <Link to="/BusinessBanking">
+=======
+                  <Link to="/BusinessBanking" style={textColor}>
+>>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                     Read More
                     <AiOutlineArrowRight className="ms-2" />
                   </Link>

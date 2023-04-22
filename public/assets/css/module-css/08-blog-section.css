@@ -196,7 +196,7 @@ Blog Style1 Area Css
     font-weight: 500;
     text-transform: capitalize;
     padding-bottom: 22px;
-    border-bottom: 1px solid #e6ebe9;
+    /* border-bottom: 1px solid #e6ebe9; */
 }
 
 .single-blog-style1 .text-holder .blog-title a {

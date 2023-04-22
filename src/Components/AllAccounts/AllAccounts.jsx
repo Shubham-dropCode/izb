@@ -13,20 +13,29 @@ import SMECurrentCard from "./Business/SMECurrentCard";
 import TermLoanCard from "./Business/TermLoanCard";
 import { Link } from "react-router-dom";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import ArrowL from "../../assets/images/IZB/IZB Website Skin/LeftArrow.png";
-import ArrowR from "../../assets/images/IZB/IZB Website Skin/RightArrow.png";
+import ArrowL from "../../assets/images/IZB/IZB Website Skin/ArrowL.png";
+import ArrowR from "../../assets/images/IZB/IZB Website Skin/ArrowR.png";
 import { BsLock } from "react-icons/bs";
+import "../Hero/Hero.css"
 
 const AllAccounts = () => {
-  const refSlider = useRef();
-  console.log(refSlider.current);
+  const SliderArrow = {
+    
+  }
+
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
       <img
-      src={ArrowR}
-        className={className}
-        style={{ ...style, display: "block",width:"50px",height:"50px",right:"-50px"  }}
+        src={ArrowR}
+        className={"SliderArrow " + className }
+        style={{
+          ...style,
+          display: "block",
+          width: "50px",
+          height: "50px",
+          right: "-50px",
+        }}
         onClick={onClick}
       />
     );
@@ -38,20 +47,26 @@ const AllAccounts = () => {
       <img
         src={ArrowL}
         className={className}
-        style={{ ...style, display: "block",width:"50px",height:"50px",left:"-70px" }}
+        style={{
+          ...style,
+          display: "block",
+          width: "50px",
+          height: "50px",
+          left: "-70px",
+        }}
         onClick={onClick}
       />
     );
   }
 
   let settings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
-    nextArrow: <SampleNextArrow  />,
+    nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
       {
@@ -87,7 +102,7 @@ const AllAccounts = () => {
     >
       <div className="container">
         <div className="sec-title text-center d-flex justify-content-between">
-          <h4>Personal Banking</h4>
+          <h4 style={{ color: "#9E1B1E" }}>Personal Banking</h4>
 
           <Link to="/PersonalBanking">
             <a
@@ -99,8 +114,8 @@ const AllAccounts = () => {
             </a>
           </Link>
         </div>
-        <div className="row gap-3 ">
-          <Slider ref={refSlider} {...settings}>
+        <div className="row">
+          <Slider {...settings}>
             <div>
               <SavePlusCard />
             </div>
@@ -120,7 +135,7 @@ const AllAccounts = () => {
         </div>
 
         <div className="sec-title pt-5 text-center d-flex justify-content-between">
-          <h4>Business Banking</h4>
+          <h4 style={{ color: "#9E1B1E" }}>Business Banking</h4>
           <Link to="/BusinessBanking">
             {" "}
             <a
