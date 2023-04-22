@@ -11,6 +11,14 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   useEffect(() => {
+    if ($(".mobile-nav__toggler").length) {
+      $(".mobile-nav__toggler").on("click", function (e) {
+        e.preventDefault();
+        $(".mobile-nav__wrapper").toggleClass("expanded");
+        $("body").toggleClass("locked");
+      });
+    }
+
     if ($(".mobile-nav__container .main-menu__list").length) {
       let dropdownAnchor = $(
         ".mobile-nav__container .main-menu__list .dropdown > a"
@@ -31,6 +39,11 @@ const Navbar = () => {
           self.parent().parent().children("ul").slideToggle();
         });
       });
+    }
+    if ($(".main-menu__list").length && $(".mobile-nav__container").length) {
+      let navContent = document.querySelector(".main-menu__list").outerHTML;
+      let mobileNavContainer = document.querySelector(".mobile-nav__container");
+      mobileNavContainer.innerHTML = navContent;
     }
 
     if ($(".mobile-nav__toggler").length) {
@@ -401,245 +414,12 @@ const Navbar = () => {
               <i className="fas fa-plus" />
             </span>
             <div className="logo-box">
-              <a href="index.html" aria-label="logo image">
+              <Link to="/" aria-label="logo image">
                 <img src={Logo} alt="" />
-              </a>
+              </Link>
             </div>
             <div className="mobile-nav__container" />
             <ul className="mobile-nav__contact list-unstyled">
-              <ul className="main-menu__list" style={{ gap: "10px" }}>
-                <li className="megamenu">
-                  <Link to="/">Home</Link>
-                </li>
-                <li className="dropdown">
-                  <Link to="/AboutUs">
-                    About <AiFillCaretDown size={10} className="ms-1" />
-                  </Link>
-                  <ul>
-                    <li>
-                      <Link to="/AboutUs">About IZB</Link>
-                    </li>
-                    <li>
-                      <Link to="/BoardOfDirectors">
-                        Leadership & Governance
-                      </Link>
-                      <ul>
-                        <li>
-                          <Link to="/BoardOfDirectors">Board Of Directors</Link>
-                        </li>
-                        <li>
-                          <Link to="/BoardOfDirectors">
-                            Executive Management
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <Link to="/FinancialPerformance">
-                        Financial Performance
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/WhyBankWithUs">Why Bank with us</Link>
-                    </li>
-                    <li>
-                      <a to="/BoardOfDirectors">CSR</a>
-                    </li>
-                  </ul>
-                </li>
-                <li className="dropdown">
-                  <Link to="/PersonalBanking">
-                    Personal Banking{" "}
-                    <AiFillCaretDown size={10} className="ms-1" />
-                  </Link>
-                  <ul>
-                    <li className="dropdown">
-                      <a href="#">Saving Accounts</a>
-                      <ul>
-                        <li>
-                          <Link to="/SavePlusAccount">Save Plus Bank A/C</Link>
-                        </li>
-                        <li>
-                          <Link to="/ClassicSavingAcc">
-                            Classic Saving Account
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/PrivilageSavingAcc">
-                            Privilege Savings Account
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/TisungoSaving">
-                            Tisunge Savings Account
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/TonseSavingAcc">
-                            Tonse Savings Account
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="">Credit</a>
-
-                      <ul>
-                        <li>
-                          <Link to="/IndoHomeLoan">Indo Home Loan</Link>
-                        </li>
-                        <li>
-                          <Link to="/IndoPersonalLoan">Personal Loan</Link>
-                        </li>
-                        <li>
-                          <Link to="/IndoVehicleLoan">Indo Vehicle Loan</Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <Link to="/BhumiFixedDepositAccount">
-                        Bhumi Fixed Deposit A/C
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/IndoFastServe">Indo Fast Serve</Link>
-                    </li>
-                  </ul>
-                </li>
-
-                <li className="dropdown">
-                  <Link to="/BusinessBanking">
-                    Business Banking{" "}
-                    <AiFillCaretDown size={10} className="ms-1" />
-                  </Link>
-                  <ul>
-                    <li>
-                      <a href="blog-2.html">Current Account</a>
-                      <ul>
-                        <li>
-                          <Link to="/PrivilegeCurrentAcc">
-                            Privilege Current Account
-                          </Link>
-                        </li>
-
-                        <li>
-                          <Link to="/ClassicCurrentAccount">
-                            Classic Current Account
-                          </Link>
-                        </li>
-
-                        <li>
-                          <Link to="/SMECurrentAcc">SME Current Account</Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="blog-3.html">Credit</a>
-
-                      <ul>
-                        <li>
-                          <Link to="/MSMELoan">MSME Loan</Link>
-                        </li>
-
-                        <li>
-                          <Link to="/TermLoan">Term Loan</Link>
-                        </li>
-
-                        <li>
-                          <Link to="/AutoFinance">Auto Finance</Link>
-                        </li>
-                        <li>
-                          <Link to="/AgroFinance">Agro Finance</Link>
-                        </li>
-                        <li>
-                          <Link to="/EquityRelease">Equity Release</Link>
-                        </li>
-                        <li>
-                          <Link to="/BusinessFinance">Business Loan</Link>
-                        </li>
-                        <li>
-                          <Link to="/WorkingCapitalFinance">
-                            Working Capital Finance
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/LeaseRentalDiscounting">
-                            Lease Rental Discounting
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li className="dropdown">
-                  <Link to="/InternatioalBankingForeignBusiness">
-                    {" "}
-                    Forex & Treasury{" "}
-                    <AiFillCaretDown size={10} className="ms-1" />
-                  </Link>
-                  <ul>
-                    <li>
-                      <a href="">Forex Rates</a>
-                    </li>
-                    <li>
-                      <Link to="/InternationalBankingForeignBusiness">
-                        Forex Business
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/ForexSavings">Forex Savings</Link>
-                    </li>
-                    <li>
-                      <Link to="/ForexCurrent">Forex Current</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="dropdown">
-                  <a href="#">
-                    E-Services <AiFillCaretDown size={10} className="ms-1" />
-                  </a>
-                  <ul>
-                    <li>
-                      <Link to="/MobileBanking">Indo Mobile Banking</Link>
-                    </li>
-                    <li>
-                      <Link to="/NetBanking">Indo Net Banking</Link>
-                    </li>
-                    <li>
-                      <Link to="/ContactlessCard">IZB Cards</Link>
-                    </li>
-                    <li>
-                      <a href="https://epay.izb.co.zm/login/">
-                        ZRA/NAPSA/E-Payment
-                      </a>
-                    </li>
-                    <li>
-                      <Link to="/EEZY">Indo EEZY</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="dropdown">
-                  <a
-                    href="#"
-                    className="text-white rounded"
-                    style={{ backgroundColor: "#9E1B1E" }}
-                  >
-                    Indo Net Banking
-                  </a>
-                  <ul>
-                    <li>
-                      <a href="https://ebanking.izb.co.zm:7004/Retail/#/landing">
-                        Retail
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://ebanking.izb.co.zm:7004/CorporateBanking/#/landing">
-                        Corporate
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
               <li>
                 <i className="fa fa-envelope" />
                 <a href="mailto:info@example.com">customerservice@izb.co.zm</a>
