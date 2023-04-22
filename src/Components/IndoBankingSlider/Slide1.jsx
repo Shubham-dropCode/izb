@@ -53,18 +53,14 @@ const Slide1 = () => {
             </div>
           </div>
           <div className=" col-md-6 col-xl-6 position-relative">
-<<<<<<< HEAD
-            <div className="overview-content-box-one ">
-=======
             <div className="overview-content-box-one position-relative">
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
               <img
                 src={IndoBanking}
                 width="80%"
                 className="position-absolute SliderImg"
                 style={{ top:"-120px",left:"20%", }}
                 alt=""
-                className="position-absolute"
+      
               />
             </div>
           </div>

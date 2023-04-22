@@ -26,6 +26,13 @@
     overflow: "hidden"
 
  }
+ .HeroSlider2{
+    background-image: url('../../assets/images/IZB//Slider2.png');
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom right;
+    overflow: "hidden"
+ }
 
 @media screen and (max-width: 480px) {
     .bannerPhone {
@@ -44,6 +51,17 @@
         visibility: hidden;
     }
     .SliderArrow{
+        display: none;
+    }
+    .HeroSlider1{
+        background-image: url('../../assets/images/IZB/RSlider1.jpg');
+        width: 100%;
+    }
+    .HeroSlider2{
+        background-image: url('../../assets/images/IZB/Rslider2.jpg');
+        width: 100%;
+    }
+    .sliderContent{
         display: none;
     }
   }

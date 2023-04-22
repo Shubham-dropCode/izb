@@ -8,15 +8,15 @@ import "./Hero.css";
 
 const HeroSlide2 = () => {
   const HeroBgimg = {
-    backgroundImage: `url(${sliderImg})`,
+    // backgroundImage: `url(${sliderImg})`,
     height: "100vh",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     overflow: "hidden",
   };
   return (
-    <div style={HeroBgimg} className="HeroSlider">
-      <div className="auto-container h-100">
+    <div style={HeroBgimg} className="HeroSlider2">
+      <div className="auto-container sliderContent h-100">
         <div className="h-75 position-relative ">
           <div className="d-flex justify-content-end align-items-center h-100">
             <div className="pt-4">

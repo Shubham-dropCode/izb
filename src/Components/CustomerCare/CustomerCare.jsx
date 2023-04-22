@@ -28,7 +28,7 @@ const CustomerCare = () => {
       <div className="row align-items-center" style={CustomerBgImg}>
         <div className="container">
           <div className="row">
-            <div className="offset-md-1 col-md-5 py-5">
+            <div className="col-md-5 py-5 px-0">
               <img src={CustomerCareImg} className="p-0" alt="" />
             </div>
             <div className="col-md-6 py-5">

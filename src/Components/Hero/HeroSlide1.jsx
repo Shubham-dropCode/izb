@@ -20,7 +20,7 @@ const HeroSlide1 = () => {
     "https://play.google.com/store/apps/details?id=com.izb&hl=en&gl=US";
   return (
     <div style={HeroBgimg} className="HeroSlider1">
-      <div className="container h-100">
+      <div className="container sliderContent h-100">
         <div className="h-75 position-relative">
           <div className="d-flex">
             <div className="pt-4 col-12 col-md-4 col-lg-4 bannerPhone">

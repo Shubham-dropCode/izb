@@ -132,31 +132,19 @@ const Hero = () => {
                           </div>
                           <div className="pt-3">
                             <div>
-<<<<<<< HEAD
-                              <Link to="/SavePlusAccount">
-=======
                               <Link to="/SavePlusAccount" style={textColor}>
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Save Plus Account
                               </Link>
                             </div>
                             <div>
-<<<<<<< HEAD
-                              <Link to="/PrivilageSavingAcc">
-=======
                               <Link to="/PrivilageSavingAcc" style={textColor}>
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Privilege Savings Account
                               </Link>
                             </div>
                             <div>
-<<<<<<< HEAD
-                              <Link to="/TisungoSaving">
-=======
                               <Link to="/TisungoSaving" style={textColor}>
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Tisunge Savings Account
                               </Link>
@@ -183,31 +171,19 @@ const Hero = () => {
                           </div>
                           <div className="py-3">
                             <div>
-<<<<<<< HEAD
-                              <Link to="/IndoPersonalLoan">
-=======
                               <Link to="/IndoPersonalLoan" style={textColor}>
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Personal Loan
                               </Link>
                             </div>
                             <div>
-<<<<<<< HEAD
-                              <Link to="/IndoHomeLoan">
-=======
                               <Link to="/IndoHomeLoan" style={textColor}>
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Indo Home Loan
                               </Link>
                             </div>
                             <div>
-<<<<<<< HEAD
-                              <Link to="/IndoVehicleLoan">
-=======
                               <Link to="/IndoVehicleLoan" style={textColor}>
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Vehicle Loan
                               </Link>
@@ -220,11 +196,7 @@ const Hero = () => {
                 </div>
                 <span className="Hborder"></span>
                 <div className="d-flex align-items-center justify-content-end p-2">
-<<<<<<< HEAD
-                  <Link to="/PersonalBanking">
-=======
                   <Link to="/PersonalBanking" style={textColor}>
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                     Read More
                     <AiOutlineArrowRight className="ms-2" />
                   </Link>
@@ -273,34 +245,22 @@ const Hero = () => {
                           </div>
                           <div className="pt-3">
                             <div>
-<<<<<<< HEAD
-                              <Link to="/PrivilegeCurrentAcc">
-=======
                               <Link to="/PrivilegeCurrentAcc" style={textColor}>
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Privilege Current Account
                               </Link>
                             </div>
                             <div>
-<<<<<<< HEAD
-                              <Link to="/ClassicCurrentAccount">
-=======
                               <Link
                                 to="/ClassicCurrentAccount"
                                 style={textColor}
                               >
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Classic Current Account
                               </Link>
                             </div>
                             <div>
-<<<<<<< HEAD
-                              <Link to="/SMECurrentAcc">
-=======
                               <Link to="/SMECurrentAcc" style={textColor}>
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 SME Current Account
                               </Link>
@@ -324,36 +284,21 @@ const Hero = () => {
                           </div>
                           <div className="py-3">
                             <div>
-<<<<<<< HEAD
-                              <Link to="TermLoan">
-=======
                               <Link to="/TermLoan" style={textColor}>
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Term Loan
                               </Link>
                             </div>
                             <div>
-<<<<<<< HEAD
-                              <Link to="/AutoFinance">
-=======
                               <Link to="/AutoFinance" style={textColor}>
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                                 <ArrowR />
                                 Auto Finance
                               </Link>
                             </div>
                             <div>
-<<<<<<< HEAD
-                              <Link to="/AgroFinance">
-
-                              <ArrowR />
-                              Argo Finance
-=======
                               <Link to="/AgroFinance" style={textColor}>
                                 <ArrowR />
                                 Argo Finance
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                               </Link>
                             </div>
                           </div>
@@ -364,11 +309,7 @@ const Hero = () => {
                 </div>
                 <span className="Hborder"></span>
                 <div className="d-flex align-items-center justify-content-end p-2">
-<<<<<<< HEAD
-                  <Link to="/BusinessBanking">
-=======
                   <Link to="/BusinessBanking" style={textColor}>
->>>>>>> 8294967e7a965cdc0025e34367896d8c1d736961
                     Read More
                     <AiOutlineArrowRight className="ms-2" />
                   </Link>
