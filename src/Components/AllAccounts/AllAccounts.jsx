@@ -114,7 +114,7 @@ const AllAccounts = () => {
             </a>
           </Link>
         </div>
-        <div className="row gap-3 ">
+        <div className="row">
           <Slider {...settings}>
             <div>
               <SavePlusCard />
