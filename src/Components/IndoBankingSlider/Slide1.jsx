@@ -39,15 +39,15 @@ const Slide1 = () => {
                   store="android"
                   className=""
                   url={androidUrl}
-                  width="9rem"
-                  linkProps={{ Title: "Google Play" }}
+                  width={150}
+                  linkProps={{ title: "Google Play" }}
                 />
                 <MobileStoreButton
                   className="pt-2"
                   store="ios"
-                  width="8.5rem"
+                  width={140}
                   url={iosUrl}
-                  linkProps={{ Title: "IOS Store" }}
+                  linkProps={{ title: "IOS Store" }}
                 />
               </div>
             </div>

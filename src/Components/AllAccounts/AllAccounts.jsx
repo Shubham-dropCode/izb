@@ -16,19 +16,17 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import ArrowL from "../../assets/images/IZB/IZB Website Skin/ArrowL.png";
 import ArrowR from "../../assets/images/IZB/IZB Website Skin/ArrowR.png";
 import { BsLock } from "react-icons/bs";
-import "../Hero/Hero.css"
+import "../Hero/Hero.css";
 
 const AllAccounts = () => {
-  const SliderArrow = {
-    
-  }
+  const SliderArrow = {};
 
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
       <img
         src={ArrowR}
-        className={"SliderArrow " + className }
+        className={"SliderArrow " + className}
         style={{
           ...style,
           display: "block",
@@ -104,14 +102,12 @@ const AllAccounts = () => {
         <div className="sec-title text-center d-flex justify-content-between">
           <h4 style={{ color: "#9E1B1E" }}>Personal Banking</h4>
 
-          <Link to="/PersonalBanking">
-            <a
-              href="#"
-              className="text-white rounded px-3 py-1 me-4"
-              style={{ backgroundColor: "#9E1B1E" }}
-            >
-              See More <AiOutlineArrowRight size={21} className="me-1 pb-1" />
-            </a>
+          <Link
+            to="/PersonalBanking"
+            className="text-white rounded px-3 py-1 me-4"
+            style={{ backgroundColor: "#9E1B1E" }}
+          >
+            See More <AiOutlineArrowRight size={21} className="me-1 pb-1" />
           </Link>
         </div>
         <div className="row">
@@ -136,15 +132,13 @@ const AllAccounts = () => {
 
         <div className="sec-title pt-5 text-center d-flex justify-content-between">
           <h4 style={{ color: "#9E1B1E" }}>Business Banking</h4>
-          <Link to="/BusinessBanking">
-            {" "}
-            <a
-              href="#"
-              className="text-white rounded px-3 py-1 me-4"
-              style={{ backgroundColor: "#9E1B1E" }}
-            >
-              See More <AiOutlineArrowRight size={21} className="me-1 pb-1" />
-            </a>
+
+          <Link
+            to="/BusinessBanking"
+            className="text-white rounded px-3 py-1 me-4"
+            style={{ backgroundColor: "#9E1B1E" }}
+          >
+            See More <AiOutlineArrowRight size={21} className="me-1 pb-1" />
           </Link>
         </div>
         <div className="row gap-4">

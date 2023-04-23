@@ -97,7 +97,7 @@ const ContactForm = () => {
                     <div className="form-group">
                       <label>Select any product type</label>
                       <div className="select-box clearfix">
-                        <select className="wide w-100 p-2 border-0" placeholder="Select">
+                        <select className="wide w-100 border-0" placeholder="Select">
                           <option data-display="Select">Select</option>
                           <option value={1}>Personal Banking</option>
                           <option value={2}>Business Banking</option>

@@ -17,15 +17,15 @@ const PrivilegeCard = () => {
       This savings account comes with a cheque book facility I addition to other features such as SMS Alerts and Internet Banking
       </p>
     </div>
-    <div class="button-box text-center h-25 d-flex justify-content-end p-3">
+    <div className="button-box text-center h-25 d-flex justify-content-end p-3">
       <Link to="/PrivilageSavingAcc">
 
       <button
-        class="btn-one p-1"
+        className="btn-one p-1"
         style={{ lineHeight: "30px" }}
         type="submit"
         >
-        <span class="txt">Create Account</span>
+        <span className="txt">Create Account</span>
       </button>
         </Link>
     </div>

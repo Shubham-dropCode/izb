@@ -48,15 +48,15 @@ const HeroSlide1 = () => {
                   store="android"
                   className="mt-5 mt-md-0"
                   url={androidUrl}
-                  width="10.5rem"
-                  linkProps={{ Title: "Google Play" }}
+                  width={157}
+                  linkProps={{ title: "Google Play" }}
                 />
                 <MobileStoreButton
                   className="pt-2 mt-5 mt-md-0"
                   store="ios"
-                  width="10rem"
+                  width={150}
                   url={iosUrl}
-                  linkProps={{ Title: "IOS Store" }}
+                  linkProps={{ title: "IOS Store" }}
                 />
               </div>
               <div className="pt-4 col-12 col-md-4 col-lg-4 AfterText">

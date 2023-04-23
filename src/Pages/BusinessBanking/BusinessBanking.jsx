@@ -30,9 +30,9 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
 const BusinessBanking = () => {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Breadcrumb Heading="Business Banking" img={BackgroundBrundcrumb} />

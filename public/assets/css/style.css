@@ -9976,7 +9976,7 @@ li.single-benefits-box-colum:nth-child(6) .single-benefits-box .icon {
 }
 
 #apply-form .form-group .nice-select:after {
-  position: absolute;
+  /* position: absolute;
   content: "\e901";
   font-family: 'icomoon' !important;
   color: #7f7873;
@@ -9990,11 +9990,11 @@ li.single-benefits-box-colum:nth-child(6) .single-benefits-box .icon {
   height: 50px;
   width: 45px;
   bottom: 0;
-  text-align: center;
+  text-align: center; */
 }
 
 #apply-form .form-group .nice-select:before {
-  content: "";
+  /* content: ""; */
   position: absolute;
   top: 10px;
   right: 45px;

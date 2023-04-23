@@ -17,14 +17,14 @@ const TermLoanCard = () => {
           funding requirements.
         </p>
       </div>
-      <div class="button-box text-center h-25 d-flex justify-content-end p-3">
+      <div className="button-box text-center h-25 d-flex justify-content-end p-3">
         <Link to="/TermLoan">
           <button
-            class="btn-one p-1 mt-5"
+            className="btn-one p-1 mt-5"
             style={{ lineHeight: "30px" }}
             type="submit"
           >
-            <span class="txt">Create Account</span>
+            <span className="txt">Create Account</span>
           </button>
         </Link>
       </div>
