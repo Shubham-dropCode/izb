@@ -5,7 +5,7 @@ const EEZYTable = ({title}) => {
   return (
     <section
       id="required"
-      class="documents-area"
+      className="documents-area"
       style={{
         backgroundImage: `url(${bgimg})`,
         backgroundRepeat: "no-repeat",
