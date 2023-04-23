@@ -4,8 +4,8 @@ import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSec
 import MobileStoreButton from "react-mobile-store-button";
 import img from "../../assets/images/IZB/IZB Website Skin/Indo EEZY/Untitled-2.png";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/IZB Contactless Card/Untitled-1.png";
-import ServiceTable from "../../Components/ServiceTable/ServiceTable";
 import { useEffect } from "react";
+import EEZYTable from "../../Components/ServiceTable/EEZYTable";
 
 const EEZY = () => {
   useEffect(() => {
@@ -87,7 +87,7 @@ const EEZY = () => {
           </div>
         </div>
       </section>
-      <ServiceTable title="Indo EEZY Service Charges"/>
+      <EEZYTable title="Indo EEZY Service Charges"/>
       <AllAcountsSection />
     </>
   );

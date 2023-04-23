@@ -51,7 +51,7 @@ const SMECurrentAccount = () => {
         <div className="container pt-4">
           <div className="text-center my-5">
             <h1 style={{ color: "#484848" }}>
-              Our IZB Save Plus Account Benefits
+              Our IZB SME Current Account Benefits
             </h1>
             <p style={{ color: "#484848" }}>
               We help businesses and customers achieve more.
@@ -216,7 +216,7 @@ const SMECurrentAccount = () => {
       >
         <div className="container-fluid">
           <div className="sec-title text-center">
-            <h2>Savings A/c Required Documents</h2>
+            <h2>SME Current A/c Required Documents</h2>
             <div className="sub-title">
               <p>Basic documents required for opening a savings account.</p>
             </div>
@@ -348,7 +348,7 @@ const SMECurrentAccount = () => {
         <div className="container">
           <div className="text-center">
             <h1 className="text-white">
-            IZB Classic Current A/C Service Charges
+            IZB SME Current A/C Service Charges
             </h1>
             <p className="text-white">
               Your money is making money for you & Your Family.

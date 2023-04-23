@@ -1,31 +1,9 @@
-import React from 'react'
-import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
-import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
-import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/IZB Forex Current/Untitled-1.png";
-import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusAccountComponent';
-import img1 from "../../assets/images/IZB/IZB Website Skin/IZB Forex Current/Untitled-2.png"
+import React from "react";
 import bgimg from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/image_6.png";
-import { AiFillCaretRight, AiOutlineRight } from "react-icons/ai"; 
-import { useEffect } from 'react';
-
-
-const ForexCurrent = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-  const accountContent = "Current Account can be opened for business houses and also for individuals in US Dollar/Pound Sterling/South African Rand/Euro. Cheque book facility is available. Payments within Zambia can be made by way of FCY cheques, and the clearing of cheques are done at free of cost. With this product, we also offer VISA Chip & Pin Debit Card facility, which is ideal for businessment/employees traveling frequently outside Zambia, who can draw money from any of the VISA enabled ATMs around the world. "
+import { AiFillCaretRight, AiOutlineRight } from "react-icons/ai";
+const EEZYTable = ({title}) => {
   return (
-    <>
-    <Breadcrumb Heading="Forex Current" img={BackgroundBrundcrumb}/>
-    <SavePlusAccountComponent
-        heading="Forex Current"
-        subHeading="Know About"
-        content={accountContent}
-        btnTxt="Open an Account"
-        img={img1}
-      />
-
-<section
+    <section
       id="required"
       class="documents-area"
       style={{
@@ -37,10 +15,10 @@ const ForexCurrent = () => {
       <div className="container">
         <div className="text-center">
           <h1 className="text-white">
-           IZB Forex Current A/C Service Charges
+            {title}
           </h1>
           <p className="text-white">
-          Your money is making money for you & Your Family.
+            Your money is making money for you & Your Family.
           </p>
         </div>
         <div className="row">
@@ -65,8 +43,8 @@ const ForexCurrent = () => {
                       </td>
                       <td className="location">
                         <p>
-                        Individual and Joint Account holders
-                        </p> 
+                        Individual Account holders
+                        </p>
                       </td>
                     </tr>
                     <tr>
@@ -77,7 +55,10 @@ const ForexCurrent = () => {
                         <p>Account Opening Requirement</p>
                       </td>
                       <td className="location">
-                        <p>KYC requirement as stipulated</p>
+                        <p><AiFillCaretRight/>Individual Account holders</p>
+                        <p><AiFillCaretRight/>Upload NRC</p>
+                        <p><AiFillCaretRight/>Upload Passport Size Photo or take selfie</p>
+                        <p><AiFillCaretRight/>Upload signature</p>
                       </td>
                     </tr>
                     <tr>
@@ -88,7 +69,7 @@ const ForexCurrent = () => {
                         <p>Type of Account</p>
                       </td>
                       <td className="location">
-                        <p>Current</p>
+                        <p>Savings with light KYC</p>
                       </td>
                     </tr>
                     <tr>
@@ -96,13 +77,10 @@ const ForexCurrent = () => {
                         <h3>4.</h3>
                       </td>
                       <td className="location">
-                        <p>
-                          Always change the PIN as soon as 
-                          you receive it..
-                        </p>
+                        <p>Rate of Interest</p>
                       </td>
                       <td className="location">
-                        <p>Never carry your PIN in your wallet or purse</p>
+                        <p>NIL</p>
                       </td>
                     </tr>
                     <tr>
@@ -110,10 +88,10 @@ const ForexCurrent = () => {
                         <h3>5.</h3>
                       </td>
                       <td className="location">
-                        <p>Tenure/Tenor</p>
+                        <p>Maintenance Charges</p>
                       </td>
                       <td className="location">
-                        <p>N/A</p>
+                        <p>Free</p>
                       </td>
                     </tr>
                     <tr>
@@ -121,10 +99,10 @@ const ForexCurrent = () => {
                         <h3>6.</h3>
                       </td>
                       <td className="location">
-                        <p>Maintenance Charges</p>
+                        <p>Maximum Balance</p>
                       </td>
                       <td className="location">
-                        <p>USD5.00 per month</p>
+                        <p>K100,000/-</p>
                       </td>
                     </tr>
                     <tr>
@@ -135,7 +113,7 @@ const ForexCurrent = () => {
                         <p>Minimum Balance Requirment</p>
                       </td>
                       <td className="location">
-                        <p>NIL</p>
+                        <p>K40/-</p>
                       </td>
                     </tr>
                     <tr>
@@ -143,10 +121,10 @@ const ForexCurrent = () => {
                         <h3>8.</h3>
                       </td>
                       <td className="location">
-                        <p>Minimum Balance Charges</p>
+                        <p>Minimum balance Charge</p>
                       </td>
                       <td className="location">
-                        <p>N/A</p>
+                        <p>K25/-</p>
                       </td>
                     </tr>
                     <tr>
@@ -154,26 +132,15 @@ const ForexCurrent = () => {
                         <h3>9.</h3>
                       </td>
                       <td className="location">
-                        <p>Ledger Fees</p>
+                        <p>Cheque Book</p>
                       </td>
                       <td className="location">
-                        <p>Free</p>
+                        <p>N/A</p>
                       </td>
                     </tr>
                     <tr>
                       <td className="department">
                         <h3>10.</h3>
-                      </td>
-                      <td className="location">
-                        <p>Cheque Book</p>
-                      </td>
-                      <td className="location">
-                        <p>USD20/- per 50 leaves</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="department">
-                        <h3>11.</h3>
                       </td>
                       <td className="location">
                         <p>SMS Alert</p>
@@ -184,13 +151,24 @@ const ForexCurrent = () => {
                     </tr>
                     <tr>
                       <td className="department">
+                        <h3>11.</h3>
+                      </td>
+                      <td className="location">
+                        <p>Monthly Statement</p>
+                      </td>
+                      <td className="location">
+                        <p>Free once permonth</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
                         <h3>12.</h3>
                       </td>
                       <td className="location">
-                        <p>Internet Banking</p>
+                        <p>Duplicate/Interim Statement</p>
                       </td>
                       <td className="location">
-                        <p>Free</p>
+                        <p>K50 /- per page</p>
                       </td>
                     </tr>
                     <tr>
@@ -198,10 +176,10 @@ const ForexCurrent = () => {
                         <h3>13.</h3>
                       </td>
                       <td className="location">
-                        <p>Life Cover Facility</p>
+                        <p>Transaction Fee</p>
                       </td>
                       <td className="location">
-                        <p>N/A</p>
+                        <p>Free</p>
                       </td>
                     </tr>
                     <tr>
@@ -209,12 +187,10 @@ const ForexCurrent = () => {
                         <h3>14.</h3>
                       </td>
                       <td className="location">
-                        <p>Monthly Statement</p>
+                        <p>E-statement</p>
                       </td>
                       <td className="location">
-                        <p>Free – once a month thereafter USD5/- 
-                          per occasion
-                        </p>
+                        <p>N/A</p>
                       </td>
                     </tr>
                     <tr>
@@ -222,7 +198,7 @@ const ForexCurrent = () => {
                         <h3>15.</h3>
                       </td>
                       <td className="location">
-                        <p>E-statement</p>
+                        <p> Closure of account</p>
                       </td>
                       <td className="location">
                         <p>Free</p>
@@ -233,10 +209,10 @@ const ForexCurrent = () => {
                         <h3>16.</h3>
                       </td>
                       <td className="location">
-                        <p>Closure of account</p>
+                        <p>Cash Deposits (At any IZB Branch)</p>
                       </td>
                       <td className="location">
-                        <p>Available – Free</p>
+                        <p>Free</p>
                       </td>
                     </tr>
                     <tr>
@@ -245,18 +221,20 @@ const ForexCurrent = () => {
                       </td>
                       <td className="location w-50">
                         <p>
-                        Cash Deposits (At any IZB Branch)
+                          Cash Withdrawal Charges (at any IZB branch) Note:
+                          Savings account holders who do not qualify for Debit
+                          card such as churches, NGO’s, etc are exempted from
+                          this service charge.
                         </p>
                       </td>
                       <td className="location">
                         <p>
                           <AiFillCaretRight className="me-1" />
-                          Free up to USD 5,000/- or equivalent
+                          K50/- withinATM limit i.e.K20,000.00
                         </p>
                         <p>
                           <AiFillCaretRight className="me-1" />
-                          Above USD5,000/- or equivalent 0.5% 
-                          ( min USD20/-, max USD100/-)
+                          Free above ATM Limit
                         </p>
                       </td>
                     </tr>
@@ -265,37 +243,15 @@ const ForexCurrent = () => {
                         <h3>18.</h3>
                       </td>
                       <td className="location">
-                        <p>Cash Withdrawal Charges (at any IZB branch)</p>
+                        <p>Issuance of Deposit Book</p>
                       </td>
                       <td className="location">
-                        <p>Free</p>
+                        <p>K30/- per book</p>
                       </td>
                     </tr>
                     <tr>
                       <td className="department">
                         <h3>19.</h3>
-                      </td>
-                      <td className="location">
-                        <p>Issuance of Deposit Book</p>
-                      </td>
-                      <td className="location">
-                        <p>USD5.00 per book</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="department">
-                        <h3>20.</h3>
-                      </td>
-                      <td className="location">
-                        <p>Transaction Fee</p>
-                      </td>
-                      <td className="location">
-                        <p>USD5.00 per book</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="department">
-                        <h3>21.</h3>
                       </td>
                       <td className="location">
                         <h5 className="text-white my-2">
@@ -387,34 +343,55 @@ const ForexCurrent = () => {
                           <span>&nbsp;</span>
                         </p>
                         <div className="location">
-                          <p>USD10/- per replacement</p>
-                          <p>USD12/- per replacement</p>
-                          <p>USD15/- per replacement</p>
+                          <p>K100/- per card</p>
+                          <p>N/A</p>
+                          <p>N/A</p>
                         </div>
                         <p>Free </p>
                         <h4 className="text-white my-2">
                           {" "}
                           <span>&nbsp;</span>
                         </h4>
-                        <p>USD0.80</p>
+                        <p>K8/-</p>
                         <p>Free</p>
-                        <p>USD0.50</p>
+                        <p>K3/-</p>
                         <h4 className="text-white my-2">
                           <span>&nbsp;</span>
                         </h4>
-                        <p>USD5.00</p>
-                        <p>USD1.50</p>
+                        <p>K15/-</p>
+                        <p>K3/-</p>
 
                         <h4 className="text-white my-2">
                           <span>&nbsp;</span>
                         </h4>
-                        <p>USD5.00</p>
-                        <p>USD1.50</p>
+                        <p>K35/-</p>
+                        <p>K10/-</p>
                         <p>
-                        Free, however, if the matter goes for 
-                        arbitration, appropriate fees shall apply on a 
-                        cost recovery basis.
+                          Free, however, if the matter goes for arbitration,
+                          appropriate fees shall apply on a cost recovery basis.
                         </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>20.</h3>
+                      </td>
+                      <td className="location">
+                        <p>Return of cheques</p>
+                      </td>
+                      <td className="location">
+                        <p>N/A</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>21.</h3>
+                      </td>
+                      <td className="location">
+                        <p>Stop Payment Instructions</p>
+                      </td>
+                      <td className="location">
+                        <p>N/A</p>
                       </td>
                     </tr>
                     <tr>
@@ -422,11 +399,72 @@ const ForexCurrent = () => {
                         <h3>22.</h3>
                       </td>
                       <td className="location">
-                        <p>Balance confirmation charges</p>
+                        <h5 className="text-white my-2">
+                          Remittances (kwacha)
+                        </h5>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          Banker's cheque
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          Cancellation of Banker's cheque
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          Issuance of duplicate Banker's chques in lieu of lost
+                          cheque
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          Cancelling of lost Banker's cheque{" "}
+                        </p>
+
+                        <h5 className="text-white my-2">Other remittances </h5>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          Within IZB branches{" "}
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          RTGS – Manual{" "}
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          RTGS – Electronic{" "}
+                        </p>
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          DDACC – Manual{" "}
+                        </p>
+
+                        <p>
+                          <AiFillCaretRight className="me-1" />
+                          DDACC – Electronic{" "}
+                        </p>
+
+                        <h5 className="text-white my-2">
+                          Transfer of funds on closure of account{" "}
+                        </h5>
                       </td>
                       <td className="location">
-                        <p>K200.00 foreign currency equivalent per 
-                        certificate</p>
+                        <h5 className="text-white my-2">
+                          <span>&nbsp;</span>
+                        </h5>
+                        <p>K100/- plus VAT</p>
+                        <p>K50/-</p>
+                        <p>K75/-</p>
+                        <p>K75/-</p>
+
+                        <h5 className="text-white my-2">Other remittances </h5>
+                        <p>Free</p>
+                        <p>K55/- per transaction</p>
+                        <p>K40/- per transaction</p>
+
+                        <p>K25/- per transaction</p>
+                        <p>K10/- per transaction</p>
+
+                        <p className="pt-2 ">K50/- per transaction </p>
                       </td>
                     </tr>
                     <tr>
@@ -434,18 +472,33 @@ const ForexCurrent = () => {
                         <h3>23.</h3>
                       </td>
                       <td className="location">
-                        <p>Authentication/Authorisation/Verificationof 
-                          other documents 
-                          (only if closed within last 6 months)</p>
+                        <p>Balance confirmation charges</p>
                       </td>
                       <td className="location">
-                        <p>K50/- per document for confirmation/ 
-                          authorization/verification of documents</p>
+                        <p>K200/- per certificate</p>
                       </td>
                     </tr>
                     <tr>
                       <td className="department">
                         <h3>24.</h3>
+                      </td>
+                      <td className="location">
+                        <p>
+                          Authentication/Authorisation/Verificationof other
+                          documents. <br /> (only if closed within last 6
+                          months)
+                        </p>
+                      </td>
+                      <td className="location">
+                        <p>
+                          K50/- per document for confirmation/
+                          authorization/verification of documents
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>25.</h3>
                       </td>
                       <td className="location">
                         <h5 className="text-white my-2">
@@ -472,15 +525,15 @@ const ForexCurrent = () => {
                         <h5 className="text-white my-2">
                           <span>&nbsp;</span>
                         </h5>
-                        <p>USD5/-</p>
-                        <p>USD2.50/- per transaction</p>
-                        <p>USD5/- per transaction</p>
+                        <p>K50/-</p>
+                        <p>K50/- per transaction</p>
+                        <p>K25/- per transaction</p>
                         <p>Free</p>
                       </td>
                     </tr>
                     <tr>
                       <td className="department">
-                        <h3>25.</h3>
+                        <h3>26.</h3>
                       </td>
                       <td className="location">
                         <p>Dormant Account</p>
@@ -491,7 +544,7 @@ const ForexCurrent = () => {
                     </tr>
                     <tr>
                       <td className="department">
-                        <h3>26.</h3>
+                        <h3>27.</h3>
                       </td>
                       <td className="location">
                         <p>
@@ -505,18 +558,18 @@ const ForexCurrent = () => {
                     </tr>
                     <tr>
                       <td className="department">
-                        <h3>27.</h3>
+                        <h3>28.</h3>
                       </td>
                       <td className="location">
                         <p>Photocopies at customer’s request</p>
                       </td>
                       <td className="location">
-                        <p>USD 0.50 per page</p>
+                        <p>K 10/- per page</p>
                       </td>
                     </tr>
                     <tr>
                       <td className="department">
-                        <h3>28.</h3>
+                        <h3>29.</h3>
                       </td>
                       <td className="location">
                         <p>
@@ -525,8 +578,29 @@ const ForexCurrent = () => {
                         </p>
                       </td>
                       <td className="location">
-                        <p>K200.00 foreign currency equivalent per 
-                            instrument</p>
+                        <p>K 200/- per instrument</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>30.</h3>
+                      </td>
+                      <td className="location">
+                        <p>Reference letter</p>
+                      </td>
+                      <td className="location">
+                        <p>K50/- per letter</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="department">
+                        <h3>31.</h3>
+                      </td>
+                      <td className="location">
+                        <p>NAPSA Online Payment</p>
+                      </td>
+                      <td className="location">
+                        <p>Free</p>
                       </td>
                     </tr>
                   </tbody>
@@ -537,10 +611,7 @@ const ForexCurrent = () => {
         </div>
       </div>
     </section>
+  );
+};
 
-    <AllAcountsSection/>
-    </>
-  )
-}
-
-export default ForexCurrent
+export default EEZYTable;
