@@ -5,6 +5,7 @@ import Phone from "../../assets/images/IZB/PhoneCall.png";
 import Call from "../../assets/images/IZB/IZB Website Skin/Home_Page/Icons/phone 1.png";
 import whatsapp from "../../assets/images/IZB/IZB Website Skin/Home_Page/Icons/whatsapp 1.png";
 import mail from "../../assets/images/IZB/IZB Website Skin/Home_Page/Icons/mail 1.png";
+import "../Hero/Hero.css";
 
 const CustomerCare = () => {
   const CustomerBgImg = {
@@ -21,7 +22,7 @@ const CustomerCare = () => {
     marginLeft: "auto",
   };
   return (
-    <section className="overview-area">
+    <section className="overview-area customerSection">
 
    
     <div className="container-fluid" style={{ containerFluid }}>
@@ -60,7 +61,7 @@ const CustomerCare = () => {
                     style={{
                       backgroundColor: "#FFC975",
                       color: "#9E1B1E",
-                      width: "59%",
+                      width: "350px",
                     }}
                   >
                     <img
@@ -78,7 +79,7 @@ const CustomerCare = () => {
                     style={{
                       backgroundColor: "#FFC975",
                       color: "#9E1B1E",
-                      width: "59%",
+                      width: "350px",
                     }}
                   >
                     <img
@@ -91,22 +92,25 @@ const CustomerCare = () => {
                   </h5>
                 </div>
                 <div className="text d-flex">
+                  <a type="email"  name="email">
+
                   <h5
                     className="p-2 mb-2 rounded text-wrap"
                     style={{
                       backgroundColor: "#FFC975",
                       color: "#9E1B1E",
-                      // width: "60%",
+                      width: "350px",
                     }}
-                  >
+                    >
                     <img
                       src={mail}
                       width={22}
                       style={{ marginRight: "10px" }}
                       alt=""
-                    />
+                      />
                     customerservice@izb.co.zm
                   </h5>
+                      </a>
                 </div>
               </div>
             </div>

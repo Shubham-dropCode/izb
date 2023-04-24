@@ -824,7 +824,7 @@ const PrivilegeCurrentAcc = () => {
                           <h3>5.</h3>
                         </td>
                         <td className="location">
-                          <p>Maintenance Charges</p>
+                          <p>Dormant Account</p>
                         </td>
                         <td className="location">
                           <p>Free</p>
@@ -835,7 +835,7 @@ const PrivilegeCurrentAcc = () => {
                           <h3>6.</h3>
                         </td>
                         <td className="location">
-                          <p>Maximum Balance</p>
+                          <p>Reactivation of Account (only if closed within last 6 months)</p>
                         </td>
                         <td className="location">
                           <p>N/A</p>
@@ -846,10 +846,10 @@ const PrivilegeCurrentAcc = () => {
                           <h3>7.</h3>
                         </td>
                         <td className="location">
-                          <p>Minimum Balance Requirment</p>
+                          <p>Photocopies at customer’s request</p>
                         </td>
                         <td className="location">
-                          <p>K1,000/-</p>
+                          <p>K10/- per page</p>
                         </td>
                       </tr>
                       <tr>
@@ -857,10 +857,10 @@ const PrivilegeCurrentAcc = () => {
                           <h3>8.</h3>
                         </td>
                         <td className="location">
-                          <p>Minimum balance Charge</p>
+                          <p>Request for retrieval of paid cheques</p>
                         </td>
                         <td className="location">
-                          <p>K25/-</p>
+                          <p>K100/- per page</p>
                         </td>
                       </tr>
                       <tr>
@@ -868,10 +868,10 @@ const PrivilegeCurrentAcc = () => {
                           <h3>9.</h3>
                         </td>
                         <td className="location">
-                          <p>Cheque Book</p>
+                          <p>Drawal against un-cleared effects</p>
                         </td>
                         <td className="location">
-                          <p>N/A</p>
+                          <p>1.5% (min. K200/-)</p>
                         </td>
                       </tr>
                       <tr>
@@ -879,10 +879,10 @@ const PrivilegeCurrentAcc = () => {
                           <h3>10.</h3>
                         </td>
                         <td className="location">
-                          <p>SMS Alert</p>
+                          <p>Trancers</p>
                         </td>
                         <td className="location">
-                          <p>Free</p>
+                          <p>K150/-</p>
                         </td>
                       </tr>
                       <tr>
@@ -890,10 +890,10 @@ const PrivilegeCurrentAcc = () => {
                           <h3>11.</h3>
                         </td>
                         <td className="location">
-                          <p>Monthly Statement</p>
+                          <p>Status Report/ Bankers enquiry/ Reference letter</p>
                         </td>
                         <td className="location">
-                          <p>Free once permonth</p>
+                          <p>K150/- per enquiry</p>
                         </td>
                       </tr>
                       <tr>
@@ -901,10 +901,10 @@ const PrivilegeCurrentAcc = () => {
                           <h3>12.</h3>
                         </td>
                         <td className="location">
-                          <p>Duplicate/Interim Statement</p>
+                          <p>Search Fees</p>
                         </td>
                         <td className="location">
-                          <p>K50 /- per page</p>
+                          <p>K150 /-</p>
                         </td>
                       </tr>
                       <tr>
@@ -912,10 +912,10 @@ const PrivilegeCurrentAcc = () => {
                           <h3>13.</h3>
                         </td>
                         <td className="location">
-                          <p>Transaction Fee</p>
+                          <p>ZRA Online Tax Payment</p>
                         </td>
                         <td className="location">
-                          <p>Free</p>
+                          <p>K25/- per certificate</p>
                         </td>
                       </tr>
                     </tbody>

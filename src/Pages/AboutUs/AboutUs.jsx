@@ -22,7 +22,7 @@ const AboutUs = () => {
     <BriefHistory heading ="Brief History" content="Indo Zambia Bank was formed on 19th October, 1984 by the Government of the Republic of Zambia and the Government of India out of the desire to promote banking facilities to support the economic development of Zambia." image={BriefHistoryImg}/>
     <Vision/>
     <CoreValues/>
-    <div className="container">
+    <div className="container mb-5">
       <div className="heading py-5">
         <h2 className="text-center">Shareholders of the bank</h2>
       </div>

@@ -17,7 +17,7 @@ const DoMore = () => {
       className="choose-style1-area pt-5 mt-5 mt-md-0 mt-xl-0 pt-md-0 pt-xl-0"
     >
       <div className="container">
-        <div className="text-center mb-5">
+        <div className="text-center">
           <h1 style={{ color: "#484848" }}>
             <strong>DO MORE</strong> ON THE GO
           </h1>

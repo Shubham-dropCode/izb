@@ -19,8 +19,8 @@ const WhyBankWithUsComponents = () => {
             <img src={growth} width={180} className="" alt="" />
           </div>
           <div className="col-12 col-md-9 col-xl-9 text-white align-self-center">
-            <h3 className="text-white text-center text-md-start mb-3">Growth</h3>
-            <p>
+            <h3 className="text-white text-center text-md-start my-3">Growth</h3>
+            <p className="py-2">
               Your Money grows with us, as returns are assured As a bank we are
               growing at the rate of 25% We have a national branch network
               coverage of 34 outlets We are enabling the growth of the economy
@@ -36,8 +36,8 @@ const WhyBankWithUsComponents = () => {
             <img src={Shield} width={180} className="" alt="" />
           </div>
           <div className="col-12 col-md-9 col-xl-9 text-white align-self-center">
-            <h3 className="text-white text-center text-md-start mb-3">Safety</h3>
-            <p>
+            <h3 className="text-white text-center text-md-start my-3">Safety</h3>
+            <p className="py-2"> 
             A bank with impeccable and consistent record of excellent performance under all major financial parameters for the last 36 years; A bank which has unique shareholding pattern with participation of two governments; the government of the republic of Zambia through industrial development corporation and the government of India.
             </p>
           </div>
@@ -50,8 +50,8 @@ const WhyBankWithUsComponents = () => {
             <img src={Fingerprint} width={180} className="" alt="" />
           </div>
           <div className="col-12 col-md-9 col-xl-9 text-white align-self-center">
-            <h3 className="text-white text-center text-md-start mb-3">Human Touch</h3>
-            <p>
+            <h3 className="text-white text-center text-md-start my-3">Human Touch</h3>
+            <p className="py-2">
             A technology savvy bank with a gentle human face. The credo is at building relationships Ingenuity and flexible solutions worked out for each customer The extra “interest” over normal interest The service you need with expertise you desire.
             </p>
           </div>

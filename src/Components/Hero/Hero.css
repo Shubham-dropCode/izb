@@ -36,6 +36,19 @@
  .Spacer{
     height: 200px;
 }
+.SaveAccountSection{
+    padding: 100px 0 100px 0;
+}
+.customerSection {
+    padding: 100px 0 100px 0;
+}
+.interest-charges-area{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+ .designationStyle{
+    width: 50%;
+ }
 
 @media screen and (max-width: 480px) {
     .bannerPhone {
@@ -70,5 +83,25 @@
     .Spacer{
         height: 600px;
     }
+    .BankingMenu{
+        margin-top: 1.5rem;
+    }
+    .SaveAccountSection{
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    .customerSection{
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    .interest-charges-area{
+        margin: 0px;
+    }
+    .overview-area {
+        padding: 0 0 100px;
+      }
+      .designationStyle{
+        width: 100%;
+     }
     
   }

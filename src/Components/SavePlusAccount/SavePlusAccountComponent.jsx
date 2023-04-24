@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { BsBank } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import "../Hero/Hero.css";
+
+
 
 const SavePlusAccountComponent = ({
   heading,
@@ -14,7 +17,7 @@ const SavePlusAccountComponent = ({
     color:"#949292"
   }
   return (
-    <section className="overview-area">
+    <section className="overview-area SaveAccountSection">
       <div className="container">
         <div className="row">
           <div className=" offset-xl-1 col-md-4 col-xl-4">

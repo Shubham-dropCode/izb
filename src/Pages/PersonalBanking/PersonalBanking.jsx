@@ -349,7 +349,7 @@ const PersonalBanking = () => {
       </div>
 
       <div className="container">
-        <div className="d-flex justify-content-between mb-3 mt-5">
+        <div className="d-flex justify-content-around mb-3 mt-5">
           <h2>Fixed Deposit</h2>
           <h2>Agency Banking</h2>
         </div>

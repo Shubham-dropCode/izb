@@ -26,10 +26,13 @@ const Directors = () => {
               <div className="col-12 col-md-9 col-xl-9">
                 <h3>{item.Name}</h3>
                 <div
-                  className="text col-3 text-white text-center mb-4 mt-2"
+                  className="text col-12 col-md-4 col-lg-4 col-xl-4  text-white text-center mb-4 mt-2 "
                   style={designationStyle}
                 >
+                  <p>
+
                   {item.Designation}
+                  </p>
                 </div>
                 <p>{item.description}</p>
               </div>
@@ -69,7 +72,7 @@ const Directors = () => {
               <div className="col-12 col-md-9 col-xl-9">
                 <h3>{item.Name}</h3>
                 <div
-                  className="text col-3 text-white text-center mb-4 mt-2"
+                  className="text col-12 col-md-5 col-lg-5 col-xl-5 text-white px-3 mb-4 mt-2"
                   style={designationStyle}
                 >
                   {item.Designation}

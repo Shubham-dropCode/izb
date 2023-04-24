@@ -169,7 +169,7 @@ const Hero = () => {
                               Credit
                             </h5>
                           </div>
-                          <div className="py-3">
+                          <div className="py-3 BankingMenu">
                             <div>
                               <Link to="/IndoPersonalLoan" style={textColor}>
                                 <ArrowR />
@@ -282,7 +282,7 @@ const Hero = () => {
                               Credit
                             </h5>
                           </div>
-                          <div className="py-3">
+                          <div className="py-3 BankingMenu">
                             <div>
                               <Link to="/TermLoan" style={textColor}>
                                 <ArrowR />
