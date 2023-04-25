@@ -12,7 +12,10 @@ import img16 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/16.
 import img17 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/17.png";
 import img18 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/18.png";
 import img19 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/19.png";
-
+import assetsFinance from "../../assets/images/icon/asset-finance-img.png";
+import foreignCurrency from "../../assets/images/icon/foreign-currency-img.png";
+import overdraft from "../../assets/images/icon/overdraft-img.png";
+import termLoan from "../../assets/images/icon/term-loan-img.png";
 import BackgroundBrundcrumb from "../../assets/images/IZB/BackgroundBrundcrumb.png";
 
 import {
@@ -77,7 +80,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img9}
+                  src={img10}
                   style={{ height: "280px", objectFit: "cover" }}
                   className="img-fluid w-100"
                   alt=""
@@ -87,14 +90,23 @@ const BusinessBanking = () => {
                 className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
                 style={{ backgroundColor: "#9E1B1E" }}
               >
-                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
-                <h5 className="text text-white fs-4 my-2">Purpose</h5>
+                <h4 className="text-white pe-2">Classic Current Account</h4>
+                <h5 className="text text-white fs-4 my-2">Benefits</h5>
                 <p className="fs-small lh-sm pe-4">
-                  <AiFillCaretRight className="me-2" />
-                  This is a business current account offering premier business
-                  banking solutions and services designed specifically to meet
-                  business operation needs including concessions on service
-                  charges
+                  <img src={foreignCurrency} className="me-2"  width="15" alt=""/>
+                  Foreign exchange services
+                </p>
+                <p className="fs-small lh-sm pe-4">
+                  <img src={overdraft} className="me-2"  width="15" alt=""/>
+                  Foreign exchange services
+                </p>
+                <p className="fs-small lh-sm pe-4">
+                  <img src={assetsFinance} className="me-2"  width="15" alt=""/>
+                  Foreign exchange services
+                </p>
+                <p className="fs-small lh-sm pe-4">
+                  <img src={termLoan} className="me-2"  width="15" alt=""/>
+                  Foreign exchange services
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/PrivilegeCurrentAcc">
@@ -115,7 +127,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img9}
+                  src={img11}
                   style={{ height: "280px", objectFit: "cover" }}
                   className="img-fluid w-100"
                   alt=""
@@ -125,14 +137,23 @@ const BusinessBanking = () => {
                 className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
                 style={{ backgroundColor: "#9E1B1E" }}
               >
-                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
-                <h5 className="text text-white fs-4 my-2">Purpose</h5>
+                <h4 className="text-white pe-2">SME Current Account</h4>
+                <h5 className="text text-white fs-4 my-2">Benefits</h5>
                 <p className="fs-small lh-sm pe-4">
-                  <AiFillCaretRight className="me-2" />
-                  This is a business current account offering premier business
-                  banking solutions and services designed specifically to meet
-                  business operation needs including concessions on service
-                  charges
+                  <img src={foreignCurrency} className="me-2"  width="15" alt=""/>
+                  Foreign exchange services
+                </p>
+                <p className="fs-small lh-sm pe-4">
+                  <img src={overdraft} className="me-2"  width="15" alt=""/>
+                  Foreign exchange services
+                </p>
+                <p className="fs-small lh-sm pe-4">
+                  <img src={assetsFinance} className="me-2"  width="15" alt=""/>
+                  Foreign exchange services
+                </p>
+                <p className="fs-small lh-sm pe-4">
+                  <img src={termLoan} className="me-2"  width="15" alt=""/>
+                  Foreign exchange services
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/PrivilegeCurrentAcc">
@@ -157,7 +178,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img9}
+                  src={img12}
                   style={{ height: "280px", objectFit: "cover" }}
                   className="img-fluid w-100"
                   alt=""
@@ -167,14 +188,14 @@ const BusinessBanking = () => {
                 className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
                 style={{ backgroundColor: "#9E1B1E" }}
               >
-                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h4 className="text-white pe-2">MSME Loan</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
                 <p className="fs-small lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
-                  This is a business current account offering premier business
-                  banking solutions and services designed specifically to meet
-                  business operation needs including concessions on service
-                  charges
+                  The MSME Sector is the corner stone of 
+                  any great economy. We firmly on board 
+                  to act as a catalyst for the economic 
+                  development of Zambia
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/PrivilegeCurrentAcc">
@@ -192,7 +213,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img9}
+                  src={img13}
                   style={{ height: "280px", objectFit: "cover" }}
                   className="img-fluid w-100"
                   alt=""
@@ -202,14 +223,13 @@ const BusinessBanking = () => {
                 className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
                 style={{ backgroundColor: "#9E1B1E" }}
               >
-                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h4 className="text-white pe-2">Term Loan</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
                 <p className="fs-small lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
-                  This is a business current account offering premier business
-                  banking solutions and services designed specifically to meet
-                  business operation needs including concessions on service
-                  charges
+                  Access our long and short-term loans 
+                  designed to meet your specific funding 
+                  requirements.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/PrivilegeCurrentAcc">
@@ -228,7 +248,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img9}
+                  src={img14}
                   style={{ height: "280px", objectFit: "cover" }}
                   className="img-fluid w-100"
                   alt=""
@@ -238,14 +258,13 @@ const BusinessBanking = () => {
                 className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
                 style={{ backgroundColor: "#9E1B1E" }}
               >
-                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h4 className="text-white pe-2">IZB Auto Finance</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
                 <p className="fs-small lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
-                  This is a business current account offering premier business
-                  banking solutions and services designed specifically to meet
-                  business operation needs including concessions on service
-                  charges
+                  Purchase of brand new and second hand 
+                  utility vehicle. Age of Second- hand 
+                  vehicle not to exceed 5 years.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/PrivilegeCurrentAcc">
@@ -263,7 +282,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img9}
+                  src={img15}
                   style={{ height: "280px", objectFit: "cover" }}
                   className="img-fluid w-100"
                   alt=""
@@ -273,14 +292,16 @@ const BusinessBanking = () => {
                 className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
                 style={{ backgroundColor: "#9E1B1E" }}
               >
-                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h4 className="text-white pe-2">IZB Agro Finance</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
                 <p className="fs-small lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
-                  This is a business current account offering premier business
-                  banking solutions and services designed specifically to meet
-                  business operation needs including concessions on service
-                  charges
+                  We understand the need for food security
+                  and the importance agriculture plays 
+                  into the country’s national development 
+                  goals. At Indo Zambia Bank we study, 
+                  examine and analyse the ﬁnancial 
+                  aspects pertaining to farm business.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/PrivilegeCurrentAcc">
@@ -300,7 +321,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img9}
+                  src={img16}
                   style={{ height: "280px", objectFit: "cover" }}
                   className="img-fluid w-100"
                   alt=""
@@ -310,14 +331,14 @@ const BusinessBanking = () => {
                 className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
                 style={{ backgroundColor: "#9E1B1E" }}
               >
-                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h4 className="text-white pe-2">Equity Release</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
                 <p className="fs-small lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
-                  This is a business current account offering premier business
-                  banking solutions and services designed specifically to meet
-                  business operation needs including concessions on service
-                  charges
+                  Looking for a quick finance solution and 
+                  have immovable assets. Our equity 
+                  release is a solution to get financing 
+                  backed by your assets. 
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/PrivilegeCurrentAcc">
@@ -335,7 +356,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img9}
+                  src={img17}
                   style={{ height: "280px", objectFit: "cover" }}
                   className="img-fluid w-100"
                   alt=""
@@ -345,14 +366,14 @@ const BusinessBanking = () => {
                 className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
                 style={{ backgroundColor: "#9E1B1E" }}
               >
-                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h4 className="text-white pe-2">Business Finance</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
                 <p className="fs-small lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
-                  This is a business current account offering premier business
-                  banking solutions and services designed specifically to meet
-                  business operation needs including concessions on service
-                  charges
+                  This is a specialised overdraft facility for 
+                  business designed for business for 
+                  quick working capital solutions backed 
+                  by security.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/PrivilegeCurrentAcc">
@@ -371,7 +392,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img9}
+                  src={img18}
                   style={{ height: "280px", objectFit: "cover" }}
                   className="img-fluid w-100"
                   alt=""
@@ -381,14 +402,11 @@ const BusinessBanking = () => {
                 className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
                 style={{ backgroundColor: "#9E1B1E" }}
               >
-                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h4 className="text-white pe-2">Working Capital Finance</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
                 <p className="fs-small lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
-                  This is a business current account offering premier business
-                  banking solutions and services designed specifically to meet
-                  business operation needs including concessions on service
-                  charges
+                  Improve working capital by unlocking funds caught in the supply chain, and manage incoming and outgoing cash flows more effectively with IZB overdraft facility.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/PrivilegeCurrentAcc">
@@ -406,7 +424,7 @@ const BusinessBanking = () => {
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img9}
+                  src={img19}
                   style={{ height: "280px", objectFit: "cover" }}
                   className="img-fluid w-100"
                   alt=""
@@ -416,14 +434,12 @@ const BusinessBanking = () => {
                 className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
                 style={{ backgroundColor: "#9E1B1E" }}
               >
-                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h4 className="text-white pe-2">Lease Rental Discounting </h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
                 <p className="fs-small lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
-                  This is a business current account offering premier business
-                  banking solutions and services designed specifically to meet
-                  business operation needs including concessions on service
-                  charges
+                  Need ﬁnancing against future receivables. 
+                  We have your back.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/PrivilegeCurrentAcc">
