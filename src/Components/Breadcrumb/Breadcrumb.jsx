@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 const Breadcrumb = ({Heading,img}) => {
   return (
     <section className="breadcrumb-area"> 
-      <div className="container-fluid" style={{ backgroundColor: "#FFF5E7" }}>
-        <div className="container py-2">
+      <div className="container-fluid py-2" style={{ backgroundColor: "#FFF5E7" }}>
+   
           <div className="row">
             <div className="col-xl-12">
-              <div className="inner-content">
+              <div className="inner-content" style={{margin:"0 40px 0 40px"}}>
                 <div
                   className="breadcrumb-area-bg title d-flex justify-content-center align-items-center"
                   data-aos="fade-right"
@@ -43,7 +43,7 @@ const Breadcrumb = ({Heading,img}) => {
               </div>
             </div>
           </div>
-        </div>
+     
       </div>
     </section>
   );
