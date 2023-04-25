@@ -167,8 +167,9 @@ const Navbar = () => {
               <div className="main-menu__wrapper-inner w-100">
                 <div className="main-menu-style1-left w-100">
                   <div className="main-menu-box w-100">
-                    <a href="#" className="mobile-nav__toggler">
-                      <GiHamburgerMenu />
+                    <a href="#" className="mobile-nav__toggler w-100">
+                      <GiHamburgerMenu /> 
+                      <img src={Logo} width={250} className="ps-3"/>
                     </a>
                     <ul className="main-menu__list justify-content-between" style={{ gap: "10px" }}>
                       <li className="megamenu ms-4">
@@ -428,9 +429,9 @@ const Navbar = () => {
               <i className="fas fa-plus" />
             </span>
             <div className="logo-box">
-              <a href="index.html" aria-label="logo image">
+              <Link to="/" aria-label="logo image">
                 <img src={Logo} alt="" />
-              </a>
+              </Link>
             </div>
             <div className="mobile-nav__container" />
             <div className="mobile-nav__social">

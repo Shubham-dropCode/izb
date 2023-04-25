@@ -25,7 +25,7 @@ const SavePlusAccountComponent = ({
               <img src={img} width="100%" alt="" />
             </div>
           </div>
-          <div className="col-xl-6 col-md-6 ">
+          <div className="col-xl col-md ">
             <div className="overview-content-box-two h-100 d-flex flex-column justify-content-center">
               <div className="inner-title">
                 <h5>{subHeading}</h5>
