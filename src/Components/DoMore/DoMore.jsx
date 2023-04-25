@@ -26,7 +26,7 @@ const DoMore = () => {
             E-services.
           </p>
         </div>
-        <div className="row choose-style1__content gap-5 justify-content-center">
+        <div className="row choose-style1__content gap-5 justify-content-center mt-5">
           <div className="row choose-style1__content justify-content-between">
             {/*Start Single Choose Style1*/}
             <div

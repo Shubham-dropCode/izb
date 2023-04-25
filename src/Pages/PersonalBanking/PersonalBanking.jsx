@@ -176,6 +176,7 @@ const PersonalBanking = () => {
             </div>
           </div>
         </div>
+        </div>
         <div className="container">
           <div className="row g-5 mt-1">
             <div className="col-12 col-md-6 col-lg-6 col-xl-6">
@@ -214,7 +215,7 @@ const PersonalBanking = () => {
             </div>
           </div>
         </div>
-      </div>
+   
 
       <div className="text-center mb-3 mt-5">
         <h2>Credit</h2>
@@ -291,6 +292,7 @@ const PersonalBanking = () => {
             </div>
           </div>
         </div>
+        </div>
         <div className="container">
           <div className="row g-5 mt-1">
             <div className="col-12 col-md-6 col-lg-6 col-xl-6">
@@ -329,7 +331,7 @@ const PersonalBanking = () => {
             </div>
           </div>
         </div>
-      </div>
+    
 
       <div className="container">
         <div className="d-flex justify-content-around mb-3 mt-5">

@@ -56,9 +56,8 @@ const Slide1 = () => {
             <div className="overview-content-box-one position-relative">
               <img
                 src={IndoBanking}
-                width="80%"
-                className="position-absolute SliderImg"
-                style={{ top:"-120px",left:"20%", }}
+                className="position-absolute img-fluid SliderImg"
+                
                 alt=""
       
               />

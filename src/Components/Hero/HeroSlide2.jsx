@@ -9,7 +9,7 @@ import "./Hero.css";
 const HeroSlide2 = () => {
   const HeroBgimg = {
     // backgroundImage: `url(${sliderImg})`,
-    height: "70vh",
+    height: "75vh",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     overflow: "hidden",

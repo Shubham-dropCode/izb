@@ -49,6 +49,9 @@
  .designationStyle{
     width: 50%;
  }
+ .SliderImg{
+    top: -190px;
+ }
 
 @media screen and (max-width: 480px) {
     .bannerPhone {
@@ -64,7 +67,7 @@
         position: static;
     }
     .SliderImg{
-        visibility: hidden;
+        top:"30%"
     }
     .SliderArrow{
         display: none;
@@ -102,6 +105,9 @@
       }
       .designationStyle{
         width: 100%;
+     }
+     .SliderImg{
+        top: -55px;
      }
     
   }
