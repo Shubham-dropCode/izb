@@ -147,7 +147,7 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
-                <div className="box-search-style1">
+                <div style={{marginRight :"35px",marginLeft :"35px"}}>
                   <a href="#" className="search-toggler">
                     <img src={PlayStore} />
                   </a>
@@ -164,14 +164,14 @@ const Navbar = () => {
         <nav className="main-menu main-menu-style1">
           <div className="main-menu__wrapper clearfix">
             <div className="container">
-              <div className="main-menu__wrapper-inner d-flex justify-content-center">
-                <div className="main-menu-style1-left">
-                  <div className="main-menu-box">
+              <div className="main-menu__wrapper-inner w-100">
+                <div className="main-menu-style1-left w-100">
+                  <div className="main-menu-box w-100">
                     <a href="#" className="mobile-nav__toggler">
                       <GiHamburgerMenu />
                     </a>
-                    <ul className="main-menu__list" style={{ gap: "10px" }}>
-                      <li className="megamenu">
+                    <ul className="main-menu__list justify-content-between" style={{ gap: "10px" }}>
+                      <li className="megamenu ms-4">
                         <Link to="/">Home</Link>
                       </li>
                       <li className="dropdown">

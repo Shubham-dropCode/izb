@@ -7,8 +7,6 @@ import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.sv
 import ArrowLeft from "../../assets/images/IZB/IZB Website Skin/LeftArrow.png";
 import ArrowRight from "../../assets/images/IZB/IZB Website Skin/RightArrow.png";
 import "./Hero.css";
-
-import BankingMenu from "./BankingMenu";
 import HeroSlide1 from "./HeroSlide1";
 import HeroSlide2 from "./HeroSlide2";
 import Slider from "react-slick";
@@ -66,7 +64,7 @@ const Hero = () => {
     borderRadius: "12px",
     backgroundColor: "#FFF5E7",
     left: "8%",
-    top: "90%",
+    top: "75%",
   };
   const textColor = {
     color: "#9E1B1E",

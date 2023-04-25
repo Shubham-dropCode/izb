@@ -43,9 +43,9 @@
   margin: 0 auto;
 }
 
-.row {
+/* .row {
   --bs-gutter-x: 30px;
-}
+} */
 
 .gutter-y-30 {
   --bs-gutter-y: 30px;
@@ -942,10 +942,10 @@ select:focus {
 .accordion-box .block .acc-content {
   position: relative;
   display: none;
-  padding-top: 24px;
+  /* padding-top: 24px;
   padding-left: 20px;
   padding-bottom: 4px;
-  padding-right: 20px;
+  padding-right: 20px; */
 }
 
 .accordion-box .block .acc-content.current {

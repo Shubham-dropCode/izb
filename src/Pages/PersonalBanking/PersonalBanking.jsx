@@ -34,41 +34,35 @@ const PersonalBanking = () => {
         <div className="text-center mb-3 mt-5">
           <h2 style={{ color: "#484848" }}>Saving Accounts</h2>
         </div>
-        <div className="d-flex justify-content-between mt-4">
-          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
+        <div className="row mt-4 g-5">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img1}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">IZB Save Plus A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefits</h5>
-                <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
-                </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h5 className="text text-white fs-4 my-2">Purpose</h5>
+                <p className="fs-small lh-sm pe-4">
+                  <AiFillCaretRight className="me-2" />
+                  This is a business current account offering premier business
+                  banking solutions and services designed specifically to meet
+                  business operation needs including concessions on service
+                  charges
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/SavePlusAccount">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/SavePlusAccount" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -76,40 +70,34 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img2}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">IZB Classic Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefits</h5>
-                <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Attractive interest
-                </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless visa Card
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  SMS Alert
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h5 className="text text-white fs-4 my-2">Purpose</h5>
+                <p className="fs-small lh-sm pe-4">
+                  <AiFillCaretRight className="me-2" />
+                  This is a business current account offering premier business
+                  banking solutions and services designed specifically to meet
+                  business operation needs including concessions on service
+                  charges
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/ClassicSavingAcc">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/ClassicSavingAcc" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -117,41 +105,35 @@ const PersonalBanking = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-between my-3">
-          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
+        <div className="row mt-4 g-5">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img3}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Privelage Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefits</h5>
-                <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Free E-statement facility
-                </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  Cheque book facility
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  Balance inquiry through on IZB ATM
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile recharge(Airtel,MTL,Zamtel)
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h5 className="text text-white fs-4 my-2">Purpose</h5>
+                <p className="fs-small lh-sm pe-4">
+                  <AiFillCaretRight className="me-2" />
+                  This is a business current account offering premier business
+                  banking solutions and services designed specifically to meet
+                  business operation needs including concessions on service
+                  charges
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/PrivilageSavingAcc">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/PrivilageSavingAcc" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -159,40 +141,34 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img4}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Tisunge Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefits</h5>
-                <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Free E-statement facility
-                </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  No maintanance charge
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h5 className="text text-white fs-4 my-2">Purpose</h5>
+                <p className="fs-small lh-sm pe-4">
+                  <AiFillCaretRight className="me-2" />
+                  This is a business current account offering premier business
+                  banking solutions and services designed specifically to meet
+                  business operation needs including concessions on service
+                  charges
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/TisungoSaving">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/TisungoSaving" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -200,43 +176,39 @@ const PersonalBanking = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-between my-3">
-          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
-            <div className="row justify-content-sm-center">
-              <div className="col-12 col-md-4 col-xl-4 p-0">
-                <img
-                  src={img5}
-                  style={{ height: "280px", objectFit: "cover" }}
-                  className=""
-                  alt=""
-                />
-              </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Tonse Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefits</h5>
-                <p>
-                  <AiOutlinePercentage className="me-2" />
-                  Free E-statement facility
-                </p>
-                <p>
-                  <AiFillCreditCard className="me-2" />
-                  Cheque book facility
-                </p>
-                <p>
-                  <AiOutlineMail className="me-2" />
-                  Balance inquiry through on IZB ATM
-                </p>
-                <p>
-                  <AiOutlineMobile className="me-2" />
-                  Mobile recharge(Airtel,MTL,Zamtel)
-                </p>
-                <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/TonseSavingAcc">
-                    <button className="btn btn-light py-0">Apply now</button>
-                  </Link>
-                  <Link to="/TonseSavingAcc" className="text-white">
-                    Know more <AiOutlineArrowRight />{" "}
-                  </Link>
+        <div className="container">
+          <div className="row g-5 mt-1">
+            <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+              <div className="row justify-content-sm-center">
+                <div className="col-12 col-md-4 col-xl-4 p-0">
+                  <img
+                    src={img4}
+                    style={{ height: "280px", objectFit: "cover" }}
+                    className="img-fluid w-100"
+                    alt=""
+                  />
+                </div>
+                <div
+                  className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                  style={{ backgroundColor: "#9E1B1E" }}
+                >
+                  <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                  <h5 className="text text-white fs-4 my-2">Purpose</h5>
+                  <p className="fs-small lh-sm pe-4">
+                    <AiFillCaretRight className="me-2" />
+                    This is a business current account offering premier business
+                    banking solutions and services designed specifically to meet
+                    business operation needs including concessions on service
+                    charges
+                  </p>
+                  <div className="d-flex justify-content-between me-4 mt-3">
+                    <Link to="/PrivilegeCurrentAcc">
+                      <button className="btn btn-light py-0">Apply now</button>
+                    </Link>
+                    <Link to="/PrivilegeCurrentAcc" className="text-white">
+                      Know more <AiOutlineArrowRight />{" "}
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -248,34 +220,35 @@ const PersonalBanking = () => {
         <h2>Credit</h2>
       </div>
       <div className="container">
-        <div className="d-flex justify-content-between">
-          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
+        <div className="row mt-4 g-5">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img6}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Indo Home Loan</h4>
-                <h5 className="text text-white fs-4 my-2">purpose</h5>
-                <p>
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h5 className="text text-white fs-4 my-2">Purpose</h5>
+                <p className="fs-small lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
-                  Outright Purchase of a ready-made.
-                </p>
-                <p>
-                  <AiFillCaretRight className="me-2" />
-                  Home Improvement - For repairs/
-                  renovation/alteration/extension in the existing house/ﬂat.
+                  This is a business current account offering premier business
+                  banking solutions and services designed specifically to meet
+                  business operation needs including concessions on service
+                  charges
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/IndoHomeLoan">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/IndoHomeLoan" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -283,30 +256,34 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img7}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Personal Loan</h4>
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p>
+                <p className="fs-small lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
-                  For meeting personal needs such as purchase of
-                  furniture/equipment, meeting social obligations, repair of
-                  houses etc.
+                  This is a business current account offering premier business
+                  banking solutions and services designed specifically to meet
+                  business operation needs including concessions on service
+                  charges
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/IndoPersonalLoan">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/IndoPersonalLoan" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -314,33 +291,39 @@ const PersonalBanking = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-between my-3">
-          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
-            <div className="row justify-content-sm-center">
-              <div className="col-12 col-md-4 col-xl-4 p-0">
-                <img
-                  src={img8}
-                  style={{ height: "280px", objectFit: "cover" }}
-                  className=""
-                  alt=""
-                />
-              </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Indo Vehicle Loan</h4>
-                <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p>
-                  <AiFillCaretRight className="me-2" />
-                  To ﬁnance purchase of second-hand vehicles not more than 5
-                  years old for personal and business use from reputable
-                  dealers.
-                </p>
-                <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/IndoVehicleLoan">
-                    <button className="btn btn-light py-0">Apply now</button>
-                  </Link>
-                  <Link to="/IndoVehicleLoan" className="text-white">
-                    Know more <AiOutlineArrowRight />{" "}
-                  </Link>
+        <div className="container">
+          <div className="row g-5 mt-1">
+            <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+              <div className="row justify-content-sm-center">
+                <div className="col-12 col-md-4 col-xl-4 p-0">
+                  <img
+                    src={img2}
+                    style={{ height: "280px", objectFit: "cover" }}
+                    className="img-fluid w-100"
+                    alt=""
+                  />
+                </div>
+                <div
+                  className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                  style={{ backgroundColor: "#9E1B1E" }}
+                >
+                  <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                  <h5 className="text text-white fs-4 my-2">Purpose</h5>
+                  <p className="fs-small lh-sm pe-4">
+                    <AiFillCaretRight className="me-2" />
+                    This is a business current account offering premier business
+                    banking solutions and services designed specifically to meet
+                    business operation needs including concessions on service
+                    charges
+                  </p>
+                  <div className="d-flex justify-content-between me-4 mt-3">
+                    <Link to="/PrivilegeCurrentAcc">
+                      <button className="btn btn-light py-0">Apply now</button>
+                    </Link>
+                    <Link to="/PrivilegeCurrentAcc" className="text-white">
+                      Know more <AiOutlineArrowRight />{" "}
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -354,37 +337,35 @@ const PersonalBanking = () => {
           <h2>Agency Banking</h2>
         </div>
 
-        <div className="d-flex justify-content-between pb-5">
-          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
+        <div className="row mt-4 g-5">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img6}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Bumi Fixed Deposit A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefits</h5>
-                <p>
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h5 className="text text-white fs-4 my-2">Purpose</h5>
+                <p className="fs-small lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
-                  Credit the principal amount to customers account.
-                </p>
-                <p>
-                  <AiFillCaretRight className="me-2" />
-                  Interest credited upon opening/placement of the deposit
-                </p>
-                <p>
-                  <AiFillCaretRight className="me-2" />
-                  Attractive intrest rate
+                  This is a business current account offering premier business
+                  banking solutions and services designed specifically to meet
+                  business operation needs including concessions on service
+                  charges
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/BhumiFixedDepositAccount">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/BhumiFixedDepositAccount" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -392,40 +373,34 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
-                  src={img7}
+                  src={img1}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Indo Fast Serve</h4>
-                <h5 className="text text-white fs-4 my-2">benefits</h5>
-                <p>
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h5 className="text text-white fs-4 my-2">Purpose</h5>
+                <p className="fs-small lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
-                  Easy to use
-                </p>
-                <p>
-                  <AiFillCaretRight className="me-2" />
-                  Time saving
-                </p>
-                <p>
-                  <AiFillCaretRight className="me-2" />
-                  Secure
-                </p>
-                <p>
-                  <AiFillCaretRight className="me-2" />
-                  Convinient
+                  This is a business current account offering premier business
+                  banking solutions and services designed specifically to meet
+                  business operation needs including concessions on service
+                  charges
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/IndoFastServe">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/IndoFastServe" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>

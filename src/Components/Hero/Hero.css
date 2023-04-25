@@ -34,7 +34,7 @@
     overflow: "hidden"
  }
  .Spacer{
-    height: 200px;
+    height: 350px;
 }
 .SaveAccountSection{
     padding: 100px 0 100px 0;
@@ -81,7 +81,7 @@
         display: none;
     }
     .Spacer{
-        height: 600px;
+        height: 750px;
     }
     .BankingMenu{
         margin-top: 1.5rem;
