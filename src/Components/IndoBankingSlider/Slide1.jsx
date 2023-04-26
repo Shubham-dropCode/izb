@@ -20,7 +20,7 @@ const Slide1 = () => {
         <div className="row p-5">
           <div className="col-xl-6 col-md-6">
             <img src={MobileBanking} className="d-md-none d-sm-block" alt="" />
-            <div className="overview-content-box-two h-100 d-flex flex-column d-none">
+            <div className="overview-content-box-two h-100 d-flex flex-column">
               <div className="inner-title ps-5">
                 <h2 style={textColor}>INDO MOBILE BANKING</h2>
                 <div className="d-flex align-items-center gap-3 my-3">
@@ -61,7 +61,7 @@ const Slide1 = () => {
             <div className="overview-content-box-one position-relative">
               <img
                 src={IndoBanking}
-                className="position-absolute img-fluid SliderImg d-sm-none"
+                className="position-absolute img-fluid SliderImg"
                 alt=""
               />
             </div>
