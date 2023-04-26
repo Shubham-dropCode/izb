@@ -8,6 +8,7 @@ import Phone from "../../assets/images/IZB/PhoneCall.png";
 import PlayStore from "../../assets/images/IZB/PlayStore.png";
 import apple from "../../assets/images/IZB/apple.png";
 import { Link } from "react-router-dom";
+import { data } from "./NavData";
 
 const Navbar = () => {
   useEffect(() => {
@@ -69,6 +70,44 @@ const Navbar = () => {
     }
   }, []);
 
+  // function accordify(data) {
+  //   if (data.length === 0) {
+  //     return;
+  //   } else {
+  //     for (let i = 0; i < data.length; i++) {
+  //       accordify(data[i]["content"]);
+
+  //       if (data[i]["content"].length !== 0) {
+  //         data[i]["content"] = {
+  //           content: (
+  //             <div>
+  //               <Accordion.Accordion panels={data[i]["content"]} />
+  //             </div>
+  //           ),
+  //         };
+  //       } else {
+  //         data[i]["content"] = {
+  //           content: (
+  //             <div>
+  //               <Accordion.Title
+  //                 icon={Icon.Group}
+  //                 content="I'd find it here"
+  //                 as={"button"}
+  //                 onClick={(event) => {
+  //                   console.log(event.target.textContent);
+  //                 }}
+  //               />
+  //             </div>
+  //           ),
+  //         };
+  //       }
+  //     }
+  //   }
+  // }
+
+  // //Call the function
+  // accordify(data);
+
   return (
     <>
       <header className="main-header main-header-style1">
@@ -86,7 +125,7 @@ const Navbar = () => {
                     <img src={Logo} width={300} />
                   </Link>
                 </div>
-                <div className="nearest-branch">
+                <div className="ms-4 ps-4">
                   <div className="input-group">
                     <div className="form-outline">
                       <input
@@ -147,7 +186,7 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
-                <div style={{marginRight :"35px",marginLeft :"35px"}}>
+                <div style={{ marginRight: "35px", marginLeft: "35px" }}>
                   <a href="#" className="search-toggler">
                     <img src={PlayStore} />
                   </a>
@@ -168,10 +207,13 @@ const Navbar = () => {
                 <div className="main-menu-style1-left w-100">
                   <div className="main-menu-box w-100">
                     <a href="#" className="mobile-nav__toggler w-100">
-                      <GiHamburgerMenu /> 
-                      <img src={Logo} width={250} className="ps-3"/>
+                      <GiHamburgerMenu />
+                      <img src={Logo} width={250} className="ps-5" />
                     </a>
-                    <ul className="main-menu__list justify-content-between" style={{ gap: "10px" }}>
+                    <ul
+                      className="main-menu__list justify-content-between"
+                      style={{ gap: "10px" }}
+                    >
                       <li className="megamenu ms-4">
                         <Link to="/">Home</Link>
                       </li>
@@ -454,8 +496,6 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-
-        
 
         {/*End Main Header Style1 Bottom*/}
       </header>

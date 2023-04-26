@@ -55,7 +55,7 @@ const AtmLocatinos = () => {
             </label>
           </div>
           <span className="border h-75"></span>
-          <div className="col-7">
+          <div className="col-8">
             <form role="form" className="form-horizontal">
               <div className="form-group has-feedback has-feedback-left">
                 <label className="control-label sr-only">Username</label>
@@ -63,7 +63,7 @@ const AtmLocatinos = () => {
                 <input
                   type="text"
                   id="HomepageAtm"
-                  className="form-control"
+                  className="form-control w-100"
                   style={formControl}
                   placeholder="Enter Your Location"
                 />

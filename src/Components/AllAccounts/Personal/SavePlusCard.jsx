@@ -10,9 +10,9 @@ const SavePlusCard = () => {
   };
   return (
     <div style={img} className="col-3">
-      <div className="text-white p-3">
-        <h4 className="text-white">IZB Save Plus Account</h4>
-        <p>
+      <div className="text-white p-3" style={{textAlign:"left"}}>
+        <h4 className="text-white text-left">IZB Save Plus Account</h4>
+        <p className="text-0">
           Exclusively designed savings’ account to inculcate savings habits in
           parents and guardians for their children.
         </p>

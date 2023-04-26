@@ -37,7 +37,9 @@ const FAQS = () => {
           </div>
         </form>
         <div>
-          <h2 className="my-3">FAQs on SMS-Alerts</h2>
+          <h2 className="my-3" style={{ color: "#9E1B1E" }}>
+            FAQs on SMS-Alerts
+          </h2>
         </div>
         <div className="container">
           <div className="row">
@@ -62,10 +64,13 @@ const FAQS = () => {
               </div>
             </div>
           </div>
-
-          <div>
-            <h2 className="my-3">FAQs on E-Statement</h2>
-          </div>
+        </div>
+        <div>
+          <h2 className="my-3" style={{ color: "#9E1B1E" }}>
+            FAQs on E-Statement
+          </h2>
+        </div>
+        <div className="container">
           <div className="row">
             <div className="col-xl-6 justify-content-center">
               <div className="faq-style1__content">
@@ -95,7 +100,7 @@ const FAQS = () => {
           className="container-fluid"
           style={{ backgroundImage: `url(${Faqbg})` }}
         >
-          <div className="container mt-4">
+          <div className="container my-4">
             <div className="row py-5">
               <div className="col-md-6 text-center">
                 <img src={horn} width={250} alt="" />

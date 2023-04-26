@@ -9,7 +9,6 @@ import img5 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/5.pn
 import img6 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/6.png";
 import img7 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/7.png";
 import img8 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/8.png";
-import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.svg";
 
 import {
   AiOutlinePercentage,
@@ -35,7 +34,7 @@ const PersonalBanking = () => {
           <h2 style={{ color: "#484848" }}>Saving Accounts</h2>
         </div>
         <div className="row mt-4 g-5">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -51,19 +50,19 @@ const PersonalBanking = () => {
               >
                 <h4 className="text-white pe-2">IZB Save Plus A/C</h4>
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiOutlinePercentage className="me-2" />
                   Attractive interest
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiFillCreditCard className="me-2" /> 
                   IZB contactless card
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiOutlineMail className="me-2" />
                   SMS alert
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiOutlineMobile className="me-2" />
                   Mobile banking & internet banking 
                   facilities
@@ -80,7 +79,7 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -96,19 +95,19 @@ const PersonalBanking = () => {
               >
                 <h4 className="text-white pe-2">IZB Classic Savings A/C</h4>
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiOutlinePercentage className="me-2" />
                   Attractive interest
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiFillCreditCard className="me-2" /> 
                   IZB contactless card
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiOutlineMail className="me-2" />
                   SMS alert
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiOutlineMobile className="me-2" />
                   Mobile banking & internet banking 
                   facilities
@@ -126,7 +125,7 @@ const PersonalBanking = () => {
           </div>
         </div>
         <div className="row mt-4 g-5">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -142,19 +141,19 @@ const PersonalBanking = () => {
               >
                 <h4 className="text-white pe-2">Privilege Savings A/C</h4>
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiOutlinePercentage className="me-2" />
                   Free E-statement facility
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiFillCreditCard className="me-2" /> 
                   Cheque book facility
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiOutlineMail className="me-2" />
                   Balance Enquiry on IZB ATM
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiOutlineMobile className="me-2" />
                   Mobile recharge (Airtel/MTN/Zamtel)
                 </p>
@@ -170,7 +169,7 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -186,19 +185,19 @@ const PersonalBanking = () => {
               >
                 <h4 className="text-white pe-2">Tisunge Savings A/C</h4>
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiOutlinePercentage className="me-2" />
                   Free E-statements
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiFillCreditCard className="me-2" /> 
                   IZB contactless card
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiOutlineMail className="me-2" />
                   No maintenance charge
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiOutlineMobile className="me-2" />
                   Mobile banking & internet banking 
                   facilities
@@ -217,8 +216,8 @@ const PersonalBanking = () => {
         </div>
         </div>
         <div className="container">
-          <div className="row g-5 mt-1">
-            <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="row g-5 mt-4">
+            <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
               <div className="row justify-content-sm-center">
                 <div className="col-12 col-md-4 col-xl-4 p-0">
                   <img
@@ -234,19 +233,19 @@ const PersonalBanking = () => {
                 >
                   <h4 className="text-white pe-2">Tonse Savings A/C</h4>
                   <h5 className="text text-white fs-4 my-2">Benefits</h5>
-                  <p className="fs-small lh-sm pe-4">
+                  <p className="fs-small pt-1">
                   <AiOutlinePercentage className="me-2" />
                   Free E-statement facility
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiFillCreditCard className="me-2" /> 
                   Cheque book facility
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiOutlineMail className="me-2" />
                   Balance Enquiry on IZB ATM
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiOutlineMobile className="me-2" />
                   Mobile recharge (Airtel/MTN/Zamtel)
                 </p>
@@ -265,12 +264,12 @@ const PersonalBanking = () => {
         </div>
    
 
-      <div className="text-center mb-3 mt-5">
+      <div className="text-center mt-5">
         <h2>Credit</h2>
       </div>
       <div className="container">
-        <div className="row mt-4 g-5">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+        <div className="row mt-1 g-5">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -286,11 +285,11 @@ const PersonalBanking = () => {
               >
                 <h4 className="text-white pe-2">Indo Home Loan</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiFillCaretRight className="me-2" />
                   Outright Purchase of a ready-made.
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1" style={{ textAlign: "left" }}>
                   <AiFillCaretRight className="me-2" />
                   Home Improvement – For repairs/
                   renovation/alteration/extension in 
@@ -308,7 +307,7 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -324,7 +323,7 @@ const PersonalBanking = () => {
               >
                 <h4 className="text-white pe-2">Personal Loan</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1" style={{ textAlign: "left" }}>
                   <AiFillCaretRight className="me-2" />
                   For meeting personal needs such as 
                   purchase of furniture/equipment, 
@@ -345,8 +344,8 @@ const PersonalBanking = () => {
         </div>
         </div>
         <div className="container">
-          <div className="row g-5 mt-1">
-            <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="row g-5 mt-4">
+            <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
               <div className="row justify-content-sm-center">
                 <div className="col-12 col-md-4 col-xl-4 p-0">
                   <img
@@ -362,7 +361,7 @@ const PersonalBanking = () => {
                 >
                   <h4 className="text-white pe-2">Indo Vehicle Loan</h4>
                   <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                  <p className="fs-small lh-sm pe-4">
+                  <p className="fs-small pt-1" style={{ textAlign: "left" }}>
                     <AiFillCaretRight className="me-2" />
                     To ﬁnance purchase of second-hand 
                     vehicles not more than 5 years old for 
@@ -384,14 +383,14 @@ const PersonalBanking = () => {
         </div>
     
 
-      <div className="container">
+      <div className="container mb-5">
         <div className="d-flex justify-content-around mb-3 mt-5">
           <h2>Fixed Deposit</h2>
           <h2>Agency Banking</h2>
         </div>
 
         <div className="row mt-4 g-5">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -407,17 +406,17 @@ const PersonalBanking = () => {
               >
                 <h4 className="text-white pe-2">Bumi Fixed Deposit A/C</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small lh-sm pt-1" style={{ textAlign: "left" }}> 
                   <AiFillCaretRight className="me-2" />
                   Credit the principal amount to customers 
                   account.
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small lh-sm pt-1" style={{ textAlign: "left" }}>
                   <AiFillCaretRight className="me-2" />
                   Interest credited upon opening/placement 
                   of the deposit
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiFillCaretRight className="me-2" />
                  Attractive rate intrest
                 </p>
@@ -433,7 +432,7 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -449,19 +448,19 @@ const PersonalBanking = () => {
               >
                 <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiFillCaretRight className="me-2" />
                   Easy to use
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiFillCaretRight className="me-2" />
                   Time-Saving
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiFillCaretRight className="me-2" />
                   Secure
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1">
                   <AiFillCaretRight className="me-2" />
                   Convenient
                 </p>

@@ -10,7 +10,7 @@ const TermLoanCard = () => {
   };
   return (
     <div style={img} className="col-3">
-      <div className="text-white p-3">
+      <div className="text-white p-3" style={{textAlign:"left"}}>
         <h4 className="text-white">Term Loan</h4>
         <p>
           Access our long and short-term loans designed to meet your specific

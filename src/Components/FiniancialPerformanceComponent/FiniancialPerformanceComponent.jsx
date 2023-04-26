@@ -38,11 +38,11 @@ const FiniancialPerformanceComponent = () => {
             <ul className="accordion-box">
               <li
                 onClick={() => setIsActive(isActive)}
-                className="accordion block active-block"
+                className="accordion block active-block d-inline align-items-center"
               >
                 <div
                   className="acc-btn active"
-                  style={{ backgroundColor: "#9E1B1E", backgroundSize: "20px" }}
+                  style={{ backgroundColor: "#9E1B1E", backgroundSize: "20px"  }}
                 >
                   <div className="icon-outer text-white">
                     {isActive ? (
@@ -55,7 +55,7 @@ const FiniancialPerformanceComponent = () => {
                 </div>
                 {isActive && (
                   <div className="acc-content current">
-                    <div className="row">
+                    <div className="row mt-5">
                       <div className="col-sm-6 col-md-3 col-xl-3 text-center">
                         <div>
                           <img src={img2021} alt="" />
@@ -254,7 +254,7 @@ const FiniancialPerformanceComponent = () => {
                 </div>
                 {isActive && (
                   <div className="acc-content current">
-                    <div className="row">
+                    <div className="row mt-5">
                       <div className="col-sm-6 col-md-6 col-xl-6 text-center">
                         <div>
                           <img src={statement1} alt="" />

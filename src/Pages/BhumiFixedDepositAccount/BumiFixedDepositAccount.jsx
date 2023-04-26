@@ -23,9 +23,9 @@ const BumiFixedDepositAccount = () => {
 const [show, setShow] = useState(false);
   return (
     <>
-     <Breadcrumb Heading="Indo Vehicle Loan" img={BackgroundBrundcrumb} />
+     <Breadcrumb Heading="Bumi Fixed Deposit Account" img={BackgroundBrundcrumb} />
       <SavePlusAccountComponent
-        heading="Personal Loan"
+        heading="Bumi Fixed Deposit Account"
         subHeading="Know About"
         btnTxt="Apply Now"
         content="The account the pays you interest upfront."

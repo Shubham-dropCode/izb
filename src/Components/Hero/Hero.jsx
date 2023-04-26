@@ -87,7 +87,7 @@ const Hero = () => {
         className="documents-area col-sm-10 col-md-10 col-lg-10 col-xl-10 shadow p-0 p-md-3 me-3"
         style={bankMenu}
       >
-        <div className="container py-3">
+        <div className="container ">
           <div className="row">
             <div className="col-xl-6 col-lg-6 px-0 px-md-3">
               {/*Start Single Documents Box*/}

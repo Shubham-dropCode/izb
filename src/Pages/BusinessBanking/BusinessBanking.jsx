@@ -41,7 +41,7 @@ const BusinessBanking = () => {
           <h2>Current Accounts</h2>
         </div>
         <div className="row mt-4 g-5">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -52,12 +52,12 @@ const BusinessBanking = () => {
                 />
               </div>
               <div
-                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3 justify-content-between"
                 style={{ backgroundColor: "#9E1B1E" }}
               >
                 <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
                   This is a business current account offering premier business
                   banking solutions and services designed specifically to meet
@@ -76,7 +76,7 @@ const BusinessBanking = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -92,21 +92,21 @@ const BusinessBanking = () => {
               >
                 <h4 className="text-white pe-2">Classic Current Account</h4>
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <img src={foreignCurrency} className="me-2"  width="15" alt=""/>
                   Foreign exchange services
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <img src={overdraft} className="me-2"  width="15" alt=""/>
-                  Foreign exchange services
+                  Overdraft.
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <img src={assetsFinance} className="me-2"  width="15" alt=""/>
-                  Foreign exchange services
+                  Asset Financing.
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <img src={termLoan} className="me-2"  width="15" alt=""/>
-                  Foreign exchange services
+                  Term Loans.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/PrivilegeCurrentAcc">
@@ -122,8 +122,8 @@ const BusinessBanking = () => {
         </div>
       </div>
       <div className="container">
-        <div className="row g-5 mt-1">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+        <div className="row g-5 mt-4">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -139,21 +139,21 @@ const BusinessBanking = () => {
               >
                 <h4 className="text-white pe-2">SME Current Account</h4>
                 <h5 className="text text-white fs-4 my-2">Benefits</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <img src={foreignCurrency} className="me-2"  width="15" alt=""/>
                   Foreign exchange services
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <img src={overdraft} className="me-2"  width="15" alt=""/>
-                  Foreign exchange services
+                  Overdraft.
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <img src={assetsFinance} className="me-2"  width="15" alt=""/>
-                  Foreign exchange services
+                  Asset financing
                 </p>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <img src={termLoan} className="me-2"  width="15" alt=""/>
-                  Foreign exchange services
+                  Term Loans.
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
                   <Link to="/PrivilegeCurrentAcc">
@@ -169,12 +169,12 @@ const BusinessBanking = () => {
         </div>
       </div>
 
-      <div className="container mt-5 pb-5">
+      <div className="container my-5 pb-5">
         <div className="text-center text">
           <h2>Credit</h2>
         </div>
         <div className="row mt-4 gx-5">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -190,7 +190,7 @@ const BusinessBanking = () => {
               >
                 <h4 className="text-white pe-2">MSME Loan</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
                   The MSME Sector is the corner stone of 
                   any great economy. We firmly on board 
@@ -209,7 +209,7 @@ const BusinessBanking = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -225,7 +225,7 @@ const BusinessBanking = () => {
               >
                 <h4 className="text-white pe-2">Term Loan</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
                   Access our long and short-term loans 
                   designed to meet your specific funding 
@@ -244,7 +244,7 @@ const BusinessBanking = () => {
           </div>
         </div>
         <div className="row mt-4 g-5">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -260,7 +260,7 @@ const BusinessBanking = () => {
               >
                 <h4 className="text-white pe-2">IZB Auto Finance</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
                   Purchase of brand new and second hand 
                   utility vehicle. Age of Second- hand 
@@ -278,7 +278,7 @@ const BusinessBanking = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -294,7 +294,7 @@ const BusinessBanking = () => {
               >
                 <h4 className="text-white pe-2">IZB Agro Finance</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
                   We understand the need for food security
                   and the importance agriculture plays 
@@ -317,7 +317,7 @@ const BusinessBanking = () => {
         </div>
 
         <div className="row mt-4 g-5">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -333,7 +333,7 @@ const BusinessBanking = () => {
               >
                 <h4 className="text-white pe-2">Equity Release</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
                   Looking for a quick finance solution and 
                   have immovable assets. Our equity 
@@ -352,7 +352,7 @@ const BusinessBanking = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -368,7 +368,7 @@ const BusinessBanking = () => {
               >
                 <h4 className="text-white pe-2">Business Finance</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
                   This is a specialised overdraft facility for 
                   business designed for business for 
@@ -388,7 +388,7 @@ const BusinessBanking = () => {
           </div>
         </div>
         <div className="row mt-4 g-5">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -404,7 +404,7 @@ const BusinessBanking = () => {
               >
                 <h4 className="text-white pe-2">Working Capital Finance</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
                   Improve working capital by unlocking funds caught in the supply chain, and manage incoming and outgoing cash flows more effectively with IZB overdraft facility.
                 </p>
@@ -420,7 +420,7 @@ const BusinessBanking = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -436,7 +436,7 @@ const BusinessBanking = () => {
               >
                 <h4 className="text-white pe-2">Lease Rental Discounting </h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small lh-sm pe-4">
+                <p className="fs-small pt-1 lh-sm pe-4">
                   <AiFillCaretRight className="me-2" />
                   Need ﬁnancing against future receivables. 
                   We have your back.

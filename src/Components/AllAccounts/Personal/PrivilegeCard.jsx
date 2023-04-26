@@ -11,7 +11,7 @@ const PrivilegeCard = () => {
       };
   return (
     <div style={img} className="col-3">
-    <div className="text-white p-3">
+    <div className="text-white p-3" style={{textAlign:"left"}}>
       <h4 className="text-white">Privilege Savings A/C</h4>
       <p>
       This savings account comes with a cheque book facility I addition to other features such as SMS Alerts and Internet Banking

@@ -10,7 +10,7 @@ const IzbPrivilegeCurrentCard = () => {
   };
   return (
     <div style={imgStyle} className="col-3">
-      <div className="text-white p-3">
+      <div className="text-white p-3" style={{textAlign:"left"}}>
         <h4 className="text-white">IZB Privilege Current A/C</h4>
         <p className="">
           This is a business current account offering premier business banking

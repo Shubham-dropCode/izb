@@ -26,7 +26,7 @@ const ServiceTable = ({title}) => {
             <div className="job-list-table-box">
               <div className="table-outer">
                 <table className="job-list-table">
-                  <thead className="header text-center">
+                  <thead className="header">
                     <tr>
                       <th>SL. No</th>
                       <th>Product Name</th>

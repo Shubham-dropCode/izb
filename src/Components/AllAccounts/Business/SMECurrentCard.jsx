@@ -10,7 +10,7 @@ const SMECurrentCard = () => {
   };
   return (
     <div style={img} className="col-3">
-      <div className="text-white p-3">
+      <div className="text-white p-3" style={{textAlign:"left"}}>
         <h4 className="text-white">SME Current A/C</h4>
         <p>
           This is a current account specifically designed to suport the business

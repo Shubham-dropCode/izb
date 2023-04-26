@@ -11,6 +11,9 @@ const WhyBankWithUsComponents = () => {
         <div className="text-center mb-5">
           <h2>About Indo Zambia Bank</h2>
         </div>
+        <div className="col-12 ">
+
+        
         <div
           className="row border justify-content-sm-center my-5"
           style={{ backgroundColor: "#9E1B1E" }}
@@ -55,6 +58,7 @@ const WhyBankWithUsComponents = () => {
             A technology savvy bank with a gentle human face. The credo is at building relationships Ingenuity and flexible solutions worked out for each customer The extra “interest” over normal interest The service you need with expertise you desire.
             </p>
           </div>
+        </div>
         </div>
       </div>
       <AllAcountsSection/>
