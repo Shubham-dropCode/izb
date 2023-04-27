@@ -10319,7 +10319,7 @@ li.single-benefits-box-colum:nth-child(6) .single-benefits-box .icon {
 .single-card-box {
   position: relative;
   display: flex;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   /* border: 1px solid #f2ece7; */
   margin-bottom: 60px;
 }

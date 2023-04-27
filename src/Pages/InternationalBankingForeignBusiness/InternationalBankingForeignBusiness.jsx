@@ -77,7 +77,7 @@ const  InternationalBankingForeignBusiness = () => {
       <section id="MSMEAccodion">
         <div className="container justify-content-center mt-5">
           <div className="faq-style1__content">
-            <ul className="accordion-box">
+            <ul className="accordion-box my-5">
               {question.map((item) => {
                 const { id } = item;
                 return <InternationlAccordion key={id} {...item} />;

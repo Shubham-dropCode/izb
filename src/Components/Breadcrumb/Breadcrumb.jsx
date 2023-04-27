@@ -12,7 +12,7 @@ const Breadcrumb = ({ Heading, img }) => {
       >
         <div className="row">
           <div className="col-xl-12">
-            <div className="inner-content" style={{ margin: "0 40px 0 60px" }}>
+            <div className="inner-content" style={{ margin: "0 40px 0 40px" }}>
               
               <div
                 className="breadcrumb-area-bg title d-flex justify-content-center align-items-center"

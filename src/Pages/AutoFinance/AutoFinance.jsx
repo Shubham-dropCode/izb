@@ -89,7 +89,9 @@ const AutoFinance = () => {
       </section>
 
       <div className="container">
-        <div className="bg-light p-3 mt-4">
+          <div className="bg-light my-3"   style={{
+                  padding: "20px 0px 20px 60px",
+                }}>
           <h6 style={{ color: "#9E1B1E" }}>Please contact your nearest branch for further details</h6>
         </div>
       </div>

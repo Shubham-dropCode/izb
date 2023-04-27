@@ -37,15 +37,6 @@ export const question = [
   },
   {
     id: 4,
-    question: "Repayment Period",
-    answer: [
-      {
-        item: "Repayment period not exceeding 60 months in case of brand new car and 48 months in case of second hand vehicle . The repayment period not to exceed the left over service period in case of salaried employees.",
-      },
-    ],
-  },
-  {
-    id: 5,
     question: "Deductions",
     answer: [
       {
@@ -54,7 +45,7 @@ export const question = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     question: "Interest Rate",
     answer: [
       {
@@ -63,7 +54,7 @@ export const question = [
     ],
   },
   {
-    id: 7,
+    id: 6,
     question: "Processing Fee",
     answer: [
       {
@@ -72,7 +63,7 @@ export const question = [
     ],
   },
   {
-    id: 8,
+    id: 7,
     question: "ProcessingInsurance Fee",
     answer: [
       {
@@ -84,7 +75,7 @@ export const question = [
     ],
   },
   {
-    id: 9,
+    id: 8,
     question: "Requirements",
     answer: [
       {

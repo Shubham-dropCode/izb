@@ -21,7 +21,7 @@ const AutoFinanceAccordion = ({question,answer}) => {
         return (
           <div className="acc-content current">
             {show && (
-              <p>
+              <p className='px-5'>
                 <AiFillCaretRight size={15} className="pe-1" />
                 {item.item}
               </p>

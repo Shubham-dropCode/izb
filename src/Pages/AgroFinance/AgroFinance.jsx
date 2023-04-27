@@ -85,9 +85,13 @@ const AgroFinance = () => {
           </div>
         </div>
       </section>
-
       <div className="container">
-        <div className="bg-light p-3 mt-4">
+        <div
+          className="bg-light my-3"
+          style={{
+            padding: "20px 0px 20px 60px",
+          }}
+        >
           <h6 style={{ color: "#9E1B1E" }}>All other standard lending terms of the Bank shall be applicable.</h6>
         </div>
       </div>

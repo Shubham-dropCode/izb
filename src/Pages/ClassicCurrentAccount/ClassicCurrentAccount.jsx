@@ -276,8 +276,14 @@ const ClassicCurrentAccount = () => {
                       </p>
                     </li>
                     <li>
-                      <p className="text-white lh-base">
-                        <AiFillCaretRight size={15} className="pe-1" />
+                      <span className="d-flex">
+                        <AiFillCaretRight
+                          size={15}
+                          className="pe-1 position-absolute text-white"
+                          style={{ top: "5px" }}
+                        />
+                      </span>
+                      <p className="text-white lh-base ps-3">
                         Identification document of the Directors with two
                         passport size photos, Copy of NRC/Valid Passport for
                         each signatory.
@@ -295,10 +301,16 @@ const ClassicCurrentAccount = () => {
                   style={{ backgroundColor: "#9E1B1E" }}
                 >
                   <ul>
-                    <li>
-                      <p className="text-white lh-base">
-                        <AiFillCaretRight size={15} className="pe-1" />
-                        Introductory letter from a good current account holder
+                  <li>
+                      <span className="d-flex">
+                        <AiFillCaretRight
+                          size={15}
+                          className="pe-1 position-absolute text-white"
+                          style={{ top: "5px" }}
+                        />
+                      </span>
+                      <p className="text-white lh-base ps-3">
+                      Introductory letter from a good current account holder
                         which has been in operation for six months.
                       </p>
                     </li>
@@ -310,9 +322,15 @@ const ClassicCurrentAccount = () => {
                       </p>
                     </li>
                     <li>
-                      <p className="text-white lh-base">
-                        <AiFillCaretRight size={15} className="pe-1" />
-                        Utility bill water, electricity, telephone etc in the
+                      <span className="d-flex">
+                        <AiFillCaretRight
+                          size={15}
+                          className="pe-1 position-absolute text-white"
+                          style={{ top: "5px" }}
+                        />
+                      </span>
+                      <p className="text-white lh-base ps-3">
+                      Utility bill water, electricity, telephone etc in the
                         name of the company of Lease. Agreement on the physical
                         premises of the company
                       </p>
@@ -356,7 +374,7 @@ const ClassicCurrentAccount = () => {
         <div className="container">
           <div className="text-center">
             <h1 className="text-white">
-            IZB Classic Current A/C Service Charges
+              IZB Classic Current A/C Service Charges
             </h1>
             <p className="text-white">
               Your money is making money for you & Your Family.
@@ -383,9 +401,7 @@ const ClassicCurrentAccount = () => {
                           <p>Target Groups</p>
                         </td>
                         <td className="location">
-                          <p>
-                          Corporate /non-corporate/ Business a/cs
-                          </p>
+                          <p>Corporate /non-corporate/ Business a/cs</p>
                         </td>
                       </tr>
                       <tr>
@@ -410,7 +426,7 @@ const ClassicCurrentAccount = () => {
                           <p>Current</p>
                         </td>
                       </tr>
-                      <tr> 
+                      <tr>
                         <td className="department">
                           <h3>4.</h3>
                         </td>
@@ -473,9 +489,18 @@ const ClassicCurrentAccount = () => {
                           <p>Cheque Book</p>
                         </td>
                         <td className="location">
-                          <p><AiFillCaretRight/>50 leaves – K3.50 per leaf</p>
-                          <p><AiFillCaretRight/>100 leaves – K2.25 per leaf</p>
-                          <p><AiFillCaretRight/>200 leaves – K2.25 per leaf</p>
+                          <p>
+                            <AiFillCaretRight />
+                            50 leaves – K3.50 per leaf
+                          </p>
+                          <p>
+                            <AiFillCaretRight />
+                            100 leaves – K2.25 per leaf
+                          </p>
+                          <p>
+                            <AiFillCaretRight />
+                            200 leaves – K2.25 per leaf
+                          </p>
                         </td>
                       </tr>
                       <tr>
@@ -484,11 +509,20 @@ const ClassicCurrentAccount = () => {
                         </td>
                         <td className="location">
                           <p>Internet Banking</p>
-                          <p><AiFillCaretRight/>Internet Banking</p>
+                          <p>
+                            <AiFillCaretRight />
+                            Internet Banking
+                          </p>
                         </td>
                         <td className="location">
-                        <p><AiFillCaretRight/>K120/- per annum</p>
-                        <p><AiFillCaretRight/>K25/- per occasion</p>
+                          <p>
+                            <AiFillCaretRight />
+                            K120/- per annum
+                          </p>
+                          <p>
+                            <AiFillCaretRight />
+                            K25/- per occasion
+                          </p>
                         </td>
                       </tr>
                       <tr>
@@ -562,9 +596,7 @@ const ClassicCurrentAccount = () => {
                           <h3>17.</h3>
                         </td>
                         <td className="location w-50">
-                          <p>
-                          Cash Deposits (At any IZB Branch)
-                          </p>
+                          <p>Cash Deposits (At any IZB Branch)</p>
                         </td>
                         <td className="location">
                           <p>
@@ -577,8 +609,7 @@ const ClassicCurrentAccount = () => {
                           </p>
                           <p>
                             <AiFillCaretRight className="me-1" />
-                            K5/- per K10,000/-; or part there 
-                             of Max. K 100/-)
+                            K5/- per K10,000/-; or part there of Max. K 100/-)
                           </p>
                         </td>
                       </tr>
@@ -735,14 +766,26 @@ const ClassicCurrentAccount = () => {
                         <td className="location">
                           <p>Return of cheques</p>
                           <div>
-                          <p>Individual</p>
-                          <p><AiFillCaretRight/>For financial reasons (Refer toDrawer)</p>
-                          <p><AiFillCaretRight/>For other reasons</p>
+                            <p>Individual</p>
+                            <p>
+                              <AiFillCaretRight />
+                              For financial reasons (Refer toDrawer)
+                            </p>
+                            <p>
+                              <AiFillCaretRight />
+                              For other reasons
+                            </p>
                           </div>
                           <div>
-                          <p>Corporate A/ct</p>
-                          <p><AiFillCaretRight/>For financial reason</p>
-                          <p><AiFillCaretRight/>For other reasons</p>
+                            <p>Corporate A/ct</p>
+                            <p>
+                              <AiFillCaretRight />
+                              For financial reason
+                            </p>
+                            <p>
+                              <AiFillCaretRight />
+                              For other reasons
+                            </p>
                           </div>
                         </td>
                         <td className="location">
@@ -959,9 +1002,9 @@ const ClassicCurrentAccount = () => {
                           <h3>31.</h3>
                         </td>
                         <td className="location">
-                          <p>Status Report/Bankers enquiry/
- 														References letter
-											    </p>
+                          <p>
+                            Status Report/Bankers enquiry/ References letter
+                          </p>
                         </td>
                         <td className="location">
                           <p>K50/- per letter</p>
@@ -986,10 +1029,15 @@ const ClassicCurrentAccount = () => {
                           <p>ZRA Online Tax Payment</p>
                         </td>
                         <td className="location">
-                          <p><AiFillCaretRight/>Online K25/- per transaction</p>
-                          <p><AiFillCaretRight/>Over the counter (walk-in-customers) 
-														K35/- per transaction
-													</p>
+                          <p>
+                            <AiFillCaretRight />
+                            Online K25/- per transaction
+                          </p>
+                          <p>
+                            <AiFillCaretRight />
+                            Over the counter (walk-in-customers) K35/- per
+                            transaction
+                          </p>
                         </td>
                       </tr>
                       <tr>

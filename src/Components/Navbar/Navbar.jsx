@@ -69,45 +69,6 @@ const Navbar = () => {
       mobileNavContainer.innerHTML = navContent;
     }
   }, []);
-
-  // function accordify(data) {
-  //   if (data.length === 0) {
-  //     return;
-  //   } else {
-  //     for (let i = 0; i < data.length; i++) {
-  //       accordify(data[i]["content"]);
-
-  //       if (data[i]["content"].length !== 0) {
-  //         data[i]["content"] = {
-  //           content: (
-  //             <div>
-  //               <Accordion.Accordion panels={data[i]["content"]} />
-  //             </div>
-  //           ),
-  //         };
-  //       } else {
-  //         data[i]["content"] = {
-  //           content: (
-  //             <div>
-  //               <Accordion.Title
-  //                 icon={Icon.Group}
-  //                 content="I'd find it here"
-  //                 as={"button"}
-  //                 onClick={(event) => {
-  //                   console.log(event.target.textContent);
-  //                 }}
-  //               />
-  //             </div>
-  //           ),
-  //         };
-  //       }
-  //     }
-  //   }
-  // }
-
-  // //Call the function
-  // accordify(data);
-
   return (
     <>
       <header className="main-header main-header-style1">
@@ -119,7 +80,7 @@ const Navbar = () => {
               <div className="main-header-style1-top__left">
                 <div
                   className="looking-banking-box"
-                  style={{ paddingLeft: "70px" }}
+                  style={{ paddingLeft: "40px" }}
                 >
                   <Link to="/">
                     <img src={Logo} width={300} />
@@ -214,7 +175,7 @@ const Navbar = () => {
                       className="main-menu__list justify-content-between"
                       style={{ gap: "10px" }}
                     >
-                      <li className="megamenu ms-4">
+                      <li className="megamenu ">
                         <Link to="/">Home</Link>
                       </li>
                       <li className="dropdown">

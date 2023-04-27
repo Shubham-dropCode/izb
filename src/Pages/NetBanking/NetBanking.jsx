@@ -10,6 +10,7 @@ import napsa from "../../assets/images/IZB/IZB Website Skin/Indo Net Banking/Ico
 import nihma from "../../assets/images/IZB/IZB Website Skin/Indo Net Banking/Icons/nhima_logo_02.jpg";
 import bill from "../../assets/images/IZB/IZB Website Skin/Indo Net Banking/Icons/bill.png";
 import mobileApp from "../../assets/images/IZB/IZB Website Skin/Indo Net Banking/Icons/mobile-app.png";
+import img1 from "../../assets/images/IZB/IZB Website Skin/Indo Mobile Banking/icons/bank-statement.png";
 import onlineBanking from "../../assets/images/IZB/IZB Website Skin/Indo Net Banking/Icons/online-banking.png";
 import stockMarket from "../../assets/images/IZB/IZB Website Skin/Indo Net Banking/Icons/stock-market.png";
 import CC from "../../assets/images/IZB/IZB Website Skin/Indo Net Banking/Icons/credit-card.png";
@@ -165,6 +166,16 @@ const NetBanking = () => {
                   </div>
                   <div className="text">
                     <h5>Block debit card and much more...</h5>
+                  </div>
+                </div>
+              </li>
+              <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
+                <div className="single-choose-style1">
+                  <div className="icon">
+                    <img src={img1} alt="" />
+                  </div>
+                  <div className="text">
+                    <h5>Account Monitoring & statement requests</h5>
                   </div>
                 </div>
               </li>

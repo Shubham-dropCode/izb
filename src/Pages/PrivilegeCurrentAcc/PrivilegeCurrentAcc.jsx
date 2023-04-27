@@ -61,7 +61,7 @@ const PrivilegeCurrentAcc = () => {
       </section>
 
       <section
-        id="required"
+        id="benefits"
         class="documents-area"
         style={{
           backgroundImage: `url(${bgimg})`,
@@ -672,7 +672,7 @@ const PrivilegeCurrentAcc = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row" id="eligibility">
             <div className="col-xl-12">
               <div className="job-list-table-box">
                 <h3 className="text-white mb-3">Remittances (Kwacha)</h3>

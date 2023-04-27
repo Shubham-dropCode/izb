@@ -20,10 +20,10 @@ const MSMEaccordion = ({ question, answer }) => {
         return (
           <div className="acc-content current">
             {show && (
-              <p>
-                <AiFillCaretRight size={15} className="pe-1" />
-                {item.item}
-              </p>
+              <span>
+              <AiFillCaretRight className="position-absolute mt-2 ms-4" />
+              <p className="px-5">{item.item}</p>
+            </span>
             )}
           </div>
         );

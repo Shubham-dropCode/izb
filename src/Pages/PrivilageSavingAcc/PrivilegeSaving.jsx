@@ -19,17 +19,18 @@ import ContainsArea from "../../Components/ContainsArea/ContainsArea";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Privilege Savings Accoun/Image_1.png";
 import PrivilageSavingsTable from "../../Components/ServiceTable/PrivilageSavingsTable";
 
-
-
-
 const PrivilegeSaving = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-  const accountContent = "This savings account comes with a cheque book facility I addition to other features such as SMS Alerts, Internet Banking and the IZB Visa Chip & Pin Debit Card and is an interest bearing savings account."
+    window.scrollTo(0, 0);
+  }, []);
+  const accountContent =
+    "This savings account comes with a cheque book facility I addition to other features such as SMS Alerts, Internet Banking and the IZB Visa Chip & Pin Debit Card and is an interest bearing savings account.";
   return (
     <>
-      <Breadcrumb Heading="IZB Privilege Savings Account" img={BackgroundBrundcrumb}/>
+      <Breadcrumb
+        Heading="IZB Privilege Savings Account"
+        img={BackgroundBrundcrumb}
+      />
       <SavePlusAccountComponent
         heading="IZB Privilege Savings A/C Service Charges"
         subHeading="Know About"
@@ -46,12 +47,12 @@ const PrivilegeSaving = () => {
         <div className="container pt-4">
           <div className="text-center my-5">
             <h1 style={{ color: "#484848" }}>
-             IZB Privilege Savings A/C Service Charges
+              IZB Privilege Savings A/C Service Charges
             </h1>
             <p style={{ color: "#484848" }}>
               We help businesses and customers achieve more.
             </p>
-          </div> 
+          </div>
           <div className="d-flex justify-content-center">
             <ul className="row choose-style1__content">
               <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
@@ -121,8 +122,9 @@ const PrivilegeSaving = () => {
                     <img src={transfer} alt="" />
                   </div>
                   <div className="text">
-                    <h5>Inter Bank Transfers <br/>
-                    (RTGS/DDACC)
+                    <h5>
+                      Inter Bank Transfers <br />
+                      (RTGS/DDACC)
                     </h5>
                   </div>
                 </div>
@@ -133,7 +135,9 @@ const PrivilegeSaving = () => {
                     <img src={mobileNetwork} alt="" />
                   </div>
                   <div className="text">
-                    <h5>Mobile recharge <br/> (Airtel/MTN/Zamtel)</h5>
+                    <h5>
+                      Mobile recharge <br /> (Airtel/MTN/Zamtel)
+                    </h5>
                   </div>
                 </div>
               </li>
@@ -163,7 +167,10 @@ const PrivilegeSaving = () => {
                     <img src={booking} alt="" />
                   </div>
                   <div className="text">
-                    <h5>Mobile Banking Facility with Bill payments (zesco/ Gotv/ Iconnect/ Topstar/ DSTV.</h5>
+                    <h5>
+                      Mobile Banking Facility with Bill payments (zesco/ Gotv/
+                      Iconnect/ Topstar/ DSTV.
+                    </h5>
                   </div>
                 </div>
               </li>
@@ -229,19 +236,18 @@ const PrivilegeSaving = () => {
                     <h3 className="text-white">Proof of residence</h3>
                   </div>
                   <ul>
-
-                  <li>
-                    <span className="d-flex">
-                      <AiFillCaretRight
-                        size={15}
-                        className="pe-1 position-absolute text-white"
-                        style={{ top: "5px" }}
-                      />
-                    </span>
-                    <p className="text-white lh-base ps-3">
-                    Latest utility bill (Water, Electricity Telephone etc.)
-                    </p>
-                  </li>
+                    <li>
+                      <span className="d-flex">
+                        <AiFillCaretRight
+                          size={15}
+                          className="pe-1 position-absolute text-white"
+                          style={{ top: "5px" }}
+                        />
+                      </span>
+                      <p className="text-white lh-base ps-3">
+                        Latest utility bill (Water, Electricity Telephone etc.)
+                      </p>
+                    </li>
                     <li>
                       <p className="text-white lh-base">
                         <AiFillCaretRight size={15} className="pe-1" />
@@ -260,7 +266,9 @@ const PrivilegeSaving = () => {
                   style={{ backgroundColor: "#9E1B1E" }}
                 >
                   <div className="inner-title">
-                    <h3 className="text-white">Copy of NRC/Passport or Driver's Licence</h3>
+                    <h3 className="text-white">
+                      Copy of NRC/Passport or Driver's Licence
+                    </h3>
                   </div>
                 </div>
                 {/*End Single Documents Box*/}

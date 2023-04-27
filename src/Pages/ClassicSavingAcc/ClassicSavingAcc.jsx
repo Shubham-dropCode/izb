@@ -18,16 +18,15 @@ import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/IZB C
 import { useEffect } from "react";
 import ClassicSavingsTable from "../../Components/ServiceTable/ClassicSavingsAccTable";
 
-
 const ClassicSavingAcc = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   const accountContent =
     "This is a standard level savings account with value addedfeatures of SMS alerts, Internet Banking with the IZB Visa Chip & Pin Debit Card facilities and is as an interest bearing savings account.";
   return (
     <>
-      <Breadcrumb Heading="Classic Saving Account" img={BackgroundBrundcrumb}/>
+      <Breadcrumb Heading="Classic Saving Account" img={BackgroundBrundcrumb} />
       <SavePlusAccountComponent
         heading="IZB Classic Savings Account"
         subHeading="Know About"
@@ -139,7 +138,11 @@ const ClassicSavingAcc = () => {
         </div>
       </section>
 
-      <section id="eligibility" class="eligibility-area" style={{backgroundColor:"#FFF5E7"}}>
+      <section
+        id="eligibility"
+        class="eligibility-area"
+        style={{ backgroundColor: "#FFF5E7" }}
+      >
         <div className="container-fluid">
           <div className="sec-title text-center">
             <h2>IZB Classic Savings A/C Required Documents</h2>
@@ -148,84 +151,96 @@ const ClassicSavingAcc = () => {
             </div>
           </div>
           <div className="container">
-            
-          
-          <div className="row">
-            <div className="col-xl-4 col-lg-6">
-              {/*Start Single Documents Box*/}
-              <div className="single-documents-box h-50 m-0 mb-1" style={{backgroundColor:"#9E1B1E"}}>
-                <div className="inner-title">
-                  <h3 className="text-white">
-                    Account opening application form.
-                  </h3>
+            <div className="row">
+              <div className="col-xl-4 col-lg-6">
+                {/*Start Single Documents Box*/}
+                <div
+                  className="single-documents-box h-50 m-0 mb-1"
+                  style={{ backgroundColor: "#9E1B1E" }}
+                >
+                  <div className="inner-title">
+                    <h3 className="text-white">
+                      Account opening application form.
+                    </h3>
+                  </div>
                 </div>
+                {/*End Single Documents Box*/}
+                {/*Start Single Documents Box*/}
+                <div
+                  className="single-documents-box h-50 m-0 mb-1"
+                  style={{ backgroundColor: "#9E1B1E" }}
+                >
+                  <div className="inner-title">
+                    <h3 className="text-white">
+                      Initial cash deposit of K250.00.{" "}
+                    </h3>
+                  </div>
+                </div>
+                {/*End Single Documents Box*/}
               </div>
-              {/*End Single Documents Box*/}
-              {/*Start Single Documents Box*/}
-              <div className="single-documents-box h-50 m-0 mb-1" style={{backgroundColor:"#9E1B1E"}}>
-                <div className="inner-title">
-                   <h3 className="text-white">
-                  Initial cash deposit of K250.00.                </h3>
-                </div>
-              </div>
-              {/*End Single Documents Box*/}
-            </div>
-            <div className="col-xl-4 col-lg-6 mb-0">
-              {/*Start Single Documents Box*/}
-              <div className="single-documents-box h-100" style={{backgroundColor:"#9E1B1E"}}>
-                <div className="inner-title">
-                  <p className="text-white">One reference (applicant’s employer or account holder of Indo -Zambia Bank maintaining a good account with us).</p>
-                </div>
-                <div className="inner-title">
-                  <h3 className="text-white">Proof of residence</h3>
-                </div>
-                <ul>
-                  
-                <li>
-                    <span className="d-flex">
-                      <AiFillCaretRight
-                        size={15}
-                        className="pe-1 position-absolute text-white"
-                        style={{ top: "5px" }}
-                      />
-                    </span>
-                    <p className="text-white lh-base ps-3">
-                      Minimum of k1000 per month to be maintained.
+              <div className="col-xl-4 col-lg-6 mb-0">
+                {/*Start Single Documents Box*/}
+                <div
+                  className="single-documents-box h-100"
+                  style={{ backgroundColor: "#9E1B1E" }}
+                >
+                  <div className="inner-title">
+                    <p className="text-white">
+                      One reference (applicant’s employer or account holder of
+                      Indo -Zambia Bank maintaining a good account with us).
                     </p>
-                  </li>
-                  <li>
-                  <p className='text-white lh-base'>
-                    <AiFillCaretRight size={15} className='pe-1'/>
-                        
-                       T-Pin.</p>
-                  </li>
-                  
-                </ul>
-              </div>
-              {/*End Single Documents Box*/}
-            </div>
-           
-            <div className="col-xl-4 col-lg-6">
-              {/*Start Single Documents Box*/}
-              <div className="single-documents-box h-50 m-0 mb-1" style={{backgroundColor:"#9E1B1E"}}>
-                <div className="inner-title">
-                  <h3 className="text-white">
-                  Copy of NRC/Passport
-                  </h3>
+                  </div>
+                  <div className="inner-title">
+                    <h3 className="text-white">Proof of residence</h3>
+                  </div>
+                  <ul>
+                    <li>
+                      <span className="d-flex">
+                        <AiFillCaretRight
+                          size={15}
+                          className="pe-1 position-absolute text-white"
+                          style={{ top: "5px" }}
+                        />
+                      </span>
+                      <p className="text-white lh-base ps-3">
+                        Minimum of k1000 per month to be maintained.
+                      </p>
+                    </li>
+                    <li>
+                      <p className="text-white lh-base">
+                        <AiFillCaretRight size={15} className="pe-1" />
+                        T-Pin.
+                      </p>
+                    </li>
+                  </ul>
                 </div>
+                {/*End Single Documents Box*/}
               </div>
-              {/*End Single Documents Box*/}
-              {/*Start Single Documents Box*/}
-              <div className="single-documents-box h-50 m-0 mb-1" style={{backgroundColor:"#9E1B1E"}}>
-                <div className="inner-title">
-                  <h3 className="text-white">
-                  Two recent passport 
-                  size photographs.
-                  </h3>
+
+              <div className="col-xl-4 col-lg-6">
+                {/*Start Single Documents Box*/}
+                <div
+                  className="single-documents-box h-50 m-0 mb-1"
+                  style={{ backgroundColor: "#9E1B1E" }}
+                >
+                  <div className="inner-title">
+                    <h3 className="text-white">Copy of NRC/Passport</h3>
+                  </div>
                 </div>
+                {/*End Single Documents Box*/}
+                {/*Start Single Documents Box*/}
+                <div
+                  className="single-documents-box h-50 m-0 mb-1"
+                  style={{ backgroundColor: "#9E1B1E" }}
+                >
+                  <div className="inner-title">
+                    <h3 className="text-white">
+                      Two recent passport size photographs.
+                    </h3>
+                  </div>
+                </div>
+                {/*End Single Documents Box*/}
               </div>
-              {/*End Single Documents Box*/}
-            </div>
             </div>
           </div>
         </div>

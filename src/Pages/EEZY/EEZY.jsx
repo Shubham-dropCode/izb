@@ -6,6 +6,7 @@ import img from "../../assets/images/IZB/IZB Website Skin/Indo EEZY/Untitled-2.p
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/IZB Contactless Card/Untitled-1.png";
 import { useEffect } from "react";
 import EEZYTable from "../../Components/ServiceTable/EEZYTable";
+import { BsCheckCircle } from "react-icons/bs";
 
 const EEZY = () => {
   useEffect(() => {
@@ -61,28 +62,29 @@ const EEZY = () => {
 
       <section>
         <div className="container my-5">
-          <div className="row gap-3 justify-content-center">
+          <div className="row gy-2 justify-content-center" style={{gap:"3.5rem"}}>
             <div className="heading text-center">
-              <h1>Simple Steps to Open an Account</h1>
-              <p>We help business and cutomers achieve more.</p>
+              <h1 style={{color:"#484848"}}>Simple Steps to Open an Account</h1>
+              <p style={{color:"#767676"}}>We help business and cutomers achieve more.</p>
             </div>
-            <div className="col-md-2 text-wrap d-flex flex-column justify-content-center align-items-center text-white" style={{backgroundColor:"#9E1B1E", height:"12em"}}>
-              <h5 className="text-white">Step 1</h5>
+            <div className="col-md-2 text-wrap text-center text-white" style={{backgroundColor:"#9E1B1E", height:"12em"}}>
+              <h5 className="text-white pt-5">Step 1</h5>
               <p className="text-center">Download the Indo Zambia Bank App.</p>
             </div>
-            <div className="col-md-2 text-wrap d-flex flex-column justify-content-center align-items-center text-white" style={{backgroundColor:"#9E1B1E", height:"12em"}}>
-              <h5 className="text-white">Step 2</h5>
+            <div className="col-md-2 text-wrap text-center text-white" style={{backgroundColor:"#9E1B1E", height:"12em"}}>
+              <h5 className="text-white pt-5">Step 2</h5>
               <p className="text-center">Register as a new customer or existing customer.</p>
             </div>
-            <div className="col-md-2 text-wrap d-flex flex-column justify-content-center align-items-center text-white" style={{backgroundColor:"#9E1B1E", height:"12em"}}>
-              <h5 className="text-white">Step 3</h5>
+            <div className="col-md-2 text-wrap text-center text-white" style={{backgroundColor:"#9E1B1E", height:"12em"}}>
+              <h5 className="text-white pt-5">Step 3</h5>
               <p className="text-center">
                 Submit details and wait whilst your account is being activated.
               </p>
             </div>
-            <div className="col-md-2 text-wrap d-flex flex-column justify-content-center align-items-center text-white" style={{backgroundColor:"#9E1B1E", height:"12em"}}>
-              <h5 className="text-white">Step 4</h5>
-              <p className="text-center">Account Opened</p>
+            <div className="col-md-2 text-wrap text-center text-white" style={{backgroundColor:"#9E1B1E", height:"12em"}}>
+              <h5 className="text-white pt-5">Step 4</h5>
+              <p className="text-center pb-3">Account Opened</p>
+              <BsCheckCircle size={60}/>
             </div>
           </div>
         </div>

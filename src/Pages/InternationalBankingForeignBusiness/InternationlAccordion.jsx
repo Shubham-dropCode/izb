@@ -19,7 +19,7 @@ const InternationlAccordion = ({ question, answer }) => {
 
       {answer.map((answer) => {
         return (
-          <div className="acc-content current">
+          <div className="acc-content current px-5">
             {show && (
               <>
                 <h6>{answer?.title}</h6>

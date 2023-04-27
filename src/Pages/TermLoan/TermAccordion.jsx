@@ -18,7 +18,7 @@ const TermAccordion = ({ question, answer }) => {
 
       <div className="acc-content current">
         {show && (
-          <p>
+          <p className="px-5">
             <AiFillCaretRight size={15} className="pe-1" />
             {answer}
           </p>

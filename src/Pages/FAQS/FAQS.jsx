@@ -125,7 +125,7 @@ const FAQS = () => {
       </section>
       <section
         id="required"
-        class="documents-area"
+        class="documents-area mx-5"
         style={{
           backgroundImage: `url(${bgimg})`,
           backgroundRepeat: "no-repeat",

@@ -7,13 +7,13 @@ import Arrow_down from "../../assets/images/IZB/arrow_down.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/MSME Loan/Untitled-1.png";
 import MSMEaccordion from "./MSMEaccordion";
-import { question} from "./MSMEData";
+import { question } from "./MSMEData";
 import { useEffect } from "react";
 
 const MSMELoan = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   const accountContent =
     "The MSME Sector is the corner stone of any great economy. We firmly on board to act as a catalyst for the economic development of Zambia";
   return (
@@ -72,7 +72,7 @@ const MSMELoan = () => {
       <section id="MSMEAccodion">
         <div className="container justify-content-center mt-5">
           <div className="faq-style1__content">
-            <ul className="accordion-box">
+            <ul className="accordion-box my-4">
               {question.map((item) => {
                 const { id } = item;
                 return <MSMEaccordion key={id} {...item} />;
@@ -81,6 +81,16 @@ const MSMELoan = () => {
           </div>
         </div>
       </section>
+      <div className="container">
+        <div
+          className="bg-light my-3"
+          style={{
+            padding: "20px 0px 20px 60px",
+          }}
+        >
+          <h6 style={{ color: "#9E1B1E" }}>Terms and Conditions Apply</h6>
+        </div>
+      </div>
       <AllAcountsSection />
     </>
   );
