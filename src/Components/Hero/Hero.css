@@ -1,113 +1,110 @@
-.heading-box{
-    background-color: #9E1B1E;
+.heading-box {
+  background-color: #9e1b1e;
 }
-.Hborder{
-    
-        display:block;
-        width:100% ;/*or whatever width you want the effect of <hr>*/
-        border-top: 1px solid #ccc
-
+.Hborder {
+  display: block;
+  width: 100%; /*or whatever width you want the effect of <hr>*/
+  border-top: 1px solid #ccc;
 }
 .CHeight {
-    height:400px;
+  height: 400px;
 }
 
-.AccOpen{
-    font-size: 54px;
+.AccOpen {
+  font-size: 54px;
 }
-.AfterText{
-    display: none;
+.AfterText {
+  display: none;
 }
- .HeroSlider1{
-    background-image: url('../../assets/images/IZB/Slider1.png');
-    height: 100vh;
-    object-fit: cover;
-    object-position: bottom right;
-    overflow: "hidden"
-
- }
- .HeroSlider2{
-    background-image: url('../../assets/images/IZB//Slider2.png');
-    height: 100%;
-    object-fit: cover;
-    object-position: bottom right;
-    overflow: "hidden"
- }
- .Spacer{
-    height: 350px;
+.HeroSlider1 {
+  background-image: url("../../assets/images/IZB/Slider1.png");
+  height: 100vh;
+  object-fit: cover;
+  object-position: bottom right;
+  overflow: "hidden";
 }
-.SaveAccountSection{
-    padding: 100px 0 100px 0;
+.HeroSlider2 {
+  background-image: url("../../assets/images/IZB//Slider2.png");
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom right;
+  overflow: "hidden";
+}
+.Spacer {
+  height: 350px;
+}
+.SaveAccountSection {
+  padding: 100px 0 100px 0;
 }
 .customerSection {
-    padding: 100px 0 100px 0;
+  padding: 100px 0 100px 0;
 }
-.interest-charges-area{
-    margin-right: 70px;
-    margin-left: 70px;
+.interest-charges-area {
+  margin-right: 70px;
+  margin-left: 70px;
 }
- .designationStyle{
-    width: 50%;
- }
- .SliderImg{
-    top: -190px;
- }
+.designationStyle {
+  width: 50%;
+}
+.SliderImg {
+  top: -190px;
+}
+
 
 @media screen and (max-width: 480px) {
-    .bannerPhone {
-        display: none;
-    }
-    .AccOpen {
-        font-size: "34px";
-    }
-    .HeroSlider{
-        height: 50vh;
-    }
-    .postion-sm-static{
-        position: static;
-    }
-    .SliderImg{
-        top:"30%"
-    }
-    .SliderArrow{
-        display: none;
-    }
-    .HeroSlider1{
-        background-image: url('../../assets/images/IZB/RSlider1.jpg');
-        width: 100%;
-    }
-    .HeroSlider2{
-        background-image: url('../../assets/images/IZB/Rslider2.jpg');
-        width: 100%;
-    }
-    .sliderContent{
-        display: none;
-    }
-    .Spacer{
-        height: 750px;
-    }
-    .BankingMenu{
-        margin-top: 1.5rem;
-    }
-    .SaveAccountSection{
-        padding: 0px;
-        margin-bottom: 30px;
-    }
-    .customerSection{
-        padding: 0px;
-        margin-bottom: 30px;
-    }
-    .interest-charges-area{
-        margin: 0px;
-    }
-    .overview-area {
-        padding: 0 0 100px;
-      }
-      .designationStyle{
-        width: 100%;
-     }
-     .SliderImg{
-        top: -55px;
-     }
-    
+  .bannerPhone {
+    display: none;
   }
+  .AccOpen {
+    font-size: "34px";
+  }
+  .HeroSlider {
+    height: 50vh;
+  }
+  .postion-sm-static {
+    position: static;
+  }
+  .SliderImg {
+    top: "30%";
+  }
+  .SliderArrow {
+    display: none;
+  }
+  .HeroSlider1 {
+    background-image: url("../../assets/images/IZB/RSlider1.jpg");
+    width: 100%;
+  }
+  .HeroSlider2 {
+    background-image: url("../../assets/images/IZB/Rslider2.jpg");
+    width: 100%;
+  }
+  .sliderContent {
+    display: none;
+  }
+  .Spacer {
+    height: 750px;
+  }
+  .BankingMenu {
+    margin-top: 1.5rem;
+  }
+  .SaveAccountSection {
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+  .customerSection {
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+  .interest-charges-area {
+    margin: 0px;
+  }
+  .overview-area {
+    padding: 0 0 100px;
+  }
+  .designationStyle {
+    width: 100%;
+  }
+  .SliderImg {
+    top: -55px;
+  }
+}

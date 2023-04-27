@@ -55,7 +55,7 @@ const IndoVehicleLoan = () => {
                     </div>
                     <div className="acc-content current">
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Individual and corporate customers
                         </p>
@@ -79,14 +79,14 @@ const IndoVehicleLoan = () => {
                     </div>
                     <div className="acc-content current">
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           To ﬁnance purchase of Brand-New vehicles from an
                           Authorized Automobile Dealer, including Electric.
                         </p>
                       )}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           To ﬁnance purchase of second-hand vehicles not more
                           than 5 years old for personal and business use from
@@ -112,16 +112,20 @@ const IndoVehicleLoan = () => {
                     </div>
                     <div className="acc-content current">
                       {show && (
-                        <p>
-                          <AiFillCaretRight className="me-1" />
-                          Charge on vehicle purchased out of bank ﬁnance to be
+                         <span className="">
+                         <AiFillCaretRight className="position-absolute mt-2" style={{marginLeft:"48px"}} />
+
+                         <p className="" style={{paddingLeft:"70px"}}>
+                         Charge on vehicle purchased out of bank ﬁnance to be
                           registered at the Road Transport and Safety Agency
                           with Bank registered as absolute owner of the vehicle
                           on the white book.
-                        </p>
+                         </p>
+                       </span>
+
                       )}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Any other appropriate collateral may be considered, at
                           the bank’s
@@ -146,7 +150,7 @@ const IndoVehicleLoan = () => {
                     </div>
                     <div className="acc-content current">
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Minimum margin of 30% upfront.
                         </p>
@@ -170,13 +174,13 @@ const IndoVehicleLoan = () => {
                     </div>
                     <div className="acc-content current">
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           For new vehicles, maximum 72 months.
                         </p>
                       )}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           For second vehicles, maximum 60 months.
                         </p>

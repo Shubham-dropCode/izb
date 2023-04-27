@@ -17,9 +17,9 @@ import { useEffect } from "react";
 console.log(accountContains);
 
 const IndoHomeLoan = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
   const accountContent =
     "Looking to buy or renovate. Spruce up your property portfolio with an IZB home loan. Whether you would like a new kitchen or want to give your lounge a new lease of life, you could get more from your home.";
   const data = [
@@ -65,7 +65,7 @@ const IndoHomeLoan = () => {
                     </div>
                     <div className="acc-content current">
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Individuals (salaried and unsalaried)
                         </p>
@@ -89,13 +89,13 @@ const IndoHomeLoan = () => {
                     </div>
                     <div className="acc-content current">
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Outright Purchase of a ready-made
                         </p>
                       )}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Purchase of a Plot and construction of a house or
                           construction of a house on an already existing plot,
@@ -103,7 +103,7 @@ const IndoHomeLoan = () => {
                         </p>
                       )}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Home Improvement – For
                           repairs/renovation/alteration/extension in the
@@ -111,7 +111,7 @@ const IndoHomeLoan = () => {
                         </p>
                       )}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Takeover/Reﬁnance of home loans availed from other
                           ﬁnancial institutions
@@ -136,7 +136,7 @@ const IndoHomeLoan = () => {
                     </div>
                     <div className="acc-content current">
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Legal mortgage of property purchased or developed out
                           of bank ﬁnance
@@ -160,9 +160,9 @@ const IndoHomeLoan = () => {
                       </h3>
                     </div>
                     <div className="acc-content current">
-                      {show && <h5>FOR SALARIED BORROWER</h5>}
+                      {show && <h5 className="px-5">FOR SALARIED BORROWER</h5>}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Up to 90% of the cost of the project up to K 00
                           million (i.e., minimum customer margin/ contribution
@@ -170,7 +170,7 @@ const IndoHomeLoan = () => {
                         </p>
                       )}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Up to 75% of the cost of the project above K 00
                           million (i.e., minimum customer margin/ contribution
@@ -178,17 +178,20 @@ const IndoHomeLoan = () => {
                         </p>
                       )}
                       {show && (
-                        <p>
-                          <AiFillCaretRight className="me-1" />
-                          Takeover/Reﬁnance of existing home loans availed from
-                          other ﬁnancial institutions – loan amount to be Indo
-                          Home Loan Scheme restricted to the transfer amount
-                          plus any additional amount required to carry out
-                          additional/improvement works.
-                        </p>
+                        <span className="">
+                          <AiFillCaretRight className="position-absolute mt-2" style={{marginLeft:"48px"}} />
+
+                          <p className="" style={{paddingLeft:"70px"}}>
+                            Takeover/Reﬁnance of existing home loans availed
+                            from other ﬁnancial institutions – loan amount to be
+                            Indo Home Loan Scheme restricted to the transfer
+                            amount plus any additional amount required to carry
+                            out additional/improvement works.
+                          </p>
+                        </span>
                       )}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Up to 75% of the cost of
                           repairs/renovations/alterations of existing house/ﬂat
@@ -197,32 +200,36 @@ const IndoHomeLoan = () => {
                         </p>
                       )}
                       <hr style={{ color: "#9E1B1E" }} />
-                      {show && <h5>NON-SALARIED BORROWER</h5>}
+                      {show && <h5 className="px-5">NON-SALARIED BORROWER</h5>}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Up to 80% of the cost of the project up to 00 million
                           i.e., minimum customer margin/ contribution of 20%
                         </p>
                       )}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Up to 75% of the cost of the project above 00 million
                           i.e., minimum customer margin/ contribution of 25%
                         </p>
                       )}
                       {show && (
-                        <p>
-                          <AiFillCaretRight className="me-1" />
+                        <span className="">
+                          <AiFillCaretRight className="position-absolute mt-2" style={{marginLeft:"48px"}} />
+
+                          <p className="" style={{paddingLeft:"70px"}}>
                           Takeover/Reﬁnance of existing home loans availed from
                           other ﬁnancial institutions – loan amount to be
                           restricted to the transfer amount plus any additional
                           amount required to carry out additional/ improvement
-                        </p>
+                          </p>
+                        </span>
+
                       )}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Up to 75% of the cost of
                           repairs/renovations/alterations of existing house/ﬂat
@@ -248,34 +255,39 @@ const IndoHomeLoan = () => {
                       </h3>
                     </div>
                     <div className="acc-content current">
-                      {show && <h5>SALARIED BORROWER</h5>}
+                      {show && <h5 className="px-5">SALARIED BORROWER</h5>}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Maximum repayment period of 240 months within the
                           borrower attaining the age of 60
                         </p>
                       )}
                       {show && (
-                        <p>
-                          <AiFillCaretRight className="me-1" />
+                        <span className="">
+                          <AiFillCaretRight className="position-absolute mt-2" style={{marginLeft:"48px"}} />
+
+                          <p className="" style={{paddingLeft:"70px"}}>
                           In case of repairs/renovation/alterations of existing
                           house/ﬂat repayment should be made within a maximum
                           period of 120 months, subject to the borrower
                           attaining the age of 60 years.
-                        </p>
+                          </p>
+                        </span>
+                        
+                       
                       )}
                       <hr style={{ color: "#9E1B1E" }} />
-                      {show && <h5>NON-SALARIED BORROWER</h5>}
+                      {show && <h5 className="px-5">NON-SALARIED BORROWER</h5>}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           Maximum repayment period of 240 months within the
                           borrower attaining 65 years
                         </p>
                       )}
                       {show && (
-                        <p>
+                        <p className="px-5">
                           <AiFillCaretRight className="me-1" />
                           In case of repairs/renovation/alterations of existing
                           house/ﬂat repayment should be made within a maximum
@@ -286,9 +298,15 @@ const IndoHomeLoan = () => {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="bg-light p-3 mt-4">
-              <h6 style={{ color: "#9E1B1E" }}> Terms and Conditions Apply</h6>{" "}
+              <div
+                className="my-3"
+                style={{
+                  backgroundColor: "#9E1B1E",
+                  padding: "20px 0px 20px 60px",
+                }}
+              >
+                <h6 className="text-white">Terms and Conditions Apply</h6>
+              </div>
             </div>
           </div>
         </div>

@@ -330,7 +330,7 @@ const PersonalBanking = () => {
                   meeting social obligations, repair of 
                   houses etc.
                 </p>
-                <div className="d-flex justify-content-between me-4 mt-3">
+                <div className="d-flex justify-content-between me-4 mt-5">
                   <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
@@ -368,7 +368,7 @@ const PersonalBanking = () => {
                     personal and business use from 
                     reputable dealers.
                   </p>
-                  <div className="d-flex justify-content-between me-4 mt-3">
+                  <div className="d-flex justify-content-between me-4 mt-4 pt-4">
                     <Link to="/PrivilegeCurrentAcc">
                       <button className="btn btn-light py-0">Apply now</button>
                     </Link>

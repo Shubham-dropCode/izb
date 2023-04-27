@@ -16,11 +16,11 @@ const Slide1 = () => {
 
   return (
     <section className="overview-area">
-      <div className="container" style={{ backgroundColor: "#FFF5E7" }}>
-        <div className="row p-5">
+      <div className="container p-5" style={{ backgroundColor: "#FFF5E7" }}>
+        <img src={MobileBanking} className="d-md-none d-sm-block" alt="" />
+        <div className="row ">
           <div className="col-xl-6 col-md-6">
-            <img src={MobileBanking} className="d-md-none d-sm-block" alt="" />
-            <div className="overview-content-box-two h-100 d-flex flex-column">
+            <div className="overview-content-box-two h-100 d-flex flex-column d-none d-sm-block">
               <div className="inner-title ps-5">
                 <h2 style={textColor}>INDO MOBILE BANKING</h2>
                 <div className="d-flex align-items-center gap-3 my-3">
@@ -37,7 +37,7 @@ const Slide1 = () => {
                 </h3>
               </div>
               <div
-                className="d-flex align-items-center"
+                className="d-flex align-items-center "
                 style={{ paddingLeft: "35px" }}
               >
                 <MobileStoreButton
@@ -61,7 +61,7 @@ const Slide1 = () => {
             <div className="overview-content-box-one position-relative">
               <img
                 src={IndoBanking}
-                className="position-absolute img-fluid SliderImg"
+                className="position-absolute SliderImg d-none d-sm-block"
                 alt=""
               />
             </div>

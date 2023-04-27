@@ -229,12 +229,19 @@ const PrivilegeSaving = () => {
                     <h3 className="text-white">Proof of residence</h3>
                   </div>
                   <ul>
-                    <li>
-                      <p className="text-white lh-base">
-                        <AiFillCaretRight size={15} className="pe-1" />
-                        Latest utility bill (Water, Electricity Telephone etc.)
-                      </p>
-                    </li>
+
+                  <li>
+                    <span className="d-flex">
+                      <AiFillCaretRight
+                        size={15}
+                        className="pe-1 position-absolute text-white"
+                        style={{ top: "5px" }}
+                      />
+                    </span>
+                    <p className="text-white lh-base ps-3">
+                    Latest utility bill (Water, Electricity Telephone etc.)
+                    </p>
+                  </li>
                     <li>
                       <p className="text-white lh-base">
                         <AiFillCaretRight size={15} className="pe-1" />
