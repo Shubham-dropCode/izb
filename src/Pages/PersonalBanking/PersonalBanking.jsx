@@ -267,7 +267,7 @@ const PersonalBanking = () => {
       <div className="text-center mt-5">
         <h2>Credit</h2>
       </div>
-      <div className="container">
+      <div className="container mt-4">
         <div className="row mt-1 g-5">
           <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
@@ -289,13 +289,17 @@ const PersonalBanking = () => {
                   <AiFillCaretRight className="me-2" />
                   Outright Purchase of a ready-made.
                 </p>
-                <p className="fs-small pt-1" style={{ textAlign: "left" }}>
-                  <AiFillCaretRight className="me-2" />
+
+                <span>
+                  <AiFillCaretRight className="position-absolute mt-2" />
+                  <p className="fs-small pt-1 lh-sm ps-4 pe-3">
                   Home Improvement – For repairs/
                   renovation/alteration/extension in 
                   the existing house/ﬂat.
-                </p>
-                <div className="d-flex justify-content-between me-4 mt-3">
+                  </p>
+                </span>
+                
+                <div className="d-flex justify-content-between me-4 mt-4 pt-3">
                   <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
@@ -323,14 +327,16 @@ const PersonalBanking = () => {
               >
                 <h4 className="text-white pe-2">Personal Loan</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small pt-1" style={{ textAlign: "left" }}>
-                  <AiFillCaretRight className="me-2" />
+                <span>
+                  <AiFillCaretRight className="position-absolute mt-2" />
+                  <p className="fs-small pt-1 lh-sm ps-4 pe-3">
                   For meeting personal needs such as 
                   purchase of furniture/equipment, 
                   meeting social obligations, repair of 
                   houses etc.
-                </p>
-                <div className="d-flex justify-content-between me-4 mt-5">
+                  </p>
+                </span>
+                <div className="d-flex justify-content-between me-4 mt-5 pt-4">
                   <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
@@ -361,14 +367,17 @@ const PersonalBanking = () => {
                 >
                   <h4 className="text-white pe-2">Indo Vehicle Loan</h4>
                   <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                  <p className="fs-small pt-1" style={{ textAlign: "left" }}>
-                    <AiFillCaretRight className="me-2" />
-                    To ﬁnance purchase of second-hand 
+                  <span>
+                  <AiFillCaretRight className="position-absolute mt-2" />
+                  <p className="fs-small pt-1 lh-sm ps-4 pe-3">
+                  To ﬁnance purchase of second-hand 
                     vehicles not more than 5 years old for 
                     personal and business use from 
                     reputable dealers.
                   </p>
-                  <div className="d-flex justify-content-between me-4 mt-4 pt-4">
+                </span>
+                 
+                  <div className="d-flex justify-content-between me-4 mt-5 pt-4">
                     <Link to="/PrivilegeCurrentAcc">
                       <button className="btn btn-light py-0">Apply now</button>
                     </Link>
@@ -406,16 +415,22 @@ const PersonalBanking = () => {
               >
                 <h4 className="text-white pe-2">Bumi Fixed Deposit A/C</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p className="fs-small lh-sm pt-1" style={{ textAlign: "left" }}> 
-                  <AiFillCaretRight className="me-2" />
+                <span>
+                  <AiFillCaretRight className="position-absolute mt-2" />
+                  <p className="fs-small pt-1 lh-sm ps-4 pe-3">
                   Credit the principal amount to customers 
                   account.
-                </p>
-                <p className="fs-small lh-sm pt-1" style={{ textAlign: "left" }}>
-                  <AiFillCaretRight className="me-2" />
+                  </p>
+                </span>
+                <span>
+                  <AiFillCaretRight className="position-absolute mt-2" />
+                  <p className="fs-small pt-1 lh-sm ps-4 pe-3">
+                 
                   Interest credited upon opening/placement 
                   of the deposit
-                </p>
+                  </p>
+                </span>
+                
                 <p className="fs-small pt-1">
                   <AiFillCaretRight className="me-2" />
                  Attractive rate intrest
