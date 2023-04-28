@@ -24,7 +24,7 @@ const EEZY = () => {
       <section className="overview-area">
         <div className="container">
           <div className="row">
-            <div className=" offset-xl-1 col-md-4 col-xl-4">
+            <div className=" col-md-5 col-xl-5">
               <div className="overview-content-box-one">
                 <img src={img} width="100%" alt="" />
               </div>
@@ -63,7 +63,7 @@ const EEZY = () => {
       <section>
         <div className="container my-5">
           <div
-            className="row gy-2 justify-content-center"
+            className="row gy-2 justify-content-around"
             style={{ gap: "3.5rem" }}
           >
             <div className="heading text-center">

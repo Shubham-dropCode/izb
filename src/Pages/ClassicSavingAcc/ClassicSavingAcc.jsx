@@ -26,7 +26,12 @@ const ClassicSavingAcc = () => {
     "This is a standard level savings account with value addedfeatures of SMS alerts, Internet Banking with the IZB Visa Chip & Pin Debit Card facilities and is as an interest bearing savings account.";
   return (
     <>
-      <Breadcrumb Heading="Classic Saving Account" img={BackgroundBrundcrumb} show={true} btnTxt="Open an Account"/>
+      <Breadcrumb
+        Heading="Classic Saving Account"
+        img={BackgroundBrundcrumb}
+        show={true}
+        btnTxt="Open an Account"
+      />
       <SavePlusAccountComponent
         heading="IZB Classic Savings Account"
         subHeading="Know About"
@@ -50,7 +55,7 @@ const ClassicSavingAcc = () => {
             </p>
           </div>
           <div className="d-flex justify-content-center">
-            <ul className="row choose-style1__content">
+            <u className="row choose-style1__content">
               <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
                 <div className="single-choose-style1">
                   <div className="icon">
@@ -91,6 +96,7 @@ const ClassicSavingAcc = () => {
                   </div>
                 </div>
               </li>
+            
 
               <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
                 <div className="single-choose-style1">
@@ -132,8 +138,7 @@ const ClassicSavingAcc = () => {
                   </div>
                 </div>
               </li>
-              <li></li>
-            </ul>
+            </u>
           </div>
         </div>
       </section>

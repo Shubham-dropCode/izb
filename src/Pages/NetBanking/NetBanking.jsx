@@ -49,13 +49,19 @@ const NetBanking = () => {
                     className="btn btn-danger w-25 text-white fs-5"
                     style={{ backgroundColor: "#9E1B1E" }}
                   >
+                    <a className="text-white" href="https://ebanking.izb.co.zm:7004/Retail/#/landing">
+
                     Retail
+                    </a>
                   </button>
                   <button
                     className="btn btn-danger w-25 text-white fs-5"
                     style={{ backgroundColor: "#9E1B1E" }}
                   >
+                    <a className="text-white" href="https://ebanking.izb.co.zm:7004/CorporateBanking/#/landing">
+
                     Corporate
+                    </a>
                   </button>
                 </div>
               </div>
@@ -119,6 +125,7 @@ const NetBanking = () => {
                   </div>
                 </div>
               </li>
+        
               <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
                 <div className="single-choose-style1">
                   <div className="icon">
@@ -159,6 +166,7 @@ const NetBanking = () => {
                   </div>
                 </div>
               </li>
+             
               <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
                 <div className="single-choose-style1">
                   <div className="icon">
@@ -198,7 +206,7 @@ const NetBanking = () => {
           </div>
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-xl-8 col-lg-8">
+              <div className="col-xl-11 col-lg-11">
                 {/*Start Single Documents Box*/}
                 <div
                   className="single-documents-box h-100"
@@ -279,11 +287,11 @@ const NetBanking = () => {
             <div className="job-list-table-box">
               <div className="table-outer">
                 <table className="job-list-table">
-                  <thead className="header text-center">
+                  <thead className="header ">
                     <tr>
-                      <th>SL. No</th>
-                      <th>Product Name</th>
-                      <th>IZB Forex Current Account</th>
+                    <th>SL. No</th>
+                      <th>Service</th>
+                      <th>Service Charge</th>
                     </tr>
                   </thead>
                   <tbody className="text-white">

@@ -21,10 +21,14 @@ const WorkingAccordion = ({question,answer}) => {
         return (
           <div className="acc-content current">
             {show && (
-              <p className='px-5'>
-                <AiFillCaretRight size={15} className="pe-1" />
-                {item.item}
-              </p>
+              <span>
+                <AiFillCaretRight
+                  size={15}
+                  className="position-absolute pe-1 mt-2"
+                  style={{marginLeft:"60px"}}
+                />
+                <p style={{paddingLeft:"80px" ,paddingRight:"80px"}}>{item.item}</p>
+              </span>
             )}
           </div>
         );

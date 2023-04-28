@@ -78,7 +78,7 @@ const EquityRelease = () => {
       <section id="MSMEAccodion">
         <div className="container justify-content-center mt-5">
           <div className="faq-style1__content">
-            <ul className="accordion-box">
+            <ul className="accordion-box mb-5">
               {question.map((item) => {
                 const { id } = item;
                 return <EquityAccordion key={id} {...item} />;

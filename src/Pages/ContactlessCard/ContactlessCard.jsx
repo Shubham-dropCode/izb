@@ -29,219 +29,231 @@ const ContactlessCard = () => {
         showBtn={true}
       />
 
-      <section className="overview-area mx-5 pb-3 mb-5" style={{backgroundColor:"#F5F5F5"}}> 
-      <div className="container" >
-        <div className="text-center my-5">
-          <h2>Your IZB Contactless Card brings you unmatched features</h2>
-        </div>
-        <div className="row">
-          <div
-            className="containeWrap"
-            style={{ border: "1px solid #9E1B1E", borderRadius: "20px" }}
-          >
-            <div className="single-card-box">
-              <div className="cards-img-box">
-                <div className="inner">
-                  <img src={debitCard} alt="" />
-                </div>
-              </div>
-              <div className="cards-text-box">
-                <div className="d-flex flex-column justify-content-center align-items-center h-100">
-                  <h2 style={{ color: "#9E1B1E" }}>IZB Visa Debit Card</h2>
-                  <button
-                    className="btn btn-danger w-50 text-white mt-3 fs-5"
-                    style={{ backgroundColor: "#9E1B1E", borderRadius: "20px" }}
-                  >
-                    Apply for Card
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div className="cardDetails gap-3 ps-4 ms-1">
-              <h6 style={{ color: "#9E1B1E" }}>
-                Benefits
-                <hr />
-              </h6>
-              <div className="details my-auto">
-                <p>
-                  <AiFillCaretRight size={15} className="pe-1" />
-                  Less risk of overspending. Its easy to overspend with
-                  traditional cards. Prepaid cards limit spending to no more
-                  than the card balance.
-                </p>
-
-                <span className="d-flex position-relative">
-                  <AiFillCaretRight
-                    size={15}
-                    className="pe-1 position-absolute"
-                    style={{ top: "5px" }}
-                  />
-                </span>
-                <p className="ps-3">
-                  Safer than cash. Prepaid credit cards are safer to carry than
-                  cash, which make them great options for travellers. Quick and
-                  easy registration of prepaid cards protects consumers if the
-                  card is lost or stolen.
-                </p>
-
-                <p>
-                  <AiFillCaretRight size={15} className="pe-1" />
-                  Easy to use and reload. Consumers can reload their prepaid
-                  cards in a variety of ways, including via bank account
-                  transfers or cash deposit
-                </p>
-                <p>
-                  <AiFillCaretRight size={15} className="pe-1" />
-                  An alternative to banks. Prepaid cards offer unbanked
-                  consumers access to essential payment services.
-                </p>
-                <p className="pb-5">
-                  <AiFillCaretRight size={15} className="pe-1" />
-                  Secure alternative form of payment. Prepaid cards offer an
-                  additional level of anonymity and protection for personally
-                  identifiable information
-                </p>
-              </div>
-            </div>
+      <section
+        className="overview-area mx-5 pb-3 mb-5"
+        style={{ backgroundColor: "#F5F5F5" }}
+      >
+        <div className="container">
+          <div className="text-center my-5">
+            <h2>Your IZB Contactless Card brings you unmatched features</h2>
           </div>
-        </div>
-      </div>
-      <div className="container">
-        <div className="text-center my-5">
-          <h2>Your IZB Contactless Card brings you unmatched features</h2>
-        </div>
-        <div className="row">
-          <div
-            className="containeWrap"
-            style={{ border: "1px solid #9E1B1E", borderRadius: "20px" }}
-          >
-            <div className="single-card-box">
-              <div className="cards-img-box">
-                <div className="inner">
-                  <img src={goldCard} alt="" />
+          <div className="row">
+            <div
+              className="containeWrap"
+              style={{ border: "1px solid #9E1B1E", borderRadius: "20px" }}
+            >
+              <div className="single-card-box">
+                <div className="cards-img-box">
+                  <div className="inner">
+                    <img src={debitCard} width="80%" alt="" />
+                  </div>
+                </div>
+                <div className="cards-text-box">
+                  <div className="d-flex flex-column justify-content-center align-items-center h-100">
+                    <h2 style={{ color: "#9E1B1E" }}>IZB Visa Debit Card</h2>
+                    <button
+                      className="btn btn-danger w-50 text-white mt-3 fs-5"
+                      style={{
+                        backgroundColor: "#9E1B1E",
+                        borderRadius: "20px",
+                      }}
+                    >
+                      Apply for Card
+                    </button>
+                  </div>
                 </div>
               </div>
-              <div className="cards-text-box">
-                <div className="d-flex flex-column justify-content-center align-items-center h-100">
-                  <h2 style={{ color: "#9E1B1E" }}>IZB Gold Card</h2>
-                  <button
-                    className="btn btn-danger w-50 text-white mt-3 fs-5"
-                    style={{ backgroundColor: "#9E1B1E", borderRadius: "20px" }}
-                  >
-                    Apply for Card
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div className="cardDetails gap-3 ps-4 ms-1">
-              <h6 style={{ color: "#9E1B1E" }}>
-                Benefits
-                <hr />
-              </h6>
-              <div className="details my-auto">
-                <p>
-                  <AiFillCaretRight size={15} className="pe-1" />
-                  High transaction limits than IZB Classic Debit card
-                </p>
-                <p>
-                  <AiFillCaretRight size={15} className="pe-1" />
-                  The card provides international recognition and status
-                </p>
-                <span className="d-flex position-relative">
-                  <AiFillCaretRight
-                    size={15}
-                    className="pe-1 position-absolute"
-                    style={{ top: "5px" }}
-                  />
-                  <p className="ps-3">
-                    Travel benefits for customers who book through Agoda.com.
-                    Gold cardholders get upto 12% discount on accommodation. To
-                    redeem this benefit, simply book your accommodation through
-                    https://www.agoda.com/visassapremium.
+              <div className="cardDetails gap-3 ps-4 ms-1">
+                <h6 style={{ color: "#9E1B1E" }}>
+                  Benefits
+                  <hr />
+                </h6>
+                <div className="details my-auto">
+                  <p>
+                    <AiFillCaretRight size={15} className="pe-1" />
+                    Less risk of overspending. Its easy to overspend with
+                    traditional cards. Prepaid cards limit spending to no more
+                    than the card balance.
                   </p>
-                </span>
-                <p className="pb-5">
-                  <AiFillCaretRight size={15} className="pe-1" />
-                  Global offers e.g. discounts and promotions
-                </p>
+
+                  <span className="d-flex position-relative">
+                    <AiFillCaretRight
+                      size={15}
+                      className="pe-1 position-absolute"
+                      style={{ top: "5px" }}
+                    />
+                  </span>
+                  <p className="ps-3">
+                    Safer than cash. Prepaid credit cards are safer to carry
+                    than cash, which make them great options for travellers.
+                    Quick and easy registration of prepaid cards protects
+                    consumers if the card is lost or stolen.
+                  </p>
+
+                  <p>
+                    <AiFillCaretRight size={15} className="pe-1" />
+                    Easy to use and reload. Consumers can reload their prepaid
+                    cards in a variety of ways, including via bank account
+                    transfers or cash deposit
+                  </p>
+                  <p>
+                    <AiFillCaretRight size={15} className="pe-1" />
+                    An alternative to banks. Prepaid cards offer unbanked
+                    consumers access to essential payment services.
+                  </p>
+                  <p className="pb-5">
+                    <AiFillCaretRight size={15} className="pe-1" />
+                    Secure alternative form of payment. Prepaid cards offer an
+                    additional level of anonymity and protection for personally
+                    identifiable information
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="container pb-5 mb-5">
-        <div className="text-center my-5">
-          <h2>Your IZB Contactless Card brings you unmatched features</h2>
-        </div>
-        <div className="row">
-          <div
-            className="containeWrap"
-            style={{ border: "1px solid #9E1B1E", borderRadius: "20px" }}
-          >
-            <div className="single-card-box">
-              <div className="cards-img-box">
-                <div className="inner">
-                  <img src={Platinumn} alt="" />
+        <div className="container">
+          <div className="text-center my-5">
+            <h2>Your IZB Contactless Card brings you unmatched features</h2>
+          </div>
+          <div className="row">
+            <div
+              className="containeWrap"
+              style={{ border: "1px solid #9E1B1E", borderRadius: "20px" }}
+            >
+              <div className="single-card-box">
+                <div className="cards-img-box">
+                  <div className="inner">
+                    <img src={goldCard} width="80%" alt="" />
+                  </div>
+                </div>
+                <div className="cards-text-box">
+                  <div className="d-flex flex-column justify-content-center align-items-center h-100">
+                    <h2 style={{ color: "#9E1B1E" }}>IZB Gold Card</h2>
+                    <button
+                      className="btn btn-danger w-50 text-white mt-3 fs-5"
+                      style={{
+                        backgroundColor: "#9E1B1E",
+                        borderRadius: "20px",
+                      }}
+                    >
+                      Apply for Card
+                    </button>
+                  </div>
                 </div>
               </div>
-              <div className="cards-text-box">
-                <div className="d-flex flex-column justify-content-center align-items-center h-100">
-                  <h2 style={{ color: "#9E1B1E" }}>IZB Visa Debit Card</h2>
-                  <button
-                    className="btn btn-danger w-50 text-white mt-3 fs-5"
-                    style={{ backgroundColor: "#9E1B1E", borderRadius: "20px" }}
-                  >
-                    Apply for Card
-                  </button>
+              <div className="cardDetails gap-3 ps-4 ms-1">
+                <h6 style={{ color: "#9E1B1E" }}>
+                  Benefits
+                  <hr />
+                </h6>
+                <div className="details my-auto">
+                  <p>
+                    <AiFillCaretRight size={15} className="pe-1" />
+                    High transaction limits than IZB Classic Debit card
+                  </p>
+                  <p>
+                    <AiFillCaretRight size={15} className="pe-1" />
+                    The card provides international recognition and status
+                  </p>
+                  <span className="d-flex position-relative">
+                    <AiFillCaretRight
+                      size={15}
+                      className="pe-1 position-absolute"
+                      style={{ top: "5px" }}
+                    />
+                    <p className="ps-3">
+                      Travel benefits for customers who book through Agoda.com.
+                      Gold cardholders get upto 12% discount on accommodation.
+                      To redeem this benefit, simply book your accommodation
+                      through https://www.agoda.com/visassapremium.
+                    </p>
+                  </span>
+                  <p className="pb-5">
+                    <AiFillCaretRight size={15} className="pe-1" />
+                    Global offers e.g. discounts and promotions
+                  </p>
                 </div>
-              </div>
-            </div>
-            <div className="cardDetails gap-3 ps-4 ms-1">
-              <h6 style={{ color: "#9E1B1E" }}>
-                Benefits
-                <hr />
-              </h6>
-              <div className="details my-auto">
-                <p>
-                  <AiFillCaretRight size={15} className="pe-1" />
-                  Higher transaction limits than IZB Classic and IZB Gold debit
-                  cards
-                </p>
-                <p>
-                  <AiFillCaretRight size={15} className="pe-1" />
-                  The card provides international recognition and status
-                </p>
-                <p>
-                  <AiFillCaretRight size={15} className="pe-1" />
-                  Luxury Hotel Collection. Book through www.visaluxuryhotels.com
-                  to avail benefit.
-                </p>
-                <span className="d-flex position-relative">
-                  <AiFillCaretRight
-                    size={15}
-                    className="pe-1 position-absolute"
-                    style={{ top: "5px" }}
-                  />
-                </span>
-                <p className="ps-3">
-                  Buyer Protection and Extended Warranty. Visa offers buyer
-                  protection for customer buying eligible items. Further the
-                  original warranty offered is doubled by Visa. Cardholders can
-                  use https://www.visacards.africa enabling them to
-                </p>
-                <p className="ps-2">
-                  <IoIosArrowForward size={15} className="pe-1" />
-                  Access and download their insurance Terms and Conditions
-                </p>
-                <p className="pb-5 ps-2">
-                  <IoIosArrowForward size={15} className="pe-1" />
-                  Get instructions for initiating the claim process
-                </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
+        <div className="container pb-5 mb-5">
+          <div className="text-center my-5">
+            <h2>Your IZB Contactless Card brings you unmatched features</h2>
+          </div>
+          <div className="row">
+            <div
+              className="containeWrap"
+              style={{ border: "1px solid #9E1B1E", borderRadius: "20px" }}
+            >
+              <div className="single-card-box">
+                <div className="cards-img-box">
+                  <div className="inner">
+                    <img src={Platinumn} width="80%" alt="" />
+                  </div>
+                </div>
+                <div className="cards-text-box">
+                  <div className="d-flex flex-column justify-content-center align-items-center h-100">
+                    <h2 style={{ color: "#9E1B1E" }}>IZB Visa Debit Card</h2>
+                    <button
+                      className="btn btn-danger w-50 text-white mt-3 fs-5"
+                      style={{
+                        backgroundColor: "#9E1B1E",
+                        borderRadius: "20px",
+                      }}
+                    >
+                      Apply for Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className="cardDetails gap-3 ps-4 ms-1">
+                <h6 style={{ color: "#9E1B1E" }}>
+                  Benefits
+                  <hr />
+                </h6>
+                <div className="details my-auto">
+                  <p>
+                    <AiFillCaretRight size={15} className="pe-1" />
+                    Higher transaction limits than IZB Classic and IZB Gold
+                    debit cards
+                  </p>
+                  <p>
+                    <AiFillCaretRight size={15} className="pe-1" />
+                    The card provides international recognition and status
+                  </p>
+                  <p>
+                    <AiFillCaretRight size={15} className="pe-1" />
+                    Luxury Hotel Collection. Book through
+                    www.visaluxuryhotels.com to avail benefit.
+                  </p>
+                  <span className="d-flex position-relative">
+                    <AiFillCaretRight
+                      size={15}
+                      className="pe-1 position-absolute"
+                      style={{ top: "5px" }}
+                    />
+                  </span>
+                  <p className="ps-3">
+                    Buyer Protection and Extended Warranty. Visa offers buyer
+                    protection for customer buying eligible items. Further the
+                    original warranty offered is doubled by Visa. Cardholders
+                    can use https://www.visacards.africa enabling them to
+                  </p>
+                  <p className="ps-2">
+                    <IoIosArrowForward size={15} className="pe-1" />
+                    Access and download their insurance Terms and Conditions
+                  </p>
+                  <p className="pb-5 ps-2">
+                    <IoIosArrowForward size={15} className="pe-1" />
+                    Get instructions for initiating the claim process
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <AllAcountsSection />

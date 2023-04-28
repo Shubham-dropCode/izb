@@ -10355,9 +10355,9 @@ li.single-benefits-box-colum:nth-child(6) .single-benefits-box .icon {
 .cards-img-box {
   position: relative;
   display: block;
-  max-width: 400px;
+  max-width: 600px;
   width: 100%;
-  border-right: 1px solid #f2ece7;
+  /* border-right: 1px solid #f2ece7; */
   padding: 35px 29px 30px;
 }
 

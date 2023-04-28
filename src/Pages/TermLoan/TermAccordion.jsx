@@ -17,13 +17,17 @@ const TermAccordion = ({ question, answer }) => {
       </div>
 
       <div className="acc-content current">
-        {show && (
-          <p className="px-5">
-            <AiFillCaretRight size={15} className="pe-1" />
-            {answer}
-          </p>
-        )}
-      </div>
+            {show && (
+              <span>
+                <AiFillCaretRight
+                  size={15}
+                  className="position-absolute mt-2 pe-1"
+                  style={{marginLeft:"60px"}}
+                />
+                <p style={{paddingLeft:"80px" ,paddingRight:"80px"}}>{answer}</p>
+              </span>
+            )}
+          </div>
     </li>
   );
 };

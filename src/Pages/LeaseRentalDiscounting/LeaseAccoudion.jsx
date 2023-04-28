@@ -24,9 +24,10 @@ const LeaseAccoudion = ({ question, answer }) => {
               <span>
                 <AiFillCaretRight
                   size={15}
-                  className="position-absolute mt-2 ms-4"
+                  className="position-absolute mt-2"
+                  style={{marginLeft:"60px"}}
                 />
-                <p className="px-5">{item.item}</p>
+                <p style={{paddingLeft:"80px" ,paddingRight:"80px"}}>{item.item}</p>
               </span>
             )}
           </div>

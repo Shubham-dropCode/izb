@@ -21,9 +21,13 @@ const MSMEaccordion = ({ question, answer }) => {
           <div className="acc-content current">
             {show && (
               <span>
-              <AiFillCaretRight className="position-absolute mt-2 ms-4" />
-              <p className="px-5">{item.item}</p>
-            </span>
+                <AiFillCaretRight
+                  size={15}
+                  className="position-absolute mt-2 pe-1"
+                  style={{marginLeft:"60px"}}
+                />
+                <p style={{paddingLeft:"80px" ,paddingRight:"80px"}}>{item.item}</p>
+              </span>
             )}
           </div>
         );

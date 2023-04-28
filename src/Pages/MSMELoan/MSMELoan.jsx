@@ -18,7 +18,12 @@ const MSMELoan = () => {
     "The MSME Sector is the corner stone of any great economy. We firmly on board to act as a catalyst for the economic development of Zambia";
   return (
     <>
-      <Breadcrumb Heading="MSME Loan" img={BackgroundBrundcrumb} show={true} btnTxt="Apply Now"/>
+      <Breadcrumb
+        Heading="MSME Loan"
+        img={BackgroundBrundcrumb}
+        show={true}
+        btnTxt="Apply Now"
+      />
       <SavePlusAccountComponent
         heading="MSME Loan"
         subHeading="Know About"
@@ -73,7 +78,7 @@ const MSMELoan = () => {
       <section id="MSMEAccodion">
         <div className="container justify-content-center mt-5">
           <div className="faq-style1__content">
-            <ul className="accordion-box my-4">
+            <ul className="accordion-box my-5">
               {question.map((item) => {
                 const { id } = item;
                 return <MSMEaccordion key={id} {...item} />;

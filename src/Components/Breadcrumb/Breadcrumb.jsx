@@ -4,7 +4,8 @@ import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.sv
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-const Breadcrumb = ({ Heading, img, show, btnTxt }) => {
+const Breadcrumb = ({ Heading, img, show, btnTxt, paths }) => {
+  console.log(paths);
   return (
     <section className="breadcrumb-area">
       <div
@@ -48,6 +49,11 @@ const Breadcrumb = ({ Heading, img, show, btnTxt }) => {
                 )}
                 <ul className="d-flex justify-content-sm-center">
                   <li>
+                    {/* {paths.map((path)=>{
+                      return{
+                        
+                      }
+                    })} */}
                     <Link to="/">Home</Link>
                     <ArrowR className="mx-1" />
                     {Heading}

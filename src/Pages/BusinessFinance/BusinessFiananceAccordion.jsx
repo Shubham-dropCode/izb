@@ -20,13 +20,17 @@ const BusinessFiananceAccordion = ({question,answer}) => {
         {answer.map((item) => {
         return (
           <div className="acc-content current">
-            {show && (
-              <p className='px-5'>
-                <AiFillCaretRight size={15} className="pe-1" />
-                {item.item}
-              </p>
-            )}
-          </div>
+          {show && (
+            <span>
+              <AiFillCaretRight
+                size={15}
+                className="position-absolute mt-2 pe-1"
+                style={{marginLeft:"60px"}}
+              />
+              <p style={{paddingLeft:"80px" ,paddingRight:"80px"}}>{item.item}</p>
+            </span>
+          )}
+        </div>
         );
       })}
       </li>

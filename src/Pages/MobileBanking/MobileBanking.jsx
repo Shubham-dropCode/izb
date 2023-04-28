@@ -34,7 +34,7 @@ const MobileBanking = () => {
       <section className="overview-area">
         <div className="container">
           <div className="row">
-            <div className=" offset-xl-1 col-md-4 col-xl-4">
+            <div className="col-md-5 col-xl-5">
               <div className="overview-content-box-one">
                 <img src={img} width="100%" alt="" />
               </div>
@@ -125,7 +125,6 @@ const MobileBanking = () => {
                   </div>
                 </div>
               </li>
-              <li></li>
             </ul>
           </div>
         </div>
@@ -145,7 +144,7 @@ const MobileBanking = () => {
           </div>
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-xl-8 col-lg-8">
+              <div className="col-xl-12 col-lg-12">
                 {/*Start Single Documents Box*/}
                 <div
                   className="single-documents-box h-100"
@@ -297,11 +296,11 @@ const MobileBanking = () => {
             <div className="job-list-table-box">
               <div className="table-outer">
                 <table className="job-list-table">
-                  <thead className="header text-center">
+                  <thead className="header ">
                     <tr>
                       <th>SL. No</th>
-                      <th>Product Name</th>
-                      <th>IZB Forex Current Account</th>
+                      <th>Service</th>
+                      <th>Service Charge</th>
                     </tr>
                   </thead>
                   <tbody className="text-white">

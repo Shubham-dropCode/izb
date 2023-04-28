@@ -11,7 +11,7 @@ const SavePlusAccountComponent = ({
   btnTxt,
   link,
   logo,
-  showBtn
+  showBtn,
 }) => {
   const textColor = {
     color: "#949292",
@@ -22,7 +22,7 @@ const SavePlusAccountComponent = ({
         <div className="row">
           <div className="col-md-5 col-xl-5">
             <div className="overview-content-box-one">
-              <img src={img} width="100%" alt="" />
+              <img src={img} className="ps-0" width="100%" alt="" />
             </div>
           </div>
           <div className="col-xl col-md ">
@@ -34,19 +34,19 @@ const SavePlusAccountComponent = ({
               <div className="text">
                 <p style={textColor}>{content}</p>
               </div>
-              {showBtn ?? 
-              <Link to={link}>
-                <button
-                  className="btn btn-danger text-white fs-5"
-                  style={{ backgroundColor: "#9E1B1E" }}
-                >
-                  {logo ?? (
-                    <BsBank className="me-4 mb-1 text-white" size={25} />
-                  )}
-                  {btnTxt}
-                </button>
-              </Link>
-              }
+              {showBtn ?? (
+                <Link to={link}>
+                  <button
+                    className="btn btn-danger text-white fs-5"
+                    style={{ backgroundColor: "#9E1B1E" }}
+                  >
+                    {logo ?? (
+                      <BsBank className="me-4 mb-1 text-white" size={25} />
+                    )}
+                    {btnTxt}
+                  </button>
+                </Link>
+              )}
             </div>
           </div>
         </div>

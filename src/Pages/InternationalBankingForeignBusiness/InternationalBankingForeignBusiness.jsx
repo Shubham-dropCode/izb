@@ -11,6 +11,9 @@ import { question } from "./InternationalData";
 import { useEffect } from "react";
 
 const InternationalBankingForeignBusiness = () => {
+  const textColor = {
+    color: "#949292",
+  };
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -22,14 +25,42 @@ const InternationalBankingForeignBusiness = () => {
         Heading="International Banking Foreign Business"
         img={BackgroundBrundcrumb}
       />
-      <SavePlusAccountComponent
-        heading="International Banking Foreign Business"
-        subHeading="Know About"
-        content={accountContent}
-        btnTxt="0211 389900"
-        img={img1}
-        logo={true}
-      />
+      <section className="overview-area SaveAccountSection">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-5 col-xl-5">
+              <div className="overview-content-box-one">
+                <img src={img1} className="ps-0" width="100%" alt="" />
+              </div>
+            </div>
+            <div className="col-xl col-md ">
+              <div className="overview-content-box-two h-100 d-flex flex-column justify-content-center">
+                <div className="inner-title">
+                  <h5>Know About</h5>
+                  <h2 style={{ color: "#484848" }}>
+                    International Banking Foreign Business
+                  </h2>
+                </div>
+                <div className="text">
+                  <p style={textColor}>
+                    Go beyond borders with our International Banking
+                    facilities.we tap into Global presence of our shareholding
+                    banks tomake your foreign business swift.
+                  </p>
+                </div>
+                <p  style={{ color: "#9E1B1E" }}>Contact for dealing room</p>
+
+                <button
+                  className="btn btn-danger font-weight-bold text-white fs-5"
+                  style={{ backgroundColor: "#9E1B1E", width: "180px",fontWeight:"600" }}
+                >
+                  0211 389900
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section
         className="page-contains-area"
