@@ -27,7 +27,7 @@ const AboutUs = () => {
         <h2 className="text-center">Shareholders of the bank</h2>
       </div>
       <div className="d-flex justify-content-center">
-        <img src={ShareHolders} width="80%" alt="" />
+        <img src={ShareHolders} width="100%" alt="" />
       </div>
     </div>
    <AllAcountsSection/>

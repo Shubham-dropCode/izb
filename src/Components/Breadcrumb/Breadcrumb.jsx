@@ -4,7 +4,7 @@ import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.sv
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-const Breadcrumb = ({ Heading, img, show ,btnTxt }) => {
+const Breadcrumb = ({ Heading, img, show, btnTxt }) => {
   return (
     <section className="breadcrumb-area">
       <div
@@ -15,7 +15,7 @@ const Breadcrumb = ({ Heading, img, show ,btnTxt }) => {
           <div className="col-xl-12">
             <div className="inner-content" style={{ margin: "0 40px 0 40px" }}>
               <div
-                className="breadcrumb-area-bg title d-flex justify-content-center align-items-center"
+                className="breadcrumb-area-bg title d-flex justify-content-center align-items-center position-relative"
                 data-aos="fade-right"
                 data-aos-easing="linear"
                 data-aos-duration={500}
@@ -27,16 +27,16 @@ const Breadcrumb = ({ Heading, img, show ,btnTxt }) => {
                 <h1 className="text-white">{Heading}</h1>
               </div>
               <div
-                className="breadcrumb-menu offset-md-8 offset-lg-8 pt-2 d-flex position-relative "
+                className="breadcrumb-menu position-relative offset-md-10 offset-lg-9 pt-2 d-flex "
                 data-aos="fade-left"
                 data-aos-easing="linear"
                 data-aos-duration={500}
               >
                 {show && (
                   <div
-                    className="btn position-absolute shadow px-2 py-3"
+                    className="btn position-absolute col-2 shadow px-2 py-3 d-none d-md-block"
                     style={{
-                      right: "204%",
+                      right: "301%",
                       width: "250px",
                       backgroundColor: "#FFF",
                       bottom: "-25%",

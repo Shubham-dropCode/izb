@@ -20,7 +20,7 @@ const SavePlusAccountComponent = ({
     <section className="overview-area SaveAccountSection">
       <div className="container">
         <div className="row">
-          <div className=" offset-md-1 col-md-5 col-xl-5">
+          <div className="col-md-5 col-xl-5">
             <div className="overview-content-box-one">
               <img src={img} width="100%" alt="" />
             </div>

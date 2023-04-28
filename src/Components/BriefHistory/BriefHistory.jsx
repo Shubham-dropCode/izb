@@ -5,12 +5,12 @@ const BriefHistory = ({heading,image,content}) => {
     <section className="overview-area">
       <div className="container">
         <div className="row">
-          <div className="col-md-5 offset-md-1 col-xl-5 ps-0">
+          <div className="col-md-5 col-xl-5 ps-0">
             <div className="overview-content-box-one">
               <img src={image} width="100%" alt="" />
             </div>
           </div>
-          <div className="col-xl-5 col-md-5">
+          <div className="col-xl col-md">
             <div className="overview-content-box-two h-100 d-flex flex-column justify-content-center">
               <div className="inner-title">
                 <h2>{heading}</h2>

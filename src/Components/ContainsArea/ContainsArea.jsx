@@ -10,7 +10,7 @@ const  ContainsArea = (props) => {
     >
       <div className="container">
         <div className="row">
-          <div className="offset-md-1 col-xl-11">
+          <div className="col-xl-12">
             <div className="page-contains-box">
               <div className="page-contains-btn">
                 <ul className="navigation clearfix scroll-nav">

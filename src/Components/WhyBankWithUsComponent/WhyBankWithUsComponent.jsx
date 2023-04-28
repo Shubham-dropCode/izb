@@ -11,7 +11,7 @@ const WhyBankWithUsComponents = () => {
         <div className="text-center mb-5">
           <h2>About Indo Zambia Bank</h2>
         </div>
-        <div className="col-12 offset-md-1 offset-lg-1 col-md-10 col-lg-10">
+        <div className="col-12">
           <div
             className="row border  justify-content-sm-center my-5 "
             style={{ backgroundColor: "#9E1B1E" }}

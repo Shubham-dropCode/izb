@@ -13,15 +13,15 @@ import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSec
 
 const IndoFastServe = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
-      <Breadcrumb Heading="Indo Fast Serve" img={BackgroundBrundcrumb}/>
+      <Breadcrumb Heading="Indo Fast Serve" img={BackgroundBrundcrumb} />
       <section className="overview-area">
         <div className="container">
           <div className="row">
-            <div className=" offset-xl-1 col-md-4 col-xl-4">
+            <div className=" col-md-4 col-xl-4">
               <div className="overview-content-box-one">
                 <img src={img} width="100%" alt="" />
               </div>
@@ -134,7 +134,7 @@ const IndoFastServe = () => {
           </div>
         </div>
       </section>
-      <AllAcountsSection/>
+      <AllAcountsSection />
     </>
   );
 };

@@ -5,6 +5,12 @@ import MobileBanking from "../../assets/images/IZB/MobileBanking.jpg";
 import MobileStoreButton from "react-mobile-store-button";
 import "../Hero/Hero.css";
 
+// const Slide = (children) => {
+
+// };
+
+// export default Slide;
+
 const Slide1 = () => {
   const textColor = {
     color: "#9E1B1E",

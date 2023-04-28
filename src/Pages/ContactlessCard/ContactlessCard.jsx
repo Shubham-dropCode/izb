@@ -57,7 +57,7 @@ const ContactlessCard = () => {
                 </div>
               </div>
             </div>
-            <div className="cardDetails gap-3">
+            <div className="cardDetails gap-3 ps-4 ms-1">
               <h6 style={{ color: "#9E1B1E" }}>
                 Benefits
                 <hr />
@@ -133,7 +133,7 @@ const ContactlessCard = () => {
                 </div>
               </div>
             </div>
-            <div className="cardDetails gap-3">
+            <div className="cardDetails gap-3 ps-4 ms-1">
               <h6 style={{ color: "#9E1B1E" }}>
                 Benefits
                 <hr />
@@ -196,7 +196,7 @@ const ContactlessCard = () => {
                 </div>
               </div>
             </div>
-            <div className="cardDetails gap-3">
+            <div className="cardDetails gap-3 ps-4 ms-1">
               <h6 style={{ color: "#9E1B1E" }}>
                 Benefits
                 <hr />
