@@ -1,29 +1,34 @@
-import React from 'react'
-import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
-import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
+import React from "react";
+import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
+import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
 import img1 from "../../assets/images/IZB/IZB Website Skin/Forign Business/Untitled-2.png";
 import SavePlusAccountComponent from "../../Components/SavePlusAccount/SavePlusAccountComponent";
 import Arrow_down from "../../assets/images/IZB/arrow_down.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Forign Business/Untitled-1.png";
-import InternationlAccordion from './InternationlAccordion';
-import { question } from './InternationalData';
-import { useEffect } from 'react';
+import InternationlAccordion from "./InternationlAccordion";
+import { question } from "./InternationalData";
+import { useEffect } from "react";
 
-const  InternationalBankingForeignBusiness = () => {
+const InternationalBankingForeignBusiness = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-  const accountContent = "Go beyond borders with our International Banking facilities.we tap into Global presence of our shareholding banks tomake your foreign business swift."
+    window.scrollTo(0, 0);
+  }, []);
+  const accountContent =
+    "Go beyond borders with our International Banking facilities.we tap into Global presence of our shareholding banks tomake your foreign business swift.";
   return (
     <>
-    <Breadcrumb Heading="International Banking Foreign Business" img={BackgroundBrundcrumb} />
+      <Breadcrumb
+        Heading="International Banking Foreign Business"
+        img={BackgroundBrundcrumb}
+      />
       <SavePlusAccountComponent
         heading="International Banking Foreign Business"
         subHeading="Know About"
         content={accountContent}
         btnTxt="0211 389900"
         img={img1}
+        logo={true}
       />
 
       <section
@@ -87,9 +92,9 @@ const  InternationalBankingForeignBusiness = () => {
         </div>
       </section>
 
-      <AllAcountsSection/>
+      <AllAcountsSection />
     </>
-  )
-}
+  );
+};
 
-export default InternationalBankingForeignBusiness
+export default InternationalBankingForeignBusiness;

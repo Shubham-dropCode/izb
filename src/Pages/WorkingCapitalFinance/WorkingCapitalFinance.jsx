@@ -21,6 +21,7 @@ const WorkingCapitalFinance = () => {
       <Breadcrumb
         Heading="Working Capital Finance"
         img={BackgroundBrundcrumb}
+        show={true} btnTxt="Apply Now"
       />
       <SavePlusAccountComponent
         heading="Working Capital Finance"
@@ -28,6 +29,7 @@ const WorkingCapitalFinance = () => {
         content={accountContent}
         btnTxt="Apply Now"
         img={img1}
+        logo={true}
       />
 
       <section

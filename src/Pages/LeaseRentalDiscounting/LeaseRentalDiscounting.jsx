@@ -17,13 +17,14 @@ const LeaseRentalDiscounting = () => {
   const accountContent = "Need ﬁnancing against future receivables. We have your back."
   return (
     <>
-    <Breadcrumb Heading="Lease Rental Discounting IZB" img={BackgroundBrundcrumb} />
+    <Breadcrumb Heading="Lease Rental Discounting IZB" img={BackgroundBrundcrumb} show={true} btnTxt="Apply Now" />
       <SavePlusAccountComponent
         heading="Lease Rental Discounting IZB"
         subHeading="Know About"
         content={accountContent}
         btnTxt="Apply Now"
         img={img1}
+        logo={true}
       />
 
       <section

@@ -54,8 +54,23 @@ const AtmLocatinos = () => {
               ATM
             </label>
           </div>
+          <div className="form-check">
+            <input
+              className="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault2"
+              defaultChecked=""
+            />
+            <label
+              className="text-white form-check-label"
+              htmlFor="flexRadioDefault2"
+            >
+              AGENCY
+            </label>
+          </div>
           <span className="border h-75"></span>
-          <div className="col-8">
+          <div className="col-7">
             <form role="form" className="form-horizontal">
               <div className="form-group has-feedback has-feedback-left">
                 <label className="control-label sr-only">Username</label>

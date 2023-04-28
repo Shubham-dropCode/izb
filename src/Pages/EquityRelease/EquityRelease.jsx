@@ -17,13 +17,14 @@ const EquityRelease = () => {
   const accountContent = "Looking for a quick finance solution and have immovable assets. Our equity release is a solution to get financing backed by your assets."
   return (
     <>
-    <Breadcrumb Heading="Equity Release" img={BackgroundBrundcrumb} />
+    <Breadcrumb Heading="Equity Release" img={BackgroundBrundcrumb} show={true} btnTxt="Apply Now" />
       <SavePlusAccountComponent
         heading="Equity Release"
         subHeading="Know About"
         content={accountContent}
         btnTxt="Apply Now"
         img={img1}
+        logo={true}
       />
 
       <section

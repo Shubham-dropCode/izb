@@ -33,13 +33,14 @@ const IndoHomeLoan = () => {
 
   return (
     <>
-      <Breadcrumb Heading="Indo Home Loan" img={BackgroundBrundcrumb} />
+      <Breadcrumb Heading="Indo Home Loan" img={BackgroundBrundcrumb} show={true} btnTxt="Apply Now"/>
       <SavePlusAccountComponent
         heading="Indo Home Loan"
         subHeading="Know About"
         btnTxt="Apply Now"
         content={accountContent}
         img={img1}
+        logo={true}
       />
       <ContainsArea title={accountContains} />
       <section>

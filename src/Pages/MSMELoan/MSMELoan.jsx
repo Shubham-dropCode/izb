@@ -18,13 +18,14 @@ const MSMELoan = () => {
     "The MSME Sector is the corner stone of any great economy. We firmly on board to act as a catalyst for the economic development of Zambia";
   return (
     <>
-      <Breadcrumb Heading="MSME Loan" img={BackgroundBrundcrumb} />
+      <Breadcrumb Heading="MSME Loan" img={BackgroundBrundcrumb} show={true} btnTxt="Apply Now"/>
       <SavePlusAccountComponent
         heading="MSME Loan"
         subHeading="Know About"
         content={accountContent}
         btnTxt="Apply Now"
         img={img1}
+        logo={true}
       />
 
       <section

@@ -16,13 +16,14 @@ const AgroFinance = () => {
   const accountContent = "We understand the need for food security and the importance agriculture plays into the country’s national development goals. At Indo Zambia Bank we study, examine and analyse the ﬁnancial aspects pertaining to farm business. Tailor made Agro ﬁnancing product is available making us your all WEATHER Agro Partner of choice."
   return (
     <>
-     <Breadcrumb Heading="Agro Finance" img={BackgroundBrundcrumb} />
+     <Breadcrumb Heading="Agro Finance" img={BackgroundBrundcrumb}  show={true} btnTxt="Apply Now"/>
       <SavePlusAccountComponent
         heading="Agro Finance"
         subHeading="Know About"
         content={accountContent}
         btnTxt="Apply Now"
         img={img1}
+        logo={true}
       />
 
       <section

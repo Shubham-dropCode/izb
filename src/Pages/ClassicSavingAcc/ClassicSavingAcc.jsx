@@ -26,7 +26,7 @@ const ClassicSavingAcc = () => {
     "This is a standard level savings account with value addedfeatures of SMS alerts, Internet Banking with the IZB Visa Chip & Pin Debit Card facilities and is as an interest bearing savings account.";
   return (
     <>
-      <Breadcrumb Heading="Classic Saving Account" img={BackgroundBrundcrumb} />
+      <Breadcrumb Heading="Classic Saving Account" img={BackgroundBrundcrumb} show={true} btnTxt="Open an Account"/>
       <SavePlusAccountComponent
         heading="IZB Classic Savings Account"
         subHeading="Know About"

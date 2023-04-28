@@ -25,8 +25,8 @@ const ContactlessCard = () => {
         heading="IZB Cards"
         subHeading="Know About"
         content={accountContent}
-        btnTxt="Apply Now"
         img={img1}
+        showBtn={true}
       />
 
       <section className="overview-area mx-5 pb-3 mb-5" style={{backgroundColor:"#F5F5F5"}}> 

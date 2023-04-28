@@ -25,7 +25,7 @@ const TonseSavingAcc = () => {
   const accountContent = "A starter saving Account which allows the account holder to operate a savings account at the minimum level and offers an IZB Visa Chip & Pin Debit Card."
   return (
     <>
-    <Breadcrumb Heading="Tonse Savings Account" img={BackgroundBrundcrumb}/>
+    <Breadcrumb Heading="Tonse Savings Account" img={BackgroundBrundcrumb} show={true} btnTxt="Open an Account"/>
     <SavePlusAccountComponent
     btnTxt="Open an Account"
         heading="IZB Tonse Savings Account"

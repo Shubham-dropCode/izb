@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.svg";
 import { AiFillCaretRight } from "react-icons/ai";
 
 const RequiredDocuments = () => {
@@ -51,20 +50,20 @@ const RequiredDocuments = () => {
                 </div>
                 <ul>
                   <li>
-                    <span className="d-flex">
+                    <div className="d-flex">
                       <AiFillCaretRight
                         size={15}
                         className="pe-1 position-absolute text-white"
                         style={{ top: "5px" }}
                       />
-                    </span>
-                    <p className="text-white lh-base ps-3">
+                    <p className="text-white lh-base" style={{paddingLeft:"20px"}}>
                       Minimum of k1000 per month to be maintained.
                     </p>
+                    </div>
                   </li>
                   <li>
                     <p className="text-white lh-base">
-                      <AiFillCaretRight size={15} className="pe-1" />
+                      <AiFillCaretRight size={15} className="pe-1" style={{marginRight:"5px"}} />
                       T-Pin.
                     </p>
                   </li>

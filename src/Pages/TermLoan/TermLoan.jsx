@@ -17,13 +17,14 @@ const TermLoan = () => {
     "Access our long and short-term loans designed to meet your specific funding requirements. Our term loan facility enables organisations to meet a wide array of business needs enabling business to financing projects from energy, infrastructure, and Real estate to meet whatever the organizational objective.";
   return (
     <>
-      <Breadcrumb Heading="Term Loan" img={BackgroundBrundcrumb} />
+      <Breadcrumb Heading="Term Loan" img={BackgroundBrundcrumb} show={true} btnTxt="Apply Now" />
       <SavePlusAccountComponent
         heading="Term Loan"
         subHeading="Know About"
         content={accountContent}
         btnTxt="Apply Now"
         img={img1}
+        logo={true}
       />
 
       <section

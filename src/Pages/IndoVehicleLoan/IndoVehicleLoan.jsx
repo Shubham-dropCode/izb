@@ -23,13 +23,14 @@ const IndoVehicleLoan = () => {
   const [show, setShow] = useState(false);
   return (
     <>
-      <Breadcrumb Heading="Indo Vehicle Loan" img={BackgroundBrundcrumb} />
+      <Breadcrumb Heading="Indo Vehicle Loan" img={BackgroundBrundcrumb} show={true} btnTxt="Apply Now" />
       <SavePlusAccountComponent
         heading="Indo Vehicle Loan"
         subHeading="Know About"
         btnTxt="Apply Now"
         content={accountContent}
         img={img1}
+        logo={true}
       />
       <ContainsArea />
       <section>

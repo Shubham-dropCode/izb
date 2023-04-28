@@ -32,6 +32,7 @@ const SMECurrentAccount = () => {
       <Breadcrumb
         Heading="SME Current Account"
         img={BackgroundBrundcrumb}
+        show={true} btnTxt="Open an Account"
       />
       <SavePlusAccountComponent
         heading="IZB SME Current Account"

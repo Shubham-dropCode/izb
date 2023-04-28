@@ -16,7 +16,7 @@ const ForexCurrent = () => {
   const accountContent = "Current Account can be opened for business houses and also for individuals in US Dollar/Pound Sterling/South African Rand/Euro. Cheque book facility is available. Payments within Zambia can be made by way of FCY cheques, and the clearing of cheques are done at free of cost. With this product, we also offer VISA Chip & Pin Debit Card facility, which is ideal for businessment/employees traveling frequently outside Zambia, who can draw money from any of the VISA enabled ATMs around the world. "
   return (
     <>
-    <Breadcrumb Heading="Forex Current" img={BackgroundBrundcrumb}/>
+    <Breadcrumb Heading="Forex Current" img={BackgroundBrundcrumb} show={true} btnTxt="Open an Account"/>
     <SavePlusAccountComponent
         heading="Forex Current"
         subHeading="Know About"

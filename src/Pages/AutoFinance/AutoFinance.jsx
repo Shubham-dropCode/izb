@@ -18,13 +18,14 @@ const AutoFinance = () => {
     "Purchase of brand new and second hand utility vehicle.Age of Second- hand vehicle not to exceed 5 years.";
   return (
     <>
-      <Breadcrumb Heading="Auto Finance" img={BackgroundBrundcrumb} />
+      <Breadcrumb Heading="Auto Finance" img={BackgroundBrundcrumb} show={true} btnTxt="Apply Now" />
       <SavePlusAccountComponent
         heading="Auto Finance"
         subHeading="Know About"
         content={accountContent}
         btnTxt="Apply Now"
         img={img1}
+        logo={true}
       />
 
       <section

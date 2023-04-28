@@ -3,8 +3,6 @@ import { BsBank } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import "../Hero/Hero.css";
 
-
-
 const SavePlusAccountComponent = ({
   heading,
   subHeading,
@@ -12,10 +10,12 @@ const SavePlusAccountComponent = ({
   img,
   btnTxt,
   link,
+  logo,
+  showBtn
 }) => {
   const textColor = {
-    color:"#949292"
-  }
+    color: "#949292",
+  };
   return (
     <section className="overview-area SaveAccountSection">
       <div className="container">
@@ -29,20 +29,24 @@ const SavePlusAccountComponent = ({
             <div className="overview-content-box-two h-100 d-flex flex-column justify-content-center">
               <div className="inner-title">
                 <h5>{subHeading}</h5>
-                <h2 style={{color:"#484848"}}>{heading}</h2>
+                <h2 style={{ color: "#484848" }}>{heading}</h2>
               </div>
               <div className="text">
                 <p style={textColor}>{content}</p>
               </div>
+              {showBtn ?? 
               <Link to={link}>
                 <button
                   className="btn btn-danger text-white fs-5"
                   style={{ backgroundColor: "#9E1B1E" }}
                 >
-                  <BsBank className="me-4 mb-1 text-white" size={25} />
+                  {logo ?? (
+                    <BsBank className="me-4 mb-1 text-white" size={25} />
+                  )}
                   {btnTxt}
                 </button>
               </Link>
+              }
             </div>
           </div>
         </div>

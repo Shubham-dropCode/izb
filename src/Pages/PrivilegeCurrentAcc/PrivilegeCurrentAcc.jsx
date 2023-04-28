@@ -21,6 +21,7 @@ const PrivilegeCurrentAcc = () => {
       <Breadcrumb
         Heading="IZB Privilege Current Account"
         img={BackgroundBrundcrumb}
+        show={true} btnTxt="Open an Account"
       />
       <SavePlusAccountComponent
         heading="IZB Privilege Current Account"

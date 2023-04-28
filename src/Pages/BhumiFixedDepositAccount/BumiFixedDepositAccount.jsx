@@ -23,11 +23,11 @@ const BumiFixedDepositAccount = () => {
 const [show, setShow] = useState(false);
   return (
     <>
-     <Breadcrumb Heading="Bumi Fixed Deposit Account" img={BackgroundBrundcrumb} />
+     <Breadcrumb Heading="Bumi Fixed Deposit Account" img={BackgroundBrundcrumb} show={true} btnTxt="Open an Account" />
       <SavePlusAccountComponent
         heading="Bumi Fixed Deposit Account"
         subHeading="Know About"
-        btnTxt="Apply Now"
+        btnTxt="Open an Account"
         content="The account the pays you interest upfront."
         img={img1}
       />

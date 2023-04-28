@@ -35,7 +35,7 @@ const BusinessBanking = () => {
   // }, []);
   return (
     <>
-      <Breadcrumb Heading="Business Banking" img={BackgroundBrundcrumb} />
+      <Breadcrumb Heading="Business Banking" img={BackgroundBrundcrumb} show={true} btnTxt="Apply Now" />
       <div className="container">
         <div className="text-center text my-4">
           <h2>Current Accounts</h2>

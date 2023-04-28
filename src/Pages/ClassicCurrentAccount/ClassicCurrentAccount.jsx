@@ -33,6 +33,7 @@ const ClassicCurrentAccount = () => {
       <Breadcrumb
         Heading="Classic Current Account"
         img={BackgroundBrundcrumb}
+        show={true} btnTxt="Open an Account"
       />
       <SavePlusAccountComponent
         heading="IZB Classic Current Account"

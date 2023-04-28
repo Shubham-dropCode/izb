@@ -20,6 +20,7 @@ const BusinessFinance = () => {
         content={accountContent}
         btnTxt="Apply Now"
         img={img1}
+        logo={true}
       />
 
       <section

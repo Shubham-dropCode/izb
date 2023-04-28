@@ -30,6 +30,7 @@ const PrivilegeSaving = () => {
       <Breadcrumb
         Heading="IZB Privilege Savings Account"
         img={BackgroundBrundcrumb}
+        show={true} btnTxt="Open an Account"
       />
       <SavePlusAccountComponent
         heading="IZB Privilege Savings A/C Service Charges"
