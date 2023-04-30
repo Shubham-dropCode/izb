@@ -386,21 +386,199 @@ const Navbar = () => {
             </span>
             <div className="logo-box">
               <Link to="/" aria-label="logo image">
-                <img src={Logo} alt="" />
+                <img src={Logo} width={200} alt="" />
               </Link>
             </div>
-            <div>
+            <div className="mb-3 mx-0">
               <Sidebar>
                 <Menu>
-                  <Link to="/">
-                    {" "}
-                    <MenuItem>Home</MenuItem>
-                  </Link>
+                  <MenuItem component={<Link to="/" />}>Home</MenuItem>
+
                   <SubMenu label="About Us">
-                    <MenuItem> Line charts </MenuItem>
+                    <MenuItem component={<Link to="/AboutUs" />}>
+                      About IZB
+                    </MenuItem>
+
+                    <SubMenu label="Leadership & Governance">
+                      <MenuItem component={<Link to="/BoardOfDirectors" />}>
+                        Board of Directors
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/BoardOfDirectors" />}>
+                        Executive Management
+                      </MenuItem>
+                    </SubMenu>
+
+                    <MenuItem component={<Link to="/FinancialPerformance" />}>
+                      Financial Performance
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/WhyBankWithUs" />}>
+                      Why Bank with us
+                    </MenuItem>
+                    <MenuItem component={<Link to="/" />}>CSR</MenuItem>
                   </SubMenu>
-                  <MenuItem> Documentation </MenuItem>
-                  <MenuItem> Calendar </MenuItem>
+                  <SubMenu
+                    component={<Link to="/PersonalBanking" />}
+                    label="Personal Banking"
+                  >
+                    <SubMenu label="Saving Accounts">
+                      <MenuItem component={<Link to="/SavePlusAccount" />}>
+                        Save Plus Bank A/C
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/ClassicSavingAcc" />}>
+                        Classic Saving Account
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/PrivilageSavingAcc" />}>
+                        Privilege Savings Account
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/TisungoSaving" />}>
+                        Tisunge Savings Account
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/TonseSavingAcc" />}>
+                        Tonse Savings Account
+                      </MenuItem>
+                    </SubMenu>
+                    <SubMenu label="Credit">
+                      <MenuItem component={<Link to="/IndoHomeLoan" />}>
+                        Indo Home Loan
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/IndoPersonalLoan" />}>
+                        Personal Loan
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/IndoVehicleLoan" />}>
+                        Indo Vehicle Loan
+                      </MenuItem>
+                    </SubMenu>
+
+                    <MenuItem
+                      component={<Link to="/BhumiFixedDepositAccount" />}
+                    >
+                      Bhumi Fixed Deposit A/C
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/IndoFastServe" />}>
+                      Indo Fast Serve
+                    </MenuItem>
+                  </SubMenu>
+                  <SubMenu
+                    component={<Link to="/BusinessBanking" />}
+                    label="Businesss Banking"
+                  >
+                    <SubMenu label="Current Account">
+                      <MenuItem component={<Link to="/PrivilegeCurrentAcc" />}>
+                        Privilege Current Account
+                      </MenuItem>
+
+                      <MenuItem
+                        component={<Link to="/ClassicCurrentAccount" />}
+                      >
+                        Classic Current Account
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/SMECurrentAcc" />}>
+                        SME Current Account
+                      </MenuItem>
+                    </SubMenu>
+                    <SubMenu label="Credit">
+                      <MenuItem component={<Link to="/MSMELoan" />}>
+                        MSME Loan
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/TermLoan" />}>
+                        Term Loan
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/AutoFinance" />}>
+                        Auto Finance
+                      </MenuItem>
+                    </SubMenu>
+
+                    <MenuItem component={<Link to="/AgroFinance" />}>
+                      Agro Finanace
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/EquityRelease" />}>
+                      Equity Release
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/BusinessFinance" />}>
+                      Business Loan
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/WorkingCapitalFinance" />}>
+                      Working Capital Finance
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/LeaseRentalDiscounting" />}>
+                      Lease Rental Discounting
+                    </MenuItem>
+                  </SubMenu>
+                  <SubMenu label="Forex & Treasury">
+                    <MenuItem component={<Link to="/" />}>Forex Rates</MenuItem>
+
+                    <MenuItem
+                      component={
+                        <Link to="/InternatioalBankingForeignBusiness" />
+                      }
+                    >
+                      Forex Business
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/ForexSavings" />}>
+                      Forex Savings
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/ForexCurrent" />}>
+                      Forex Current
+                    </MenuItem>
+                  </SubMenu>
+                  <SubMenu label="E-Services">
+                    <MenuItem component={<Link to="/MobileBanking" />}>
+                      Indo Mobile Banking
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/NetBanking" />}>
+                      Indo Net Banking
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/ContactlessCard" />}>
+                      IZB Cards
+                    </MenuItem>
+
+                    <MenuItem
+                      component={<a href="https://epay.izb.co.zm/login/" />}
+                    >
+                      ZRA/NAPSA/E-Payment
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/EEZY" />}>
+                      Indo EEZY
+                    </MenuItem>
+                  </SubMenu>
+                  <SubMenu label="Indo Net Banking">
+                    <MenuItem
+                      component={
+                        <a href="https://ebanking.izb.co.zm:7004/Retail/#/landing" />
+                      }
+                    >
+                      Retail
+                    </MenuItem>
+
+                    <MenuItem
+                      component={
+                        <a href="https://ebanking.izb.co.zm:7004/CorporateBanking/#/landing" />
+                      }
+                    >
+                      Corporate
+                    </MenuItem>
+                  </SubMenu>
                 </Menu>
               </Sidebar>
             </div>
