@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { BsWhatsapp } from "react-icons/bs";
 import { AiFillCaretDown, AiOutlinePhone } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -9,64 +9,17 @@ import PlayStore from "../../assets/images/IZB/PlayStore.png";
 import apple from "../../assets/images/IZB/apple.png";
 import { Link } from "react-router-dom";
 import { data } from "./NavData";
+import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 
 const Navbar = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
   useEffect(() => {
-    if ($(".mobile-nav__container .main-menu__list").length) {
-      let dropdownAnchor = $(
-        ".mobile-nav__container .main-menu__list .dropdown > a"
-      );
-      dropdownAnchor.each(function () {
-        let self = $(this);
-        let toggleBtn = document.createElement("BUTTON");
-        toggleBtn.setAttribute("aria-label", "dropdown toggler");
-        toggleBtn.innerHTML = "<i class='fa fa-angle-down'></i>";
-        self.append(function () {
-          return toggleBtn;
-        });
-        self.find("button").on("click", function (e) {
-          e.preventDefault();
-          let self = $(this);
-          self.toggleClass("expanded");
-          self.parent().toggleClass("expanded");
-          self.parent().parent().children("ul").slideToggle();
-        });
-      });
-    }
-
     if ($(".mobile-nav__toggler").length) {
       $(".mobile-nav__toggler").on("click", function (e) {
         e.preventDefault();
         $(".mobile-nav__wrapper").toggleClass("expanded");
         $("body").toggleClass("locked");
       });
-    }
-
-    if ($(".mobile-nav__container .main-menu__list").length) {
-      let dropdownAnchor = $(
-        ".mobile-nav__container .main-menu__list .dropdown > a"
-      );
-      dropdownAnchor.each(function () {
-        let self = $(this);
-        let toggleBtn = document.createElement("BUTTON");
-        toggleBtn.setAttribute("aria-label", "dropdown toggler");
-        toggleBtn.innerHTML = "<i class='fa fa-angle-down'></i>";
-        self.append(function () {
-          return toggleBtn;
-        });
-        self.find("button").on("click", function (e) {
-          e.preventDefault();
-          let self = $(this);
-          self.toggleClass("expanded");
-          self.parent().toggleClass("expanded");
-          self.parent().parent().children("ul").slideToggle();
-        });
-      });
-    }
-    if ($(".main-menu__list").length && $(".mobile-nav__container").length) {
-      let navContent = document.querySelector(".main-menu__list").outerHTML;
-      let mobileNavContainer = document.querySelector(".mobile-nav__container");
-      mobileNavContainer.innerHTML = navContent;
     }
   }, []);
   return (
@@ -436,7 +389,21 @@ const Navbar = () => {
                 <img src={Logo} alt="" />
               </Link>
             </div>
-            <div className="mobile-nav__container" />
+            <div>
+              <Sidebar>
+                <Menu>
+                  <Link to="/">
+                    {" "}
+                    <MenuItem>Home</MenuItem>
+                  </Link>
+                  <SubMenu label="About Us">
+                    <MenuItem> Line charts </MenuItem>
+                  </SubMenu>
+                  <MenuItem> Documentation </MenuItem>
+                  <MenuItem> Calendar </MenuItem>
+                </Menu>
+              </Sidebar>
+            </div>
             <div className="mobile-nav__social">
               <a
                 href="https://mobile.twitter.com/IndoZambiaBank"
