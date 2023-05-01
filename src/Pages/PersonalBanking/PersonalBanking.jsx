@@ -78,7 +78,7 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-md-0 mt-sm-1 ">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -167,7 +167,7 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-md-0 mt-sm-1">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -214,7 +214,7 @@ const PersonalBanking = () => {
       </div>
       <div className="container">
         <div className="row g-5 mt-4">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-md-0 mt-sm-1">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -265,7 +265,7 @@ const PersonalBanking = () => {
       </div>
       <div className="container mt-4">
         <div className="row mt-1 g-5">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-md-0 mt-sm-1">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -306,7 +306,7 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-md-0 mt-sm-1">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -345,7 +345,7 @@ const PersonalBanking = () => {
       </div>
       <div className="container">
         <div className="row g-5 mt-4">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-md-0 mt-sm-1">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
@@ -436,7 +436,7 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-md-0 mt-sm-1">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img

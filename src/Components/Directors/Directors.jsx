@@ -44,7 +44,7 @@ const Directors = () => {
           <div className="col-xl-12">
             <div className="inner-content" style={{ margin: "0 40px 0 60px" }}>
               <div
-                className="breadcrumb-area-bg title d-flex justify-content-center align-items-center"
+                className="breadcrumb-area-bg title d-flex justify-content-center align-items-center text-center"
                 data-aos="fade-right"
                 data-aos-easing="linear"
                 data-aos-duration={500}
