@@ -9,7 +9,7 @@ const SavePlusCard = () => {
     width: "270px",
   };
   return (
-    <div style={img} className="col-3">
+    <div style={img} className="col-3 ">
       <div className="text-white p-3" style={{textAlign:"left"}}>
         <h4 className="text-white text-left">IZB Save Plus Account</h4>
         <p className="text-0">

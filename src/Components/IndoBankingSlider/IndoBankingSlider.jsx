@@ -53,11 +53,12 @@ const IndoBankingSlider = () => {
 
   return (
     <Slider {...settings}>
-      <Slide1 />
-
-      
+      <div>
+        <Slide1 />
+      </div>
+      <div>
         <Slide2 />
-    
+      </div>
     </Slider>
   );
 };

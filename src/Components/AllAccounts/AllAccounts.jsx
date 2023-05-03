@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import AccountCard from "./AccountCard";
 import SavePlusCard from "../AllAccounts/Personal/SavePlusCard";
 import PrivilegeCard from "../AllAccounts/Personal/PrivilegeCard";
 import TisungeSavings from "./Personal/TisungeSavings";
@@ -18,7 +17,6 @@ import ArrowRight from "../../assets/images/IZB/IZB Website Skin/RightArrow.png"
 import "../Hero/Hero.css";
 
 const AllAccounts = () => {
-  const SliderArrow = {};
   function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -31,7 +29,6 @@ const AllAccounts = () => {
           width: "50px",
           height: "50px",
           left: "-28px",
-
         }}
         onClick={onClick}
       />
@@ -70,33 +67,33 @@ const AllAccounts = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <section
-      className="wealth-secure-area mb-5"
+      className="overview-area  mb-5"
       style={{ backgroundColor: "#FFF5E7" }}
     >
       <div className="container">
-        <div className="sec-title text-center d-flex justify-content-between align-items-center">
+        <div className="sec-title text-center d-flex justify-content-between align-items-center pt-5 pt-md-0">
           <h4 style={{ color: "#9E1B1E" }}>Personal Banking</h4>
 
           <Link
@@ -107,7 +104,7 @@ const AllAccounts = () => {
             See More <AiOutlineArrowRight size={21} className="me-1 pb-1" />
           </Link>
         </div>
-        <div className="row">
+        <div className="row align-items-center">
           <Slider {...settings}>
             <div>
               <SavePlusCard />
@@ -138,7 +135,7 @@ const AllAccounts = () => {
             See More <AiOutlineArrowRight size={21} className="me-1 pb-1" />
           </Link>
         </div>
-        <div className="row gap-4">
+        <div className="row">
           <Slider {...settings}>
             <div>
               <IzbPrivilegeCurrentCard />

@@ -5,12 +5,6 @@ import MobileBanking from "../../assets/images/IZB/MobileBanking.jpg";
 import MobileStoreButton from "react-mobile-store-button";
 import "../Hero/Hero.css";
 
-// const Slide = (children) => {
-
-// };
-
-// export default Slide;
-
 const Slide1 = () => {
   const textColor = {
     color: "#9E1B1E",
@@ -22,8 +16,11 @@ const Slide1 = () => {
 
   return (
     <section className="overview-area">
-        <img src={MobileBanking} className="d-md-none d-sm-block" alt="" />
-      <div className="container p-5 d-none d-sm-block" style={{ backgroundColor: "#FFF5E7" }}>
+      <img src={MobileBanking} className="d-md-none d-sm-block" alt="" />
+      <div
+        className="container p-5 d-none d-sm-block"
+        style={{ backgroundColor: "#FFF5E7" }}
+      >
         <div className="row ">
           <div className="col-xl-6 col-md-6">
             <div className="overview-content-box-two h-100 d-flex flex-column d-none d-sm-block">
