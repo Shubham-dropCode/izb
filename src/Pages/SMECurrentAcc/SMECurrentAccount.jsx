@@ -32,6 +32,7 @@ const SMECurrentAccount = () => {
       <Breadcrumb
         Heading="SME Current Account"
         img={BackgroundBrundcrumb}
+        show={true} btnTxt="Open an Account"
       />
       <SavePlusAccountComponent
         heading="IZB SME Current Account"
@@ -273,11 +274,18 @@ const SMECurrentAccount = () => {
                       </p>
                     </li>
                     <li>
-                      <p className="text-white lh-base">
-                        <AiFillCaretRight size={15} className="pe-1" />
-                        Identification document of the Directors with two passport size photos, Copy of NRC/Valid Passport for each signatory.
+                      <span className="d-flex">
+                        <AiFillCaretRight
+                          size={15}
+                          className="pe-1 position-absolute text-white"
+                          style={{ top: "5px" }}
+                        />
+                      </span>
+                      <p className="text-white lh-base ps-3">
+                      Identification document of the Directors with two passport size photos, Copy of NRC/Valid Passport for each signatory.
                       </p>
                     </li>
+                    
                   </ul>
                 </div>
                 {/*End Single Documents Box*/}
@@ -290,12 +298,19 @@ const SMECurrentAccount = () => {
                   style={{ backgroundColor: "#9E1B1E" }}
                 >
                   <ul>
-                    <li>
-                      <p className="text-white lh-base">
-                        <AiFillCaretRight size={15} className="pe-1" />
-                        Introductory letter from a good current account holder which has been in operation for six months.
+                  <li>
+                      <span className="d-flex">
+                        <AiFillCaretRight
+                          size={15}
+                          className="pe-1 position-absolute text-white"
+                          style={{ top: "5px" }}
+                        />
+                      </span>
+                      <p className="text-white lh-base ps-3">
+                      Introductory letter from a good current account holder which has been in operation for six months.
                       </p>
                     </li>
+                    
                     <li>
                       <p className="text-white lh-base">
                         <AiFillCaretRight size={15} className="pe-1" />
@@ -303,11 +318,18 @@ const SMECurrentAccount = () => {
                       </p>
                     </li>
                     <li>
-                      <p className="text-white lh-base">
-                        <AiFillCaretRight size={15} className="pe-1" />
-                        Utility bill water, electricity, telephone etc in the name of the company of Lease. Agreement on the physical premises of the company
+                      <span className="d-flex">
+                        <AiFillCaretRight
+                          size={15}
+                          className="pe-1 position-absolute text-white"
+                          style={{ top: "5px" }}
+                        />
+                      </span>
+                      <p className="text-white lh-base ps-3">
+                      Utility bill water, electricity, telephone etc in the name of the company of Lease. Agreement on the physical premises of the company
                       </p>
                     </li>
+                    
                     <li>
                       <p className="text-white lh-base">
                         <AiFillCaretRight size={15} className="pe-1" />

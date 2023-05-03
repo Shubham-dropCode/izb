@@ -17,17 +17,19 @@ const InternationlAccordion = ({ question, answer }) => {
         <h3 onClick={() => setShow(!show)}>{question}</h3>
       </div>
 
-      {answer.map((item) => {
+      {answer.map((answer) => {
         return (
-          <div className="acc-content current">
+          <div className="acc-content current px-5">
             {show && (
-              <div>
-                <h6>{item?.title}</h6>
-                <p>
-                  <AiFillCaretRight size={15} className="pe-1" />
-                  {item?.item}
-                </p>
-              </div>
+              <>
+                <h6>{answer?.title}</h6>
+                {answer?.item && (
+                  <span>
+                    <AiFillCaretRight size={15} className="pe-1" />
+                    {answer?.item}
+                  </span>
+                )}
+              </>
             )}
           </div>
         );

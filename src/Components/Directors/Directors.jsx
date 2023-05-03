@@ -10,6 +10,7 @@ const Directors = () => {
     fontWeight: "300",
     letterSpacing: "1.5px",
     fontSize: "17px",
+    textAlign: "left",
   };
   const before = data[1];
   const after = data[2];
@@ -19,17 +20,17 @@ const Directors = () => {
       <div className="container">
         {before.map((item) => {
           return (
-            <div className="row border justify-content-sm-center p-4 my-5">
+            <div className="row border justify-content-sm-center  p-4 my-5">
               <div className="col-12 col-md-3 col-xl-3">
                 <img src={item.Image} className="border" alt="" />
               </div>
               <div className="col-12 col-md-9 col-xl-9">
-                <h3>{item.Name}</h3>
+                <h3 style={{ textAlign: "left" }}>{item.Name}</h3>
                 <div
-                  className="text col-3 text-white text-center mb-4 mt-2"
+                  className="text col-12 col-md-4 col-lg-4 col-xl-4  text-white ps-1 mb-4 mt-2 "
                   style={designationStyle}
                 >
-                  {item.Designation}
+                  <p>{item.Designation}</p>
                 </div>
                 <p>{item.description}</p>
               </div>
@@ -38,12 +39,12 @@ const Directors = () => {
         })}
       </div>
 
-      <div className="container py-2">
+      <div className="container-fluid py-2">
         <div className="row">
           <div className="col-xl-12">
-            <div className="inner-content">
+            <div className="inner-content" style={{ margin: "0 40px 0 60px" }}>
               <div
-                className="breadcrumb-area-bg title d-flex justify-content-center align-items-center"
+                className="breadcrumb-area-bg title d-flex justify-content-center align-items-center text-center"
                 data-aos="fade-right"
                 data-aos-easing="linear"
                 data-aos-duration={500}
@@ -52,7 +53,7 @@ const Directors = () => {
                   height: "300px",
                 }}
               >
-                <h1 className="text-white">Executive Manager</h1>
+                <h1 className="text-white">Executive Management</h1>
               </div>
             </div>
           </div>
@@ -67,9 +68,9 @@ const Directors = () => {
                 <img src={item.Image} className="border" alt="" />
               </div>
               <div className="col-12 col-md-9 col-xl-9">
-                <h3>{item.Name}</h3>
+                <h3 style={{ textAlign: "left" }}>{item.Name}</h3>
                 <div
-                  className="text col-3 text-white text-center mb-4 mt-2"
+                  className="text col-12 col-md-5 col-lg-5 col-xl-5 text-white ps-1 mb-4 mt-2"
                   style={designationStyle}
                 >
                   {item.Designation}

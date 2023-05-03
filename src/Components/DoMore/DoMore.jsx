@@ -17,7 +17,7 @@ const DoMore = () => {
       className="choose-style1-area pt-5 mt-5 mt-md-0 mt-xl-0 pt-md-0 pt-xl-0"
     >
       <div className="container">
-        <div className="text-center mb-5">
+        <div className="text-center">
           <h1 style={{ color: "#484848" }}>
             <strong>DO MORE</strong> ON THE GO
           </h1>
@@ -26,7 +26,7 @@ const DoMore = () => {
             E-services.
           </p>
         </div>
-        <div className="row choose-style1__content gap-5 justify-content-center">
+        <div className="row choose-style1__content gap-5 justify-content-center mt-5">
           <div className="row choose-style1__content justify-content-between">
             {/*Start Single Choose Style1*/}
             <div

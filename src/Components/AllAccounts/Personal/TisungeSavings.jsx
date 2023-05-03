@@ -10,7 +10,7 @@ const TisungeSavings = () => {
   };
   return (
     <div style={img} className="col-3">
-      <div className="text-white p-3">
+      <div className="text-white p-3" style={{textAlign:"left"}}>
         <h4 className="text-white">Tisunge Savings A/C</h4>
         <p>
           This is the next level savings which provides account holders with the

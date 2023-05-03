@@ -14,7 +14,7 @@ const Accordion = ({question,answer}) => {
         <h3 onClick={() => setShow(!show)}>{question}</h3>
       </div>
       <div className="acc-content current">
-       {show && <p>
+       {show && <p className="px-4">
          {answer}
         </p>}
       </div>

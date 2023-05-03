@@ -61,7 +61,7 @@ const OurStores = () => {
             </div>
             <div
               className="py-4"
-              style={{ float: "right", marginRight: "22px" }}
+              style={{ float: "right"}}
             >
               <Link
                 to="/PersonalBanking"
@@ -239,7 +239,7 @@ const OurStores = () => {
               />
               PREV
             </button>
-            <button type="button" className="btn btn-light border me-4">
+            <button type="button" className="btn btn-light border">
               NEXT
               {/*  onClick={()=>sliderRef.current.slickNext()} */}
               <AiOutlineArrowRight

@@ -19,13 +19,14 @@ const IndoPersonalLoan = () => {
 
   return (
     <>
-    <Breadcrumb Heading="Personal Loan" img={BackgroundBrundcrumb}/>
+    <Breadcrumb Heading="Personal Loan" img={BackgroundBrundcrumb} show={true} btnTxt="Apply Now"/>
     <SavePlusAccountComponent
         heading="Personal Loan"
         subHeading="Know About"
         btnTxt="Apply Now"
         content={accountContent}
         img={img1}
+        logo={true}
       />
       <ContainsArea />
       <section>
@@ -51,7 +52,7 @@ const IndoPersonalLoan = () => {
                     </div>
                     <div className="acc-content current">
                       {show && (
-                        <p>
+                        <p className='px-5'>
                           <AiFillCaretRight className="me-1" />
                           Individuals (salaried and non-salaried). Inclusive of Memorandum of Understanding (M.O.U) loans
                         </p>
@@ -75,7 +76,7 @@ const IndoPersonalLoan = () => {
                     </div>
                     <div className="acc-content current">
                       {show && (
-                        <p>
+                        <p className='px-5'>
                           <AiFillCaretRight className="me-1" />
                           For meeting of personal needs
                         </p>
@@ -99,22 +100,22 @@ const IndoPersonalLoan = () => {
                       </h3>
                     </div>
                     <div className="acc-content current">
-                    {show && <h5>SALARIED</h5>}
+                    {show && <h5 className='px-5'>SALARIED</h5>}
                       {show && (
-                        <p>
+                        <p className='px-5'>
                           <AiFillCaretRight className="me-1" />
                           Undertaking from employer (M.O.U)
                         </p>
                       )}
                       {show && (
-                        <p>
+                        <p className='px-5'>
                           <AiFillCaretRight className="me-1" />
                           Legal/equitable mortgage will be required where no undertaking or M.O.U is available
                         </p>
                       )}
-                    {show && <h5>NON-SALARIED</h5>}
+                    {show && <h5 className='px-5'>NON-SALARIED</h5>}
                       {show && (
-                        <p>
+                        <p className='px-5'>
                           <AiFillCaretRight className="me-1" />
                           Legal/Equitable mortgage
                         </p>
@@ -138,7 +139,7 @@ const IndoPersonalLoan = () => {
                     </div>
                     <div className="acc-content current">
                       {show && (
-                        <p>
+                        <p className='px-5'>
                           <AiFillCaretRight className="me-1" />
                           Maximum of 36 months
                         </p>
@@ -163,7 +164,7 @@ const IndoPersonalLoan = () => {
                     </div>
                     <div className="acc-content current">
                       {show && (
-                        <p>
+                        <p className='px-5'>
                           <AiFillCaretRight className="me-1" />
                           In case of more number of employees MOUs can be arranged with the respective employers. Please contact your nearest branch for further details.
                         </p>
@@ -173,9 +174,15 @@ const IndoPersonalLoan = () => {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="bg-light p-3 mt-4">
-              <h6 style={{ color: "#9E1B1E" }}> Terms and Conditions Apply</h6>{" "}
+            <div
+                className="my-3"
+                style={{
+                  backgroundColor: "#9E1B1E",
+                  padding: "20px 0px 20px 60px",
+                }}
+              >
+                <h6 className="text-white">Terms and Conditions Apply</h6>
+              </div>
             </div>
           </div>
         </div>

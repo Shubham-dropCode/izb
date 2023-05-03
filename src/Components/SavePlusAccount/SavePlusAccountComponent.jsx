@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BsBank } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import "../Hero/Hero.css";
 
 const SavePlusAccountComponent = ({
   heading,
@@ -9,37 +10,43 @@ const SavePlusAccountComponent = ({
   img,
   btnTxt,
   link,
+  logo,
+  showBtn,
 }) => {
   const textColor = {
-    color:"#949292"
-  }
+    color: "#949292",
+  };
   return (
-    <section className="overview-area">
+    <section className="overview-area SaveAccountSection">
       <div className="container">
         <div className="row">
-          <div className=" offset-xl-1 col-md-4 col-xl-4">
+          <div className="col-md-5 col-xl-5">
             <div className="overview-content-box-one">
-              <img src={img} width="100%" alt="" />
+              <img src={img} className="ps-0" width="100%" alt="" />
             </div>
           </div>
-          <div className="col-xl-6 col-md-6 ">
+          <div className="col-xl col-md ">
             <div className="overview-content-box-two h-100 d-flex flex-column justify-content-center">
               <div className="inner-title">
                 <h5>{subHeading}</h5>
-                <h2 style={{color:"#484848"}}>{heading}</h2>
+                <h2 style={{ color: "#484848" }}>{heading}</h2>
               </div>
               <div className="text">
                 <p style={textColor}>{content}</p>
               </div>
-              <Link to={link}>
-                <button
-                  className="btn btn-danger text-white fs-5"
-                  style={{ backgroundColor: "#9E1B1E" }}
-                >
-                  <BsBank className="me-4 mb-1 text-white" size={25} />
-                  {btnTxt}
-                </button>
-              </Link>
+              {showBtn ?? (
+                <Link to={link}>
+                  <button
+                    className="btn btn-danger text-white fs-5"
+                    style={{ backgroundColor: "#9E1B1E" }}
+                  >
+                    {logo ?? (
+                      <BsBank className="me-4 mb-1 text-white" size={25} />
+                    )}
+                    {btnTxt}
+                  </button>
+                </Link>
+              )}
             </div>
           </div>
         </div>

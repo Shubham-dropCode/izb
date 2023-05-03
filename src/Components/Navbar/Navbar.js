@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { BsWhatsapp } from "react-icons/bs";
 import { AiFillCaretDown, AiOutlinePhone } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -8,31 +8,12 @@ import Phone from "../../assets/images/IZB/PhoneCall.png";
 import PlayStore from "../../assets/images/IZB/PlayStore.png";
 import apple from "../../assets/images/IZB/apple.png";
 import { Link } from "react-router-dom";
+import { data } from "./NavData";
+import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 
 const Navbar = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
   useEffect(() => {
-    if ($(".mobile-nav__container .main-menu__list").length) {
-      let dropdownAnchor = $(
-        ".mobile-nav__container .main-menu__list .dropdown > a"
-      );
-      dropdownAnchor.each(function () {
-        let self = $(this);
-        let toggleBtn = document.createElement("BUTTON");
-        toggleBtn.setAttribute("aria-label", "dropdown toggler");
-        toggleBtn.innerHTML = "<i class='fa fa-angle-down'></i>";
-        self.append(function () {
-          return toggleBtn;
-        });
-        self.find("button").on("click", function (e) {
-          e.preventDefault();
-          let self = $(this);
-          self.toggleClass("expanded");
-          self.parent().toggleClass("expanded");
-          self.parent().parent().children("ul").slideToggle();
-        });
-      });
-    }
-
     if ($(".mobile-nav__toggler").length) {
       $(".mobile-nav__toggler").on("click", function (e) {
         e.preventDefault();
@@ -40,35 +21,7 @@ const Navbar = () => {
         $("body").toggleClass("locked");
       });
     }
-
-    if ($(".mobile-nav__container .main-menu__list").length) {
-      let dropdownAnchor = $(
-        ".mobile-nav__container .main-menu__list .dropdown > a"
-      );
-      dropdownAnchor.each(function () {
-        let self = $(this);
-        let toggleBtn = document.createElement("BUTTON");
-        toggleBtn.setAttribute("aria-label", "dropdown toggler");
-        toggleBtn.innerHTML = "<i class='fa fa-angle-down'></i>";
-        self.append(function () {
-          return toggleBtn;
-        });
-        self.find("button").on("click", function (e) {
-          e.preventDefault();
-          let self = $(this);
-          self.toggleClass("expanded");
-          self.parent().toggleClass("expanded");
-          self.parent().parent().children("ul").slideToggle();
-        });
-      });
-    }
-    if ($(".main-menu__list").length && $(".mobile-nav__container").length) {
-      let navContent = document.querySelector(".main-menu__list").outerHTML;
-      let mobileNavContainer = document.querySelector(".mobile-nav__container");
-      mobileNavContainer.innerHTML = navContent;
-    }
   }, []);
-
   return (
     <>
       <header className="main-header main-header-style1">
@@ -80,13 +33,13 @@ const Navbar = () => {
               <div className="main-header-style1-top__left">
                 <div
                   className="looking-banking-box"
-                  style={{ paddingLeft: "70px" }}
+                  style={{ paddingLeft: "40px" }}
                 >
                   <Link to="/">
                     <img src={Logo} width={300} />
                   </Link>
                 </div>
-                <div className="nearest-branch">
+                <div className="ms-4 ps-4">
                   <div className="input-group">
                     <div className="form-outline">
                       <input
@@ -147,7 +100,7 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
-                <div className="box-search-style1">
+                <div style={{ marginRight: "35px", marginLeft: "35px" }}>
                   <a href="#" className="search-toggler">
                     <img src={PlayStore} />
                   </a>
@@ -164,14 +117,18 @@ const Navbar = () => {
         <nav className="main-menu main-menu-style1">
           <div className="main-menu__wrapper clearfix">
             <div className="container">
-              <div className="main-menu__wrapper-inner d-flex justify-content-center">
-                <div className="main-menu-style1-left">
-                  <div className="main-menu-box">
-                    <a href="#" className="mobile-nav__toggler">
+              <div className="main-menu__wrapper-inner w-100">
+                <div className="main-menu-style1-left w-100">
+                  <div className="main-menu-box w-100">
+                    <a href="#" className="mobile-nav__toggler w-100">
                       <GiHamburgerMenu />
+                      <img src={Logo} width={250} className="ps-5" />
                     </a>
-                    <ul className="main-menu__list" style={{ gap: "10px" }}>
-                      <li className="megamenu">
+                    <ul
+                      className="main-menu__list justify-content-between"
+                      style={{ gap: "10px" }}
+                    >
+                      <li className="megamenu ">
                         <Link to="/">Home</Link>
                       </li>
                       <li className="dropdown">
@@ -428,10 +385,204 @@ const Navbar = () => {
               <i className="fas fa-plus" />
             </span>
             <div className="logo-box">
-              <a href="index.html" aria-label="logo image">
-                <img src={Logo} alt="" />
-              </a>
+              <Link to="/" aria-label="logo image">
+                <img src={Logo} width={200} alt="" />
+              </Link>
             </div>
+            <div className="mb-3 mx-0">
+              <Sidebar>
+                <Menu>
+                  <MenuItem component={<Link to="/" />}>Home</MenuItem>
+
+                  <SubMenu label="About Us">
+                    <MenuItem component={<Link to="/AboutUs" />}>
+                      About IZB
+                    </MenuItem>
+
+                    <SubMenu label="Leadership & Governance">
+                      <MenuItem component={<Link to="/BoardOfDirectors" />}>
+                        Board of Directors
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/BoardOfDirectors" />}>
+                        Executive Management
+                      </MenuItem>
+                    </SubMenu>
+
+                    <MenuItem component={<Link to="/FinancialPerformance" />}>
+                      Financial Performance
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/WhyBankWithUs" />}>
+                      Why Bank with us
+                    </MenuItem>
+                    <MenuItem component={<Link to="/" />}>CSR</MenuItem>
+                  </SubMenu>
+                  <SubMenu
+                    component={<Link to="/PersonalBanking" />}
+                    label="Personal Banking"
+                  >
+                    <SubMenu label="Saving Accounts">
+                      <MenuItem component={<Link to="/SavePlusAccount" />}>
+                        Save Plus Bank A/C
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/ClassicSavingAcc" />}>
+                        Classic Saving Account
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/PrivilageSavingAcc" />}>
+                        Privilege Savings Account
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/TisungoSaving" />}>
+                        Tisunge Savings Account
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/TonseSavingAcc" />}>
+                        Tonse Savings Account
+                      </MenuItem>
+                    </SubMenu>
+                    <SubMenu label="Credit">
+                      <MenuItem component={<Link to="/IndoHomeLoan" />}>
+                        Indo Home Loan
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/IndoPersonalLoan" />}>
+                        Personal Loan
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/IndoVehicleLoan" />}>
+                        Indo Vehicle Loan
+                      </MenuItem>
+                    </SubMenu>
+
+                    <MenuItem
+                      component={<Link to="/BhumiFixedDepositAccount" />}
+                    >
+                      Bhumi Fixed Deposit A/C
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/IndoFastServe" />}>
+                      Indo Fast Serve
+                    </MenuItem>
+                  </SubMenu>
+                  <SubMenu
+                    component={<Link to="/BusinessBanking" />}
+                    label="Businesss Banking"
+                  >
+                    <SubMenu label="Current Account">
+                      <MenuItem component={<Link to="/PrivilegeCurrentAcc" />}>
+                        Privilege Current Account
+                      </MenuItem>
+
+                      <MenuItem
+                        component={<Link to="/ClassicCurrentAccount" />}
+                      >
+                        Classic Current Account
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/SMECurrentAcc" />}>
+                        SME Current Account
+                      </MenuItem>
+                    </SubMenu>
+                    <SubMenu label="Credit">
+                      <MenuItem component={<Link to="/MSMELoan" />}>
+                        MSME Loan
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/TermLoan" />}>
+                        Term Loan
+                      </MenuItem>
+
+                      <MenuItem component={<Link to="/AutoFinance" />}>
+                        Auto Finance
+                      </MenuItem>
+                    </SubMenu>
+
+                    <MenuItem component={<Link to="/AgroFinance" />}>
+                      Agro Finanace
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/EquityRelease" />}>
+                      Equity Release
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/BusinessFinance" />}>
+                      Business Loan
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/WorkingCapitalFinance" />}>
+                      Working Capital Finance
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/LeaseRentalDiscounting" />}>
+                      Lease Rental Discounting
+                    </MenuItem>
+                  </SubMenu>
+                  <SubMenu label="Forex & Treasury">
+                    <MenuItem component={<Link to="/" />}>Forex Rates</MenuItem>
+
+                    <MenuItem
+                      component={
+                        <Link to="/InternatioalBankingForeignBusiness" />
+                      }
+                    >
+                      Forex Business
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/ForexSavings" />}>
+                      Forex Savings
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/ForexCurrent" />}>
+                      Forex Current
+                    </MenuItem>
+                  </SubMenu>
+                  <SubMenu label="E-Services">
+                    <MenuItem component={<Link to="/MobileBanking" />}>
+                      Indo Mobile Banking
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/NetBanking" />}>
+                      Indo Net Banking
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/ContactlessCard" />}>
+                      IZB Cards
+                    </MenuItem>
+
+                    <MenuItem
+                      component={<a href="https://epay.izb.co.zm/login/" />}
+                    >
+                      ZRA/NAPSA/E-Payment
+                    </MenuItem>
+
+                    <MenuItem component={<Link to="/EEZY" />}>
+                      Indo EEZY
+                    </MenuItem>
+                  </SubMenu>
+                  <SubMenu label="Indo Net Banking">
+                    <MenuItem
+                      component={
+                        <a href="https://ebanking.izb.co.zm:7004/Retail/#/landing" />
+                      }
+                    >
+                      Retail
+                    </MenuItem>
+
+                    <MenuItem
+                      component={
+                        <a href="https://ebanking.izb.co.zm:7004/CorporateBanking/#/landing" />
+                      }
+                    >
+                      Corporate
+                    </MenuItem>
+                  </SubMenu>
+                </Menu>
+              </Sidebar>
+            </div>
+<<<<<<< HEAD:src/Components/Navbar/Navbar.js
             {/* <div className="mobile-nav__container"> */}
 
             {/* Accoudion for Responsive Menu */}
@@ -562,6 +713,8 @@ const Navbar = () => {
                  */}
 
             {/* </div> */}
+=======
+>>>>>>> 2561187220f6ea81bdb14f01edb337f7fc8b27f3:src/Components/Navbar/Navbar.jsx
             <div className="mobile-nav__social">
               <a
                 href="https://mobile.twitter.com/IndoZambiaBank"

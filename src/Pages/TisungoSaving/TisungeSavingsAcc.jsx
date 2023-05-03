@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
-import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
-import AllAcountsSection from '../../Components/AllAccountsSection/AllAcountsSection'
-import {AiFillCaretRight} from "react-icons/ai"
+import React, { useEffect } from "react";
+import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
+import AllAcountsSection from "../../Components/AllAccountsSection/AllAcountsSection";
+import { AiFillCaretRight } from "react-icons/ai";
 import img1 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/4.png";
 import CC from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/credit-card.png";
 import EmailAlert from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/alert.png";
@@ -9,23 +9,27 @@ import money from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Accoun
 import booking from "../../assets/images/IZB/IZB Website Skin//IZB Privilege Current Account/Icons/booking.png";
 import statement from "../../assets/images/IZB/IZB Website Skin//IZB Privilege Current Account/Icons/bank-statement.png";
 import atm from "../../assets/images/IZB/IZB Website Skin/IZB Save Plus Account/Icons/atm.png";
-import ContainsArea from '../../Components/ContainsArea/ContainsArea'
-import SavePlusAccountComponent from '../../Components/SavePlusAccount/SavePlusAccountComponent'
+import ContainsArea from "../../Components/ContainsArea/ContainsArea";
+import SavePlusAccountComponent from "../../Components/SavePlusAccount/SavePlusAccountComponent";
 import BackgroundBrundcrumb from "../../assets/images/IZB/IZB Website Skin/Tisunge Savings Account/Image_1.png";
-import TisungeTable from '../../Components/ServiceTable/TisungeTable'
-
-
+import TisungeTable from "../../Components/ServiceTable/TisungeTable";
 
 const TisungeSavingsAcc = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-  const accountContent = "This is the next level savings which provides account holders with the convenience of an IZB Visa Contactless Debit Card."
+    window.scrollTo(0, 0);
+  }, []);
+  const accountContent =
+    "This is the next level savings which provides account holders with the convenience of an IZB Visa Contactless Debit Card.";
   return (
     <>
-    <Breadcrumb Heading="IZB Tisunge Savings Account" img={BackgroundBrundcrumb}/>
-    <SavePlusAccountComponent
-    btnTxt="Open an Account"
+      <Breadcrumb
+        Heading="IZB Tisunge Savings Account"
+        img={BackgroundBrundcrumb}
+        show={true}
+        btnTxt="Open an Account"
+      />
+      <SavePlusAccountComponent
+        btnTxt="Open an Account"
         heading="IZB Tisunge Savings Account"
         subHeading="Know About"
         content={accountContent}
@@ -45,7 +49,7 @@ const TisungeSavingsAcc = () => {
             <p style={{ color: "#484848" }}>
               We help businesses and customers achieve more.
             </p>
-          </div> 
+          </div>
           <div className="">
             <ul className="row choose-style1__content justify-content-center">
               <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
@@ -78,12 +82,11 @@ const TisungeSavingsAcc = () => {
                   </div>
                 </div>
               </li>
-              
             </ul>
           </div>
           <div className="">
             <ul className="row choose-style1__content justify-content-center">
-            <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
+              <li className="col-xl-3 col-lg-3 single-choose-style1-colum text-center">
                 <div className="single-choose-style1">
                   <div className="icon">
                     <img src={statement} alt="" />
@@ -109,12 +112,11 @@ const TisungeSavingsAcc = () => {
                     <img src={booking} alt="" />
                   </div>
                   <div className="text">
-                    <h5>Mobile banking facility
-                    </h5>
+                    <h5>Mobile banking facility</h5>
                   </div>
                 </div>
               </li>
-             </ul>
+            </ul>
           </div>
         </div>
       </section>
@@ -176,8 +178,17 @@ const TisungeSavingsAcc = () => {
                   </div>
                   <ul>
                     <li>
-                      <p className="text-white lh-base">
-                        <AiFillCaretRight size={15} className="pe-1" />
+                      <span className="d-flex">
+                        <AiFillCaretRight
+                          size={15}
+                          className="pe-1 position-absolute text-white"
+                          style={{ top: "5px" }}
+                        />
+                      </span>
+                      <p
+                        className="text-white lh-base"
+                        style={{ paddingLeft: "20px" }}
+                      >
                         Latest utility bill (Water, Electricity Telephone etc.)
                       </p>
                     </li>
@@ -199,7 +210,9 @@ const TisungeSavingsAcc = () => {
                   style={{ backgroundColor: "#9E1B1E" }}
                 >
                   <div className="inner-title">
-                    <h3 className="text-white">Copy of NRC/Passport or Driver's Licence</h3>
+                    <h3 className="text-white">
+                      Copy of NRC/Passport or Driver's Licence
+                    </h3>
                   </div>
                 </div>
                 {/*End Single Documents Box*/}
@@ -223,9 +236,9 @@ const TisungeSavingsAcc = () => {
         </div>
       </section>
       <TisungeTable />
-    <AllAcountsSection/>
+      <AllAcountsSection />
     </>
-  )
-}
+  );
+};
 
-export default TisungeSavingsAcc
+export default TisungeSavingsAcc;

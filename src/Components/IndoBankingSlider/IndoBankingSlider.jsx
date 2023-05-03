@@ -52,16 +52,13 @@ const IndoBankingSlider = () => {
   };
 
   return (
-    <div>
-      <Slider {...settings}>
-        <div>
-          <Slide1 />
-        </div>
-        <div>
-          <Slide2 />
-        </div>
-      </Slider>
-    </div>
+    <Slider {...settings}>
+      <Slide1 />
+
+      <section className="overview-area">
+        <Slide2 />
+      </section>
+    </Slider>
   );
 };
 

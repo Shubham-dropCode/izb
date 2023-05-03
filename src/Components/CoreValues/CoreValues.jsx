@@ -6,6 +6,7 @@ import medal from "../../assets/images/IZB/CoreValuesIcons/medal.png"
 import services from "../../assets/images/IZB/CoreValuesIcons/service.png"
 import integration from "../../assets/images/IZB/CoreValuesIcons/integration.png"
 import people from "../../assets/images/IZB/CoreValuesIcons/crowd-of-users.png"
+import "../../Components/Hero/Hero.css"
 
 const CoreValues = () => {
   return (

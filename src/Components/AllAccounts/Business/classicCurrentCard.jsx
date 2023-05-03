@@ -9,7 +9,7 @@ const classicCurrentCard = () => {
   };
   return (
     <div style={img} className="col-3">
-      <div className="text-white p-3">
+      <div className="text-white p-3" style={{textAlign:"left"}}>
         <h4 className="text-white">Classic Current A/C</h4>
         <p>
           This standard business current account is designed to support the

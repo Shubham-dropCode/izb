@@ -12,7 +12,7 @@ const Vision = () => {
         </div>
 
         <div className="row justify-content-md-center">
-          <div className="col-xl-10">
+          <div className="col-xl-12">
             <div className="statements-content-box">
               <ul>
                 <li>

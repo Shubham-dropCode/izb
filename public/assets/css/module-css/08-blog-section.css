@@ -15,7 +15,7 @@ Blog Style1 Area Css
 .single-blog-style1 {
     position: relative;
     display: block;
-    padding-right: 20px;
+    /* padding-right: 20px; */
     margin-bottom: 43px;
     z-index: 1;
 }

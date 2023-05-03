@@ -25,6 +25,15 @@ export const question = [
       question: "Security",
       answer: [
         {
+          item: "Legal mortgage over property offered",
+        },
+      ],
+    },
+    {
+      id: 4,
+      question: "Repayment Period",
+      answer: [
+        {
           item: "12 months subject to renew",
         },
       ],

@@ -13,59 +13,56 @@ import SMECurrentCard from "./Business/SMECurrentCard";
 import TermLoanCard from "./Business/TermLoanCard";
 import { Link } from "react-router-dom";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import ArrowL from "../../assets/images/IZB/IZB Website Skin/ArrowL.png";
-import ArrowR from "../../assets/images/IZB/IZB Website Skin/ArrowR.png";
-import { BsLock } from "react-icons/bs";
+import ArrowLeft from "../../assets/images/IZB/IZB Website Skin/LeftArrow.png";
+import ArrowRight from "../../assets/images/IZB/IZB Website Skin/RightArrow.png";
 import "../Hero/Hero.css";
 
 const AllAccounts = () => {
   const SliderArrow = {};
-
-  function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <img
-        src={ArrowR}
-        className={"SliderArrow " + className}
-        style={{
-          ...style,
-          display: "block",
-          width: "50px",
-          height: "50px",
-          right: "-50px",
-        }}
-        onClick={onClick}
-      />
-    );
-  }
-
   function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
       <img
-        src={ArrowL}
+        src={ArrowLeft}
         className={className}
         style={{
           ...style,
           display: "block",
           width: "50px",
           height: "50px",
-          left: "-70px",
+          left: "-28px",
+
         }}
         onClick={onClick}
       />
     );
   }
-
-  let settings = {
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <img
+        src={ArrowRight}
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          width: "50px",
+          height: "50px",
+          right: "-7px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  const settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
-    initialSlide: 0,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    initialSlide: 0,
     responsive: [
       {
         breakpoint: 1024,
@@ -73,25 +70,25 @@ const AllAccounts = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
-        },
+          dots: true
+        }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2,
-        },
+          initialSlide: 2
+        }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   return (
     <section
@@ -99,12 +96,12 @@ const AllAccounts = () => {
       style={{ backgroundColor: "#FFF5E7" }}
     >
       <div className="container">
-        <div className="sec-title text-center d-flex justify-content-between">
+        <div className="sec-title text-center d-flex justify-content-between align-items-center">
           <h4 style={{ color: "#9E1B1E" }}>Personal Banking</h4>
 
           <Link
             to="/PersonalBanking"
-            className="text-white rounded px-3 py-1 me-4"
+            className="text-white rounded ps-3 py-1 me-4"
             style={{ backgroundColor: "#9E1B1E" }}
           >
             See More <AiOutlineArrowRight size={21} className="me-1 pb-1" />
@@ -130,12 +127,12 @@ const AllAccounts = () => {
           </Slider>
         </div>
 
-        <div className="sec-title pt-5 text-center d-flex justify-content-between">
+        <div className="sec-title pt-5 text-center d-flex justify-content-between align-items-center">
           <h4 style={{ color: "#9E1B1E" }}>Business Banking</h4>
 
           <Link
             to="/BusinessBanking"
-            className="text-white rounded px-3 py-1 me-4"
+            className="text-white rounded ps-3 py-1 me-4"
             style={{ backgroundColor: "#9E1B1E" }}
           >
             See More <AiOutlineArrowRight size={21} className="me-1 pb-1" />

@@ -18,13 +18,14 @@ const AutoFinance = () => {
     "Purchase of brand new and second hand utility vehicle.Age of Second- hand vehicle not to exceed 5 years.";
   return (
     <>
-      <Breadcrumb Heading="Auto Finance" img={BackgroundBrundcrumb} />
+      <Breadcrumb Heading="Auto Finance" img={BackgroundBrundcrumb} show={true} btnTxt="Apply Now" />
       <SavePlusAccountComponent
         heading="Auto Finance"
         subHeading="Know About"
         content={accountContent}
         btnTxt="Apply Now"
         img={img1}
+        logo={true}
       />
 
       <section
@@ -78,7 +79,7 @@ const AutoFinance = () => {
       <section id="MSMEAccodion">
         <div className="container justify-content-center mt-5">
           <div className="faq-style1__content">
-            <ul className="accordion-box">
+            <ul className="accordion-box mb-5">
               {question.map((item) => {
                 const { id } = item;
                 return <AutoFinanceAccordion key={id} {...item} />;
@@ -89,7 +90,9 @@ const AutoFinance = () => {
       </section>
 
       <div className="container">
-        <div className="bg-light p-3 mt-4">
+          <div className="bg-light my-3"   style={{
+                  padding: "20px 0px 20px 60px",
+                }}>
           <h6 style={{ color: "#9E1B1E" }}>Please contact your nearest branch for further details</h6>
         </div>
       </div>

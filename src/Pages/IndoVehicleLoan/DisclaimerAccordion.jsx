@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineArrowRight, AiOutlineArrowUp } from "react-icons/ai";
 import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.svg";
+import "../../Components/Hero/Hero.css";
 
 const DisclaimerAccordion = ({ title, description }) => {
   const [show, setShow] = useState(false);
@@ -24,10 +25,10 @@ const DisclaimerAccordion = ({ title, description }) => {
       </div>
       <div className="acc-content current">
         {show && (
-          <p>
-             <ArrowR />
-            {description}
-          </p>
+          <span>
+            <ArrowR className="position-absolute mt-1 ms-4" />
+            <p className="px-5">{description}</p>
+          </span>
         )}
       </div>
     </li>

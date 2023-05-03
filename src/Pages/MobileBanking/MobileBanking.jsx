@@ -34,7 +34,7 @@ const MobileBanking = () => {
       <section className="overview-area">
         <div className="container">
           <div className="row">
-            <div className=" offset-xl-1 col-md-4 col-xl-4">
+            <div className="col-md-5 col-xl-5">
               <div className="overview-content-box-one">
                 <img src={img} width="100%" alt="" />
               </div>
@@ -125,7 +125,6 @@ const MobileBanking = () => {
                   </div>
                 </div>
               </li>
-              <li></li>
             </ul>
           </div>
         </div>
@@ -145,7 +144,7 @@ const MobileBanking = () => {
           </div>
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-xl-8 col-lg-8">
+              <div className="col-xl-12 col-lg-12">
                 {/*Start Single Documents Box*/}
                 <div
                   className="single-documents-box h-100"
@@ -297,11 +296,11 @@ const MobileBanking = () => {
             <div className="job-list-table-box">
               <div className="table-outer">
                 <table className="job-list-table">
-                  <thead className="header text-center">
+                  <thead className="header ">
                     <tr>
                       <th>SL. No</th>
-                      <th>Product Name</th>
-                      <th>IZB Forex Current Account</th>
+                      <th>Service</th>
+                      <th>Service Charge</th>
                     </tr>
                   </thead>
                   <tbody className="text-white">
@@ -310,12 +309,11 @@ const MobileBanking = () => {
                         <h3>1.</h3>
                       </td>
                       <td className="location">
-                        <p>Target Groups</p>
+                        <p>Balance inquiry</p>
                       </td>
                       <td className="location">
                         <p>
-                          Children (underguidance) Individual and Joint Account
-                          holders
+                        Free
                         </p>
                       </td>
                     </tr>
@@ -324,10 +322,10 @@ const MobileBanking = () => {
                         <h3>2.</h3>
                       </td>
                       <td className="location">
-                        <p>Account Opening Requirement</p>
+                        <p>Maintenance</p>
                       </td>
                       <td className="location">
-                        <p>KYC requirement as stipulated</p>
+                        <p>Retail → Free • Corporate → K120/-p.ad</p>
                       </td>
                     </tr>
                     <tr>
@@ -335,10 +333,10 @@ const MobileBanking = () => {
                         <h3>3.</h3>
                       </td>
                       <td className="location">
-                        <p>Type of Account</p>
+                        <p>Password Reset</p>
                       </td>
                       <td className="location">
-                        <p>California</p>
+                        <p>Electronic → Free • Manual → K25/- per reset</p>
                       </td>
                     </tr>
                     <tr>
@@ -346,10 +344,10 @@ const MobileBanking = () => {
                         <h3>4.</h3>
                       </td>
                       <td className="location">
-                        <p>Rate of Interest</p>
+                        <p>Bill Payment</p>
                       </td>
                       <td className="location">
-                        <p>6% p.a payable twice-yearly</p>
+                        <p>Free</p>
                       </td>
                     </tr>
                     <tr>
@@ -357,7 +355,7 @@ const MobileBanking = () => {
                         <h3>5.</h3>
                       </td>
                       <td className="location">
-                        <p>Maintenance Charges</p>
+                        <p>Mini-statement</p>
                       </td>
                       <td className="location">
                         <p>Free</p>
@@ -368,10 +366,10 @@ const MobileBanking = () => {
                         <h3>6.</h3>
                       </td>
                       <td className="location">
-                        <p>Maximum Balance</p>
+                        <p>Internal Transfer</p>
                       </td>
                       <td className="location">
-                        <p>N/A</p>
+                        <p>Free</p>
                       </td>
                     </tr>
                     <tr>
@@ -379,10 +377,10 @@ const MobileBanking = () => {
                         <h3>7.</h3>
                       </td>
                       <td className="location">
-                        <p>Minimum Balance Requirment</p>
+                        <p>DDACC</p>
                       </td>
                       <td className="location">
-                        <p>K1,000/-</p>
+                        <p>K10/- per transaction</p>
                       </td>
                     </tr>
                     <tr>
@@ -390,10 +388,10 @@ const MobileBanking = () => {
                         <h3>8.</h3>
                       </td>
                       <td className="location">
-                        <p>Minimum balance Charge</p>
+                        <p>RTGS</p>
                       </td>
                       <td className="location">
-                        <p>K25/-</p>
+                        <p>K40/- per transaction</p>
                       </td>
                     </tr>
                     <tr>
@@ -401,10 +399,11 @@ const MobileBanking = () => {
                         <h3>9.</h3>
                       </td>
                       <td className="location">
-                        <p>Cheque Book</p>
+                        <p>Outward Telegraphic Transfer</p>
                       </td>
                       <td className="location">
-                        <p>N/A</p>
+                        <p>0.6%, (Min USD40/- Max. USD75/-)  <br />
+                           USD20/- for INR</p>
                       </td>
                     </tr>
                     <tr>
@@ -412,10 +411,11 @@ const MobileBanking = () => {
                         <h3>10.</h3>
                       </td>
                       <td className="location">
-                        <p>SMS Alert</p>
+                        <p>Mobile Transfer (MNO/NFS)</p>
                       </td>
                       <td className="location">
-                        <p>Free</p>
+                        <p>K150/- & below → K5/- per transaction <br />
+                           Above K150/- → K10/- per transaction</p>
                       </td>
                     </tr>
                   </tbody>

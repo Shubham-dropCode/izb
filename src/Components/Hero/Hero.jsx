@@ -312,7 +312,7 @@ const Hero = () => {
                               Credit
                             </h5>
                           </div>
-                          <div className="py-4 mt-3 py-md-3 mt-md-0 BankMenuLinks">
+                          <div className="py-4 mt-3 py-md-3 mt-md-0 ">
                             <div className="">
                               <Link
                                 to="/TermLoan"

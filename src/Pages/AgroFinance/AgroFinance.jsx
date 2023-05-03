@@ -16,13 +16,14 @@ const AgroFinance = () => {
   const accountContent = "We understand the need for food security and the importance agriculture plays into the country’s national development goals. At Indo Zambia Bank we study, examine and analyse the ﬁnancial aspects pertaining to farm business. Tailor made Agro ﬁnancing product is available making us your all WEATHER Agro Partner of choice."
   return (
     <>
-     <Breadcrumb Heading="Agro Finance" img={BackgroundBrundcrumb} />
+     <Breadcrumb Heading="Agro Finance" img={BackgroundBrundcrumb}  show={true} btnTxt="Apply Now"/>
       <SavePlusAccountComponent
         heading="Agro Finance"
         subHeading="Know About"
         content={accountContent}
         btnTxt="Apply Now"
         img={img1}
+        logo={true}
       />
 
       <section
@@ -76,7 +77,7 @@ const AgroFinance = () => {
       <section id="MSMEAccodion">
         <div className="container justify-content-center mt-5">
           <div className="faq-style1__content">
-            <ul className="accordion-box">
+            <ul className="accordion-box mb-5">
               {question.map((item) => {
                 const { id } = item;
                 return <AgroFinanceAccordion key={id} {...item} />;
@@ -85,9 +86,13 @@ const AgroFinance = () => {
           </div>
         </div>
       </section>
-
       <div className="container">
-        <div className="bg-light p-3 mt-4">
+        <div
+          className="bg-light my-3"
+          style={{
+            padding: "20px 0px 20px 60px",
+          }}
+        >
           <h6 style={{ color: "#9E1B1E" }}>All other standard lending terms of the Bank shall be applicable.</h6>
         </div>
       </div>

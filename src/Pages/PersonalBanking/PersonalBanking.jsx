@@ -9,7 +9,6 @@ import img5 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/5.pn
 import img6 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/6.png";
 import img7 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/7.png";
 import img8 from "../../assets/images/IZB/IZB Website Skin/Personal Acounts/8.png";
-import { ReactComponent as ArrowR } from "../../assets/images/IZB/arrow_right.svg";
 
 import {
   AiOutlinePercentage,
@@ -34,41 +33,44 @@ const PersonalBanking = () => {
         <div className="text-center mb-3 mt-5">
           <h2 style={{ color: "#484848" }}>Saving Accounts</h2>
         </div>
-        <div className="d-flex justify-content-between mt-4">
-          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
+        <div className="row mt-4 g-5">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img1}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">IZB Save Plus A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefits</h5>
-                <p>
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">IZB Save Plus A/C</h4>
+                <h5 className="text text-white fs-4 my-2">Benefits</h5>
+                <p className="fs-small pt-1">
                   <AiOutlinePercentage className="me-2" />
                   Attractive interest
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
+                  IZB contactless card
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiOutlineMail className="me-2" />
-                  SMS Alert
+                  SMS alert
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  Mobile banking & internet banking facilities
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/SavePlusAccount">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/SavePlusAccount" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -76,40 +78,43 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-md-0 mt-sm-1 ">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img2}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">IZB Classic Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefits</h5>
-                <p>
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">IZB Classic Savings A/C</h4>
+                <h5 className="text text-white fs-4 my-2">Benefits</h5>
+                <p className="fs-small pt-1">
                   <AiOutlinePercentage className="me-2" />
                   Attractive interest
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiFillCreditCard className="me-2" />
-                  IZB contactless visa Card
+                  IZB contactless card
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiOutlineMail className="me-2" />
-                  SMS Alert
+                  SMS alert
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  Mobile banking & internet banking facilities
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/ClassicSavingAcc">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/ClassicSavingAcc" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -117,41 +122,44 @@ const PersonalBanking = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-between my-3">
-          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
+        <div className="row mt-4 g-5">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img3}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Privelage Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefits</h5>
-                <p>
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">Privilege Savings A/C</h4>
+                <h5 className="text text-white fs-4 my-2">Benefits</h5>
+                <p className="fs-small pt-1">
                   <AiOutlinePercentage className="me-2" />
                   Free E-statement facility
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiFillCreditCard className="me-2" />
                   Cheque book facility
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiOutlineMail className="me-2" />
-                  Balance inquiry through on IZB ATM
+                  Balance Enquiry on IZB ATM
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiOutlineMobile className="me-2" />
-                  Mobile recharge(Airtel,MTL,Zamtel)
+                  Mobile recharge (Airtel/MTN/Zamtel)
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/PrivilageSavingAcc">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/PrivilageSavingAcc" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -159,40 +167,43 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-md-0 mt-sm-1">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img4}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Tisunge Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefits</h5>
-                <p>
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">Tisunge Savings A/C</h4>
+                <h5 className="text text-white fs-4 my-2">Benefits</h5>
+                <p className="fs-small pt-1">
                   <AiOutlinePercentage className="me-2" />
-                  Free E-statement facility
+                  Free E-statements
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiFillCreditCard className="me-2" />
-                  IZB contactless Card
+                  IZB contactless card
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiOutlineMail className="me-2" />
-                  No maintanance charge
+                  No maintenance charge
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiOutlineMobile className="me-2" />
-                  Mobile Banking & internet banking facilities
+                  Mobile banking & internet banking facilities
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/TisungoSaving">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/TisungoSaving" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -200,41 +211,46 @@ const PersonalBanking = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-between my-3">
-          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
+      </div>
+      <div className="container">
+        <div className="row g-5 mt-4">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-md-0 mt-sm-1">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img5}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Tonse Savings A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefits</h5>
-                <p>
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">Tonse Savings A/C</h4>
+                <h5 className="text text-white fs-4 my-2">Benefits</h5>
+                <p className="fs-small pt-1">
                   <AiOutlinePercentage className="me-2" />
                   Free E-statement facility
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiFillCreditCard className="me-2" />
                   Cheque book facility
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiOutlineMail className="me-2" />
-                  Balance inquiry through on IZB ATM
+                  Balance Enquiry on IZB ATM
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiOutlineMobile className="me-2" />
-                  Mobile recharge(Airtel,MTL,Zamtel)
+                  Mobile recharge (Airtel/MTN/Zamtel)
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/TonseSavingAcc">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/TonseSavingAcc" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -244,38 +260,45 @@ const PersonalBanking = () => {
         </div>
       </div>
 
-      <div className="text-center mb-3 mt-5">
+      <div className="text-center mt-5">
         <h2>Credit</h2>
       </div>
-      <div className="container">
-        <div className="d-flex justify-content-between">
-          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
+      <div className="container mt-4">
+        <div className="row mt-1 g-5">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-md-0 mt-sm-1">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img6}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Indo Home Loan</h4>
-                <h5 className="text text-white fs-4 my-2">purpose</h5>
-                <p>
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">Indo Home Loan</h4>
+                <h5 className="text text-white fs-4 my-2">Purpose</h5>
+                <p className="fs-small pt-1">
                   <AiFillCaretRight className="me-2" />
                   Outright Purchase of a ready-made.
                 </p>
-                <p>
-                  <AiFillCaretRight className="me-2" />
-                  Home Improvement - For repairs/
-                  renovation/alteration/extension in the existing house/ﬂat.
-                </p>
-                <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/IndoHomeLoan">
+
+                <span>
+                  <AiFillCaretRight className="position-absolute mt-2" />
+                  <p className="fs-small pt-1 lh-sm ps-4 pe-3">
+                    Home Improvement – For repairs/
+                    renovation/alteration/extension in the existing house/ﬂat.
+                  </p>
+                </span>
+
+                <div className="d-flex justify-content-between me-4 mt-4 pt-3">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/IndoHomeLoan" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -283,30 +306,35 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-md-0 mt-sm-1">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img7}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Personal Loan</h4>
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">Personal Loan</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p>
-                  <AiFillCaretRight className="me-2" />
-                  For meeting personal needs such as purchase of
-                  furniture/equipment, meeting social obligations, repair of
-                  houses etc.
-                </p>
-                <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/IndoPersonalLoan">
+                <span>
+                  <AiFillCaretRight className="position-absolute mt-2" />
+                  <p className="fs-small pt-1 lh-sm ps-4 pe-3">
+                    For meeting personal needs such as purchase of
+                    furniture/equipment, meeting social obligations, repair of
+                    houses etc.
+                  </p>
+                </span>
+                <div className="d-flex justify-content-between me-4 mt-5 pt-4">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/IndoPersonalLoan" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -314,31 +342,39 @@ const PersonalBanking = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-between my-3">
-          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
+      </div>
+      <div className="container">
+        <div className="row g-5 mt-4">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-md-0 mt-sm-1">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img8}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Indo Vehicle Loan</h4>
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">Indo Vehicle Loan</h4>
                 <h5 className="text text-white fs-4 my-2">Purpose</h5>
-                <p>
-                  <AiFillCaretRight className="me-2" />
-                  To ﬁnance purchase of second-hand vehicles not more than 5
-                  years old for personal and business use from reputable
-                  dealers.
-                </p>
-                <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/IndoVehicleLoan">
+                <span>
+                  <AiFillCaretRight className="position-absolute mt-2" />
+                  <p className="fs-small pt-1 lh-sm ps-4 pe-3">
+                    To ﬁnance purchase of second-hand vehicles not more than 5
+                    years old for personal and business use from reputable
+                    dealers.
+                  </p>
+                </span>
+
+                <div className="d-flex justify-content-between me-4 mt-5 pt-4">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/IndoVehicleLoan" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -348,43 +384,51 @@ const PersonalBanking = () => {
         </div>
       </div>
 
-      <div className="container">
-        <div className="d-flex justify-content-between mb-3 mt-5">
+      <div className="container mb-5">
+        <div className="d-flex justify-content-around mb-3 mt-5">
           <h2>Fixed Deposit</h2>
           <h2>Agency Banking</h2>
         </div>
 
-        <div className="d-flex justify-content-between pb-5">
-          <div className="col-5 offset-1" style={{ backgroundColor: "#9E1B1E" }}>
+        <div className="row mt-4 g-5">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-0">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img6}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Bumi Fixed Deposit A/C</h4>
-                <h5 className="text text-white fs-4 my-2">benefits</h5>
-                <p>
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">Bumi Fixed Deposit A/C</h4>
+                <h5 className="text text-white fs-4 my-2">Purpose</h5>
+                <span>
+                  <AiFillCaretRight className="position-absolute mt-2" />
+                  <p className="fs-small pt-1 lh-sm ps-4 pe-3">
+                    Credit the principal amount to customers account.
+                  </p>
+                </span>
+                <span>
+                  <AiFillCaretRight className="position-absolute mt-2" />
+                  <p className="fs-small pt-1 lh-sm ps-4 pe-3">
+                    Interest credited upon opening/placement of the deposit
+                  </p>
+                </span>
+
+                <p className="fs-small pt-1">
                   <AiFillCaretRight className="me-2" />
-                  Credit the principal amount to customers account.
-                </p>
-                <p>
-                  <AiFillCaretRight className="me-2" />
-                  Interest credited upon opening/placement of the deposit
-                </p>
-                <p>
-                  <AiFillCaretRight className="me-2" />
-                  Attractive intrest rate
+                  Attractive rate intrest
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/BhumiFixedDepositAccount">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/BhumiFixedDepositAccount" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>
@@ -392,40 +436,43 @@ const PersonalBanking = () => {
             </div>
           </div>
 
-          <div className="col-5 me-5" style={{ backgroundColor: "#9E1B1E" }}>
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6 m-md-0 mt-sm-1">
             <div className="row justify-content-sm-center">
               <div className="col-12 col-md-4 col-xl-4 p-0">
                 <img
                   src={img7}
                   style={{ height: "280px", objectFit: "cover" }}
-                  className=""
+                  className="img-fluid w-100"
                   alt=""
                 />
               </div>
-              <div className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3">
-                <h4 className="text-white">Indo Fast Serve</h4>
-                <h5 className="text text-white fs-4 my-2">benefits</h5>
-                <p>
+              <div
+                className=" col-12 col-md-8 col-xl-8 pe-0 text-white p-3"
+                style={{ backgroundColor: "#9E1B1E" }}
+              >
+                <h4 className="text-white pe-2">IZB Privilege Current A/C</h4>
+                <h5 className="text text-white fs-4 my-2">Purpose</h5>
+                <p className="fs-small pt-1">
                   <AiFillCaretRight className="me-2" />
                   Easy to use
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiFillCaretRight className="me-2" />
-                  Time saving
+                  Time-Saving
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiFillCaretRight className="me-2" />
                   Secure
                 </p>
-                <p>
+                <p className="fs-small pt-1">
                   <AiFillCaretRight className="me-2" />
-                  Convinient
+                  Convenient
                 </p>
                 <div className="d-flex justify-content-between me-4 mt-3">
-                  <Link to="/IndoFastServe">
+                  <Link to="/PrivilegeCurrentAcc">
                     <button className="btn btn-light py-0">Apply now</button>
                   </Link>
-                  <Link to="/IndoFastServe" className="text-white">
+                  <Link to="/PrivilegeCurrentAcc" className="text-white">
                     Know more <AiOutlineArrowRight />{" "}
                   </Link>
                 </div>

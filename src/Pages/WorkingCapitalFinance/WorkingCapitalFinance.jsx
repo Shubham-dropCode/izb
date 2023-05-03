@@ -21,6 +21,7 @@ const WorkingCapitalFinance = () => {
       <Breadcrumb
         Heading="Working Capital Finance"
         img={BackgroundBrundcrumb}
+        show={true} btnTxt="Apply Now"
       />
       <SavePlusAccountComponent
         heading="Working Capital Finance"
@@ -28,6 +29,7 @@ const WorkingCapitalFinance = () => {
         content={accountContent}
         btnTxt="Apply Now"
         img={img1}
+        logo={true}
       />
 
       <section
@@ -81,7 +83,7 @@ const WorkingCapitalFinance = () => {
       <section id="MSMEAccodion">
         <div className="container justify-content-center mt-5">
           <div className="faq-style1__content">
-            <ul className="accordion-box">
+            <ul className="accordion-box my-5">
               {question.map((item) => {
                 const { id } = item;
                 return <WorkingAccordion key={id} {...item} />;
