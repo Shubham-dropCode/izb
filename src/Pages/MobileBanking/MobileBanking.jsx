@@ -402,7 +402,7 @@ const MobileBanking = () => {
                         <p>Outward Telegraphic Transfer</p>
                       </td>
                       <td className="location">
-                        <p>0.6%, (Min USD40/- Max. USD75/-) 
+                        <p>0.6%, (Min USD40/- Max. USD75/-)  <br />
                            USD20/- for INR</p>
                       </td>
                     </tr>
@@ -414,7 +414,7 @@ const MobileBanking = () => {
                         <p>Mobile Transfer (MNO/NFS)</p>
                       </td>
                       <td className="location">
-                        <p>K150/- & below → K5/- per transaction 
+                        <p>K150/- & below → K5/- per transaction <br />
                            Above K150/- → K10/- per transaction</p>
                       </td>
                     </tr>

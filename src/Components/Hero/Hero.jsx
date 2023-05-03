@@ -128,7 +128,7 @@ const Hero = () => {
                               Saving Account
                             </h5>
                           </div>
-                          <div className="pt-3">
+                          <div className="py-3 BankMenuLinks">
                             <div>
                               <Link to="/SavePlusAccount" style={textColor}>
                                 <ArrowR />
@@ -167,7 +167,7 @@ const Hero = () => {
                               Credit
                             </h5>
                           </div>
-                          <div className="py-3 BankingMenu">
+                          <div className="pt-3 BankMenuLinks">
                             <div>
                               <Link to="/IndoPersonalLoan" style={textColor}>
                                 <ArrowR />
@@ -241,7 +241,7 @@ const Hero = () => {
                               Current Account
                             </h5>
                           </div>
-                          <div className="pt-3">
+                          <div className="pt-3 BankMenuLinks">
                             <div>
                               <Link to="/PrivilegeCurrentAcc" style={textColor}>
                                 <ArrowR />
@@ -280,7 +280,7 @@ const Hero = () => {
                               Credit
                             </h5>
                           </div>
-                          <div className="py-3 BankingMenu">
+                          <div className="py-4 mt-3 BankMenuLinks py-md-3 m-md-0">
                             <div>
                               <Link to="/TermLoan" style={textColor}>
                                 <ArrowR />
