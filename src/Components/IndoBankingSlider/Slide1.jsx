@@ -22,8 +22,8 @@ const Slide1 = () => {
 
   return (
     <section className="overview-area">
-      <div className="container p-5" style={{ backgroundColor: "#FFF5E7" }}>
         <img src={MobileBanking} className="d-md-none d-sm-block" alt="" />
+      <div className="container p-5 d-none d-sm-block" style={{ backgroundColor: "#FFF5E7" }}>
         <div className="row ">
           <div className="col-xl-6 col-md-6">
             <div className="overview-content-box-two h-100 d-flex flex-column d-none d-sm-block">

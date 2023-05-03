@@ -55,9 +55,9 @@ const IndoBankingSlider = () => {
     <Slider {...settings}>
       <Slide1 />
 
-      <section className="overview-area">
+      
         <Slide2 />
-      </section>
+    
     </Slider>
   );
 };
