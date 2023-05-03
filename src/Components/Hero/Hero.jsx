@@ -312,11 +312,11 @@ const Hero = () => {
                               Credit
                             </h5>
                           </div>
-                          <div className="py-4 mt-3 py-md-3 mt-md-0 ">
-                            <div className="BankMenuLinks">
+                          <div className="py-4 mt-3 py-md-3 mt-md-0 BankMenuLinks">
+                            <div className="">
                               <Link
                                 to="/TermLoan"
-                                className="BankMenuLinks"
+                                className=""
                                 style={textColor}
                               >
                                 <ArrowR />
@@ -326,7 +326,7 @@ const Hero = () => {
                             <div>
                               <Link
                                 to="/AutoFinance"
-                                className="BankMenuLinks"
+                                className=""
                                 style={textColor}
                               >
                                 <ArrowR />
@@ -336,7 +336,7 @@ const Hero = () => {
                             <div>
                               <Link
                                 to="/AgroFinance"
-                                className="BankMenuLinks"
+                                className=""
                                 style={textColor}
                               >
                                 <ArrowR />
