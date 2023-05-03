@@ -126,25 +126,37 @@ const Hero = () => {
                               src={SavingAcc}
                               alt="Saving Account"
                             />
-                            <h5 className="text-center pt-3" style={textColor}>
+                            <h5
+                              className="text-center BankMenuLinks pt-3"
+                              style={textColor}
+                            >
                               Saving Account
                             </h5>
                           </div>
-                          <div className="pt-3">
+                          <div className="pt-4 mt-1 pt-md-3 mt-md-0 BankMenuLinks">
                             <div>
-                              <Link to="/SavePlusAccount" style={textColor}>
+                              <Link
+                                to="/SavePlusAccount BankMenuLinks"
+                                style={textColor}
+                              >
                                 <ArrowR />
                                 Save Plus Account
                               </Link>
                             </div>
                             <div>
-                              <Link to="/PrivilageSavingAcc" style={textColor}>
+                              <Link
+                                to="/PrivilageSavingAcc BankMenuLinks"
+                                style={textColor}
+                              >
                                 <ArrowR />
                                 Privilege Savings Account
                               </Link>
                             </div>
                             <div>
-                              <Link to="/TisungoSaving" style={textColor}>
+                              <Link
+                                to="/TisungoSaving BankMenuLinks"
+                                style={textColor}
+                              >
                                 <ArrowR />
                                 Tisunge Savings Account
                               </Link>
@@ -169,21 +181,30 @@ const Hero = () => {
                               Credit
                             </h5>
                           </div>
-                          <div className="py-3">
+                          <div className="py-3 BankMenuLinks">
                             <div>
-                              <Link to="/IndoPersonalLoan" style={textColor}>
+                              <Link
+                                to="/IndoPersonalLoan BankMenuLinks"
+                                style={textColor}
+                              >
                                 <ArrowR />
                                 Personal Loan
                               </Link>
                             </div>
                             <div>
-                              <Link to="/IndoHomeLoan" style={textColor}>
+                              <Link
+                                to="/IndoHomeLoan BankMenuLinks"
+                                style={textColor}
+                              >
                                 <ArrowR />
                                 Indo Home Loan
                               </Link>
                             </div>
                             <div>
-                              <Link to="/IndoVehicleLoan" style={textColor}>
+                              <Link
+                                to="/IndoVehicleLoan BankMenuLinks"
+                                style={textColor}
+                              >
                                 <ArrowR />
                                 Vehicle Loan
                               </Link>
@@ -218,7 +239,7 @@ const Hero = () => {
                         style={{ borderRadius: "13px 13px 0 0" }}
                       >
                         <Link to="/BusinessBanking">
-                          <h4 className="text-white" style={textColor}>
+                          <h4 className="text-white " style={textColor}>
                             Business Banking
                           </h4>
                           <AiOutlineArrowRight
@@ -244,15 +265,20 @@ const Hero = () => {
                             </h5>
                           </div>
                           <div className="pt-3">
-                            <div>
-                              <Link to="/PrivilegeCurrentAcc" style={textColor}>
+                            <div className="BankMenuLinks">
+                              <Link
+                                to="/PrivilegeCurrentAcc "
+                                className="BankMenuLinks"
+                                style={textColor}
+                              >
                                 <ArrowR />
                                 Privilege Current Account
                               </Link>
                             </div>
                             <div>
                               <Link
-                                to="/ClassicCurrentAccount"
+                                to="/ClassicCurrentAccount "
+                                className="BankMenuLinks"
                                 style={textColor}
                               >
                                 <ArrowR />
@@ -260,7 +286,11 @@ const Hero = () => {
                               </Link>
                             </div>
                             <div>
-                              <Link to="/SMECurrentAcc" style={textColor}>
+                              <Link
+                                to="/SMECurrentAcc "
+                                className="BankMenuLinks"
+                                style={textColor}
+                              >
                                 <ArrowR />
                                 SME Current Account
                               </Link>
@@ -282,21 +312,33 @@ const Hero = () => {
                               Credit
                             </h5>
                           </div>
-                          <div className="py-3">
-                            <div>
-                              <Link to="/TermLoan" style={textColor}>
+                          <div className="py-4 mt-3 py-md-3 mt-md-0 ">
+                            <div className="BankMenuLinks">
+                              <Link
+                                to="/TermLoan"
+                                className="BankMenuLinks"
+                                style={textColor}
+                              >
                                 <ArrowR />
                                 Term Loan
                               </Link>
                             </div>
                             <div>
-                              <Link to="/AutoFinance" style={textColor}>
+                              <Link
+                                to="/AutoFinance"
+                                className="BankMenuLinks"
+                                style={textColor}
+                              >
                                 <ArrowR />
                                 Auto Finance
                               </Link>
                             </div>
                             <div>
-                              <Link to="/AgroFinance" style={textColor}>
+                              <Link
+                                to="/AgroFinance"
+                                className="BankMenuLinks"
+                                style={textColor}
+                              >
                                 <ArrowR />
                                 Argo Finance
                               </Link>

@@ -432,7 +432,136 @@ const Navbar = () => {
                 <img src={Logo} alt="" />
               </a>
             </div>
-            <div className="mobile-nav__container" />
+            {/* <div className="mobile-nav__container"> */}
+
+            {/* Accoudion for Responsive Menu */}
+
+            {/* <div className="container">
+                    <div className="row">
+                      <div className="col-md-6">
+                        <div
+                          className="panel-group"
+                          id="accordion"
+                          role="tablist"
+                          aria-multiselectable="true"
+                        >
+                          <div className="panel panel-default">
+                            <div
+                              className="panel-heading"
+                              role="tab"
+                              id="headingOne"
+                            >
+                              <h4 className="panel-title">
+                                <a
+                                  role="button"
+                                  data-toggle="collapse"
+                                  data-parent="#accordion"
+                                  href="#collapseOne"
+                                  aria-expanded="true"
+                                  aria-controls="collapseOne"
+                                >
+                                  1
+                                </a>
+                              </h4>
+                            </div>
+                            <div
+                              id="collapseOne"
+                              className="panel-collapse collapse in"
+                              role="tabpanel"
+                              aria-labelledby="headingOne"
+                            >
+                              <div className="panel-body">
+                                ipsum dolor sit amet, consectetur adipiscing elit.
+                                Ut vel fermentum dui. Pellentesque vitae porttitor
+                                ex, euismod sodales magna. Nunc sed felis sed dui
+                                pellentesque sodales porta a magna. Donec dui augue,
+                                dignissim faucibus lorem nec, fringilla molestie
+                                massa. Sed blandit dapibus bibendum. Sed interdum
+                                commodo laoreet. Sed mi orci.
+                              </div>
+                            </div>
+                          </div>
+                          <div className="panel panel-default">
+                            <div
+                              className="panel-heading"
+                              role="tab"
+                              id="headingTwo"
+                            >
+                              <h4 className="panel-title">
+                                <a
+                                  className="collapsed"
+                                  role="button"
+                                  data-toggle="collapse"
+                                  data-parent="#accordion"
+                                  href="#collapseTwo"
+                                  aria-expanded="false"
+                                  aria-controls="collapseTwo"
+                                >
+                                  2
+                                </a>
+                              </h4>
+                            </div>
+                            <div
+                              id="collapseTwo"
+                              className="panel-collapse collapse"
+                              role="tabpanel"
+                              aria-labelledby="headingTwo"
+                            >
+                              <div className="panel-body">
+                                ipsum dolor sit amet, consectetur adipiscing elit.
+                                Ut vel fermentum dui. Pellentesque vitae porttitor
+                                ex, euismod sodales magna. Nunc sed felis sed dui
+                                pellentesque sodales porta a magna. Donec dui augue,
+                                dignissim faucibus lorem nec, fringilla molestie
+                                massa. Sed blandit dapibus bibendum. Sed interdum
+                                commodo laoreet. Sed mi orci.
+                              </div>
+                            </div>
+                          </div>
+                          <div className="panel panel-default">
+                            <div
+                              className="panel-heading"
+                              role="tab"
+                              id="headingThree"
+                            >
+                              <h4 className="panel-title">
+                                <a
+                                  className="collapsed"
+                                  role="button"
+                                  data-toggle="collapse"
+                                  data-parent="#accordion"
+                                  href="#collapseThree"
+                                  aria-expanded="false"
+                                  aria-controls="collapseThree"
+                                >
+                                  3
+                                </a>
+                              </h4>
+                            </div>
+                            <div
+                              id="collapseThree"
+                              className="panel-collapse collapse"
+                              role="tabpanel"
+                              aria-labelledby="headingThree"
+                            >
+                              <div className="panel-body">
+                                ipsum dolor sit amet, consectetur adipiscing elit.
+                                Ut vel fermentum dui. Pellentesque vitae porttitor
+                                ex, euismod sodales magna. Nunc sed felis sed dui
+                                pellentesque sodales porta a magna. Donec dui augue,
+                                dignissim faucibus lorem nec, fringilla molestie
+                                massa. Sed blandit dapibus bibendum. Sed interdum
+                                commodo laoreet. Sed mi orci.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 */}
+
+            {/* </div> */}
             <div className="mobile-nav__social">
               <a
                 href="https://mobile.twitter.com/IndoZambiaBank"
@@ -453,8 +582,6 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-
-        
 
         {/*End Main Header Style1 Bottom*/}
       </header>
